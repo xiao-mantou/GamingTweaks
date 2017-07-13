@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Windows Update disable P2P
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config]
+“DODownloadMode”=dword:00000000
