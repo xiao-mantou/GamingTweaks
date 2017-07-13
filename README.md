@@ -95,3 +95,5 @@ REG ADD "HKLM\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters" /v "DisabledC
 * http://cr.yp.to/syncookies.html
 * http://www.speedguide.net/files/TCPOptimizer.exe
 * http://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU
+* http://www.resplendence.com/latencymon
+* https://msdn.microsoft.com/en-us/library/windows/desktop/ms684247(v=vs.85).aspx
