@@ -1,5 +1,6 @@
 # GamingTweaks
 
+This Guide is about Gaming, and I mean all about Gaming for Windows. There exist tons of outdated guides and myths when it comes to such tweaks, so I wrote my own to show the things which really does do the difference!
 
 ### BIOS
 
