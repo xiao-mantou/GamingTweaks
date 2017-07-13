@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; There is a function in Windows, that updates a timestamp in the user registry every few minutes or so, causing pointless disk access (which can increase latency, and such). This is how you disable it.
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Reliability]
+"TimeStampInterval"=dword:00000000
