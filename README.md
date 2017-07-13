@@ -86,3 +86,4 @@ Rerun Windows System Assessment Tool (WinSAT) after updating drivers, changing h
 * http://www.ocztechnologyforum.com/forum/showthread.php?79848-THE-BASIC-GUIDE-amp-FAQ-ABC-for-OCZ-SSD
 * http://cr.yp.to/syncookies.html
 * http://www.speedguide.net/files/TCPOptimizer.exe
+* http://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU
