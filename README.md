@@ -43,6 +43,12 @@ Layer 7 filtering or shaping is identifying traffic at layer 7 (Application Laye
 * Disable IPv6 tunnel adapter & interfaces
 * Disable all ISATAP, 6to4 and Teredo Tunneling interfaces
 
+netsh interface teredo set state disable
+netsh interface 6to4 set state disable disable
+netsh interface isatap set state disable
+REG ADD "HKLM\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters" /v "EnableICSIPv6" /t REG_DWORD /d 0 /f
+REG ADD "HKLM\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters" /v "DisabledComponents" /t REG_DWORD /d 255 /f
+
 
 ### Drivers
 
@@ -71,7 +77,9 @@ Layer 7 filtering or shaping is identifying traffic at layer 7 (Application Laye
 
 ### OC
 
-Rerun Windows System Assessment Tool (WinSAT) after updating drivers, changing hardwares or overclocking via 'winsat formal -restart clean'.
+*  Turn off all power features in BIOS. No EIST, C1, C3, C6, etc. Basically lock in the CPU at one speed, and keep it there.
+* Rerun Windows System Assessment Tool (WinSAT) after updating drivers, changing hardwares or overclocking via 'winsat formal -restart clean'.
+
 
 
 ## Research
