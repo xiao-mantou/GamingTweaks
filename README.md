@@ -1,4 +1,4 @@
-# GamingTweaks
+# GamingTweaks [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/CHEF-KOCH/GamingTweaks)
 
 This Guide is about Gaming, and I mean all about Gaming for Windows. There exist tons of outdated guides and myths when it comes to such tweaks, so I wrote my own to show the things which really does do the difference!
 
@@ -21,6 +21,8 @@ This Guide is about Gaming, and I mean all about Gaming for Windows. There exist
 
 ### OS
 
+* Do not install any AntiVirus solution
+* Use only a good Firewall and Sandboxie, sandbox untrusted or unknown stuff
 * Change Core Parking (only in XP, 7 and 8) - Windows 10 controls it automatically already.
 
 Task Scheduler
@@ -98,3 +100,4 @@ REG ADD "HKLM\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters" /v "DisabledC
 * http://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU
 * http://www.resplendence.com/latencymon
 * https://msdn.microsoft.com/en-us/library/windows/desktop/ms684247(v=vs.85).aspx
+* https://support.microsoft.com/en-us/help/4002019/windows-10-improve-pc-performance
