@@ -80,8 +80,20 @@ REG ADD "HKLM\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters" /v "DisabledC
 
 ### OC
 
-*  Turn off all power features in BIOS. No EIST, C1, C3, C6, etc. Basically lock in the CPU at one speed, and keep it there.
+* Turn off all power features in BIOS. No EIST, C1, C3, C6, etc. Basically lock in the CPU at one speed, and keep it there.
 * Rerun Windows System Assessment Tool (WinSAT) after updating drivers, changing hardwares or overclocking via 'winsat formal -restart clean'.
+
+
+### Myths
+
+* Disable Drive Indexing (Windows Search) should be turned off. Myth cause reading doesn't decrease your SSD life - writing on it does!
+* Configure “Defragment and Optimize your device” - useless cause Windows Since Windows 8 can hanlde it on his own, it detects if you#re on SSD or HDD and defrag it or not. 
+* Set your SATA controller to AHCI mode for Solid State Drives SSD - Not necessary, Windows detects it automatically based on your BIOS/UEFI settings.
+* Pagefile Managing disable it because it writes stuff on your SSD - Yes it writes important things on the SSD but some applications and games might crash if you entirely disable it. Instead I recommend to set it to a fixed size the math here would be: Your physically installed RAM x 1.5.
+* Restore Point disable it - It's more up to everyone, this can be important in case shit happened. 
+* Disable Hibernate - It's also up to everyone to use it or not, in you you want to turn it off: powercfg -h off
+* Disable SuperFetch - Not necessary because since Windows 8 it's detected by Windows. It's running but it does nothing when you're on a SSD. You can check it's state via fsutil behavior query DisableDeleteNotify which should be 0. This means TRIM is enabled. 
+
 
 
 
@@ -101,3 +113,5 @@ REG ADD "HKLM\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters" /v "DisabledC
 * http://www.resplendence.com/latencymon
 * https://msdn.microsoft.com/en-us/library/windows/desktop/ms684247(v=vs.85).aspx
 * https://support.microsoft.com/en-us/help/4002019/windows-10-improve-pc-performance
+* http://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/
+* http://www.speedguide.net/articles/gaming-tweaks-5812
