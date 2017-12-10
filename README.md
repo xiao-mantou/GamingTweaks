@@ -1,4 +1,4 @@
-# GamingTweaks [![Awesome]
+# GamingTweaks
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/FZeven)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
@@ -64,7 +64,7 @@ REG ADD "HKLM\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters" /v "DisabledC
 * Always select 2/2.1 Speakers for your headphones if you want full dynamic range.
 
 
-### AMD (IQ)
+### AMD (Image Qquality [IQ])
 
 * Anti-Aliasing Mode> Enhance application settings
 * Anti-Aliasing Mode> Morphological filtering
