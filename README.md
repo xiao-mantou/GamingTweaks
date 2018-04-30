@@ -57,7 +57,7 @@ REG ADD "HKLM\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters" /v "EnableICS
 REG ADD "HKLM\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters" /v "DisabledComponents" /t REG_DWORD /d 255 /f
 
 
-## Fix Memory Issue before April Update (1803)
+## Fix Memory Issue before with Build 1607 (Anniversary Update)
 
 * Download [EmptyStandbyList](https://wj32.org/wp/software/empty-standby-list/) and put it under e.g. C:\ (ensure you don't move this file)
 * Right click > Properties and select 'Run as Admin' under compatibility.
