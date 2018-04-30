@@ -49,7 +49,7 @@ The network section is a bit larger since most things are tweakable here directl
 Intel Adapter 'Recommended' Network Adapter Settings
 ------------------------
 
-Keep in mind that some drivers might have different settings/options! After talking with NordVPN I figured out with them that some settings might directly have a negative effect on Down-/Upload speed. Ensure you test each settings one by one.
+Keep in mind that some drivers might have different settings/options! After talking with NordVPN I figured out with them that some settings might directly have a negative effect on Down-/Upload speed. Ensure you test each settings one by one. In this case try to disable all "offloading" params.
 
 
 #### Optimized for quick response and low latency (Gaming):
@@ -113,6 +113,11 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 * Always select 2/2.1 Speakers for your headphones if you want full dynamic range.
 
 
+### Power Management
+
+* Set power setting to maximum performance if you graphic card driver has an 'maximum performance' settings enable it, this will ensure that the GPU uses it's full potential. 
+
+
 ### AMD (Image Quality [IQ])
 
 * Anti-Aliasing Mode> Enhance application settings
@@ -140,12 +145,16 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 ### Myths
 
 * Disable Drive Indexing (Windows Search) should be turned off. Myth cause reading doesn't decrease your SSD life - writing on it does!
-* Configure “Defragment and Optimize your device” - useless cause Windows Since Windows 8 can hanlde it on his own, it detects if you're on SSD or HDD and defrag it or not. 
+* Configure “Defragment and Optimize your device” - useless cause Windows Since Windows 8 can handle it on his own, it detects if you're on SSD or HDD and defrag it or not. 
 * Set your SATA controller to AHCI mode for Solid State Drives SSD - Not necessary, Windows detects it automatically based on your BIOS/UEFI settings.
 * Pagefile Managing disable it because it writes stuff on your SSD - Yes it writes important things on the SSD but some applications and games might crash if you entirely disable it. Instead I recommend to set it to a fixed size the math here would be: Your physically installed RAM x 1.5.
 * Restore Point disable it - It's more up to everyone, this can be important in case shit happened. 
 * Disable Hibernate - It's also up to everyone to use it or not, in you you want to turn it off: powercfg -h off
 * Disable SuperFetch - Not necessary because since Windows 8 it's detected by Windows. It's running but it does nothing when you're on a SSD. You can check it's state via fsutil behavior query DisableDeleteNotify which should be 0. This means TRIM is enabled. 
+* NIC System.ini IRQ Tweak
+* [System Responsiveness](https://msdn.microsoft.com/en-us/library/ms684247.aspx)
+* Disabling C states in BIOS. As for the SSD, the amount of writes is reduced without hibernation. When a computer hibernates, the contents of the RAM is dumped to the hibernate file on the C drive, which is the SSD in this case. Since SSDs have a finite amount of writes and there can be a lot of stuff in the RAM, you can see how this is a problem. The contents of RAM are being paged to the C drive constantly, anyways. The amount of extra SSD I/O due to hibernation is trivial compared to loading a game with let's say 20GB of textures and levels.
+* Disabling animations - This is not helpful at all, since all animations are GPU accelerated. A gaming machine should have a graphics card capable of running them without any problem.
 
 
 
@@ -168,3 +177,9 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 * https://support.microsoft.com/en-us/help/4002019/windows-10-improve-pc-performance
 * http://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/
 * http://www.speedguide.net/articles/gaming-tweaks-5812
+
+
+## Negative examples of a 'bad' guide
+* https://redacted.tv/2017/12/20/win10guide/
+* https://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/
+
