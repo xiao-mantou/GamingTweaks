@@ -56,8 +56,10 @@ netsh interface isatap set state disable
 REG ADD "HKLM\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters" /v "EnableICSIPv6" /t REG_DWORD /d 0 /f
 REG ADD "HKLM\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters" /v "DisabledComponents" /t REG_DWORD /d 255 /f
 
+Keep in mind that every modern Router firmware has an option to block or at least filter Teredo traffic, same like NetBios which means you don't need to 'disable' everything blindly because nothing can pass the router anyway!
 
-## Fix Memory Issue before with Build 1607 (Anniversary Update)
+
+### Fix Memory Issue before with Build 1607 (Anniversary Update)
 
 * Download [EmptyStandbyList](https://wj32.org/wp/software/empty-standby-list/) and put it under e.g. C:\ (ensure you don't move this file)
 * Right click > Properties and select 'Run as Admin' under compatibility.
@@ -102,7 +104,7 @@ REG ADD "HKLM\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters" /v "DisabledC
 ### Myths
 
 * Disable Drive Indexing (Windows Search) should be turned off. Myth cause reading doesn't decrease your SSD life - writing on it does!
-* Configure “Defragment and Optimize your device” - useless cause Windows Since Windows 8 can hanlde it on his own, it detects if you#re on SSD or HDD and defrag it or not. 
+* Configure “Defragment and Optimize your device” - useless cause Windows Since Windows 8 can hanlde it on his own, it detects if you're on SSD or HDD and defrag it or not. 
 * Set your SATA controller to AHCI mode for Solid State Drives SSD - Not necessary, Windows detects it automatically based on your BIOS/UEFI settings.
 * Pagefile Managing disable it because it writes stuff on your SSD - Yes it writes important things on the SSD but some applications and games might crash if you entirely disable it. Instead I recommend to set it to a fixed size the math here would be: Your physically installed RAM x 1.5.
 * Restore Point disable it - It's more up to everyone, this can be important in case shit happened. 
