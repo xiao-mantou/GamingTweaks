@@ -8,9 +8,9 @@ This Guide is about Gaming, and I mean all about Gaming for Windows. There exist
 
 ### BIOS
 
-* Disable High Precision Event Timer (HPET)
+* ~~Disable High Precision Event Timer (HPET)~~ (not needed in Windows April Update)
 * Disable CPU Enhanced Halt (C1E), EIST (SpeedStep) & Cool'n'Quiet
-* Disable Intel Hyperthreading (optional)
+* Disable Intel Hyper-threading (optional)
 * Set Performance Enhance/Mode to higher than Standard for faster memory timings
 * Set Robust Graphic Booster / PEG Link higher than Auto
 * Set CPU PLL Voltage to the most conservative option (Normal), this will improve your overclock reliability. More doesn't traduce to better for this setting.
@@ -25,8 +25,8 @@ This Guide is about Gaming, and I mean all about Gaming for Windows. There exist
 
 ### OS
 
-* Do not install any AntiVirus solution
-* Use only a good Firewall and Sandboxie, sandbox untrusted or unknown stuff
+* Do not install any AntiVirus product, if you like to use an AV then Windows Defender is good enough as proven in 'independent' AV tests. 
+* Use only a good NAT Firewall and Sandboxie, sandbox untrusted or unknown stuff. Sandboxie has no performance drops unless you use it 'cracked' or load huge apps into it.
 * Change Core Parking (only in XP, 7 and 8) - Windows 10 controls it automatically already.
 
 Task Scheduler
