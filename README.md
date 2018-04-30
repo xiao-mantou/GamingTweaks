@@ -57,6 +57,17 @@ REG ADD "HKLM\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters" /v "EnableICS
 REG ADD "HKLM\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters" /v "DisabledComponents" /t REG_DWORD /d 255 /f
 
 
+## Fix Memory Issue before April Update (1803)
+
+* Download [EmptyStandbyList](https://wj32.org/wp/software/empty-standby-list/) and put it under e.g. C:\ (ensure you don't move this file)
+* Right click > Properties and select 'Run as Admin' under compatibility.
+* Open your Task Scheduler > Create Task (on the far right).
+* General Tab (give it a name, doesn't matter which one!). Under security options > Change user or group > Advanced > Find Now > go down and choose SYSTEM (important to make it run silently in the background). Tick 'Run with highest privileges' and 'Hidden' at the bottom. You can find an example [here](https://stackoverflow.com/questions/6568736/how-do-i-set-a-windows-scheduled-task-to-run-in-the-background).
+* Click Triggers Tab > New > On a schedule > One Time. Tick repeat task every 5 minutes (possibly excessive but it causes no issues). Also choose 'for the duration of: indefinitely'
+* Actions tab > Start A program > Point to the EmptyStandbyList.exe file.
+* The Standby memory is automatically cleared every 5 mins.
+
+
 ### Drivers
 
 * Uninstall every drivers you want to update from Control Panel. Say no if they ask to reboot. Reboot in Safe Mode only when you uninstalled every drivers you wanted to remove.
@@ -64,7 +75,7 @@ REG ADD "HKLM\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters" /v "DisabledC
 * Always select 2/2.1 Speakers for your headphones if you want full dynamic range.
 
 
-### AMD (Image Qquality [IQ])
+### AMD (Image Quality [IQ])
 
 * Anti-Aliasing Mode> Enhance application settings
 * Anti-Aliasing Mode> Morphological filtering
