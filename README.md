@@ -44,6 +44,42 @@ Task Scheduler
 
 ### Network
 
+The network section is a bit larger since most things are tweakable here directly, however some of those tweaks are not anymore acceptable for moderns OS and are listed under 'myths'. 
+
+Intel Adapter 'Recommended' Network Adapter Settings
+------------------------
+
+Keep in mind that some drivers might have different settings/options! After talking with NordVPN I figured out with them that some settings might directly have a negative effect on Down-/Upload speed. Ensure you test each settings one by one.
+
+
+#### Optimized for quick response and low latency (Gaming):
+
+* Disable Interrupt Moderation Rate (if not possible decrease the size)
+* Disable Offload TCP Segmentation
+* Increase Transmit Descriptors
+* Increase Receive Descriptors
+* Increase RSS Queues
+
+
+#### Optimized for throughput (e.g. Servers):
+
+* Enable Jumbo Frames
+* Increase Transmit Descriptors
+* Increase Receive Descriptors
+
+
+#### For low CPU utilization:
+
+* Maximize Interrupt Moderation Rate
+* Keep Receive Descriptors at default
+* Avoid setting large Receive Descriptors
+* Decrease RSS Queues
+* Decrease the Max number of RSS CPUs in Hyper-V environments
+
+
+Optional tweaks:
+
+
 * Disable "Inbound Layer 7" in your router.
 Layer 7 filtering or shaping is identifying traffic at layer 7 (Application Layer) of the OSI model. Instead of shaping/filtering based on the port and source/destination, you are identifying a stream based on its contents. This is also sometimes called deep packet inspection since it works by looking into the contents of the packets not just the headers. If you're concerned about performance: IPP2P and especially L7 are slower than simple IP, MAC or port matches. L7 can't cope well with encrypted P2P traffic in background while gaming.
 * Enable SYN cookies
