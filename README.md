@@ -84,6 +84,7 @@ Keep in mind that some drivers might have different settings/options! After talk
 
 
 Optional tweaks:
+___
 
 
 * Disable "Inbound Layer 7" in your router.
@@ -91,6 +92,8 @@ Layer 7 filtering or shaping is identifying traffic at layer 7 (Application Laye
 * Enable SYN cookies
 * Disable IPv6 tunnel adapter & interfaces
 * Disable all ISATAP, 6to4 and Teredo Tunneling interfaces
+* Ensure Windows Defender Core Isolation stays disabled (default) it can causes 'lags' with several older games
+* Disable the Timeline function, it eats HDD space in order to collect your history or if you use it, ensure e.g. CCleaner cleans it -> bigger file means longer loading times.
 
 ```
 netsh interface teredo set state disable
