@@ -6,6 +6,11 @@
 
 This Guide is about Gaming, and I mean all about Gaming for Windows. There exist tons of outdated guides and myths when it comes to such tweaks, so I wrote my own to show the things which really does do the difference!
 
+- [x] Never use any 'tweak tools'
+- [x] Make always a backup of the current state
+- [x] There is no magic!
+
+
 ### BIOS
 
 * ~~Disable High Precision Event Timer (HPET)~~ (not needed in Windows April Update)
@@ -19,7 +24,7 @@ This Guide is about Gaming, and I mean all about Gaming for Windows. There exist
 
 ### Devices
 
-* Disable integrated audio device if you use an add-on soundcard
+* Disable integrated audio device if you use an add-on soundcard, only Audio Pro's might need several soundcards for different out-/input devices.
 * Disable all unused integrated peripherals (Network, Serial, Parallel Ports, etc.)
 
 
@@ -37,9 +42,10 @@ Task Scheduler
 * \Microsoft\Windows\Customer Experience Improvement Program> Consolidator, KernelCeipTask, UsbCeip
 * \Microsoft\Windows\DiskDiagnostic> Microsoft-Windows-DiskDiagnosticDataCollector
 * \Microsoft\Windows\Maintenance> WinSAT
-* \Microsoft\Windows\SystemRestore> SR
+* \Microsoft\cSystemRestore> SR
 * \Microsoft\Windows\WindowsBackup> ConfigNotification
 * \Microsoft\Windows Defender> MP Scheduled Scan
+* \Microsoft\\Microsoft\CDPUserSvc (see [here](https://account.microsoft.com/privacy/activity-history))
 
 
 ### Network
@@ -86,11 +92,14 @@ Layer 7 filtering or shaping is identifying traffic at layer 7 (Application Laye
 * Disable IPv6 tunnel adapter & interfaces
 * Disable all ISATAP, 6to4 and Teredo Tunneling interfaces
 
+```
 netsh interface teredo set state disable
 netsh interface 6to4 set state disable disable
 netsh interface isatap set state disable
 REG ADD "HKLM\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters" /v "EnableICSIPv6" /t REG_DWORD /d 0 /f
 REG ADD "HKLM\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters" /v "DisabledComponents" /t REG_DWORD /d 255 /f
+```
+
 
 Keep in mind that every modern Router firmware has an option to block or at least filter Teredo traffic, same like NetBios which means you don't need to 'disable' everything blindly because nothing can pass the router anyway!
 
