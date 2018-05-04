@@ -1,0 +1,199 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider    = %OrganizationName%
+ExtensionId = {C3A63EDD-2D27-4B66-B155-5E94B43D926A}
+DriverVer   = 05/03/2018, 6.0.1.8438
+CatalogFile = HDXRTExt.cat
+
+[Manufacturer]
+%MfgName% = DeviceExtensions,NTamd64.10.0...15063
+
+[DeviceExtensions.NTamd64.10.0...15063]
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1B0A2418
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1B0A2417
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0662&SUBSYS_1B0A01F9
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0662&SUBSYS_1B0A01FA
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1B0A2415
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1B0A2416
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1B0A2410
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1B0A2411
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1B0A2412
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1B0A2413
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0662&SUBSYS_1B0A01F6
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1B0A2409
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1B0A240A
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1B0A240B
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1B0A240C
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1B0A01F8
+
+[DeviceExtension_Install]
+AddReg = IntcAzAudModelAddReg
+
+[DeviceExtension_Install.HW]
+AddReg = FriendlyName_AddReg
+
+[IntcAzAudModelAddReg]
+;; render endpoint settings
+HKR,InterfaceSetting,RearLineOutTopo,0x10008,"SysCustomizedFx"
+HKR,InterfaceSetting,PrimaryLineOutTopo,0x10008,"SysCustomizedFx"
+HKR,InterfaceSetting,SingleLineOutTopo,0x10008,"SysCustomizedFx"
+HKR,InterfaceSetting,SecondaryLineOutTopo,0x10008,"SysCustomizedFx"
+HKR,InterfaceSetting,FrontPanelHeadphoneTopo,0x10008,"SysCustomizedFx"
+HKR,InterfaceSetting,RtSpdifTopo,0x10008,"SysCustomizedFx"
+HKR,InterfaceSetting,RtSpdifHDMITopo,0x10008,"SysCustomizedFx"
+HKR,InterfaceSetting,RtSpdifRCATopo,0x10008,"SysCustomizedFx"
+HKR,InterfaceSetting,RtSpdifOptTopo,0x10008,"SysCustomizedFx"
+HKR,InterfaceSetting,BTBPOutTopo,0x10008,"SysCustomizedFx"
+HKR,InterfaceSetting,RearLineOutTopoSST,0x10008,"SysCustomizedFx"
+HKR,InterfaceSetting,RearLineOutTopoSST2,0x10008,"SysCustomizedFx"
+HKR,InterfaceSetting,RearLineOutTopoSST3,0x10008,"SysCustomizedFx"
+HKR,InterfaceSetting,RearLineOutTopoDock,0x10008,"SysCustomizedFx"
+HKR,InterfaceSetting,RearLineOutTopoHap,0x10008,"SysCustomizedFx"
+HKR,InterfaceSetting,RearLineOutTopoHap2,0x10008,"SysCustomizedFx"
+HKR,InterfaceSetting,RearLineOutTopoHap3,0x10008,"SysCustomizedFx"
+
+;; capture endpoint settings
+HKR,InterfaceSetting,RearMicInBlackTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,RearMicInGreyTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,RearMicInBlueTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,RearMicInGreenTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,RearMicInRedTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,RearMicInOrangeTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,RearMicInYellowTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,RearMicInPurpleTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,RearMicInPinkTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,RearMicInGoldenTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,RearMicInSilverTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,RearMicInWhiteTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,FrontMicInBlackTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,FrontMicInGreyTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,FrontMicInBlueTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,FrontMicInGreenTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,FrontMicInRedTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,FrontMicInOrangeTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,FrontMicInYellowTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,FrontMicInPurpleTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,FrontMicInPinkTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,FrontMicInGoldenTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,FrontMicInSilverTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,FrontMicInWhiteTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,BTBPInTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,RtMicInTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,RtFrontMicInTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,DigitalMICTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,RtMicArTopo,0x10008,"SysRecCustomizedFx"
+HKR,InterfaceSetting,RtMicInSSTTopo,0x10008,"SysRecCustomizedFx"
+
+HKR,InterfaceSetting,RtStereoMixTopo,0x10008,"SysRecVolCustomizedFx"
+HKR,InterfaceSetting,RtLineInTopo,0x10008,"SysRecVolCustomizedFx"
+
+;; APO CLSID registration for render endpoints
+HKR,InterfaceSetting\SysCustomizedFx\FX\0,%DelInterfaceKey%,%REG_MULTI_SZ%,%PKEY_FX_PreMixEffectClsid%,%PKEY_FX_PostMixEffectClsid%,%PKEY_FX_UserInterfaceClsid%,%PKEY_FX_StreamEffectClsid%,%PKEY_FX_ModeEffectClsid%,%PKEY_FX_EndpointEffectClsid%,%PKEY_FX_Offload_StreamEffectClsid%,%PKEY_FX_Offload_ModeEffectClsid%
+HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_FX_Association%,,%KSNODETYPE_ANY%
+HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_CompositeFX_StreamEffectClsid%,%REG_MULTI_SZ%,%REALTEK_SFX_CLSID%
+HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_CompositeFX_ModeEffectClsid%,%REG_MULTI_SZ%,%REALTEK_MFX_CLSID%
+HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_CompositeFX_EndpointEffectClsid%,%REG_MULTI_SZ%,%REALTEK_EFX_CLSID%
+HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_CompositeFX_Offload_StreamEffectClsid%,%REG_MULTI_SZ%,%REALTEK_OSFX_CLSID%
+HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_CompositeFX_Offload_ModeEffectClsid%,%REG_MULTI_SZ%,%REALTEK_OMFX_CLSID%
+HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_SFX_Offload_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_MFX_Offload_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_MFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_BYPASS_TP_EFFECTS%,%REG_DWORD%,0x1
+
+;; APO CLSID registration for capture endpoints
+HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%DelInterfaceKey%,%REG_MULTI_SZ%,%PKEY_FX_PreMixEffectClsid%,%PKEY_FX_UserInterfaceClsid%,%PKEY_FX_StreamEffectClsid%,%PKEY_FX_ModeEffectClsid%,%PKEY_FX_EndpointEffectClsid%,%PKEY_FX_KeywordDetector_StreamEffectClsid%,%PKEY_FX_KeywordDetector_ModeEffectClsid%,%PKEY_FX_KeywordDetector_EndpointEffectClsid%
+HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_FX_Association%,,%KSNODETYPE_ANY%
+HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_CompositeFX_ModeEffectClsid%,%REG_MULTI_SZ%,%REALTEKREC_VOLMFX_CLSID%,%REALTEKREC_MFX_CLSID%,%REALTEKREC_INVVOLMFX_CLSID%
+HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_CompositeFX_EndpointEffectClsid%,%REG_MULTI_SZ%,%REALTEKREC_EFX_CLSID%
+HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_MFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
+HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
+HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_BYPASS_TP_EFFECTS%,%REG_DWORD%,0x1
+
+;; APO CLSID registration for capture endpoints
+HKR,InterfaceSetting\SysRecVolCustomizedFx\FX\0,%DelInterfaceKey%,%REG_MULTI_SZ%,%PKEY_FX_PreMixEffectClsid%,%PKEY_FX_UserInterfaceClsid%,%PKEY_FX_StreamEffectClsid%,%PKEY_FX_ModeEffectClsid%,%PKEY_FX_EndpointEffectClsid%,%PKEY_FX_KeywordDetector_StreamEffectClsid%,%PKEY_FX_KeywordDetector_ModeEffectClsid%,%PKEY_FX_KeywordDetector_EndpointEffectClsid%
+HKR,InterfaceSetting\SysRecVolCustomizedFx\FX\0,%PKEY_FX_Association%,,%KSNODETYPE_ANY%
+HKR,InterfaceSetting\SysRecVolCustomizedFx\FX\0,%PKEY_CompositeFX_EndpointEffectClsid%,%REG_MULTI_SZ%,%REALTEKREC_EFX_CLSID%
+HKR,InterfaceSetting\SysRecVolCustomizedFx\FX\0,%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
+HKR,InterfaceSetting\SysRecVolCustomizedFx\FX\0,%PKEY_BYPASS_TP_EFFECTS%,%REG_DWORD%,0x1
+
+[FriendlyName_AddReg]
+HKR,,FriendlyName,,%ExtendedFriendlyName%
+
+[DeviceExtension_Install.Components]
+AddComponent = RealtekAPO,,RealtekAPO_Install
+AddComponent = RealtekSRV,,RealtekSRV_Install
+AddComponent = RealtekHSA,,RealtekHSA_Install
+
+[RealtekAPO_Install]
+ComponentIDs = VEN_10EC&AID_0001
+Description = "Realtek Audio Effects Component"
+
+[RealtekSRV_Install]
+ComponentIDs = VEN_10EC&SID_0001
+Description = "Realtek Audio Universal Service"
+
+[RealtekHSA_Install]
+ComponentIDs = VEN_10EC&HID_0001
+Description = "Realtek Hardware Support Application"
+
+[Strings]
+OrganizationName     = "Realtek Semiconductor Corp."
+MfgName              = "Realtek"
+Realtek	             = "Realtek"
+Device.ExtensionDesc = "Realtek Device Extension"
+ExtendedFriendlyName = "Realtek(R) Audio"
+
+DelInterfaceKey      = "DelInterfaceKey"
+
+PKEY_FX_Association                 = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},0"
+PKEY_FX_PreMixEffectClsid           = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},1"
+PKEY_FX_PostMixEffectClsid          = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},2"
+PKEY_FX_UserInterfaceClsid          = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},3"
+PKEY_FX_StreamEffectClsid           = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},5"
+PKEY_FX_ModeEffectClsid             = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},6"
+PKEY_FX_EndpointEffectClsid         = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},7"
+PKEY_FX_KeywordDetector_StreamEffectClsid   = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},8"
+PKEY_FX_KeywordDetector_ModeEffectClsid     = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},9"
+PKEY_FX_KeywordDetector_EndpointEffectClsid = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},10"
+PKEY_FX_Offload_StreamEffectClsid    = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},11"
+PKEY_FX_Offload_ModeEffectClsid      = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},12"
+PKEY_CompositeFX_StreamEffectClsid   = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},13"  
+PKEY_CompositeFX_ModeEffectClsid     = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},14"
+PKEY_CompositeFX_EndpointEffectClsid = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},15"
+;;PKEY_CompositeFX_KeywordDetector_StreamEffectClsid   = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},16"
+;;PKEY_CompositeFX_KeywordDetector_ModeEffectClsid     = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},17"  
+;;PKEY_CompositeFX_KeywordDetector_EndpointEffectClsid = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},18" 
+PKEY_CompositeFX_Offload_StreamEffectClsid   = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},19"  
+PKEY_CompositeFX_Offload_ModeEffectClsid     = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},20"
+PKEY_SFX_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},5"
+PKEY_MFX_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},6"
+PKEY_EFX_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},7"
+;;PKEY_SFX_KeywordDetector_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},8"
+;;PKEY_MFX_KeywordDetector_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},9"
+;;PKEY_EFX_KeywordDetector_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},10"
+PKEY_SFX_Offload_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},11"
+PKEY_MFX_Offload_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},12"
+
+PKEY_BYPASS_TP_EFFECTS = "{0F8412D3-DC5C-4DB3-B174-DC47A859435C},0"
+
+REALTEK_SFX_CLSID    = "{DA2C9ECE-7418-4906-B4FA-0A00B3EB88AA}"
+REALTEK_MFX_CLSID    = "{A296D363-EE83-4af9-9BE7-729C1296150A}"
+REALTEK_EFX_CLSID    = "{A29EB043-6CE2-4ee2-B38C-F58719E0D88F}"
+REALTEK_OSFX_CLSID          = "{71111103-AC62-4939-B476-4BB282B2B42C}"
+REALTEK_OMFX_CLSID          = "{7121B512-6CC5-4C77-AE3A-823F966CCD3D}"
+REALTEKREC_MFX_CLSID  = "{A69C91DC-11C4-414f-A919-4DA8EA3F3CA6}"
+REALTEKREC_EFX_CLSID  = "{AB3B404A-B18F-4b4f-B91F-77F2DE95EB18}"
+REALTEKREC_INVVOLMFX_CLSID  = "{8065FF2D-2394-4E99-999B-8F95C44F1799}"
+REALTEKREC_VOLMFX_CLSID  = "{806B324A-6827-46A8-AFD0-8AB09F8E6E61}"
+AUDIO_SIGNALPROCESSINGMODE_DEFAULT = "{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}"
+AUDIO_SIGNALPROCESSINGMODE_SPEECH = "{FC1CFC9B-B9D6-4CFA-B5E0-4BB2166878B2}"
+KSNODETYPE_ANY = "{00000000-0000-0000-0000-000000000000}"
+
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000
+
