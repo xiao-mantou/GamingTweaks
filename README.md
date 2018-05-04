@@ -8,7 +8,7 @@ This Guide is about Gaming, and I mean all about Gaming for Windows. There exist
 
 - [x] Never use any 'tweak tools'
 - [x] Make always a backup of the current state
-- [x] There is no magic!
+- [x] There is no Voodoo!
 
 
 ### BIOS
@@ -48,6 +48,11 @@ Task Scheduler
 * \Microsoft\\Microsoft\CDPUserSvc (see [here](https://account.microsoft.com/privacy/activity-history))
 
 
+### SSD 
+
+Setting `fsutil behavior set disablelastaccess 1` still needs to be done manually. There is research on this available [here](https://translate.google.com/translate?hl=en&sl=ja&u=http://blog.livedoor.jp/nichepcgamer/archives/1071061265.html&prev=search).
+
+
 ### Network
 
 The network section is a bit larger since most things are tweakable here directly, however some of those tweaks are not anymore acceptable for moderns OS and are listed under 'myths'. 
@@ -83,7 +88,7 @@ Keep in mind that some drivers might have different settings/options! After talk
 * Decrease the Max number of RSS CPUs in Hyper-V environments
 
 
-Optional tweaks:
+### Optional tweaks
 ___
 
 
