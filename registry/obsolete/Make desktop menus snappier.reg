@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Make desktop menus snappier
+; https://msdn.microsoft.com/en-us/library/system.windows.systemparameters.menushowdelay(v=vs.110).aspx
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"MenuShowDelay"="20"
+
