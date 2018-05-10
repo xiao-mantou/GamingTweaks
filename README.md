@@ -137,11 +137,11 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 
 ### AMD (Image Quality [IQ])
 
-* Anti-Aliasing Mode> Enhance application settings
-* Anti-Aliasing Mode> Morphological filtering
-* Anti-Aliasing Filter> Edge-detect
-* Texture Filtering Quality> High Quality
-* Adaptive Anti-Aliasing> Quality> Method Super-sampling> Enabled
+* Anti-Aliasing Mode > Enhance application settings
+* Anti-Aliasing Mode > Morphological filtering
+* Anti-Aliasing Filter > Edge-detect
+* Texture Filtering Quality > High Quality
+* Adaptive Anti-Aliasing > Quality > Method Super-sampling > Enabled
 
 
 ### nVidia
@@ -190,13 +190,12 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 * [LatencyMon](http://www.resplendence.com/latencymon)
 * [Multimedia Class Scheduler Service](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684247(v=vs.85).aspx)
 * [Tips to improve PC performance in Windows 10 by Microsoft](https://support.microsoft.com/en-us/help/4002019/windows-10-improve-pc-performance)
-* [How To Tweak Windows 10 For Gaming
-](http://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/)
 * [Gaming Tweaks by SpeedGuide.net](http://www.speedguide.net/articles/gaming-tweaks-5812)
 * [Microsoft educates Insiders on how Windows 10 handles memory](https://www.onmsft.com/news/microsoft-educates-insiders-windows-10-handles-memory)
 
 
 ## Negative examples of so called 'tweaking' guides
-* https://redacted.tv/2017/12/20/win10guide/
-* https://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/
+* [Win 10 Guide](https://redacted.tv/2017/12/20/win10guide/)
+* [How To Tweak Windows 10 For Gaming
+](http://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/)
 
