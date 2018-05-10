@@ -13,3 +13,4 @@ Windows Registry Editor Version 5.00
 "Clock Rate"=dword:00002710
 "GPU Priority"=dword:00000001
 "Affinity"=dword:00000000
+

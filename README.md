@@ -37,14 +37,14 @@ This Guide is about Gaming, and I mean all about Gaming for Windows. There exist
 Task Scheduler
 ---------------
 * List of tasks to disable (privacy & "do not annoy my system"):
-* \Microsoft\Windows\Application Experience> AitAgent, ProgramDataUpdater
-* \Microsoft\Windows\Autochk> Proxy
+* \Microsoft\Windows\Application Experience > AitAgent, ProgramDataUpdater
+* \Microsoft\Windows\Autochk > Proxy
 * \Microsoft\Windows\Customer Experience Improvement Program> Consolidator, KernelCeipTask, UsbCeip
-* \Microsoft\Windows\DiskDiagnostic> Microsoft-Windows-DiskDiagnosticDataCollector
-* \Microsoft\Windows\Maintenance> WinSAT
-* \Microsoft\cSystemRestore> SR
-* \Microsoft\Windows\WindowsBackup> ConfigNotification
-* \Microsoft\Windows Defender> MP Scheduled Scan
+* \Microsoft\Windows\DiskDiagnostic > Microsoft-Windows-DiskDiagnosticDataCollector
+* \Microsoft\Windows\Maintenance > WinSAT
+* \Microsoft\cSystemRestore > SR
+* \Microsoft\Windows\WindowsBackup > ConfigNotification
+* \Microsoft\Windows Defender > MP Scheduled Scan
 * \Microsoft\\Microsoft\CDPUserSvc (see [here](https://account.microsoft.com/privacy/activity-history))
 
 
@@ -146,11 +146,11 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 
 ### nVidia
 
-* Antialiasing - Transparency> Supersampling
-* Maximum Pre-Rendered Frames> 0 (minimizing first person shooters visual latency, optimizing hit registration)
+* Antialiasing - Transparency > Supersampling
+* Maximum Pre-Rendered Frames > 0 (minimizing first person shooters visual latency, optimizing hit registration)
 * Multi-display/mixed-GPU acceleration> Single display performance mode (if only one screen)
-* Texture filtering - Quality> High quality
-* Threaded optimization> On
+* Texture filtering - Quality > High quality
+* Threaded optimization > On
 
 
 ### OC
