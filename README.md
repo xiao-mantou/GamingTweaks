@@ -88,7 +88,7 @@ Keep in mind that some drivers might have different settings/options! After talk
 * Decrease the Max number of RSS CPUs in Hyper-V environments
 
 
-### Optional tweaks
+### Optional tweaks (Network, Security etc)
 ___
 
 
