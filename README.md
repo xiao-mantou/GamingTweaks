@@ -164,12 +164,12 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 * Disable Drive Indexing (Windows Search) should be turned off. Myth cause reading doesn't decrease your SSD life - writing on it does!
 * Configure “Defragment and Optimize your device” - useless cause Windows Since Windows 8 can handle it on his own, it detects if you're on SSD or HDD and defrag it or not. 
 * Set your SATA controller to AHCI mode for Solid State Drives SSD - Not necessary, Windows detects it automatically based on your BIOS/UEFI settings.
-* Pagefile Managing disable it because it writes stuff on your SSD - Yes it writes important things on the SSD but some applications and games might crash if you entirely disable it. Instead I recommend to set it to a fixed size the math here would be: Your physically installed RAM x 1.5.
+* [Pagefile Managing](https://www.onmsft.com/news/microsoft-educates-insiders-windows-10-handles-memory), disable it because it writes stuff on your SSD - Yes it writes important things on the SSD but some applications and games might crash if you entirely disable it. Instead I recommend to set it to a fixed size the math here would be: Your physically installed RAM x 1.5.
 * Restore Point disable it - It's more up to everyone, this can be important in case shit happened. 
 * Disable Hibernate - It's also up to everyone to use it or not, in you you want to turn it off: powercfg -h off
-* Disable SuperFetch - Not necessary because since Windows 8 it's detected by Windows. It's running but it does nothing when you're on a SSD. You can check it's state via fsutil behavior query DisableDeleteNotify which should be 0. This means TRIM is enabled. 
+* Disable SuperFetch - Not necessary because since Windows 8 it's detected by Windows. It's running but it does nothing when you're on a SSD. You can check it's state via `fsutil behavior query DisableDeleteNotify` which should be 0. This means TRIM is enabled. 
 * NIC System.ini IRQ Tweak
-* [System Responsiveness](https://msdn.microsoft.com/en-us/library/ms684247.aspx)
+* [System Responsiveness](https://msdn.microsoft.com/en-us/library/ms684247.aspx). It doesn't need to be tweaked.
 * Disabling C states in BIOS. As for the SSD, the amount of writes is reduced without hibernation. When a computer hibernates, the contents of the RAM is dumped to the hibernate file on the C drive, which is the SSD in this case. Since SSDs have a finite amount of writes and there can be a lot of stuff in the RAM, you can see how this is a problem. The contents of RAM are being paged to the C drive constantly, anyways. The amount of extra SSD I/O due to hibernation is trivial compared to loading a game with let's say 20GB of textures and levels.
 * Disabling animations - This is not helpful at all, since all animations are GPU accelerated. A gaming machine should have a graphics card capable of running them without any problem.
 
@@ -177,26 +177,26 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 
 
 ## Research
-* http://www.overclock.net/ (general good basic and advanced info)
-* http://www.station-drivers.com/ (My #1 driver source)
-* http://www.anandtech.com/show/2410/13
-* https://www.guru3d.com/files-details/display-driver-uninstaller-download.html (DDU)
-* http://www.techarp.com/showarticle.aspx?artno=248&pgno=0
-* http://vr-zone.com/articles/does-core-i7-hyper-threading-helps-/6160.html?doc=6160
-* http://www.xbitlabs.com/articles/cpu/display/core-i7-975-950_7.html
-* http://forums.guru3d.com/showpost.php?p=3770113&postcount=2
-* http://www.ocztechnologyforum.com/forum/showthread.php?79848-THE-BASIC-GUIDE-amp-FAQ-ABC-for-OCZ-SSD
-* http://cr.yp.to/syncookies.html
-* http://www.speedguide.net/files/TCPOptimizer.exe
-* http://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU
-* http://www.resplendence.com/latencymon
-* https://msdn.microsoft.com/en-us/library/windows/desktop/ms684247(v=vs.85).aspx
-* https://support.microsoft.com/en-us/help/4002019/windows-10-improve-pc-performance
-* http://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/
-* http://www.speedguide.net/articles/gaming-tweaks-5812
+* [Overclocking Community](http://www.overclock.net/) (General good basic and advanced info)
+* [Station-Drivers.com](http://www.station-drivers.com/) (My #1 driver source since years)
+* [The Gigabyte GA-X48T-DQ6 - Redefining the High End?](http://www.anandtech.com/show/2410/13) (explains a lot of bios settings)
+* [Display Driver Uninstaller](https://www.wagnardsoft.com/)
+* [ASUS PEG Link Mode Guide Rev. 2.0](http://www.techarp.com/showarticle.aspx?artno=248&pgno=0)
+* [Does Core i7 Hyper-Threading Helps?](http://vr-zone.com/articles/does-core-i7-hyper-threading-helps-/6160.html?doc=6160)
+* [Disable High Precision Event Timer (HPET) in BIOS](http://forums.guru3d.com/showpost.php?p=3770113&postcount=2)
+* [SYN cookies FAQ](http://cr.yp.to/syncookies.html)
+* [TCPOptimizer](http://www.speedguide.net/files/TCPOptimizer.exe)
+* [Custom Resolution Utility (CRU)](http://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
+* [LatencyMon](http://www.resplendence.com/latencymon)
+* [Multimedia Class Scheduler Service](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684247(v=vs.85).aspx)
+* [Tips to improve PC performance in Windows 10 by Microsoft](https://support.microsoft.com/en-us/help/4002019/windows-10-improve-pc-performance)
+* [How To Tweak Windows 10 For Gaming
+](http://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/)
+* [Gaming Tweaks by SpeedGuide.net](http://www.speedguide.net/articles/gaming-tweaks-5812)
+* [Microsoft educates Insiders on how Windows 10 handles memory](https://www.onmsft.com/news/microsoft-educates-insiders-windows-10-handles-memory)
 
 
-## Negative examples of a 'bad' guide
+## Negative examples of so called 'tweaking' guides
 * https://redacted.tv/2017/12/20/win10guide/
 * https://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/
 
