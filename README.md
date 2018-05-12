@@ -22,6 +22,13 @@ This Guide is about Gaming, and I mean all about Gaming for Windows. There exist
 * CPU/PCI-E Clock Drive, CPU/MCH Clock Skew: keep them to the lowest possible (lower is better)!
 
 
+
+### Sound
+
+* Old Realtek drivers (up to Win 10 RS 2) are packaged in 200+ MB files, this has changed and improved since RS 3. This means the Universal Audio Drivers (UAD) are now coming in smaller packages 20-40 MB max. Depending on which effects your OEM supports you can install additional things like ASIO support, DSP, Creative or Windows Effects. However, normal non-OEM packages (the ones which are offered by Windows Update or Update Catalouge) usually exclude them (for no reason). So you can 'tweak' your latency via Asio and 'pimp' your Effects by installing additional I upload them separately under `Realtek ASIO, effects etc` so you can drop them in to the installation folder or right click on the .inf and 'Install' it in order to unlock it. 
+
+
+
 ### Devices
 
 * Disable integrated audio device if you use an add-on soundcard, only Audio Pro's might need several soundcards for different out-/input devices.
