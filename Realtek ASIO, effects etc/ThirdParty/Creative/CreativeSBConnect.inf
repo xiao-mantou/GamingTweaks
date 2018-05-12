@@ -1,0 +1,30 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = SoftwareComponent
+ClassGuid   = {5c4c3332-344d-483c-8739-259e934c9cc8}
+Provider    = %Creative%
+DriverVer = 04/26/2018,2.0.0.16
+CatalogFile = CreativeSBConnect.cat
+
+[Manufacturer]
+%Creative% = Components,NTx86
+%Creative% = Components,NTamd64
+
+[Components.NTx86]
+%SBConnect.ComponentDesc% = SBConnect.Component_Install,SWC\VEN_1102&AID_FE00
+
+[Components.NTamd64]
+%SBConnect.ComponentDesc% = SBConnect.Component_Install,SWC\VEN_1102&AID_FE00
+
+[SBConnect.Component_Install]
+
+[SBConnect.Component_Install.Software]
+AddSoftware=SBConnect,,SBConnect_Install
+
+[SBConnect_Install]
+SoftwareType=2
+SoftwareID=pfn://CreativeTechnologyLtd.SoundBlasterConnect_13fcda18mhdz2
+
+[Strings]
+Creative = "Creative Technology Ltd."
+SBConnect.ComponentDesc = "Sound Blaster Connect"
