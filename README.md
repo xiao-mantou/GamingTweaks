@@ -151,13 +151,18 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 * Adaptive Anti-Aliasing > Quality > Method Super-sampling > Enabled
 
 
-### nVidia
+### nVidia Quality
 
 * Antialiasing - Transparency > Supersampling
 * Maximum Pre-Rendered Frames > 0 (minimizing first person shooters visual latency, optimizing hit registration)
 * Multi-display/mixed-GPU acceleration> Single display performance mode (if only one screen)
 * Texture filtering - Quality > High quality
 * Threaded optimization > On
+
+
+### nVidia Shader Cache on HDD
+
+* Shaders are loaded by the game like any other of their assets, and sent to the driver for compilation (meaning transformed from source code form into binary form that can be used by the GPU.) The driver compiles them and sends the results back to the game. The compilation happens by the CPU, not the GPU, and is slow. A shader cache doesn't get rid of the loading-from-disk step. It only replaces the compilation step with a second loading step (loading the previously compiled form of the shader from disk and sending that to the game.) Even with a very slow disk, loading small already compiled shader files from said disk is much faster than generating them again. The shader cache is meant to persist between reboots. Putting them on a RAM disk meaning losing the cache on reboot - unless you're syncing the RAM disk to disk on reboot.
 
 
 ### OC
