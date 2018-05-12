@@ -1,2 +1,16 @@
-* Creative SB Cinema v 2 DSP with Creative SBC, extension and component
-* Nahimic with A-Volute APO SWC and MSI Oem INF extension
+Structure
+=========
+
+/Config = Configuration files
+	/Win64 contains the OEM specific inf (driver)
+		/Win64/Realtek/
+						* Codecs
+						* ASIO
+						* HSA
+						* Service
+						* Creative
+		
+	/Win64/ThirdParty/
+						* Nahimic with A-Volute APO SWC and MSI Oem INF extension (A-Volute APO - SWC)
+						* OEM INF Extension - MSI (A-Volute Nh3 Audio Effects Component)
+						* Creative SB Cinema v 2 DSP with Creative SBC, extension and component
