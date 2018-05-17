@@ -95,6 +95,19 @@ Keep in mind that some drivers might have different settings/options! After talk
 * Decrease the Max number of RSS CPUs in Hyper-V environments
 
 
+#### Enable or disable QoS?
+
+It depends on how you set up your QoS. QoS is useful in scenarios where your network experiences peak or near-peak loads on a routine basis. If the network is not under significant load, QoS rules will not be applied.
+
+For example, if you live alone, don't play online games, don't use VOIP, don't use video streaming services (Netflix/Amazon/Hulu/Twitch.tv/YouTube), or don't use P2P file sharing - QoS is not going to be all that beneficial to you.
+
+* Check if you're ISP's offer a QoS package to residential connections (most do)
+* Check your Router QoS settings
+* Check your OS QoS options 
+
+In general **I recommend to leave it enabled**. If there some problems check your configuration instead.  
+
+
 ### Optional tweaks (Network, Security etc)
 ___
 
@@ -184,6 +197,7 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 * [System Responsiveness](https://msdn.microsoft.com/en-us/library/ms684247.aspx). It doesn't need to be tweaked.
 * Disabling C states in BIOS. As for the SSD, the amount of writes is reduced without hibernation. When a computer hibernates, the contents of the RAM is dumped to the hibernate file on the C drive, which is the SSD in this case. Since SSDs have a finite amount of writes and there can be a lot of stuff in the RAM, you can see how this is a problem. The contents of RAM are being paged to the C drive constantly, anyways. The amount of extra SSD I/O due to hibernation is trivial compared to loading a game with let's say 20GB of textures and levels.
 * Disabling animations - This is not helpful at all, since all animations are GPU accelerated. A gaming machine should have a graphics card capable of running them without any problem.
+* Changing HPET gives you a performance boost. This is incorrect as shown [here](https://www.anandtech.com/show/12678/a-timely-discovery-examining-amd-2nd-gen-ryzen-results). Enabling HPET in Bios + leave it untouched under Windows is the best. 
 
 
 
