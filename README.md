@@ -3,19 +3,23 @@
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/FZeven)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
 [![Discord](https://discordapp.com/api/guilds/204394292519632897/widget.png)](https://discord.me/NVinside)
+[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/nvinside)
 
-This Guide is about Gaming, and I mean all about Gaming for Windows. There exist tons of outdated guides and myths when it comes to such tweaks, so I wrote my own to show the things which really does do the difference!
+This Guide is all about _Windows Gaming_, and I really mean Gaming on Windows only. There exist tons of outdated guides and myths when it comes to such guides but there mostly wrong so I wrote my own to show the things which really does do the difference!
 
-- [x] Never use any 'tweak tools'
-- [x] Make always a backup of the current state
-- [x] There is no Voodoo!
+Advice:
+
+- [x] Never use any 'tweak tools', it's not worth.
+- [x] Make always a backup of the current state. I recommend [Macrium Reflect](https://www.macrium.com/reflectfree)
+- [x] There is no Voodoo - just do it yourself, don't be lazy.
+
 
 
 ### BIOS
 
 * ~~Disable High Precision Event Timer (HPET)~~ (not needed in Windows April Update)
-* Disable CPU Enhanced Halt (C1E), EIST (SpeedStep) & Cool'n'Quiet
-* Disable Intel Hyper-threading (optional)
+* Disable CPU Enhanced Halt (C1E), EIST (SpeedStep) & Cool'n'Quiet (if present)
+* Disable Intel Hyper-threading (_optional_)
 * Set Performance Enhance/Mode to higher than Standard for faster memory timings
 * Set Robust Graphic Booster / PEG Link higher than Auto
 * Set CPU PLL Voltage to the most conservative option (Normal), this will improve your overclock reliability. More doesn't traduce to better for this setting.
@@ -33,6 +37,7 @@ This Guide is about Gaming, and I mean all about Gaming for Windows. There exist
 
 * Disable integrated audio device if you use an add-on soundcard, only Audio Pro's might need several soundcards for different out-/input devices.
 * Disable all unused integrated peripherals (Network, Serial, Parallel Ports, etc.)
+
 
 
 ### OS
@@ -55,9 +60,11 @@ Task Scheduler
 * \Microsoft\\Microsoft\CDPUserSvc (see [here](https://account.microsoft.com/privacy/activity-history))
 
 
+
 ### SSD 
 
 Setting `fsutil behavior set disablelastaccess 1` still needs to be done manually. There is research on this available [here](https://translate.google.com/translate?hl=en&sl=ja&u=http://blog.livedoor.jp/nichepcgamer/archives/1071061265.html&prev=search).
+
 
 
 ### Network
@@ -70,6 +77,7 @@ Intel Adapter 'Recommended' Network Adapter Settings
 Keep in mind that some drivers might have different settings/options! After talking with NordVPN I figured out with them that some settings might directly have a negative effect on Down-/Upload speed. Ensure you test each settings one by one. In this case try to disable all "offloading" params.
 
 
+
 #### Optimized for quick response and low latency (Gaming):
 
 * Disable Interrupt Moderation Rate (if not possible decrease the size)
@@ -79,11 +87,13 @@ Keep in mind that some drivers might have different settings/options! After talk
 * Increase RSS Queues
 
 
+
 #### Optimized for throughput (e.g. Servers):
 
 * Enable Jumbo Frames
 * Increase Transmit Descriptors
 * Increase Receive Descriptors
+
 
 
 #### For low CPU utilization:
@@ -93,6 +103,7 @@ Keep in mind that some drivers might have different settings/options! After talk
 * Avoid setting large Receive Descriptors
 * Decrease RSS Queues
 * Decrease the Max number of RSS CPUs in Hyper-V environments
+
 
 
 #### Enable or disable QoS?
@@ -108,6 +119,7 @@ For example, if you live alone, don't play online games, don't use VOIP, don't u
 In general **I recommend to leave it enabled**. If there some problems check your configuration instead.  
 
 
+
 ### Optional tweaks (Network, Security etc)
 ___
 
@@ -120,7 +132,7 @@ Layer 7 filtering or shaping is identifying traffic at layer 7 (Application Laye
 * Ensure Windows Defender Core Isolation stays disabled (default) it can causes 'lags' with several older games
 * Disable the Timeline function, it eats HDD space in order to collect your history or if you use it, ensure e.g. CCleaner cleans it -> bigger file means longer loading times.
 
-```
+```bash
 netsh interface teredo set state disable
 netsh interface 6to4 set state disable disable
 netsh interface isatap set state disable
@@ -130,6 +142,7 @@ REG ADD "HKLM\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters" /v "DisabledC
 
 
 Keep in mind that every modern Router firmware has an option to block or at least filter Teredo traffic, same like NetBios which means you don't need to 'disable' everything blindly because nothing can pass the router anyway!
+
 
 
 ### Fix Memory Issue before with Build 1607 (Anniversary Update)
@@ -143,6 +156,7 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 * The Standby memory is automatically cleared every 5 mins.
 
 
+
 ### Drivers
 
 * Uninstall every drivers you want to update from Control Panel. Say no if they ask to reboot. Reboot in Safe Mode only when you uninstalled every drivers you wanted to remove.
@@ -150,9 +164,11 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 * Always select 2/2.1 Speakers for your headphones if you want full dynamic range.
 
 
+
 ### Power Management
 
 * Set power setting to maximum performance if you graphic card driver has an 'maximum performance' settings enable it, this will ensure that the GPU uses it's full potential. 
+
 
 
 ### AMD (Image Quality [IQ])
@@ -164,7 +180,8 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 * Adaptive Anti-Aliasing > Quality > Method Super-sampling > Enabled
 
 
-### nVidia Quality
+
+### nVidia Quality 'tweak' settings
 
 * Antialiasing - Transparency > Supersampling
 * Maximum Pre-Rendered Frames > 0 (minimizing first person shooters visual latency, optimizing hit registration)
@@ -173,9 +190,11 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 * Threaded optimization > On
 
 
+
 ### nVidia Shader Cache on HDD
 
 * Shaders are loaded by the game like any other of their assets, and sent to the driver for compilation (meaning transformed from source code form into binary form that can be used by the GPU.) The driver compiles them and sends the results back to the game. The compilation happens by the CPU, not the GPU, and is slow. A shader cache doesn't get rid of the loading-from-disk step. It only replaces the compilation step with a second loading step (loading the previously compiled form of the shader from disk and sending that to the game.) Even with a very slow disk, loading small already compiled shader files from said disk is much faster than generating them again. The shader cache is meant to persist between reboots. Putting them on a RAM disk meaning losing the cache on reboot - unless you're syncing the RAM disk to disk on reboot.
+
 
 
 ### OC & stability
@@ -196,7 +215,8 @@ bcdedit /deletevalue tscsyncpolicy
 bcdedit /deletevalue disabledynamictick
 ```
 
-### In-Game
+
+### In-Game 'smoothies'
 
 ```bash
 Windows Registry Editor Version 5.00
@@ -229,7 +249,7 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\GameDVR]
 ; "TrustLevel"=dword:00000000
 ```
 
-### Myths
+### Known Myths
 
 * Disable Drive Indexing (Windows Search) should be turned off. Myth cause reading doesn't decrease your SSD life - writing on it does!
 * Configure “Defragment and Optimize your device” - useless cause Windows Since Windows 8 can handle it on his own, it detects if you're on SSD or HDD and defrag it or not. 
@@ -245,6 +265,10 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\GameDVR]
 * Changing HPET gives you a performance boost. This is incorrect as shown [here](https://www.anandtech.com/show/12678/a-timely-discovery-examining-amd-2nd-gen-ryzen-results). Enabling HPET in Bios + leave it untouched under Windows is the best. 
 
 
+## Negative examples of so called 'tweaking' guides
+* [Win 10 Guide](https://redacted.tv/2017/12/20/win10guide/)
+* [How To Tweak Windows 10 For Gaming
+](http://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/)
 
 
 ## Research
@@ -263,10 +287,4 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\GameDVR]
 * [Tips to improve PC performance in Windows 10 by Microsoft](https://support.microsoft.com/en-us/help/4002019/windows-10-improve-pc-performance)
 * [Gaming Tweaks by SpeedGuide.net](http://www.speedguide.net/articles/gaming-tweaks-5812)
 * [Microsoft educates Insiders on how Windows 10 handles memory](https://www.onmsft.com/news/microsoft-educates-insiders-windows-10-handles-memory)
-
-
-## Negative examples of so called 'tweaking' guides
-* [Win 10 Guide](https://redacted.tv/2017/12/20/win10guide/)
-* [How To Tweak Windows 10 For Gaming
-](http://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/)
 
