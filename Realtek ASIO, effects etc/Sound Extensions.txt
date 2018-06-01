@@ -14,3 +14,15 @@ Structure
 						* Nahimic with A-Volute APO SWC and MSI Oem INF extension (A-Volute APO - SWC)
 						* OEM INF Extension - MSI (A-Volute Nh3 Audio Effects Component)
 						* Creative SB Cinema v 2 DSP with Creative SBC, extension and component
+
+						
+						
+						
+You usually can't install the 'incorrect' driver if you install it via Setup.exe, in case your driver is incompatible you get after the new driver Installation process an error before any files are been copied. 
+
+In case you manual install the driver (via .inf) ensure your ID really matches the OEM specific ID. If an UAD is offered over WUS, then you can simply let the driver assistant search for the correct .inf file (some WSUS driver don't have any Setup.exe - the ones which are coming in .cab files or via Update catalogue).
+
+
+
+Realtek Audio Control
+https://www.microsoft.com/en-us/store/p/realtek-audio-control/9p2b8mcsvpln
