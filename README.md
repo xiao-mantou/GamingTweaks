@@ -178,11 +178,56 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 * Shaders are loaded by the game like any other of their assets, and sent to the driver for compilation (meaning transformed from source code form into binary form that can be used by the GPU.) The driver compiles them and sends the results back to the game. The compilation happens by the CPU, not the GPU, and is slow. A shader cache doesn't get rid of the loading-from-disk step. It only replaces the compilation step with a second loading step (loading the previously compiled form of the shader from disk and sending that to the game.) Even with a very slow disk, loading small already compiled shader files from said disk is much faster than generating them again. The shader cache is meant to persist between reboots. Putting them on a RAM disk meaning losing the cache on reboot - unless you're syncing the RAM disk to disk on reboot.
 
 
-### OC
+### OC & stability
 
 * Turn off all power features in BIOS. No EIST, C1, C3, C6, etc. Basically lock in the CPU at one speed, and keep it there.
 * Rerun Windows System Assessment Tool (WinSAT) after updating drivers, changing hardwares or overclocking via 'winsat formal -restart clean'.
+* Setting `dynamictick` & `tscsyncpolicy` might helps to increase the stability. An official explanation is given over [here](https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/bcdedit--set).
 
+```bash
+//Enable dynamictick & tscsyncpolicy
+bcdedit /set useplatformclock true
+bcdedit /set tscsyncpolicy Enhanced
+bcdedit /set disabledynamictick yes
+
+// Remove dynamictick & tscsyncpolicy (OS default)
+bcdedit /deletevalue useplatformclock
+bcdedit /deletevalue tscsyncpolicy
+bcdedit /deletevalue disabledynamictick
+```
+
+### In-Game
+
+```bash
+Windows Registry Editor Version 5.00
+
+; Disable GameDVR
+[HKEY_CURRENT_USER\System\GameConfigStore]
+"GameDVR_Enabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Policies\Microsoft\Windows\GameDVR]
+"AllowgameDVR"=dword:00000000
+
+; Most impact on 'performance', so set it to 2 (which is okay if you let GameDVR on)
+[HKEY_CURRENT_USER\System\GameConfigStore]"GameDVR_Enabled"=dword:00000000
+"GameDVR_FSEBehavior"=dword:00000002
+"GameDVR_FSEBehaviorMode"=dword:00000002
+
+; Disable FullScreen Optimizations - Outdated (since 1607)
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\GameDVR]
+"AppCaptureEnabled"=dword:00000000
+
+; Disable FullScreen Optimizations - Outdated (since 1607)
+[HKEY_CURRENT_USER\Software\Microsoft\GameBar]
+"AllowAutoGameMode"=dword:00000000
+
+; Disable GameBarPresenceWriter.exe (needs same like PowerShell removal higher rights) - Do not use it!
+;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\Windows.Gaming.GameBar.PresenceServer.Internal.PresenceWriter]
+;"ActivationType"=dword:00000001
+;"CLSID"="{cbfd414c-5037-3c98-a85e-a5e7ca509cfc}"
+;"Server"="Windows.Gaming.GameBar.Internal.PresenceWriterServer"
+; "TrustLevel"=dword:00000000
+```
 
 ### Myths
 
