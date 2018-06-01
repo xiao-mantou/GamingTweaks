@@ -112,7 +112,7 @@ It depends on how you set up your QoS. QoS is useful in scenarios where your net
 
 For example, if you live alone, don't play online games, don't use VOIP, don't use video streaming services (Netflix/Amazon/Hulu/Twitch.tv/YouTube), or don't use P2P file sharing - QoS is not going to be all that beneficial to you.
 
-* Check if you're ISP's offer a QoS package to residential connections (most do)
+* Check if you're ISP offers a QoS package to residential connections (most do)
 * Check your Router QoS settings
 * Check your OS QoS options 
 
@@ -222,16 +222,16 @@ bcdedit /deletevalue disabledynamictick
 Windows Registry Editor Version 5.00
 
 ; Disable GameDVR
-[HKEY_CURRENT_USER\System\GameConfigStore]
-"GameDVR_Enabled"=dword:00000000
-
 [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Policies\Microsoft\Windows\GameDVR]
 "AllowgameDVR"=dword:00000000
 
 ; Most impact on 'performance', so set it to 2 (which is okay if you let GameDVR on)
-[HKEY_CURRENT_USER\System\GameConfigStore]"GameDVR_Enabled"=dword:00000000
+[HKEY_CURRENT_USER\System\GameConfigStore]
+"GameDVR_Enabled"=dword:00000000
+"GameDVR_EFSEFeatureFlags"=dword:00000000
 "GameDVR_FSEBehavior"=dword:00000002
 "GameDVR_FSEBehaviorMode"=dword:00000002
+"GameDVR_DXGIHonorFSEWindowsCompatible"=dword:00000000
 
 ; Disable FullScreen Optimizations - Outdated (since 1607)
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\GameDVR]
