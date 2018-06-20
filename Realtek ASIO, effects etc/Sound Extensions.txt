@@ -1,3 +1,22 @@
+What is the difference between HDA and UAD?
+=========
+
+HDA (High Definition Audio Drivers)
+
+These drivers are the based on the old win32 API.
+
+These are the generic drivers which are working on all Windows versions. The driver is much bigger because it also includes 'software' to control some extra audio effects. 
+
+
+UAD (Universal Audio Drivers)
+
+These drivers are UWP ready (win32 application replacement which is more efficent).
+
+These drivers are for Windows 10 RS2/RS3 & RS4 only. They contain only the driver files and (sometimes) audio effects among ASIO etc in it. The benefit is that they are smaller in size, work for all manufractures (except if it's an specific OEM release only) and they have no extra audio effect software in it because Windows controls it automatically with the new Audio Interface and their options (e.g. Spatial sound). 
+
+UAD will replace HDA drivers over the long run. 
+
+
 Structure
 =========
 
@@ -24,5 +43,9 @@ In case you manual install the driver (via .inf) ensure your ID really matches t
 
 
 
-Realtek Audio Control
-https://www.microsoft.com/en-us/store/p/realtek-audio-control/9p2b8mcsvpln
+Realtek Audio Control:
+* https://www.microsoft.com/en-us/store/p/realtek-audio-control/9p2b8mcsvpln
+
+
+Realtek WSUS (replace search number with realtek or another number):
+* https://www.catalog.update.microsoft.com/Search.aspx?q=6.0.1.8464
