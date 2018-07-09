@@ -200,6 +200,12 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 
 
 
+### DirectX Control Panel
+
+Some old Games (and emulators) might suffering from and outdated Engine problem which aren't compatible anymore with Windows 10 DirectX changes, the [DirectX Control Panel](http://www.sephiroth-j.de/1/downloads/diverses.php#windows_dxcpl) utility addresses some of those engine related problems, so you can for example re-enable Hardware Accelation functions on them. Another way (without utility) would to do this manually for every Game via Registry but this is in most of the cases compblicated and not nessary since the utility is freeware and small in size and does the job still better than messing around with the Registry.
+
+
+
 ### OC & stability
 
 * Turn off all power features in BIOS. No EIST, C1, C3, C6, etc. Basically lock in the CPU at one speed, and keep it there.
