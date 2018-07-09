@@ -59,7 +59,7 @@ List of tasks to disable (privacy & "do not annoy my system"):
 * \Microsoft\cSystemRestore > SR
 * \Microsoft\Windows\WindowsBackup > ConfigNotification
 * \Microsoft\Windows Defender > MP Scheduled Scan
-* \Library\Microsoft\Windows\WindowsColorSystem\Calibration Loader
+* \Library\Microsoft\Windows\WindowsColorSystem\Calibration Loader (disable it if you use your own Display Color Profile)
 * \Microsoft\\Microsoft\CDPUserSvc (see [here](https://account.microsoft.com/privacy/activity-history))
 
 
