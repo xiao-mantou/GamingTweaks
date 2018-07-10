@@ -229,6 +229,8 @@ bcdedit /deletevalue disabledynamictick
 
 ```bash
 Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\System\GameConfigStore]
 "GameDVR_Enabled"=dword:00000000
 "GameDVR_FSEBehavior"=dword:00000002
 "GameDVR_FSEBehaviorMode"=dword:00000002
