@@ -29,7 +29,8 @@ Advice:
 
 ### Sound
 
-* Old Realtek drivers (up to Win 10 RS 2) are packaged in 200+ MB files, this has changed and improved since RS 3. This means the Universal Audio Drivers (UAD) are now coming in smaller packages 20-40 MB max. Depending on which effects your OEM supports you can install additional things like ASIO support, DSP, Creative or Windows Effects. However, normal non-OEM packages (the ones which are offered by Windows Update or Update Catalouge) usually exclude them (for no reason). So you can 'tweak' your latency via Asio and 'pimp' your Effects by installing additional I upload them separately under `Realtek ASIO, effects etc` so you can drop them in to the installation folder or right click on the .inf and 'Install' it in order to unlock it. 
+* Old Realtek drivers (up to Win 10 Redstone 2) are packaged in 200+ MB files, this has changed and improved since Windows RS 3 which means the Universal Audio Drivers (UAD) are now coming in smaller packages 20-40 MB max. Depending which audio effects your OEM supports an d which you can additional install like ASIO, DSP, Creative or Windows Effects. However, normal non-OEM packages (the ones which are offered by Windows Update or Update Catalouge) usually exclude them (for no reason). So you can 'tweak' your latency via Asio and 'pimp' your Effects by installing additional I upload them separately under `Realtek ASIO, effects etc` so you can drop them in to the installation folder or right click on the .inf and 'Install' it in order to unlock it. 
+* Universal Audio driver (UAD) and High Definition Drivers (HDA) drivers including the latest UWP apps are avaible [here](https://github.com/alanfox2000/realtek-universal-audio-driver).
 
 
 
