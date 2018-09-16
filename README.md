@@ -9,7 +9,7 @@
 [![Discord](https://img.shields.io/discord/418256415874875402.svg?colorA=7289da&colorB=99aab5&label=Discord&logo=discord&maxAge=60)](https://discord.me/CHEF-KOCH)
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/nvinside)
 
-This Guide is all about _Windows Gaming_, and I really mean Gaming on Windows only. There exist tons of outdated guides and myths when it comes to such guides but there mostly wrong so I wrote my own to show the things which really does do the difference!
+This guide is all about _Windows Gaming_, and I really mean Gaming on Windows only. There exist tons of outdated guides and myths when it comes to such guides but there mostly wrong so I wrote my own to show the things which really does do the difference!
 
 Advice:
 
@@ -78,6 +78,16 @@ Setting `fsutil behavior set disablelastaccess 1` still needs to be done manuall
 ### Network
 
 The network section is a bit larger since most things are tweakable here directly, however some of those tweaks are not anymore acceptable for moderns OS and are listed under 'myths'. 
+
+
+### Windows 7 vs. Windows 10
+
+Gaming on Windows 10 is not nessary better or worst, it's depending on several factors such as game development API, Engine itselt, if the game was 'designed' and 'optimized' for Windows 10/7, the driver and driver profiles and many more things. 
+
+[![](http://img.youtube.com/vi/RkHFYKDOo74/0.jpg)](http://www.youtube.com/watch?v=RkHFYKDOo74 "Windows 7 Vs. Windows 10 Game Performance")
+
+
+
 
 Intel Adapter 'Recommended' Network Adapter Settings
 ------------------------
