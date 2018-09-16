@@ -84,8 +84,7 @@ The network section is a bit larger since most things are tweakable here directl
 
 Gaming on Windows 10 is not nessary better or worst, it's depending on several factors such as game development API, Engine itselt, if the game was 'designed' and 'optimized' for Windows 10/7, the driver and driver profiles and many more things. 
 
-[![](http://img.youtube.com/vi/RkHFYKDOo74/0.jpg)](http://www.youtube.com/watch?v=RkHFYKDOo74 "Windows 7 Vs. Windows 10 Game Performance")
-
+[![](http://img.youtube.com/vi/RkHFYKDOo74/0.jpg)](http://www.youtube.com/watch?v=RkHFYKDOo74 "Windows 7 Vs. Windows 10 Game Performance (right-click and open it in a new Browser tab)")
 
 
 
