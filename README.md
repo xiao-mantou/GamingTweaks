@@ -51,6 +51,7 @@ Advice:
 * Use only a good NAT Firewall and Sandboxie, sandbox untrusted or unknown stuff. Sandboxie has no performance drops unless you use it 'cracked' or load huge apps into it.
 * Change Core Parking (only in XP, 7 and 8) - Windows 10 controls it automatically already.
 
+
 Task Scheduler
 ---------------
 
@@ -72,6 +73,11 @@ List of tasks to disable (privacy & "do not annoy my system"):
 ### SSD 
 
 Setting `fsutil behavior set disablelastaccess 1` still needs to be done manually. There is research on this available [here](https://translate.google.com/translate?hl=en&sl=ja&u=http://blog.livedoor.jp/nichepcgamer/archives/1071061265.html&prev=search).
+
+
+### RAM (Game stutter)
+
+Some games might random stutter because Windows tries to free some resources (more or less good) which might causes game stutters. A more detailed explanation can be found to the issue over [here](https://forums.guru3d.com/threads/fix-game-stutter-on-win-10-1703-1803.420251/page-12#post-5590635). Possible workarounds in form from batch files or small utilities can be found [here](https://forums.guru3d.com/threads/fix-game-stutter-on-win-10-1703-1803.420251/).
 
 
 
