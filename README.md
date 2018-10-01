@@ -22,11 +22,12 @@ Advice:
 ### BIOS
 
 * ~~Disable High Precision Event Timer (HPET)~~ (not needed in Windows April Update)
-* Disable CPU Enhanced Halt (C1E), EIST (SpeedStep) & Cool'n'Quiet (if present)
-* Disable Intel Hyper-threading (_optional_)
+* Disable CPU Enhanced Halt (C1E), EIST (SpeedStep) & Cool'n'Quiet (if present in case you OC)
+* Disable Intel Hyper-threading (_optional_ but recommend due security reasons)
 * Set Performance Enhance/Mode to higher than Standard for faster memory timings
 * Set Robust Graphic Booster / PEG Link higher than Auto
 * Set CPU PLL Voltage to the most conservative option (Normal), this will improve your overclock reliability. More doesn't traduce to better for this setting.
+* Disable SecureBoot (not recommend, security implications!)
 * CPU/PCI-E Clock Drive, CPU/MCH Clock Skew: keep them to the lowest possible (lower is better)!
 
 
@@ -42,6 +43,7 @@ Advice:
 
 * Disable integrated audio device if you use an add-on soundcard, only Audio Pro's might need several soundcards for different out-/input devices.
 * Disable all unused integrated peripherals (Network, Serial, Parallel Ports, etc.)
+* Disable all unneeded running services (services.msc) 
 
 
 
