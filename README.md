@@ -79,6 +79,9 @@ Setting `fsutil behavior set disablelastaccess 1` still needs to be done manuall
 
 ### RAM (Game stutter)
 
+* **The following workaround is for Windows 1703 - 1803**
+
+
 Some games might random stutter because Windows tries to free some resources (more or less good) which might causes game stutters. A more detailed explanation can be found to the issue over [here](https://forums.guru3d.com/threads/fix-game-stutter-on-win-10-1703-1803.420251/page-12#post-5590635). Possible workarounds in form from batch files or small utilities can be found [here](https://forums.guru3d.com/threads/fix-game-stutter-on-win-10-1703-1803.420251/).
 
 
