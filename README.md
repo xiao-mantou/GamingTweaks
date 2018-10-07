@@ -34,6 +34,7 @@ Advice:
 
 ### Sound
 
+* Always select 2/2.1 Speakers for your headphones if you want the full dynamic range unless you have a real (not virtual) e.g. 7.1 Headset otherwise you might get sound disorientation. 
 * Old Realtek drivers (up to Win 10 Redstone 2) are packaged in 200+ MB files, this has changed and improved since Windows RS 3 which means the Universal Audio Drivers (UAD) are now coming in smaller packages 20-40 MB max. Depending which audio effects your OEM supports an d which you can additional install like ASIO, DSP, Creative or Windows Effects. However, normal non-OEM packages (the ones which are offered by Windows Update or Update Catalouge) usually exclude them (for no reason). So you can 'tweak' your latency via Asio and 'pimp' your Effects by installing additional I upload them separately under `Realtek ASIO, effects etc` so you can drop them in to the installation folder or right click on the .inf and 'Install' it in order to unlock it. 
 * Universal Audio driver (UAD) and High Definition Drivers (HDA) drivers including the latest UWP apps are avaible [here](https://github.com/alanfox2000/realtek-universal-audio-driver).
 
@@ -191,9 +192,8 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 
 ### Drivers
 
-* Uninstall every drivers you want to update from Control Panel. Say no if they ask to reboot. Reboot in Safe Mode only when you uninstalled every drivers you wanted to remove.
-* Disable unused audio devices (like ATI HDMI) in Device Manager
-* Always select 2/2.1 Speakers for your headphones if you want full dynamic range.
+* Try to uninstall every drivers which you won#t need (e.g. on OEM systems [pre-installed drivers]) via Control Panel\All Control Panel Items\Programs and Features, say no if they ask you to reboot the OS. Make sure you reboot into "Safe Mode" to install important drivers in order to get full access, this is not mandatory but it might solve to remove all leftovers (in case you have some upgrade/install) issue.
+* Disable unused audio devices (like ATI HDMI) in Device Manager (which are most of the time not needed)
 
 
 
@@ -203,7 +203,7 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 
 
 
-### AMD (Image Quality [IQ])
+### AMD (Image Quality [IQ] improvements)
 
 * Anti-Aliasing Mode > Enhance application settings
 * Anti-Aliasing Mode > Morphological filtering
@@ -213,7 +213,7 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 
 
 
-### nVidia Quality 'tweak' settings
+### nVidia (Image Quality [IQ] improvements)
 
 * Antialiasing - Transparency > Supersampling
 * Maximum Pre-Rendered Frames > 0 (minimizing first person shooters visual latency, optimizing hit registration)
