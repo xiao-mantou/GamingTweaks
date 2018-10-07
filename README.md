@@ -79,19 +79,20 @@ Setting `fsutil behavior set disablelastaccess 1` still needs to be done manuall
 
 ### RAM (Game stutter)
 
-* On Threadripper systems you can enable Dynamic Local Mode, which acts like something which priotize the RAM (needs a restart). In the future [AMD is going to do this with a software automatically in the background](https://community.amd.com/community/gaming/blog/2018/10/05/previewing-dynamic-local-mode-for-the-amd-ryzen-threadripper-wx-series-processors). 
+* On Threadripper systems you can enable Dynamic Local Mode, which acts like something which priotize the RAM (needs a restart). In the future [AMD is going to do this with a software automatically in the background](https://community.amd.com/community/gaming/blog/2018/10/05/previewing-dynamic-local-mode-for-the-amd-ryzen-threadripper-wx-series-processors). Dynamic Local Mode (DLM) can be controlled via a Windows Service (on/off) and the needed update in order to get this automatically controlled will be introduced October 29. 2018 with an chipset driver update (and is for now an [Windows exclusive function](https://en.m.wikipedia.org/wiki/SCHED_DEADLINE) because Linux already handles it better ).
 
 
-* **The following workaround is specifically for Windows 1703 - 1803**
+##### **The following workaround is specifically for Windows 1703 - 1803**:
 
 
-Some games might random stutter because Windows tries to free some resources (more or less good) which might causes game stutters. A more detailed explanation can be found to the issue over [here](https://forums.guru3d.com/threads/fix-game-stutter-on-win-10-1703-1803.420251/page-12#post-5590635). Possible workarounds in form from batch files or small utilities can be found [here](https://forums.guru3d.com/threads/fix-game-stutter-on-win-10-1703-1803.420251/).
+Some games might have random stutter because Windows tries to free some resources (more or less good) which might causes game stutters. A more detailed explanation can be found to the issue over [here](https://forums.guru3d.com/threads/fix-game-stutter-on-win-10-1703-1803.420251/page-12#post-5590635). Possible workarounds in form from batch files or small utilities can be found [here](https://forums.guru3d.com/threads/fix-game-stutter-on-win-10-1703-1803.420251/).
 
 
 
 ### Network
 
 The network section is a bit larger since most things are tweakable here directly, however some of those tweaks are not anymore acceptable for moderns OS and are listed under 'myths'. 
+
 
 
 ### Windows 7 vs. Windows 10
