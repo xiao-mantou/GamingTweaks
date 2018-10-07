@@ -29,6 +29,7 @@ Advice:
 * Set CPU PLL Voltage to the most conservative option (Normal), this will improve your overclock reliability. More doesn't traduce to better for this setting.
 * Disable SecureBoot (not recommend, security implications!)
 * CPU/PCI-E Clock Drive, CPU/MCH Clock Skew: keep them to the lowest possible (lower is better)!
+* On Threadripper systems you can enable Dynamic Local Mode, which acts like something which priotize the RAM (needs a restart). In the future [AMD is going to do this with a software automatically in the background](https://community.amd.com/community/gaming/blog/2018/10/05/previewing-dynamic-local-mode-for-the-amd-ryzen-threadripper-wx-series-processors).  
 
 
 
