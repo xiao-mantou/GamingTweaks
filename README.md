@@ -21,7 +21,7 @@ Advice:
 
 ### BIOS Optimization(s)
 
-Use the following advice as per own needs, please do keep in mind that e.g. disabling HT increases the overall security since it reduce the possible attack surface however, at the same time it decreases the performance on e.g. using VM because it _cripples_ the IPC performance drastically on Intel systems. The mentiond settings are only basic examples, it's nessary to review all BIOS settings manually and make a decision yourself, the [BIOS Kompendium](http://www.bios-info.de) helps you since it explains every toggle with much details. 
+Use the following advice as per own needs, please do keep in mind that e.g. disabling HT increases the overall security since it reduce the possible attack surface however, at the same time it decreases the performance on e.g. using VM because it _cripples_ the IPC performance drastically on Intel systems. The mentioned settings are only basic examples, it's nessary to review all BIOS settings manually and make a decision yourself, the [BIOS Kompendium](http://www.bios-info.de) helps you since it explains every toggle with much details. 
 
 * ~~Disable High Precision Event Timer (HPET)~~ (not needed after Windows April Update Build 1803)
 * Disable CPU Enhanced Halt (C1E), EIST (SpeedStep) & Cool'n'Quiet (if present and in case you OverClock)
@@ -36,7 +36,8 @@ Use the following advice as per own needs, please do keep in mind that e.g. disa
 
 ### Sound
 
-* Always select 2/2.1 Speakers for your headphones if you want the full dynamic range unless you have a real (not virtual) e.g. 7.1 Headset otherwise you might get sound disorientation. 
+* Always select 2/2.1 Speakers for your headphones if you want the full dynamic range unless you have a real (not virtual) e.g. 7.1 Headset otherwise you might get sound disorientation, especially FPS benefit from a proper setup.
+* Since Windows April Update (Build 1803) you not need any external audio routing software in order to route the audio trough a specific device/channel, this is [explained in detail over here](https://www.groovypost.com/howto/new-sound-settings-windows-10-1803-april-update/).
 * Old Realtek drivers (up to Win 10 Redstone 2) are packaged in 200+ MB files, this has changed and improved since Windows RS 3 which means the Universal Audio Drivers (UAD) are now coming in smaller packages 20-40 MB max. Depending which audio effects your OEM supports an d which you can additional install like ASIO, DSP, Creative or Windows Effects. However, normal non-OEM packages (the ones which are offered by Windows Update or Update Catalouge) usually exclude them (for no reason). So you can 'tweak' your latency via Asio and 'pimp' your Effects by installing additional I upload them separately under `Realtek ASIO, effects etc` so you can drop them in to the installation folder or right click on the .inf and 'Install' it in order to unlock it. 
 * Universal Audio driver (UAD) and High Definition Drivers (HDA) drivers including the latest UWP apps are avaible [here](https://github.com/alanfox2000/realtek-universal-audio-driver).
 
@@ -46,7 +47,7 @@ Use the following advice as per own needs, please do keep in mind that e.g. disa
 
 * Disable integrated audio device if you use an add-on soundcard, only Audio Pro's might need several soundcards for different out-/input devices.
 * Disable all unused integrated peripherals (Network, Serial, Parallel Ports, etc.)
-* Disable all unneeded running services (services.msc) 
+* Disable all unneeded running services (services.msc)
 
 
 
