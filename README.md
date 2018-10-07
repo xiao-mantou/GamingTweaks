@@ -22,14 +22,13 @@ Advice:
 ### BIOS
 
 * ~~Disable High Precision Event Timer (HPET)~~ (not needed in Windows April Update)
-* Disable CPU Enhanced Halt (C1E), EIST (SpeedStep) & Cool'n'Quiet (if present in case you OC)
-* Disable Intel Hyper-threading (_optional_ but recommend due security reasons)
+* Disable CPU Enhanced Halt (C1E), EIST (SpeedStep) & Cool'n'Quiet (if present and in case you OverClock)
+* Disable Intel Hyper-threading (_optional_ but recommend due to [security reasons](https://www.extremetech.com/computing/276138-is-hyper-threading-a-fundamental-security-risk))
 * Set Performance Enhance/Mode to higher than Standard for faster memory timings
 * Set Robust Graphic Booster / PEG Link higher than Auto
 * Set CPU PLL Voltage to the most conservative option (Normal), this will improve your overclock reliability. More doesn't traduce to better for this setting.
 * Disable SecureBoot (not recommend, security implications!)
-* CPU/PCI-E Clock Drive, CPU/MCH Clock Skew: keep them to the lowest possible (lower is better)!
-* On Threadripper systems you can enable Dynamic Local Mode, which acts like something which priotize the RAM (needs a restart). In the future [AMD is going to do this with a software automatically in the background](https://community.amd.com/community/gaming/blog/2018/10/05/previewing-dynamic-local-mode-for-the-amd-ryzen-threadripper-wx-series-processors).  
+* CPU/PCI-E Clock Drive, CPU/MCH Clock Skew: keep them to the lowest possible (lower is better)! 
 
 
 
@@ -80,7 +79,10 @@ Setting `fsutil behavior set disablelastaccess 1` still needs to be done manuall
 
 ### RAM (Game stutter)
 
-* **The following workaround is for Windows 1703 - 1803**
+* On Threadripper systems you can enable Dynamic Local Mode, which acts like something which priotize the RAM (needs a restart). In the future [AMD is going to do this with a software automatically in the background](https://community.amd.com/community/gaming/blog/2018/10/05/previewing-dynamic-local-mode-for-the-amd-ryzen-threadripper-wx-series-processors). 
+
+
+* **The following workaround is specifically for Windows 1703 - 1803**
 
 
 Some games might random stutter because Windows tries to free some resources (more or less good) which might causes game stutters. A more detailed explanation can be found to the issue over [here](https://forums.guru3d.com/threads/fix-game-stutter-on-win-10-1703-1803.420251/page-12#post-5590635). Possible workarounds in form from batch files or small utilities can be found [here](https://forums.guru3d.com/threads/fix-game-stutter-on-win-10-1703-1803.420251/).
