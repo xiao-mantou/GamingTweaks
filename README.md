@@ -13,9 +13,9 @@ This guide is all about _Windows Gaming_, and I really mean Gaming on Windows on
 
 Advice:
 
-- [x] Never use any 'tweak tools', it's not worth.
-- [x] Make always a backup of the current state. I recommend [Macrium Reflect](https://www.macrium.com/reflectfree)
-- [x] There is no Voodoo - just do it yourself, don't be lazy.
+- [x] Never use any 'tweak tools', it's not worth it.
+- [x] Make always a backup of the current state. I recommend [Macrium Reflect](https://www.macrium.com/reflectfree).
+- [x] There is no Voodoo tweak which magically increases performance like 50% - just do it yourself, don't be lazy.
 
 
 
@@ -61,7 +61,7 @@ Use the following advice as per own needs, please do keep in mind that e.g. disa
 Task Scheduler
 ---------------
 
-List of tasks to disable (privacy & "do not annoy my system"):
+List of Windows tasks to disable (privacy & performance related):
 
 * \Microsoft\Windows\Application Experience > AitAgent, ProgramDataUpdater
 * \Microsoft\Windows\Autochk > Proxy
@@ -81,9 +81,11 @@ List of tasks to disable (privacy & "do not annoy my system"):
 Setting `fsutil behavior set disablelastaccess 1` still needs to be done manually. There is research on this available [here](https://translate.google.com/translate?hl=en&sl=ja&u=http://blog.livedoor.jp/nichepcgamer/archives/1071061265.html&prev=search).
 
 
+
 ### RAM (Game stutter)
 
 * On Threadripper systems you can enable Dynamic Local Mode, which acts like something which priotize the RAM (needs a restart). In the future [AMD is going to do this with a software automatically in the background](https://community.amd.com/community/gaming/blog/2018/10/05/previewing-dynamic-local-mode-for-the-amd-ryzen-threadripper-wx-series-processors). Dynamic Local Mode (DLM) can be controlled via a Windows Service (on/off) and the needed update in order to get this automatically controlled will be introduced October 29. 2018 with an chipset driver update (and is for now an [Windows exclusive function](https://en.m.wikipedia.org/wiki/SCHED_DEADLINE) because Linux already handles it better ).
+
 
 
 ##### **The following workaround is specifically for Windows 1703 - 1803**:
