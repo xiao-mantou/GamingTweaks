@@ -158,6 +158,26 @@ In general **I recommend to leave it enabled**. If there some problems check you
 
 
 
+### FreeSync Gaming
+
+```bash
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\AMD\Chill]
+"ChillLevelDefault"=dword:00000002
+"MaxFramerateDefault"=dword:00000046
+"MinFramerateDefault"=dword:00000040
+"MaxFramerateRange"=dword:00000064
+"MinFramerateRange"=dword:0000001e
+"ProfileEnableDefault"=dword:00000000
+
+CN responce time:
+[HKEY_LOCAL_MACHINE\SOFTWARE\AMD\CN]
+"PreloadDelay"=dword:000000c8
+"UnloadDelay"=dword:000000c8
+```
+
+
 ### Optional tweaks (Network, Security etc)
 ___
 
