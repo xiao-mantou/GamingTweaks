@@ -34,6 +34,11 @@ Use the following advice as per own needs, please do keep in mind that e.g. disa
 
 
 
+## Mouse
+* Change your [mouse polling rate](https://www.howtogeek.com/182702/mouse-dpi-and-polling-rates-explained-do-they-matter-for-gaming/) down from 1000hz to 250hz/120hz (sometimes it does redude the mouse lag for some games)
+
+
+
 ### Sound
 
 * Always select 2/2.1 Speakers for your headphones if you want the full dynamic range unless you have a real (not virtual) e.g. 7.1 Headset otherwise you might get sound disorientation, especially FPS benefit from a proper setup.
