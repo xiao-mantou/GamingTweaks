@@ -34,6 +34,19 @@ Use the following advice as per own needs, please do keep in mind that e.g. disa
 
 
 
+## Microsoft Knowledge Base
+
+```
+6 septembre 2018 - KB4458469 (build 17134.320) 
+
+Addresses an issue that ignores the MM_DONT_ZERO_ALLOCATION flag. This issue leads to degraded performance, and, occasionally, error 0x139 appears.
+
+Source:
+https://support.microsoft.com/en-us/help/4458469/windows-10-update-kb4458469
+```
+
+
+
 ### Mouse
 * Change your [mouse polling rate](https://www.howtogeek.com/182702/mouse-dpi-and-polling-rates-explained-do-they-matter-for-gaming/) down from 1000hz to 250hz/120hz (sometimes it does redude the mouse lag for some games).
 * Take your [mouse sensitivity from another game](https://www.mouse-sensitivity.com/).
