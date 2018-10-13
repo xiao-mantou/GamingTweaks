@@ -368,3 +368,4 @@ Windows Registry Editor Version 5.00
 * [Tips to improve PC performance in Windows 10 by Microsoft](https://support.microsoft.com/en-us/help/4002019/windows-10-improve-pc-performance)
 * [Gaming Tweaks by SpeedGuide.net](http://www.speedguide.net/articles/gaming-tweaks-5812)
 * [Microsoft educates Insiders on how Windows 10 handles memory](https://www.onmsft.com/news/microsoft-educates-insiders-windows-10-handles-memory)
+* [Better on the inside: under the hood of Windows 8](https://arstechnica.com/information-technology/2012/10/better-on-the-inside-under-the-hood-of-windows-8/2/)
