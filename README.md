@@ -37,7 +37,7 @@ Use the following advice as per own needs, please do keep in mind that e.g. disa
 ## Microsoft Knowledge Base
 
 ```
-6 septembre 2018 - KB4458469 (build 17134.320) 
+6 September, 2018 - KB4458469 (build 17134.320) 
 
 Addresses an issue that ignores the MM_DONT_ZERO_ALLOCATION flag. This issue leads to degraded performance, and, occasionally, error 0x139 appears.
 
