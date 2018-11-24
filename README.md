@@ -79,6 +79,13 @@ https://support.microsoft.com/en-us/help/4458469/windows-10-update-kb4458469
 
 
 
+Application(s) impact
+---------------
+
+Some applications and their drivers from external devices like [a mouse can cause serious FPS drops](https://old.reddit.com/r/Doom/comments/8a1m9s/psa_deactivate_the_new_razer_chroma_option_in/).
+
+
+
 Task Scheduler
 ---------------
 
