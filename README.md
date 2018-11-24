@@ -271,7 +271,7 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 
 ### nVidia Shader Cache on HDD
 
-* Shaders are loaded by the game like any other of their assets, and sent to the driver for compilation (meaning transformed from source code form into binary form that can be used by the GPU.) The driver compiles them and sends the results back to the game. The compilation happens by the CPU, not the GPU, and is slow. A shader cache doesn't get rid of the loading-from-disk step. It only replaces the compilation step with a second loading step (loading the previously compiled form of the shader from disk and sending that to the game.) Even with a very slow disk, loading small already compiled shader files from said disk is much faster than generating them again. The shader cache is meant to persist between reboots. Putting them on a RAM disk meaning losing the cache on reboot - unless you're syncing the RAM disk to disk on reboot.
+* Shaders are loaded by the game itself, like any other of their assets, and sent to the driver for compilation (meaning transformed from source code form into binary form that can be used by the GPU.) The driver compiles them and sends the results back to the game. The compilation happens by the CPU, not the GPU, and is slow. A shader cache doesn't get rid of the loading-from-disk step. It only replaces the compilation step with a second loading step (loading the previously compiled form of the shader from disk and sending that to the game.) Even with a very slow disk, loading small already compiled shader files from said disk is much faster than generating them again. The shader cache is meant to persist between reboots. Putting them on a RAM disk meaning losing the cache on reboot - unless you're syncing the RAM disk to disk on reboot.
 
 
 
@@ -390,4 +390,4 @@ Windows Registry Editor Version 5.00
 * [Microsoft educates Insiders on how Windows 10 handles memory](https://www.onmsft.com/news/microsoft-educates-insiders-windows-10-handles-memory)
 * [Better on the inside: under the hood of Windows 8](https://arstechnica.com/information-technology/2012/10/better-on-the-inside-under-the-hood-of-windows-8/2/)
 * [Mouse Sensitivity](https://www.mouse-sensitivity.com)
-*[Windows 10 1809 Performance Impact](https://www.ict-r.com/windows-10-1809-performance-impact/)
+* [Windows 10 1809 Performance Impact](https://www.ict-r.com/windows-10-1809-performance-impact/)
