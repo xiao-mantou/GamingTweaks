@@ -379,6 +379,10 @@ Windows Registry Editor Version 5.00
 ](http://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/)
 
 
+## Positive examples 
+* [Mike Martin's Gaming tweaks](http://www.mikemartin.co/gaming_guides)
+
+
 ## Research
 * [Overclocking Community](http://www.overclock.net/) (General good basic and advanced info)
 * [Station-Drivers.com](http://www.station-drivers.com/) (My #1 driver source since years)
