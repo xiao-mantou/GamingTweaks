@@ -116,7 +116,7 @@ Setting `fsutil behavior set disablelastaccess 1` still needs to be done manuall
 
 
 
-##### **The following workaround is specifically for Windows 1703 - 1803**:
+##### **The following workaround is specifically for Windows 1703 >= 1803**:
 
 
 Some games might have random stutter because Windows tries to free some resources (more or less good) which might causes game stutters. A more detailed explanation can be found to the issue over [here](https://forums.guru3d.com/threads/fix-game-stutter-on-win-10-1703-1803.420251/page-12#post-5590635). Possible workarounds in form from batch files or small utilities can be found [here](https://forums.guru3d.com/threads/fix-game-stutter-on-win-10-1703-1803.420251/).
@@ -126,6 +126,12 @@ Some games might have random stutter because Windows tries to free some resource
 ### Network
 
 The network section is a bit larger since most things are tweakable here directly, however some of those tweaks are not anymore acceptable for moderns OS and are listed under 'myths'. 
+
+
+
+### Integrated spying into games (DRM, Redshell & Co.)
+
+Some games (not all) inclduing copyright systems like Denuvo (DRM) or [Redshell](https://docs.google.com/spreadsheets/d/e/2PACX-1vQz1d2jf15nHZE8GaRDAWCVMWuYkhip_cwkDUD3fo9dn0EiDRG3crtNXNhPESz8ZLL2KVDULnm9D-VB/pubhtml) in order to spy/log the gamers activity which has an negative impact of the game performance itself ([longer loading times](https://www.youtube.com/watch?v=ByfLg9wGB4o), FPS drops or even crashes).  
 
 
 
