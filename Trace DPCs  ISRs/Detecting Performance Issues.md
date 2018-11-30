@@ -1,4 +1,4 @@
-Latencymon might not correct everything correctly, so there is an "official" and better way to do this.
+[LatencyMon](http://www.resplendence.com/latencymon) might not correct everything correctly, so there is an "official" and better way to do this.
 
 
 ### Requirements
