@@ -110,6 +110,12 @@ Setting `fsutil behavior set disablelastaccess 1` still needs to be done manuall
 
 
 
+### Interrupts
+
+[doctorzeus](https://forums.guru3d.com/members/doctorzeus.275790/) wrote a small utility called [MSIInturruptEnabler](https://github.com/TechtonicSoftware/MSIInturruptEnabler) to enable Message Signal Interrupts on GPU's under Windows.
+
+
+
 ### RAM (Game stutter)
 
 * On Threadripper systems you can enable Dynamic Local Mode, which acts like something which priotize the RAM (needs a restart). In the future [AMD is going to do this with a software automatically in the background](https://community.amd.com/community/gaming/blog/2018/10/05/previewing-dynamic-local-mode-for-the-amd-ryzen-threadripper-wx-series-processors). Dynamic Local Mode (DLM) can be controlled via a Windows Service (on/off) and the needed update in order to get this automatically controlled will be introduced October 29. 2018 with an chipset driver update (and is for now an [Windows exclusive function](https://en.m.wikipedia.org/wiki/SCHED_DEADLINE) because Linux already handles it better ).
