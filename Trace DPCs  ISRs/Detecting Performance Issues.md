@@ -35,6 +35,6 @@ xperf -i c:\temp\trace.etl -o c:\temp\report.txt -a dpcisr
 Now you can open that text report file to browse quite detailed info about DPCs & ISRs.
 
 
-#### Legend
+### Legend
 
 * us/usec/usecs = microseconds
