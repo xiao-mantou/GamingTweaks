@@ -287,6 +287,14 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 * Adaptive Anti-Aliasing > Quality > Method Super-sampling > Enabled
 
 
+### AMD specific bug (caused by Windows) which causes massive performance issue
+
+According to [LeveloneTechs](https://level1techs.com/article/unlocking-2990wx-less-numa-aware-apps) [Video](https://www.youtube.com/watch?v=M2LOMTpCtLA&feature=youtu.be) Windows has a kernel issue which prevents Epyc/Threadripper (Zen 2) CPU's to get the maximum performancer out of all cores. There is currently no fix for that but as a workaround you can use [Coreprio](https://bitsum.com/portfolio/coreprio/). 
+
+
+Microsoft & AMD needs to inspect, verify and maybe fix it. 
+
+
 
 ### nVidia (Image Quality [IQ] improvements)
 
