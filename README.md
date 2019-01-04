@@ -129,10 +129,9 @@ Some games might have random stutter because Windows tries to free some resource
 
 
 
-### Network
+### MTU & MSS
 
-The network section is a bit larger since most things are tweakable here directly, however some of those tweaks are not anymore acceptable for moderns OS and are listed under 'myths'. 
-
+Reducing your MTU along with RWIN improves the hit-registration in e.g. FPS-Shooters. How small, that depends on the internet connection but you have to reduce both for best result(s). Changing the MTU and MSS **does not rduce your ping**! The best practice is to find a value does not break daily surfing while it provides a "good" gaming experience. If you#re unsure, leave it default (which is good enough in 99% of all cases).
 
 
 ### Integrated spying into games (DRM, Redshell & Co.)
