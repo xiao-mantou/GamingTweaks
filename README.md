@@ -402,6 +402,10 @@ Windows Registry Editor Version 5.00
 * Disabling animations - This is not helpful at all, since all animations are GPU accelerated. A gaming machine should have a graphics card capable of running them without any problem.
 * Changing HPET gives you a performance boost. This is incorrect as shown [here](https://www.anandtech.com/show/12678/a-timely-discovery-examining-amd-2nd-gen-ryzen-results). Enabling HPET in Bios + leave it untouched under Windows is the best. 
 
+## Official Microsoft Docs
+
+* [Scheduling, Thread Context, and IRQL](http://download.microsoft.com/download/e/b/a/eba1050f-a31d-436b-9281-92cdfeae4b45/IRQL_thread.doc)
+
 
 ## Negative examples of so called 'tweaking' guides
 * [Win 10 Guide (redacted.tv)](https://redacted.tv/2017/12/20/win10guide/)
