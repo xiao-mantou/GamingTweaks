@@ -404,9 +404,9 @@ Windows Registry Editor Version 5.00
 
 
 ## Negative examples of so called 'tweaking' guides
-* [Win 10 Guide](https://redacted.tv/2017/12/20/win10guide/)
-* [How To Tweak Windows 10 For Gaming
-](http://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/)
+* [Win 10 Guide (redacted.tv)](https://redacted.tv/2017/12/20/win10guide/)
+* [How To Tweak Windows 10 For Gaming (back2gaming.com)](http://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/)
+* [Gaming / PC Optimization / Useful Links & Apps (n1kobg.blogspot.com)](http://n1kobg.blogspot.com/)
 
 
 ## Positive examples 
