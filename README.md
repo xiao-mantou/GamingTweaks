@@ -415,6 +415,7 @@ Windows Registry Editor Version 5.00
 ## Positive examples 
 * [Mike Martin's Gaming tweaks](http://www.mikemartin.co/gaming_guides)
 * [Can You Get More Space Or Speed From Your SSD?](https://www.tomshardware.com/reviews/ssd-performance-tweak,2911-4.html) + [SSDOptimization](https://wiki.debian.org/SSDOptimization)
+* [Do we really need swap on modern systems?](https://www.redhat.com/en/blog/do-we-really-need-swap-modern-systems)
 
 
 ## Research
