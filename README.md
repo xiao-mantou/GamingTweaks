@@ -336,7 +336,7 @@ bcdedit /deletevalue disabledynamictick
 ```
 
 
-### In-Game 'smoothies'
+### GameDVR + GameBarPresenceWriter
 
 ```bash
 Windows Registry Editor Version 5.00
@@ -404,6 +404,8 @@ Windows Registry Editor Version 5.00
 ## Official Microsoft Docs
 
 * [Scheduling, Thread Context, and IRQL](http://download.microsoft.com/download/e/b/a/eba1050f-a31d-436b-9281-92cdfeae4b45/IRQL_thread.doc)
+* [Inside memory management](https://www.itprotoday.com/compute-engines/inside-memory-management-part-2)
+* [Cache and Memory Manager Improvements](https://docs.microsoft.com/en-us/windows-server/administration/performance-tuning/subsystem/cache-memory-management/improvements-in-windows-server)
 
 
 ## Negative examples of so called 'tweaking' guides
@@ -438,3 +440,5 @@ Windows Registry Editor Version 5.00
 * [Mouse Sensitivity](https://www.mouse-sensitivity.com)
 * [Windows 10 1809 Performance Impact](https://www.ict-r.com/windows-10-1809-performance-impact/)
 * [A MINIMUM COMPLETE TUTORIAL OF CPU POWER MANAGEMENT, C-STATES AND P-STATES](https://metebalci.com/blog/a-minimum-complete-tutorial-of-cpu-power-management-c-states-and-p-states/)
+* [Windows Vista's SuperFetch and ReadyBoost Analyzed](https://www.tomshardware.com/reviews/windows-vista-superfetch-and-readyboostanalyzed,1532-2.html)
+
