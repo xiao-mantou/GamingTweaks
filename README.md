@@ -193,6 +193,8 @@ In general **I recommend to leave it enabled**. If there some problems check you
 
 ### FreeSync Gaming on AMD
 
+An official guide is avbl. over [here](https://www.amd.com/en/support/kb/faq/dh-019).
+
 ```bash
 Windows Registry Editor Version 5.00
 
