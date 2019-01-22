@@ -435,6 +435,7 @@ Windows Registry Editor Version 5.00
 
 
 ## Research
+* [Mouse Sensitivity](https://www.mouse-sensitivity.com)
 * [Overclocking Community](http://www.overclock.net/) (General good basic and advanced info)
 * [Station-Drivers.com](http://www.station-drivers.com/) (My #1 driver source since years)
 * [The Gigabyte GA-X48T-DQ6 - Redefining the High End?](http://www.anandtech.com/show/2410/13) (explains a lot of bios settings)
