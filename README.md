@@ -128,12 +128,6 @@ Setting `fsutil behavior set disablelastaccess 1` still needs to be done manuall
 Some games might have random stutter because Windows tries to free some resources (more or less good) which might causes game stutters. A more detailed explanation can be found to the issue over [here](https://forums.guru3d.com/threads/fix-game-stutter-on-win-10-1703-1803.420251/page-12#post-5590635). Possible workarounds in form from batch files or small utilities can be found [here](https://forums.guru3d.com/threads/fix-game-stutter-on-win-10-1703-1803.420251/).
 
 
-
-### MTU & MSS
-
-Reducing your MTU along with RWIN improves the hit-registration in e.g. FPS-Shooters. How small, that depends on the internet connection but you have to reduce both for best result(s). Changing the MTU and MSS **does not rduce your ping**! The best practice is to find a value does not break daily surfing while it provides a "good" gaming experience. If you#re unsure, leave it default (which is good enough in 99% of all cases).
-
-
 ### Integrated spying into games (DRM, Redshell & Co.)
 
 Some games (not all) inclduing copyright systems like Denuvo (DRM) or [Redshell](https://docs.google.com/spreadsheets/d/e/2PACX-1vQz1d2jf15nHZE8GaRDAWCVMWuYkhip_cwkDUD3fo9dn0EiDRG3crtNXNhPESz8ZLL2KVDULnm9D-VB/pubhtml) in order to spy/log the gamers activity which has an negative impact of the game performance itself ([longer loading times](https://www.youtube.com/watch?v=ByfLg9wGB4o), FPS drops or even crashes).  
