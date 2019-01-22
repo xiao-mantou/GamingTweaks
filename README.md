@@ -191,7 +191,7 @@ In general **I recommend to leave it enabled**. If there some problems check you
 
 
 
-### FreeSync Gaming
+### FreeSync Gaming on AMD
 
 ```bash
 Windows Registry Editor Version 5.00
@@ -209,6 +209,11 @@ CN responce time:
 "PreloadDelay"=dword:000000c8
 "UnloadDelay"=dword:000000c8
 ```
+
+### FreeSync Gaming on Nvidia (Adaptive Sync)
+
+Open the Nvidia Control Panel, browse to “Set up G-Sync”, then select your FreeSync monitor. From here, make sure both the “enable G-Sync, G-Sync compatible” checkbox and the “enable settings for the selected display model” checkbox are ticked. The second checkbox doesn’t appear if the monitor is G-Sync certified. Then click Apply, your monitor will restart and adaptive sync will be enabled.
+
 
 ### Texture Filtering - Negative LOD Bias (LOD-BIAS) - Is it cheating or not?
 
