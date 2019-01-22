@@ -435,6 +435,7 @@ Windows Registry Editor Version 5.00
 
 
 ## Research
+* [Pixelclock calculator](https://www.monitortests.com/pixelclock.php)
 * [Mouse Sensitivity](https://www.mouse-sensitivity.com)
 * [Overclocking Community](http://www.overclock.net/) (General good basic and advanced info)
 * [Station-Drivers.com](http://www.station-drivers.com/) (My #1 driver source since years)
