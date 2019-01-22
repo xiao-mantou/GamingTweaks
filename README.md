@@ -216,6 +216,19 @@ CN responce time:
 "UnloadDelay"=dword:000000c8
 ```
 
+### Texture Filtering - Negative LOD Bias (LOD-BIAS) - Is it cheating or not?
+
+On nVidia graphic cards (GPU's) you can use nVidia Inspector in order to change the [LOD-BIAS offset which make you game look like a cartoon](https://www.hardocp.com/news/2019/01/21/does_adjusting_graphics_settings_lower_than_game_allows_constitute_cheating63/) while I would argue that this has to be patched out of the game (because this can't be used by AMD users and gives you a unfair benefit) I overall say that this doesn't deserves to be banned.
+
+Keep in mind that this isn't allowed in eSports and even a banned topic/"trick" on a normal casual game like Battlefield 5, Overwatch and Quake Champions.
+
+However, it's true that his gives you a massive FPS boost. 
+
+
+### ReShadeFX vs SweetFX
+
+[ReShadeFX should be prefered](https://www.reddit.com/r/sweetfx/comments/3aafg7/what_is_the_difference_between_sweetfx_and_reshade/) in order to apply shaders to your game, it's no a cheat but some AV programs flagging it because it injects some code into the exectuable file in order to apply the filter (which you can choose or code on your own). ReShade is well known and does work for D3D9, D3D10, D3D11 and OpenGL based games just fine. This is not banned in eSports. 
+
 
 ### Optional tweaks (Network, Security etc)
 ___
