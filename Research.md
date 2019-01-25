@@ -1,20 +1,14 @@
 ## Research
-* [nVidia Inspector](http://download.orbmu2k.de/files/nvidiaInspector.zip) + [source code](https://github.com/Orbmu2k/nvidiaProfileInspector) (latest final version)
 * [Pixelclock calculator](https://www.monitortests.com/pixelclock.php)
-* [Mouse Sensitivity](https://www.mouse-sensitivity.com)
 * [Overclocking Community](http://www.overclock.net/) (General good basic and advanced info)
 * [Station-Drivers.com](http://www.station-drivers.com/) (My #1 driver source since years)
 * [The Gigabyte GA-X48T-DQ6 - Redefining the High End?](http://www.anandtech.com/show/2410/13) (explains a lot of bios settings)
-* [Display Driver Uninstaller](https://www.wagnardsoft.com/)
 * [ASUS PEG Link Mode Guide Rev. 2.0](http://www.techarp.com/showarticle.aspx?artno=248&pgno=0)
 * [Does Core i7 Hyper-Threading Helps?](http://vr-zone.com/articles/does-core-i7-hyper-threading-helps-/6160.html?doc=6160)
 * [Disable High Precision Event Timer (HPET) in BIOS](http://forums.guru3d.com/showpost.php?p=3770113&postcount=2)
 * [SYN cookies FAQ](http://cr.yp.to/syncookies.html)
-* [TCPOptimizer](http://www.speedguide.net/files/TCPOptimizer.exe)
 * [Custom Resolution Utility (CRU)](http://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
-* [LatencyMon](http://www.resplendence.com/latencymon)
 * [Multimedia Class Scheduler Service](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684247(v=vs.85).aspx)
-* [Tips to improve PC performance in Windows 10 by Microsoft](https://support.microsoft.com/en-us/help/4002019/windows-10-improve-pc-performance)
 * [Gaming Tweaks by SpeedGuide.net](http://www.speedguide.net/articles/gaming-tweaks-5812)
 * [Microsoft educates Insiders on how Windows 10 handles memory](https://www.onmsft.com/news/microsoft-educates-insiders-windows-10-handles-memory)
 * [Better on the inside: under the hood of Windows 8](https://arstechnica.com/information-technology/2012/10/better-on-the-inside-under-the-hood-of-windows-8/2/)
@@ -22,6 +16,13 @@
 * [Windows 10 1809 Performance Impact](https://www.ict-r.com/windows-10-1809-performance-impact/)
 * [A MINIMUM COMPLETE TUTORIAL OF CPU POWER MANAGEMENT, C-STATES AND P-STATES](https://metebalci.com/blog/a-minimum-complete-tutorial-of-cpu-power-management-c-states-and-p-states/)
 * [Windows Vista's SuperFetch and ReadyBoost Analyzed](https://www.tomshardware.com/reviews/windows-vista-superfetch-and-readyboostanalyzed,1532-2.html)
+
+## Optional Programs
+* [nVidia Inspector](http://download.orbmu2k.de/files/nvidiaInspector.zip) + [source code](https://github.com/Orbmu2k/nvidiaProfileInspector) (latest final version) + [latest beta](https://ci.appveyor.com/project/Orbmu2k/nvidiaprofileinspector)
+* [Display Driver Uninstaller](https://www.wagnardsoft.com/)
+* [Custom Resolution Utility (CRU)](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
+* [TCPOptimizer](http://www.speedguide.net/files/TCPOptimizer.exe)
+* [LatencyMon](http://www.resplendence.com/latencymon)
 
 ## Forums
 * [Official nVidia Forum](https://forums.geforce.com/)
