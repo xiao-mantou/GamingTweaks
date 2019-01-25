@@ -1,5 +1,5 @@
 ## Research
-* [nVidia Inspector](http://download.orbmu2k.de/files/nvidiaInspector.zip) (latest final version)
+* [nVidia Inspector](http://download.orbmu2k.de/files/nvidiaInspector.zip) + [source code](https://github.com/Orbmu2k/nvidiaProfileInspector) (latest final version)
 * [Pixelclock calculator](https://www.monitortests.com/pixelclock.php)
 * [Mouse Sensitivity](https://www.mouse-sensitivity.com)
 * [Overclocking Community](http://www.overclock.net/) (General good basic and advanced info)
