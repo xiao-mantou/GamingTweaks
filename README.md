@@ -24,6 +24,7 @@ What this guide is not for:
 - [x] Security
 - [x] VM
 - [x] Hardening
+- [x] Game Tweaks and Modifications
 
 
 ## Guide Index
@@ -48,7 +49,6 @@ What this guide is not for:
 * [Tools to improve & analyze](Tools/Readme.md)
 * [registry](registry/Readme.md)
 * [settings](settings/Readme.md)
-
 
 
 ## Official Microsoft Docs related to gaming and OS performance
