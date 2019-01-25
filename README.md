@@ -9,13 +9,14 @@
 [![Discord](https://img.shields.io/discord/418256415874875402.svg?colorA=7289da&colorB=99aab5&label=Discord&logo=discord&maxAge=60)](https://discord.me/CHEF-KOCH)
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/nvinside)
 
-This guide is all about _Windows Gaming_, and I really mean Gaming on Windows only. There exist tons of outdated guides and myths when it comes to such guides but there mostly wrong so I wrote my own to show the things which really does do the difference!
+This guide is all about _Windows Gaming_, and I really mean Gaming on Windows only. There exist [tons of outdated guides and myths](https://github.com/CHEF-KOCH/GamingTweaks/blob/master/Known%20Myths.md) when it comes to such guides but there mostly wrong so I wrote my own to show the things which really does do the difference!
 
 General advice:
 
 - [x] Never use any 'tweak tools', it's not worth it.
 - [x] Make always a backup of the current state. I recommend [Macrium Reflect](https://www.macrium.com/reflectfree).
 - [x] There is no Voodoo tweak which magically increases performance like 50% - just do it yourself, don't be lazy.
+- [x] There is no megaical regtweak.awesome.reg which insreases your OS performance drastically!
 
 
 ## Official Microsoft Docs related to gaming and OS performance
@@ -25,7 +26,7 @@ General advice:
 * [Cache and Memory Manager Improvements](https://docs.microsoft.com/en-us/windows-server/administration/performance-tuning/subsystem/cache-memory-management/improvements-in-windows-server)
 
 
-## Negative examples of so called 'tweaking' guides
+## Negative examples
 * [Win 10 Guide (redacted.tv)](https://redacted.tv/2017/12/20/win10guide/)
 * [How To Tweak Windows 10 For Gaming (back2gaming.com)](http://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/)
 * [Gaming / PC Optimization / Useful Links & Apps (n1kobg.blogspot.com)](http://n1kobg.blogspot.com/)
