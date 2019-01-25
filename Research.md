@@ -22,3 +22,8 @@
 * [Windows 10 1809 Performance Impact](https://www.ict-r.com/windows-10-1809-performance-impact/)
 * [A MINIMUM COMPLETE TUTORIAL OF CPU POWER MANAGEMENT, C-STATES AND P-STATES](https://metebalci.com/blog/a-minimum-complete-tutorial-of-cpu-power-management-c-states-and-p-states/)
 * [Windows Vista's SuperFetch and ReadyBoost Analyzed](https://www.tomshardware.com/reviews/windows-vista-superfetch-and-readyboostanalyzed,1532-2.html)
+
+## Forums
+* [Official nVidia Forum](https://forums.geforce.com/)
+* [Official AMD Forum](https://community.amd.com/community/support-forums/general-discussion)
+* [Official Intel Forum](https://forums.intel.com/s/?language=en_US) 
