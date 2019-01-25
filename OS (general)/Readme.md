@@ -13,10 +13,10 @@ Gaming on Windows 10 is not nessary better or worst, it's depending on several f
 Application(s) impact
 ---------------
 
-Some applications and their drivers from external devices like [a mouse can cause serious FPS drops](https://old.reddit.com/r/Doom/comments/8a1m9s/psa_deactivate_the_new_razer_chroma_option_in/).
+Some applications and their integrated drivers from external devices like [a mouse can cause serious FPS drops](https://old.reddit.com/r/Doom/comments/8a1m9s/psa_deactivate_the_new_razer_chroma_option_in/). Keep in mind that you should update the driver ASAP once their is a new one out, this might not only fixes performance problems, it often also fixes security holes, simply review the changelog manually before you apply the changes to see if it's worth it and do backups before you install a new upgrade.
 
 
-### Fix Memory Issue before with Build 1607 (Anniversary Update)
+### Fix Memory Issue before with Windows 10 Build 1607 (Anniversary Update)
 
 * Download [EmptyStandbyList](https://wj32.org/wp/software/empty-standby-list/) and put it under e.g. C:\ (ensure you don't move this file)
 * Right click > Properties and select 'Run as Admin' under compatibility.
@@ -27,7 +27,7 @@ Some applications and their drivers from external devices like [a mouse can caus
 * The Standby memory is automatically cleared every 5 mins.
 
 
-Task Scheduler
+Task Scheduler and the impact on the OS
 ---------------
 
 List of Windows tasks to disable (privacy & performance related):
@@ -52,10 +52,12 @@ Some games might have random stutter because Windows tries to free some resource
 
 ### Power Management
 
-* Set power setting to maximum performance if you graphic card driver has an 'maximum performance' settings enable it, this will ensure that the GPU uses it's full potential. 
+Set your power setting to maximum performance (it's not needed to use an "ultimate" power-plan) if you graphic card driver has an 'maximum performance' settings enable it too, this will ensure that the GPU uses it's full potential. 
 
 
 ### GameDVR + GameBarPresenceWriter
+
+Whenever you stream games via OBS Studio, make sure you disable it, it is also a smart advice to in general stay away from it since most applications & games are simply not optimized for it - this doesn't have anything to-do with that MS _fucked something up_ it's more that most older games (and even several new ones) are not adopted to get any benefit in such modes. 
 
 ```bash
 Windows Registry Editor Version 5.00
@@ -97,7 +99,7 @@ Windows Registry Editor Version 5.00
   00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
   00,00,00,00,00,00,00,00,00,00
 
-; Disable GameBarPresenceWriter.exe (needs same like PowerShell removal higher rights) - Do not use it!
+; Disable GameBarPresenceWriter.exe (needs same like PowerShell removal higher rights) - Do not use it, it's optional!
 ;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\Windows.Gaming.GameBar.PresenceServer.Internal.PresenceWriter]
 ;"ActivationType"=dword:00000001
 ;"CLSID"="{cbfd414c-5037-3c98-a85e-a5e7ca509cfc}"
