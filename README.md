@@ -18,6 +18,14 @@ General advice:
 - [x] There is no Voodoo tweak which magically increases performance like 50% - just do it yourself, don't be lazy.
 - [x] There is no megaical regtweak.awesome.reg which insreases your OS performance drastically!
 
+
+What this guide is not for:
+
+- [x] Security
+- [x] VM
+- [x] Hardening
+
+
 ## Guide Index
 * [BIOS Configuration and Tips](Bios/Readme.md)
 * [OS (general)](OS%20(general)/Readme.md)
