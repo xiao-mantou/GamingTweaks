@@ -16,6 +16,7 @@
 * [Windows 10 1809 Performance Impact](https://www.ict-r.com/windows-10-1809-performance-impact/)
 * [A MINIMUM COMPLETE TUTORIAL OF CPU POWER MANAGEMENT, C-STATES AND P-STATES](https://metebalci.com/blog/a-minimum-complete-tutorial-of-cpu-power-management-c-states-and-p-states/)
 * [Windows Vista's SuperFetch and ReadyBoost Analyzed](https://www.tomshardware.com/reviews/windows-vista-superfetch-and-readyboostanalyzed,1532-2.html)
+* [Catalyst Antialiasing Guide](http://www.beyond3d.com/content/articles/37/1)
 
 ## Optional Programs
 * [nVidia Inspector](http://download.orbmu2k.de/files/nvidiaInspector.zip) + [source code](https://github.com/Orbmu2k/nvidiaProfileInspector) (latest final version) + [latest beta](https://ci.appveyor.com/project/Orbmu2k/nvidiaprofileinspector)
@@ -24,6 +25,8 @@
 * [TCPOptimizer](http://www.speedguide.net/files/TCPOptimizer.exe)
 * [LatencyMon](http://www.resplendence.com/latencymon)
 * [MSI Afterburner + Guide](https://forums.guru3d.com/threads/overclocking-with-msi-afterburner-at-users-risk.327291/)
+* [ClockBlocker (profiled AMD power-management control)](https://forums.guru3d.com/threads/clockblocker-profiled-amd-power-management-control.404465/)
+* [AMD Ryzen Master](https://download.amd.com/Desktop/AMD-Ryzen-Master.exe) + [FAQ](https://www.amd.com/en/support/kb/faq/gpu-775)
 
 ## Forums
 * [Official nVidia Forum](https://forums.geforce.com/)
