@@ -62,5 +62,7 @@ General advice:
 * [Do we really need swap on modern systems?](https://www.redhat.com/en/blog/do-we-really-need-swap-modern-systems)
 
 
+## Project Research
 
+* [Windows Gaming Tweaks Research](Research.md)
 
