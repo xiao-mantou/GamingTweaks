@@ -18,48 +18,28 @@ General advice:
 - [x] There is no Voodoo tweak which magically increases performance like 50% - just do it yourself, don't be lazy.
 - [x] There is no megaical regtweak.awesome.reg which insreases your OS performance drastically!
 
-## Index
+## Guide Index
 * [BIOS Configuration and Tips](Bios/README.md)
-
 * [OS (general)](OS%20(general)/README.md)
-
 * [Hardware](Hardware%20(general)/README.md)
-
 * [DirectX](DirectX/README.md)
-
 * [Drivers](Drivers/README.md)
-
 * [GPU AMD](GPU/AMD/README.md)
-
 * [GPU nVidia](GPU/nVidia/README.md)
-
 * [GPU and Shader in Games](GPU/Shader/README.md)
-
 * [Mouse](Mouse/README.md)
-
 * [Network](Network/README.md)
-
 * [RAM](RAM/README.md)
-
 * [SSD](SSD/README.md)
-
 * [Sound](Sound/README.md)
 
-
 ## Optional Topics & Programs
-
 * [Official and unofficial docs about OS and Gaming performance](Docs/README.md)
-
 * [Overclocking](Overclocking/README.md)
-
 * [Telemetry](Telemetry/README.md)
-
 * [Tools to improve & analyze](Tools/README.md)
-
 * [registry](registry/README.md)
-
 * [settings](settings/README.md)
-
 
 
 
