@@ -1,0 +1,3 @@
+### Integrated telemetry & spying into games (e.g. DRM, Redshell & Co.)
+
+Some games (not all) inclduing copyright systems like Denuvo (DRM) or [Redshell](https://docs.google.com/spreadsheets/d/e/2PACX-1vQz1d2jf15nHZE8GaRDAWCVMWuYkhip_cwkDUD3fo9dn0EiDRG3crtNXNhPESz8ZLL2KVDULnm9D-VB/pubhtml) in order to spy/log the gamers activity which has an negative impact of the game performance itself ([longer loading times](https://www.youtube.com/watch?v=ByfLg9wGB4o), FPS drops or even crashes).  

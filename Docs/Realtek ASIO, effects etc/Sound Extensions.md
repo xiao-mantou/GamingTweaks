@@ -20,6 +20,7 @@ UAD will replace HDA drivers over the long run.
 Structure
 =========
 
+```bash
 /Config = Configuration files
 	/Win64 contains the OEM specific inf (driver)
 		/Win64/Realtek/
@@ -34,7 +35,7 @@ Structure
 						* OEM INF Extension - MSI (A-Volute Nh3 Audio Effects Component)
 						* Creative SB Cinema v 2 DSP with Creative SBC, extension and component
 
-						
+```						
 						
 						
 You usually can't install the 'incorrect' driver if you install it via Setup.exe, in case your driver is incompatible you get after the new driver Installation process an error before any files are been copied. 
