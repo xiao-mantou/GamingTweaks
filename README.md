@@ -24,7 +24,7 @@ What this guide is not for:
 - [x] Security
 - [x] VM
 - [x] Hardening
-- [x] Game Tweaks and Modifications
+- [x] Single Game specific tweaks and modifications
 
 
 ## Guide Index
@@ -74,4 +74,3 @@ What this guide is not for:
 ## Project Research
 
 * [Windows Gaming Tweaks Research](Research.md)
-
