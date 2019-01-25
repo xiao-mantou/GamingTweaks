@@ -23,6 +23,7 @@
 * [Custom Resolution Utility (CRU)](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
 * [TCPOptimizer](http://www.speedguide.net/files/TCPOptimizer.exe)
 * [LatencyMon](http://www.resplendence.com/latencymon)
+* [MSI Afterburner + Guide](https://forums.guru3d.com/threads/overclocking-with-msi-afterburner-at-users-risk.327291/)
 
 ## Forums
 * [Official nVidia Forum](https://forums.geforce.com/)
