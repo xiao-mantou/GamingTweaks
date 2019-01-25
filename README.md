@@ -19,27 +19,27 @@ General advice:
 - [x] There is no megaical regtweak.awesome.reg which insreases your OS performance drastically!
 
 ## Guide Index
-* [BIOS Configuration and Tips](Bios/README.md)
-* [OS (general)](OS%20(general)/README.md)
-* [Hardware](Hardware%20(general)/README.md)
-* [DirectX](DirectX/README.md)
-* [Drivers](Drivers/README.md)
-* [GPU AMD](GPU/AMD/README.md)
-* [GPU nVidia](GPU/nVidia/README.md)
-* [GPU and Shader in Games](GPU/Shader/README.md)
-* [Mouse](Mouse/README.md)
-* [Network](Network/README.md)
-* [RAM](RAM/README.md)
-* [SSD](SSD/README.md)
-* [Sound](Sound/README.md)
+* [BIOS Configuration and Tips](Bios/Readme.md)
+* [OS (general)](OS%20(general)/Readme.md)
+* [Hardware](Hardware%20(general)/Readme.mdd)
+* [DirectX](DirectX/Readme.md)
+* [Drivers](Drivers/Readme.md)
+* [GPU AMD](GPU/AMD/Readme.md)
+* [GPU nVidia](GPU/nVidia/Readme.md)
+* [GPU and Shader in Games](GPU/Shader/Readme.md)
+* [Mouse](Mouse/Readme.md)
+* [Network](Network/Readme.md)
+* [RAM](RAM/Readme.md)
+* [SSD](SSD/Readme.md)
+* [Sound](Sound/Readme.md)
 
 ## Optional Topics & Programs
-* [Official and unofficial docs about OS and Gaming performance](Docs/README.md)
-* [Overclocking](Overclocking/README.md)
-* [Telemetry](Telemetry/README.md)
-* [Tools to improve & analyze](Tools/README.md)
-* [registry](registry/README.md)
-* [settings](settings/README.md)
+* [Official and unofficial docs about OS and Gaming performance](Docs/Readme.md)
+* [Overclocking](Overclocking/Readme.md)
+* [Telemetry](Telemetry/Readme.md)
+* [Tools to improve & analyze](Tools/Readme.md)
+* [registry](registry/Readme.md)
+* [settings](settings/Readme.md)
 
 
 
