@@ -1,6 +1,8 @@
-### BIOS/UEFI Optimization(s)
+### BIOS & UEFI Optimization(s)
 
-Use the following advice as per own needs, please do keep in mind that e.g. disabling HT increases the overall security since it reduce the possible attack surface however, at the same time it decreases the performance on e.g. using VM because it _cripples_ the IPC performance drastically on Intel systems. The mentioned settings are only basic examples, it's nessary to review all BIOS settings manually and make a decision yourself, the [BIOS Kompendium](http://www.bios-info.de) helps you since it explains every toggle with much details. 
+Since the BIOS might have the biggest effect (Overclocking (OC)/Underclocking (UC) & Undervolting (UV)) on your hardware/OS you should know what each toggle really does, every single setting is explained in the [BIOS Compendium](http://www.bios-info.de/download/dlkomp.htm), this is basically a _must read_ before you even think about changing something in your BIOS. Don't waste your time google'ing or search for YouTube Video's, read this, it's the best explanation and the most detailed one you can get. 
+
+Use the following advice as per own needs (!), please do keep in mind that e.g. disabling Hyper-Threading (HT) increases the overall security since it reduce the possible attack surface however, at the same time it decreases the performance on e.g. using VM because it _cripples_ the IPC performance drastically on Intel systems. The mentioned settings are only basic examples, it's nessary to review all BIOS settings manually and make a decision yourself, the [BIOS Kompendium](http://www.bios-info.de) helps you since it explains every toggle with much details. 
 
 * ~~Disable High Precision Event Timer (HPET)~~ (not needed after Windows April Update Build 1803 you can check the current status via _bcdedit /enum_)
 * Disable CPU Enhanced Halt (C1E), EIST (SpeedStep) & Cool'n'Quiet (if present and in case you OverClock)
