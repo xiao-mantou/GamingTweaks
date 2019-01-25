@@ -1,7 +1,8 @@
-### Drivers
+### Drivers (general advice)
 
-* Try to uninstall every drivers which you won#t need (e.g. on OEM systems [pre-installed drivers]) via Control Panel\All Control Panel Items\Programs and Features, say no if they ask you to reboot the OS. Make sure you reboot into "Safe Mode" to install important drivers in order to get full access, this is not mandatory but it might solve to remove all leftovers (in case you have some upgrade/install) issue.
+* Try to uninstall every drivers which you won't need (e.g. on OEM systems [pre-installed drivers]) via Control Panel\All Control Panel Items\Programs and Features, say no if they ask you to reboot the OS. Make sure you reboot into "Safe Mode" to install important drivers in order to get full access, this is not mandatory but it might solve to remove all leftovers (in case you have some upgrade/install) issue.
 * Disable unused audio devices (like ATI HDMI) in Device Manager (which are most of the time not needed)
+* Don't use utilityies like [Intel Driver Update Utility](https://www.intel.com/content/www/us/en/support/topics/idsa-faq.html) because it runs all the time in the background, submits telemetry and doen't have any benefit over a traditional driver page liek e.g. [station-drivers](https://www.station-drivers.com/index.php?lang=en).
 
 
 #### Upgrade drivers from „legacy“ to UWD/MWD
