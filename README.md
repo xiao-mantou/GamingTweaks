@@ -53,6 +53,7 @@ What this guide is not for:
 
 ## Official Microsoft Docs related to gaming and OS performance
 
+* [Tips to improve PC performance in Windows 10 by Microsoft](https://support.microsoft.com/en-us/help/4002019/windows-10-improve-pc-performance)
 * [Scheduling, Thread Context, and IRQL](http://download.microsoft.com/download/e/b/a/eba1050f-a31d-436b-9281-92cdfeae4b45/IRQL_thread.doc)
 * [Inside memory management](https://www.itprotoday.com/compute-engines/inside-memory-management-part-2)
 * [Cache and Memory Manager Improvements](https://docs.microsoft.com/en-us/windows-server/administration/performance-tuning/subsystem/cache-memory-management/improvements-in-windows-server)
