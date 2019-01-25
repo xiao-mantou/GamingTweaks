@@ -35,18 +35,18 @@ Keep in mind that some drivers might have different settings/options! After talk
 
 #### Enable or disable QoS?
 
-It depends on how you set up your QoS. QoS is useful in scenarios where your network experiences peak or near-peak loads on a routine basis. If the network is not under significant load, QoS rules will not be applied.
+It depends on how you set up your QoS/WMM. QoS is useful in scenarios where your network experiences peak or near-peak loads on a routine basis. If the network is not under significant load, QoS rules will not be applied, the same goes if your router is not configured to use QoS or the firmware doesn't includes it.
 
-For example, if you live alone, don't play online games, don't use VOIP, don't use video streaming services (Netflix/Amazon/Hulu/Twitch.tv/YouTube), or don't use P2P file sharing - QoS is not going to be all that beneficial to you.
+For example, if you live alone, don't play online games, don't use VOIP, don't use video streaming services (Netflix/Amazon/Hulu/Twitch.tv & YouTube), or don't use P2P file sharing - QoS is not going to be all that beneficial to you.
 
 * Check if you're ISP offers a QoS package to residential connections (most do)
 * Check your Router QoS settings
 * Check your OS QoS options 
 
-In general **I recommend to leave it enabled**. If there some problems check your configuration instead.  
+In general **I recommend to leave it enabled**. If there some problems check your configuration instead, I did some benchmarks and I never found any impact (because my router isn't confired to use it). It's right that Windows reserves some bandwith but that doesn't matter because your router might ignore the flags. 
 
 
-### Optional tweaks (Network, Security etc)
+### Optional network tweaks
 ___
 
 
