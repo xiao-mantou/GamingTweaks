@@ -43,3 +43,4 @@ This is maybe the best advice you can find because this [not only closes possibl
 Reference:
 
 * [https://www.howtogeek.com/256859/dont-waste-time-optimizing-your-ssd-windows-knows-what-its-doing/](https://www.howtogeek.com/256859/dont-waste-time-optimizing-your-ssd-windows-knows-what-its-doing/)
+* [Why disable SuperFetch on ssd, if RAM is much faster than ssd?](https://answers.microsoft.com/en-us/windows/forum/all/why-disable-superfetch-on-ssd-if-ram-is-much/61b6b215-0f27-473b-9490-b8b297899ac7)
