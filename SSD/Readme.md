@@ -37,7 +37,7 @@ Tweaking this is a myth, the OS and somke application handle it (if needed). Som
 
 ### Update Drivers and Firmware 
 
-This is maybe the best advice you can find because this [not only closes possible security holes](https://techcrunch.com/2018/11/05/crucial-samsung-solid-state-drives-busted-encryption/) it might fixes performance issues. The rest can be covered with a S.M.A.R.T check (Windows internal tools or external ones).
+This is maybe the best advice you can find because this [not only closes possible security holes](https://techcrunch.com/2018/11/05/crucial-samsung-solid-state-drives-busted-encryption/) it might fixes performance issues. The rest can be covered by observing [S.M.A.R.T](https://en.wikipedia.org/wiki/S.M.A.R.T.) with a simple check (Windows internal tools or external ones) in order to check the health.
 
 
 Reference:
