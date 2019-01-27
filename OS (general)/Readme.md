@@ -1,7 +1,7 @@
 ## Operating System (general advice)
 * Do not install any AntiVirus product, if you like to use an AV then stick with [Windows Defender because it's good enough](https://www.tomsguide.com/us/windows-defender,review-2209.html) as proven in 'independent' AV tests. 
 * Use only a good NAT Firewall and Sandboxie, sandbox untrusted or unknown stuff. Sandboxie has no performance drops unless you use it 'cracked' or load huge apps into it.
-* Change Core Parking only in XP, 7 and 8 because since Windows 10 the OS itself controls it automatically already.
+* Change [Core Parking only in XP, 7 and 8](https://social.technet.microsoft.com/Forums/azure/en-US/76dac4e8-ce8f-4b83-b33d-bbef50ae5d9c/cpu-core-parking-in-windows-7-should-it-be-left-alone-or-should-users-disable-it?forum=w7itproperf) because since Windows 10 the OS itself controls it automatically already.
 
 
 ### Windows 7 vs. Windows 10
