@@ -57,7 +57,9 @@ Set your power setting to maximum performance (it's not needed to use an "ultima
 
 ### GameDVR + GameBarPresenceWriter
 
-Whenever you stream games via OBS Studio, make sure you disable it, it is also a smart advice to in general stay away from it since most applications & games are simply not optimized for it - this doesn't have anything to-do with that MS _fucked something up_ it's more that most older games (and even several new ones) are not adopted to get any benefit in such modes. 
+Whenever you stream games via OBS Studio, make sure you disable GameDVR, it is also a smart advice to in general stay away from it since most applications & games are simply not optimized for it - this doesn't have anything to do with that MS _fucked something up_ it's more that most older games (and even several new ones) are not adopted to get any benefit in such _low-latency_ mode. 
+
+Keep in mind that the reg tweak is not needed in case you're on RS5+ because `Settings > Gaming > Game bar` is the way to go (since some people reporting to have other registry values).
 
 ```bash
 Windows Registry Editor Version 5.00
