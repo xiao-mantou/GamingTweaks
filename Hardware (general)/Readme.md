@@ -1,9 +1,10 @@
-### Devices
+### Devices (common sense tips)
 
-* Disable all integrated audio devices if you use an add-on soundcard, only Audio Pro's might need several soundcards for different out-/input devices.
-* Disable all unused integrated peripherals (like e.g. Network, Serial, Parallel Ports, etc.)
-* Disable all unneeded running services (services.msc)
-* The more drivers Windows loads the higher the chance is that it affects your IRQ/Latency/Processor which means, if you e.g. don't use nVidia HD audio driver then just disable/uninstall or prevent from installing it in the first place.
+* Disable all integrated audio devices (e.g. nVidia/AMD audio drivers) e.g. if you use an external or add-on soundcardmake sure you disable the internal soundchip unless you're a an _Audio Pro_ which needs seperate devices. 
+* Disable all unused integrated peripherals (like e.g. Network, Serial, Parallel Ports, etc.).
+* [Disable all unneeded running services](http://www.blackviper.com/service-configurations/black-vipers-windows-10-service-configurations/) via services.msc.
+
+The more drivers Windows has to load the higher the chance is that it affects your IRQ/Latency/Processor. If you e.g. don't use nVidia HD audio driver(s) then just disable/uninstall or prevent from installing it in the first place. Windows then doesn't have to proces seperate devices or do additional calculations which results in a "smoother" gameplay (_lower latency ?_). 
 
 
 ### Interrupts
