@@ -4,7 +4,12 @@
 * Disable all unused integrated peripherals (like e.g. Network, Serial, Parallel Ports, etc.).
 * [Disable all unneeded running services](http://www.blackviper.com/service-configurations/black-vipers-windows-10-service-configurations/) via services.msc.
 
-The more drivers Windows has to load the higher the chance is that it affects your IRQ/Latency/Processor. If you e.g. don't use nVidia HD audio driver(s) then just disable/uninstall or prevent from installing it in the first place. Windows then doesn't have to proces seperate devices or do additional calculations which results in a "smoother" gameplay (_lower latency ?_). 
+The more drivers Windows has to load the higher the chance is that it affects your IRQ/Latency/Processor. If you e.g. don't use nVidia HD audio driver(s) then just disable/uninstall or prevent from installing it in the first place. Windows then doesn't have to proces seperate devices or do additional calculations which results in a "smoother" gameplay (_lower latency ?_) experience. 
+
+
+### RAM
+
+Windows 10 manages memory more efficiently than earlier versions of the OS, but more memory always can potentially speed up PC operations, games don't have to write/cache on the slower M2/SSD/HDD and can use the ram more efficent without the need to swap. _16 GB is the current default_. 
 
 
 ### Interrupts
@@ -21,3 +26,10 @@ If possible:
 - See if you get a compromise between HZ, Color and viewing angle
 - Good reviews are coming from professional sites like [prad.de](https://www.prad.de/), [TFT Central](http://www.tftcentral.co.uk/) or [ExpertReviews](https://www.expertreviews.co.uk/accessories/pc-monitors).
 - Make sure that you correctly [calibrate your Monitor](https://www.digitaltrends.com/computing/how-to-calibrate-your-monitor/). In case that you can effort a hardware Colorimeter such as the [i1Display Pro](https://www.xrite.com/categories/calibration-profiling/i1display-pro) prefer this instead. 
+
+
+### Performance Monitor (perfmon.exe) + Windows Memory Diagnostic (mdsched.exe)
+
+Windows has an integrated Performance Monitor program which checks (together with Eventmgr.msc) your OS/Hardware for problems, you should not disable it - since there are no noticable performance improvements, keep an eye on it here and then to quickly check if there are failures or other problems. It is not necessary to install third-party tools such as HWInfo or AIDA (but in can help in case you quickly want to get a _better_ overview).
+
+
