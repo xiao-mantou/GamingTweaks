@@ -31,4 +31,5 @@
 ## Forums
 * [Official nVidia Forum](https://forums.geforce.com/)
 * [Official AMD Forum](https://community.amd.com/community/support-forums/general-discussion)
-* [Official Intel Forum](https://forums.intel.com/s/?language=en_US) 
+* [Official Intel Forum](https://forums.intel.com/s/?language=en_US)
+* [Guru3d Forum](https://forums.guru3d.com/)
