@@ -33,3 +33,10 @@ If possible:
 Windows has an integrated Performance Monitor program which checks (together with Eventmgr.msc) your OS/Hardware for problems, you should not disable it - since there are no noticable performance improvements, keep an eye on it here and then to quickly check if there are failures or other problems. It is not necessary to install third-party tools such as HWInfo or AIDA (but in can help in case you quickly want to get a _better_ overview).
 
 
+### AMD Threadripper/Epyc and the Core Prio "Bug"
+
+![](https://i.imgur.com/S04e1bp.png=250x250)
+
+Threadripper and Epyc CPU's have a serious bug which crippled the performance, [Microsoft and AMD working together to fix this](https://community.amd.com/community/gaming/blog/2018/10/05/previewing-dynamic-local-mode-for-the-amd-ryzen-threadripper-wx-series-processors), however **as a workaround you can use [Bitsum's Coreprio](https://bitsum.com/portfolio/coreprio/)**.
+
+
