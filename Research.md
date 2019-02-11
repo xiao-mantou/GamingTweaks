@@ -17,6 +17,7 @@
 * [A MINIMUM COMPLETE TUTORIAL OF CPU POWER MANAGEMENT, C-STATES AND P-STATES](https://metebalci.com/blog/a-minimum-complete-tutorial-of-cpu-power-management-c-states-and-p-states/)
 * [Windows Vista's SuperFetch and ReadyBoost Analyzed](https://www.tomshardware.com/reviews/windows-vista-superfetch-and-readyboostanalyzed,1532-2.html)
 * [Catalyst Antialiasing Guide](http://www.beyond3d.com/content/articles/37/1)
+* [GeDoSaTo FPS capping, modding controversies](http://blog.metaclassofnil.com/?p=715)
 
 ## Optional Programs
 * [nVidia Inspector](http://download.orbmu2k.de/files/nvidiaInspector.zip) + [source code](https://github.com/Orbmu2k/nvidiaProfileInspector) (latest final version) + [latest beta](https://ci.appveyor.com/project/Orbmu2k/nvidiaprofileinspector)
