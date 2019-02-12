@@ -1,3 +1,17 @@
+## Driver installation
+
+The driver installation order does matter and might help to solve some problems. Here is the correct order:
+* OS
+* Chipset (reboot)
+* USB (e.g. Asmedia)
+* Audio/GPU (the order doesn't matter)
+* Monitor/keyboard/mouse etc.
+
+Why is the specific order needed? Some driver(s) and their installers having troubles detecting your current hardware if e.g. the chipset isn't installed first, other programs simply conflicting with the IRQ order (older mobos). 
+
+It's not necessary to re-install the entire OS in case you made a mistake, I suggest you use [DDU](https://www.wagnardsoft.com/) in combination with [RAPR](https://github.com/lostindark/DriverStoreExplorer) in order to get rid of _possible_ leftovers and old/redundant drivers in Windows driver store folder. at this point I also suggest to create a "Driver" folder on another HDD/SSD/USB drive and place all drivers you got in there. It's maybe the first time a bit more effort to collect all of them but it helps to update the drivers + keeps on eye on the current installed ones and possible (in case you store the last two versions) you have a revision in case the newer drivers are problematic. 
+
+
 ## Operating System (general advice)
 * Do not install any AntiVirus product, if you like to use an AV then stick with [Windows Defender because it's good enough](https://www.tomsguide.com/us/windows-defender,review-2209.html) as proven in 'independent' AV tests. 
 * Use only a good NAT Firewall and Sandboxie, sandbox untrusted or unknown stuff. Sandboxie has no performance drops unless you use it 'cracked' or load huge apps into it.
