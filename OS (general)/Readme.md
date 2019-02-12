@@ -1,6 +1,6 @@
 ## Driver installation
 
-The driver installation order does matter and might help to solve some problems. Here is the correct order:
+The driver installation order does matter and might help to solve or prevent some problems.
 * OS
 * Chipset (reboot)
 * USB (e.g. Asmedia)
