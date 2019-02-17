@@ -78,6 +78,10 @@ Keep in mind that the reg tweak is not needed in case you're on RS5+ because `Se
 ```bash
 Windows Registry Editor Version 5.00
 
+[HKEY_CURRENT_USER\Software\Microsoft\GameBar]
+"UseNexusForGameBarEnabled"=dword:00000000
+"AutoGameModeEnabled"=dword:00000000
+
 [HKEY_CURRENT_USER\System\GameConfigStore]
 "GameDVR_Enabled"=dword:00000000
 "GameDVR_FSEBehavior"=dword:00000002
