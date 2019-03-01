@@ -4,6 +4,15 @@
 * Disable unused audio devices (like ATI HDMI) in Device Manager (which are most of the time not needed)
 * Don't use utilityies like [Intel Driver Update Utility](https://www.intel.com/content/www/us/en/support/topics/idsa-faq.html) because it runs all the time in the background, submits telemetry and doen't have any benefit over a traditional driver page liek e.g. [station-drivers](https://www.station-drivers.com/index.php?lang=en).
 
+### nVidia and Ansel
+
+[Ansel](https://www.geforce.com/hardware/technology/ansel) is more or less already deprecated and already partially removed from the current nVidia drivers (only backward compatibility is still given). There are several games like WatchDogs or [Conan Exile](https://steamcommunity.com/app/440900/discussions/0/133256959371919651/) which suffering from FPS drops once Ansel is enabled.
+
+If you have FPS drops make sure you disable Ansel the default `keybind to activate/disable Ansel is Alt+F2` which disables Ansel globally. Alternative manually open the file `NvCameraConfiguration.exe` under `C:\Program Files\NVIDIA Corporation\Ansel\Tools`.
+
+Per Game via nVidia Inspector:
+Scroll down in nVidia Inspector until you see the `GLOBAL_DRIVER_PROFILE` option you will see in this category an flag `ENABLE_ANSEL_ON` which you can toggle off. If there is no such entry it means that the installed driver doesn't support/include Ansel or that the Game itself doesn't use Ansel. 
+
 
 #### Upgrade drivers from „legacy“ to UWD/MWD
 
