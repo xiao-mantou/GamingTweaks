@@ -6,7 +6,7 @@
 
 ### nVidia and Ansel
 
-[Ansel](https://www.geforce.com/hardware/technology/ansel) is more or less already deprecated and already partially removed from the current nVidia drivers (only backward compatibility is still given). There are several games like WatchDogs or [Conan Exile](https://steamcommunity.com/app/440900/discussions/0/133256959371919651/) which suffering from FPS drops once Ansel is enabled.
+[Ansel](https://www.geforce.com/hardware/technology/ansel) is more or less already deprecated and already partially removed from the current nVidia drivers (only backward compatibility is still given). There are several games like WatchDogs or [Conan Exile](https://steamcommunity.com/app/440900/discussions/0/133256959371919651/) which suffering from FPS drops once Ansel if its enabled.
 
 If you have FPS drops make sure you disable Ansel the default `keybind to activate/disable Ansel is Alt+F2` which disables Ansel globally. Alternative manually open the file `NvCameraConfiguration.exe` under `C:\Program Files\NVIDIA Corporation\Ansel\Tools`.
 
@@ -14,7 +14,7 @@ Per Game via nVidia Inspector:
 Scroll down in nVidia Inspector until you see the `GLOBAL_DRIVER_PROFILE` option you will see in this category an flag `ENABLE_ANSEL_ON` which you can toggle off. If there is no such entry it means that the installed driver doesn't support/include Ansel or that the Game itself doesn't use Ansel. 
 
 
-#### Upgrade drivers from „legacy“ to UWD/MWD
+#### Windows 10 (only) Upgrade drivers from „legacy“ to UWD/MWD
 
 [Modern Windows Drivers (MWDs) or also known as Universal Windows Drivers (UWDs) drivers replacing the old driver scheme in Windows](https://docs.microsoft.com/en-us/windows-hardware/drivers/develop/getting-started-with-universal-drivers), this babsically means for the end-user smaller driver packages and it includes more OEM's (universal).
 
