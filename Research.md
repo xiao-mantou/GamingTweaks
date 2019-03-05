@@ -29,6 +29,7 @@
 * [ClockBlocker (profiled AMD power-management control)](https://forums.guru3d.com/threads/clockblocker-profiled-amd-power-management-control.404465/)
 * [AMD Ryzen Master](https://download.amd.com/Desktop/AMD-Ryzen-Master.exe) + [FAQ](https://www.amd.com/en/support/kb/faq/gpu-775)
 * [NV RGBFullRangeToggle](http://blog.metaclassofnil.com/wp-content/uploads/2012/08/NV_RGBFullRangeToggle.zip) Use this tool if you don't see any 'Output dynamic range' option in the NVCP
+* [Mouse Overclocking Utility](https://github.com/vadash/1000hz)
 
 ## Forums
 * [Official nVidia Forum](https://forums.geforce.com/)

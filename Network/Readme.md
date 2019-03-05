@@ -4,7 +4,6 @@ Intel Adapter 'Recommended' Network Adapter Settings
 Keep in mind that some drivers might have different settings/options! After talking with NordVPN I figured out with them that some settings might directly have a negative effect on Down-/Upload speed. Ensure you test each settings one by one. In this case try to disable all "offloading" params.
 
 
-
 #### Optimized for quick response and low latency (Gaming):
 
 * Disable Interrupt Moderation Rate (if not possible decrease the size)
@@ -14,13 +13,11 @@ Keep in mind that some drivers might have different settings/options! After talk
 * Increase RSS Queues
 
 
-
 #### Optimized for throughput (e.g. Servers):
 
 * Enable Jumbo Frames
 * Increase Transmit Descriptors
 * Increase Receive Descriptors
-
 
 
 #### For low CPU utilization:
@@ -32,6 +29,45 @@ Keep in mind that some drivers might have different settings/options! After talk
 * Decrease the Max number of RSS CPUs in Hyper-V environments
 
 
+#### Optional disable/change the following in your Network Adapter
+
+* `Disable` Adaptive Inter-Frame Spacing
+* `Disable` Flow Control
+* `Disable` Interrupt Moderation
+* Set Interrupt Moderation Rate to `OFF` (not needed if you disable Interrupt Moderation)
+* Set Enable PME to `Disabled`
+* `Disable` all “Offload” features
+* `Disable` Packet Priority & VLAN
+* `Disable` Jumbo Packet
+* Set Receive Side Scaling (RSS) - `ENABLED`
+* RSS Balancing Mode - `NUMAScaling`
+* **Don't touch Speed & Duplex, leave it on Auto Negotiation** 
+
+#### tweaks via CMD/PowerShell
+
+```
+netsh interface teredo set state disabled
+netsh interface 6to4 set state disabled
+netsh winsock reset
+netsh interface isatap set state disable
+netsh int tcp set global timestamps=disabled
+netsh int tcp set heuristics disabled
+netsh int tcp set global autotuninglevel=disable
+netsh int tcp set global congestionprovider=ctcp
+netsh int tcp set supplemental Internet congestionprovider=CTCP
+netsh int tcp set global chimney=disabled
+netsh int tcp set global ecncapability=disabled
+netsh int tcp set global rss=enabled
+netsh int tcp set global rsc=disabled
+netsh int tcp set global dca=enabled
+netsh int tcp set global netdma=enabled
+PowerShell Disable-NetAdapterChecksumOffload -Name "*"
+PowerShell Disable-NetAdapterLso -Name "*"
+PowerShell Disable-NetAdapterRsc -Name "*"
+PowerShell Disable-NetAdapterIPsecOffload -Name "*"
+PowerShell Disable-NetAdapterPowerManagement -Name "*"
+PowerShell Disable-NetAdapterQos -Name "*"
+```
 
 #### Enable or disable QoS?
 
