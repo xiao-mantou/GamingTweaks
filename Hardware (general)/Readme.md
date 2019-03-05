@@ -1,15 +1,17 @@
 ### Devices (common sense tips)
 
-* Disable all integrated audio devices (e.g. nVidia/AMD audio drivers) e.g. if you use an external or add-on soundcardmake sure you disable the internal soundchip unless you're a an _Audio Pro_ which needs seperate devices. 
+* Disable all integrated audio devices (e.g. nVidia/AMD audio drivers) e.g. if you use an external or add-on soundcard make sure you disable the internal soundchip unless you're a an _Audio Pro_ which needs separate devices. 
 * Disable all unused integrated peripherals (like e.g. Network, Serial, Parallel Ports, etc.).
 * [Disable all unneeded running services](http://www.blackviper.com/service-configurations/black-vipers-windows-10-service-configurations/) via services.msc.
 
-The more drivers Windows has to load the higher the chance is that it affects your IRQ/Latency/Processor. If you e.g. don't use nVidia HD audio driver(s) then just disable/uninstall or prevent from installing it in the first place. Windows then doesn't have to proces seperate devices or do additional calculations which results in a "smoother" gameplay (_lower latency ?_) experience. 
+The more drivers Windows has to load the higher the chance is that it affects your IRQ/Latency/Processor. If you e.g. don't use nVidia HD audio driver(s) then just disable/uninstall or prevent from installing it in the first place. Windows then doesn't have to process separate devices or do additional calculations which results in a "smoother" gameplay (_lower latency ?_) experience. 
 
 
 ### RAM
 
-Windows 10 manages memory more efficiently than earlier versions of the OS, but more memory always can potentially speed up PC operations, games don't have to write/cache on the slower M2/SSD/HDD and can use the ram more efficent without the need to swap. _16 GB is the current default_. 
+Windows 10 manages memory more efficiently than earlier versions of the OS, but more memory always can potentially speed up PC operations, games don't have to write/cache on the slower M2/SSD/HDD and can use the ram more efficient without the need to swap. _16 GB is the current default_. 
+
+Do not use e.g. 12 GB kit combinations because this will result in worse performance, as Intel explained [here](https://www.intel.com/content/www/us/en/support/articles/000005657/boards-and-kits.html#flex) the OS then falls back to a mode which is called "Flex mode".
 
 
 ### Interrupts
@@ -30,7 +32,7 @@ If possible:
 
 ### Performance Monitor (perfmon.exe) + Windows Memory Diagnostic (mdsched.exe)
 
-Windows has an integrated Performance Monitor program which checks (together with Eventmgr.msc) your OS/Hardware for problems, you should not disable it - since there are no noticable performance improvements, keep an eye on it here and then to quickly check if there are failures or other problems. It is not necessary to install third-party tools such as HWInfo or AIDA (but in can help in case you quickly want to get a _better_ overview).
+Windows has an integrated Performance Monitor program which checks (together with Eventmgr.msc) your OS/Hardware for problems, you should not disable it - since there are no noticeable performance improvements, keep an eye on it here and then to quickly check if there are failures or other problems. It is not necessary to install third-party tools such as HWInfo or AIDA (but in can help in case you quickly want to get a _better_ overview).
 
 
 ### AMD Threadripper/Epyc and the Core Prio "Bug"
