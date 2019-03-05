@@ -9,12 +9,13 @@
 * Use DDU under Windows safe mode and then restart your PC after the cleaning is done.
 * Install the new driver and then restart your PC.
 * (optional) Activate `MSI mode` and restart your PC. MSI Mode needs to be set again after each new driver change!
-* (optional) Configure via nVidia Inspector e.g. 3D Global settings (keep in mind you can import/export those settings!),  MAXPRERENDER FPS = 1 + Anisotropic Filtering Sample Optimization ON, Texture filtering Quality = High Performance + Power management mode = Prefer Max Performance
+* (optional) Configure via nVidia Inspector e.g. 3D Global settings (keep in mind you can import/export those settings!), MAXPRERENDER FPS = 1 + Anisotropic Filtering Sample Optimization ON, Texture filtering Quality = High Performance + Power management mode = Prefer Max Performance
 * Configure 3D Game profile settings according to your own needs. E.g. Fast sync on for R6 Siege with an 120fps limiter for consistent and tear free gameplay.
 * Use [Timer Resolution](https://cms.lucashale.com/timer-resolution/) or [Timer Tool](https://github.com/tebjan/TimerTool) and set the value to `0.499ms` in order to reduce the overall latency.
-* Make your own game profiles and put the fps limiters for your games using RTSS provided along with MSI Afterburner according to your systems GFX and CPU power.
+* Make your own game profiles and put the fps limiters for your games using Rivatuner Statistics Server (RTSS) provided along with MSI Afterburner according to your systems GFX and CPU power.
 * Evaluate your settings per game by testing each title you play so you can make further adjustments in case something is not working properly!
 * (optional) Set `SILK Smoothness` to `OFF` for multiplayer FPS Shooters only, which might improve it's responsiveness.
+* Set `Power management` to `Adaptive`.
 
 ### nVidia and Ansel
 
