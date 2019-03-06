@@ -1,7 +1,7 @@
 # Windows Gaming Tweaks
 
 <p align="center">
-  <img width="500" height="320" src="https://raw.githubusercontent.com/CHEF-KOCH/GamingTweaks/master/Windows%20Gaming%20Tweaks.jpg")">
+  <img width="500" height="320" src="https://raw.githubusercontent.com/CHEF-KOCH/GamingTweaks/master/.github/Pictures/Windows%20Gaming%20Tweaks.jpg")">
 </p>
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/CKsTechNews)
