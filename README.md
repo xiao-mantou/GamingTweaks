@@ -43,12 +43,11 @@ What this guide is not for:
 * [Sound](Sound/Readme.md)
 
 ## Optional Topics & Programs
-* [Official and unofficial docs about OS and Gaming performance](Docs/Readme.md)
 * [Overclocking](Overclocking/Readme.md)
 * [Telemetry](Telemetry/Readme.md)
 * [Tools to improve & analyse](Tools/Readme.md)
-* [registry](registry/Readme.md)
-* [settings](settings/Readme.md)
+* [registry](Registry/Readme.md)
+* [settings](OS%settings/Readme.md)
 
 
 ## Official Microsoft Docs related to gaming and OS performance
