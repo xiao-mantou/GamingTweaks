@@ -16,7 +16,7 @@ General advice:
 - [x] Never use any 'tweak tools', it's not worth it.
 - [x] Make always a backup of the current state. I recommend [Macrium Reflect](https://www.macrium.com/reflectfree).
 - [x] There is no Voodoo tweak which magically increases performance like 50% - just do it yourself, don't be lazy.
-- [x] There is no megaical regtweak.awesome.reg which insreases your OS performance drastically!
+- [x] There is no magical regtweak.awesome.reg which increases your OS performance drastically!
 
 
 What this guide is not for:
@@ -46,7 +46,7 @@ What this guide is not for:
 * [Official and unofficial docs about OS and Gaming performance](Docs/Readme.md)
 * [Overclocking](Overclocking/Readme.md)
 * [Telemetry](Telemetry/Readme.md)
-* [Tools to improve & analyze](Tools/Readme.md)
+* [Tools to improve & analyse](Tools/Readme.md)
 * [registry](registry/Readme.md)
 * [settings](settings/Readme.md)
 

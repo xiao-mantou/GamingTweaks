@@ -9,4 +9,4 @@ The most impact on the performance itself is done by the copyright-protection sy
 My own advice is:
 - Use GOG Versions (because they are DRM free)
 - Play cracked versions (malware risk) or performance issue while "testing" it in a VM
-- Check if there are _confirmed_ and _clean_ cracks from trusted groups which avoids losing performance via VM/Sandbox (as mentioned above) but the risk is still there that you get infected (via re-packs, drive-by, malvertising etc).
+- Check if there are _confirmed_ and _clean_ cracks from trusted groups which avoids losing performance via VM/Sandbox (as mentioned above) but the risk is still there that you get infected (via re-packs, drive-by, Malvertising etc).

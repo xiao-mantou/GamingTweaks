@@ -1,6 +1,6 @@
 ### Devices (common sense tips)
 
-* Disable all integrated audio devices (e.g. nVidia/AMD audio drivers) e.g. if you use an external or add-on soundcard make sure you disable the internal soundchip unless you're a an _Audio Pro_ which needs separate devices. 
+* Disable all integrated audio devices (e.g. nVidia/AMD audio drivers) e.g. if you use an external or add-on soundcard make sure you disable the internal sound chip unless you're a an _Audio Pro_ which needs separate devices. 
 * Disable all unused integrated peripherals (like e.g. Network, Serial, Parallel Ports, etc.).
 * [Disable all unneeded running services](http://www.blackviper.com/service-configurations/black-vipers-windows-10-service-configurations/) via services.msc.
 

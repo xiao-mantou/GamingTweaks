@@ -33,7 +33,7 @@ In Windows RS 5 Build 1809 the service is renamed to SysMain (under services.msc
 
 ### Optimize or Disable Page File for SSDs
 
-Tweaking this is a myth, the OS and somke application handle it (if needed). Some games/applications can crash if you disable it entirely.
+Tweaking this is a myth, the OS and some applications handle it (if needed). Some games/applications can crash if you disable it entirely.
 
 ### Update Drivers and Firmware 
 

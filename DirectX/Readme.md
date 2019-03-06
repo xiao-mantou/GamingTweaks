@@ -1,6 +1,6 @@
 ### DirectX Control Panel
 
-Some old(er) Games (and Emulators) might suffering from and outdated Engine which aren't compatible anymore with the latest Windows 10 DirectX changes, the [DirectX Control Panel](http://www.sephiroth-j.de/1/downloads/diverses.php#windows_dxcpl) utility addresses some of those engine related problems which means you can for example re-enable Hardware Accelation functions on them. 
+Some old(er) Games (and Emulators) might suffering from and outdated Engine which aren't compatible anymore with the latest Windows 10 DirectX changes, the [DirectX Control Panel](http://www.sephiroth-j.de/1/downloads/diverses.php#windows_dxcpl) utility addresses some of those engine related problems which means you can for example re-enable Hardware Acceleration functions on them. 
 
 Another way (without utility) would to do this manually for every Game via Registry but this is in most of the cases too complicated and not necessary since the utility is freeware and small in size it should be no problem to dl and use it, in most of the cases the program still does it's job.
 
@@ -14,4 +14,4 @@ Recommendations:
 - Try to cap the FPS (FPS cap [no matter which hardware] is a must if you stream or record the game!)
 - Try to contact the developer and give him as much as details as you can provide, the best way would be to address this in a patch
 - Make sure you use the last Windows 10 version, since older versions might suffer from additional DX problems
-- Play (or try to switch [if possible]) Vulkan based games such as Doom 2016 (this game runs the same on all hardware as prooven [here](https://www.youtube.com/watch?v=1hnI6KGTfjI)). Personally it's beyond me why OBS Studio and several popular games does not supporting Vulkan API because it's known to run better than DirectX. _I assume it has something to do with exclusive Microsoft deals to keep this alive_ or due to backward compatibility.
+- Play (or try to switch [if possible]) Vulkan based games such as Doom 2016 (this game runs the same on all hardware as proven [here](https://www.youtube.com/watch?v=1hnI6KGTfjI)). Personally it's beyond me why OBS Studio and several popular games does not supporting Vulkan API because it's known to run better than DirectX. _I assume it has something to do with exclusive Microsoft deals to keep this alive_ or due to backward compatibility.

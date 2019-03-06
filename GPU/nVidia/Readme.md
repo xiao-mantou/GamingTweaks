@@ -15,4 +15,4 @@ Shaders are loaded by the game itself, like any other of their assets, and sent 
 
 ### How to get Windows 10 custom resolutions in any aspect ratio you want
 
-[jim2point0](https://www.deadendthrills.com/forum/discussion/504/how-to-custom-aspect-ratios-and-resolutions-via-dsr-nvidia-only) wrote an excelent guide how to _optimize_ nVidia's DSR via registry in order to get any resolution you want. 
+[jim2point0](https://www.deadendthrills.com/forum/discussion/504/how-to-custom-aspect-ratios-and-resolutions-via-dsr-nvidia-only) wrote an excellent guide how to _optimize_ nVidia's DSR via registry in order to get any resolution you want. 

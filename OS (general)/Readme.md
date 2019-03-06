@@ -20,7 +20,7 @@ It's not necessary to re-install the entire OS in case you made a mistake, I sug
 
 ### Windows 7 vs. Windows 10
 
-Gaming on Windows 10 is not nessary better or worst, it's depending on several factors such as game development API, Engine itselt, if the game was 'designed' and 'optimized' for Windows 10/7, the driver and driver profiles and many more things. 
+Gaming on Windows 10 is not necessary better or worst, it's depending on several factors such as game development API, Engine itself, if the game was 'designed' and 'optimized' for Windows 10/7, the driver and driver profiles and many more things. 
 
 [![](http://img.youtube.com/vi/RkHFYKDOo74/0.jpg)](http://www.youtube.com/watch?v=RkHFYKDOo74 "Windows 7 Vs. Windows 10 Game Performance (right-click and open it in a new Browser tab)")
 
@@ -73,7 +73,7 @@ Set your power setting to maximum performance (it's not needed to use an "ultima
 
 Whenever you stream games via OBS Studio, make sure you disable GameDVR, it is also a smart advice to in general stay away from it since most applications & games are simply not optimized for it - this doesn't have anything to do with that MS _fucked something up_ it's more that most older games (and even several new ones) are not adopted to get any benefit in such _low-latency_ mode. 
 
-Keep in mind that the reg tweak is not needed in case you're on RS5+ because `Settings > Gaming > Game bar` is the way to go (since some people reporting to have other registry values).
+Keep in mind that the registry tweak is not needed in case you're on RS5+ because `Settings > Gaming > Game bar` is the way to go (since some people reporting to have other registry values).
 
 ```bash
 Windows Registry Editor Version 5.00
