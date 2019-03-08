@@ -1,8 +1,8 @@
 ## Research
 * [Pixelclock calculator (monitortests.com)](https://www.monitortests.com/pixelclock.php)
-* [Overclocking Community (overclock.net)](http://www.overclock.net/) (General good basic and advanced info)
-* [Station-Drivers (station-drivers.com)](http://www.station-drivers.com/) (My #1 driver source since years)
-* [The Gigabyte GA-X48T-DQ6 - Redefining the High End? (anandtech.com)](http://www.anandtech.com/show/2410/13) (explains a lot of bios settings)
+* [Overclocking Community (overclock.net)](http://www.overclock.net/)
+* [Station-Drivers (station-drivers.com)](http://www.station-drivers.com/)
+* [The Gigabyte GA-X48T-DQ6 - Redefining the High End? (anandtech.com)](http://www.anandtech.com/show/2410/13)
 * [ASUS PEG Link Mode Guide Rev. 2.0 (techarp.com)](http://www.techarp.com/showarticle.aspx?artno=248&pgno=0)
 * [Does Core i7 Hyper-Threading Helps? (vr-zone.com)](http://vr-zone.com/articles/does-core-i7-hyper-threading-helps-/6160.html?doc=6160)
 * [Disable High Precision Event Timer (HPET) in BIOS (forums.guru3d.com)](http://forums.guru3d.com/showpost.php?p=3770113&postcount=2)
