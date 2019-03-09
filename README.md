@@ -36,6 +36,7 @@ What this guide is not for:
 * [GPU AMD](GPU/AMD/Readme.md)
 * [GPU nVidia](GPU/nVidia/Readme.md)
 * [GPU and Shader in Games](GPU/Shader/Readme.md)
+* [Monitor](Monitor/Readme.md)
 * [Mouse](Mouse/Readme.md)
 * [Network](Network/Readme.md)
 * [RAM](RAM/Readme.md)
