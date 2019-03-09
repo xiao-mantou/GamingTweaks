@@ -126,3 +126,14 @@ Windows Registry Editor Version 5.00
 ;"Server"="Windows.Gaming.GameBar.Internal.PresenceWriterServer"
 ; "TrustLevel"=dword:00000000
 ```
+
+## Patch related performance impacts
+
+### KB4482887
+
+[KB4482887](https://support.microsoft.com/en-au/help/4482887/windows-10-update-kb4482887) does _for some users_ decrease the gaming performance, however it does [not have anything to do with Retpoline](https://old.reddit.com/r/microsoft/comments/ax18s7/kb4482887_caused_major_performance_issues_for_me/ehrtr4b/) changes because it's [not enabled by default](https://www.borncity.com/blog/2019/03/05/windows-10-retpoline-spectre-2-schutz-manuell-aktivieren/). Microsoft official says that you can ignore/uninstall or [hide](https://support.microsoft.com/de-de/help/4026726/windows-hide-windows-updates-or-driver-updates) the update. They promise to fix the performance issue with the next patchday.  
+
+```
+// Microsoft statement
+After installing KB4482887, users may notice graphics and mouse performance degradation with desktop gaming when playing certain games (eg: Destiny 2)"...
+```
