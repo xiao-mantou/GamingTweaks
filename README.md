@@ -16,14 +16,13 @@ General advice:
 - [x] Never use any 'tweak tools', it's not worth it.
 - [x] Make always a backup of the current state. I recommend [Macrium Reflect](https://www.macrium.com/reflectfree).
 - [x] There is no Voodoo tweak which magically increases performance like 50% - just do it yourself, don't be lazy.
-- [x] There is no magical regtweak.awesome.reg which increases your OS performance drastically!
+- [x] There is no magical `regtweak.awesome.reg` which increases your OS performance dramatically!
 
 
 What this guide is not for:
 
-- [x] Security
-- [x] VM
-- [x] Hardening
+- [x] Security / VM
+- [x] OS Hardening
 - [x] Single Game specific tweaks and modifications
 
 
@@ -37,6 +36,7 @@ What this guide is not for:
 * [GPU nVidia](GPU/nVidia/Readme.md)
 * [GPU and Shader in Games](GPU/Shader/Readme.md)
 * [Monitor](Monitor/Readme.md)
+* [Known Myths](Myths/Known%20Myths.md)
 * [Mouse](Mouse/Readme.md)
 * [Network](Network/Readme.md)
 * [RAM](RAM/Readme.md)
@@ -72,4 +72,4 @@ What this guide is not for:
 
 
 ## Project Research
-* [Windows Gaming Tweaks Research](Research.md)
+* [Windows Gaming Tweaks Research](Research/Research.md)
