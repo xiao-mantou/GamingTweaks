@@ -39,3 +39,8 @@
 * [Official AMD Forum](https://community.amd.com/community/support-forums/general-discussion)
 * [Official Intel Forum](https://forums.intel.com/s/?language=en_US)
 * [Guru3d Forum](https://forums.guru3d.com/)
+
+
+## DRM Performance
+* [Denuvo Really Does Cripple PC Gaming Performance (https://www.extremetech.com)](https://www.extremetech.com/gaming/282924-denuvo-really-does-cripple-pc-gaming-performance)
+* [Devil May Cry 5 PC's Denuvo DRM has a CPU hit (eurogamer.net)](https://www.eurogamer.net/articles/digitalfoundry-2019-devil-may-cry-5-pc-denuvo-protection-tested)
