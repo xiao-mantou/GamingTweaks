@@ -137,3 +137,5 @@ Windows Registry Editor Version 5.00
 // Microsoft statement
 After installing KB4482887, users may notice graphics and mouse performance degradation with desktop gaming when playing certain games (eg: Destiny 2)"...
 ```
+
+Fixed with Windows 10 Build 17763.379 and [KB4489899](https://support.microsoft.com/en-us/help/4489899/windows-10-update-kb4489899).
