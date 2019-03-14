@@ -2,7 +2,7 @@
 
 * [GamersNexus](https://www.gamersnexus.net/guides/1674-overclock-monitor-higher-refresh-rate) has a nice guide to get started into the topic - worth to read!
 
-Why overclock?
+Why overclock your Monitor?
 -------------
 
 * Higher Refresh Rate(s)
@@ -16,10 +16,10 @@ Possible Disadvantages
 -------------
 
 * Artifacts or no picture output 
-* The settings you made must be imported and applies manually after each new driver installation
+* The settings you made must be imported and applied manually after each new driver installation (import/export)
 * Skipped frames (even if the monitor accepted the new values and everything seems "fluid")
-* HDCP might break/DRM fails
-* Color _might be_ changed after applying the changes use [Color Sustainer](http://www.guru3d.com/files-details/color-sustainer-download.html) to correct this
+* HDCP might break or DRM fails
+* Color _might be_ changed after applying the changes use [Color Sustainer](http://www.guru3d.com/files-details/color-sustainer-download.html) to correct this. (This is a OS issue!)
 
 
 Possible Risks?
@@ -53,4 +53,4 @@ If possible:
 Why is capping the FPS important?
 ---------------
 
-There is an detailed answer [here](https://www.blurbusters.com/howto-low-lag-vsync-on/) in short: you should **ALWAYS CAP THE FPS** which results in a smooth stutter and lag-free experience. RTSS is more accurate then most (not all) in-game FPS limiter, the nVidia own limiter adds some delay to it and is not recommend to use!
+There is an detailed answer [here](https://www.blurbusters.com/howto-low-lag-vsync-on/) in short: you should **ALWAYS CAP THE FPS** which results in a smooth stutter and lag-free experience. RTSS Rivatuner Statistics Server is more accurate than most (not all) in-game FPS limiter, the nVidia own limiter adds some delay to it and is not recommend to use!
