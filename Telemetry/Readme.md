@@ -4,10 +4,11 @@ Some games (not all) including copyright systems like Denuvo (DRM) checks or [Re
 
 Keep in mind that [telemetry](https://en.wikipedia.org/wiki/Telemetry) has (in normal cases) no affect on the gaming performance (if proper implemented) and you should consider to leave it enabled in order to help the game developers (e.g. for crash reports or to improve the anti-cheat mechanism) however, such systems scanning your entire OS and this might invade your privacy.
 
-The most impact on the performance itself is done by the copyright-protection system and it's implementation and _can have_ a negative impact which results in longer loading times or _small_ FPS drops. The rumour that Denuvo cripples your performance is not _entirely_ true, it's depending on several factors in most cases you [lose around 2-3 FPS](https://www.extremetech.com/gaming/282924-denuvo-really-does-cripple-pc-gaming-performance) (which is considerable not "crippled" - depending how you see it).
+The biggest impact on the game performance itself is done by the copyright-protection system and its implementation and _can have_ a negative impact which results in longer loading times or _small_ FPS drops. The rumour that Denuvo cripples your performance is not _entirely_ true, it's depending on several factors in most cases you [lose around 2-3 FPS](https://www.extremetech.com/gaming/282924-denuvo-really-does-cripple-pc-gaming-performance) (which is considerable not "crippled" - depending how you see it).
 
 My own advice is:
 - Use GOG releases because they are DRM free
 - Play cracked versions (malware risk) or performance issue while "testing" it in a VM
 - Check if there are _confirmed_ and _clean_ cracks from trusted groups which avoids losing performance via VM/Sandbox (as mentioned above) but the risk is still there that you get infected (via re-packs, drive-by, Malvertising etc).
-- Check if you [need the Game Client] and read the privacy policy before you install it on your OS!
+- Check if you [need the Game Client](https://www.resetera.com/threads/developing-epic-games-launcher-appears-to-collect-your-steam-friends-play-history-epic-responds-see-op.105385/) and read the privacy policy before you install it on your OS!
+- Manually removing the analytics code requires to manipulate the game client and it's files and is _dangerous_ because that might result in a ban, the game client should provide an opt-out toggle for such tracking. A better method is to block the request with a firewall/hosts file.
