@@ -1,7 +1,6 @@
-## Research
+## General Research
 * [Pixelclock calculator (monitortests.com)](https://www.monitortests.com/pixelclock.php)
 * [Overclocking Community (overclock.net)](http://www.overclock.net/)
-* [Station-Drivers (station-drivers.com)](http://www.station-drivers.com/)
 * [The Gigabyte GA-X48T-DQ6 - Redefining the High End? (anandtech.com)](http://www.anandtech.com/show/2410/13)
 * [ASUS PEG Link Mode Guide Rev. 2.0 (techarp.com)](http://www.techarp.com/showarticle.aspx?artno=248&pgno=0)
 * [Does Core i7 Hyper-Threading Helps? (vr-zone.com)](http://vr-zone.com/articles/does-core-i7-hyper-threading-helps-/6160.html?doc=6160)
@@ -44,3 +43,13 @@
 ## DRM Performance Impact
 * [Denuvo Really Does Cripple PC Gaming Performance (https://www.extremetech.com)](https://www.extremetech.com/gaming/282924-denuvo-really-does-cripple-pc-gaming-performance)
 * [Devil May Cry 5 PC's Denuvo DRM has a CPU hit (eurogamer.net)](https://www.eurogamer.net/articles/digitalfoundry-2019-devil-may-cry-5-pc-denuvo-protection-tested) - ([Updated test](https://www.techpowerup.com/reviews/Denuvo/Performance_Loss_Test/3.html))
+
+
+## Driver & Firmware
+* [8BitDo Firmware page (support.8bitdo.com)](http://support.8bitdo.com/)
+* [Station-Drivers (station-drivers.com)](http://www.station-drivers.com/)
+* [Super Nt Official Firmware (support.analogue.co)](https://support.analogue.co/hc/en-us/articles/360000557452-Super-Nt-Firmware-Update-v4-7)
+* [Super Nt Jailbreak (github.com)](https://github.com/SmokeMonsterPacks/Super-NT-Jailbreak)
+* [Nt Mini Firmware Links (support.analogue.co)](https://support.analogue.co/hc/en-us/articles/115001947108-Nt-mini-Firmware-Update-v2-3)
+* [Nt Mini Firmware Jailbreak (blog.kevtris.org)](http://blog.kevtris.org/blogfiles/ntm_firmware_verJB2.0.zip)
+* [Mega Sg firmware (support.analogue.co)](https://support.analogue.co/hc/en-us/articles/360024836892-Mega-Sg-Firmware-Update-v4-2)
