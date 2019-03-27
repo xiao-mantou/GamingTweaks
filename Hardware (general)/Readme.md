@@ -16,7 +16,7 @@ Do not use e.g. 12 GB kit combinations because this will result in worse perform
 
 ### Interrupts
 
-[doctorzeus](https://forums.guru3d.com/members/doctorzeus.275790/) wrote a small utility called [MSIInturruptEnabler](https://github.com/TechtonicSoftware/MSIInturruptEnabler) to enable Message Signal Interrupts on GPU's under Windows. It requires admin rights to use it and a reboot after you applied the new changes.
+[Doctorzeus](https://forums.guru3d.com/members/doctorzeus.275790/) wrote a small utility called [MSIInturruptEnabler](https://github.com/TechtonicSoftware/MSIInturruptEnabler) to enable Message Signal Interrupts on GPU's under Windows. It requires admin rights to use it and a reboot after you applied the new changes.
 
 
 ### Performance Monitor (perfmon.exe) + Windows Memory Diagnostic (mdsched.exe)
@@ -32,10 +32,10 @@ Threadripper and Epyc CPU's have a serious bug which crippled the performance, [
 
 
 ### Lags
-There are several kinds of gaming releated lags:
-- CPU based lags - which causes the game to stutter, whenever the CPU reaches is max capabilities.
+There are several kinds of [gaming releated lags](https://en.wikipedia.org/wiki/Input_lag):
+- CPU based lags - This causes the game to stutter, whenever the CPU reaches is max capabilities.
 - Rendering based lags - This basically means your CPU & or GPU is to slow to handle the game/stream.
 - General Network lag - This basically means your drivers or network are outdated/too slow or there are other interferences.
 - [Stream Buffering](https://obsproject.com/wiki/Stream-Buffering-Issues) - This basically means you use too much bitrate and your server which you are streaming at can't handle it. 
 - [Dropped Frames And General Connection Issues](https://obsproject.com/wiki/Dropped-Frames-and-General-Connection-Issues) - This can have multiple sources, your ISP, your Router (or it's config), the streaming server or your AV program might blocks or intercept into the connection.
-- Software based lags e.g. [Windows 10 Gaming Mode](https://obsproject.com/wiki/How-to-disable-Windows-10-Gaming-Features) - Some Windows or OS related function can cause conflicts or making the game _hang_, this is mostly because of deadlocks (something hooks/inject specific code into another progress). Disabling Windows Game Mode, MSI Afterburner etc might already helps here.
+- Software based lags e.g. [Windows 10 Gaming Mode](https://obsproject.com/wiki/How-to-disable-Windows-10-Gaming-Features) - Some Windows or OS related function can cause conflicts or making the game _hang_, this is mostly because of deadlocks (something hooks/inject specific code into another progress). Disabling Windows Game Mode, MSI Afterburner etc might already helps here. Another thing might be outdated software, it's true that an updated software/game/drivers can solves several performance issue, always keep an eye on the changelogs (release notes).
