@@ -1,4 +1,4 @@
-### Monitor Overclocking
+## Monitor Overclocking
 
 * [GamersNexus](https://www.gamersnexus.net/guides/1674-overclock-monitor-higher-refresh-rate) has a nice guide to get started into the topic - worth to read!
 
@@ -48,9 +48,14 @@ If possible:
 - Make sure that you correctly [calibrate your Monitor](https://www.digitaltrends.com/computing/how-to-calibrate-your-monitor/). In case that you can effort a hardware Colorimeter such as the [i1Display Pro](https://www.xrite.com/categories/calibration-profiling/i1display-pro) prefer this instead.
 
 
-### FPS capping
+## FPS capping
 
 Why is capping the FPS important?
 ---------------
 
 There is an detailed answer [here](https://www.blurbusters.com/howto-low-lag-vsync-on/) in short: you should **ALWAYS CAP THE FPS** which results in a smooth stutter and lag-free experience. RTSS Rivatuner Statistics Server is more accurate than most (not all) in-game FPS limiter, the nVidia own limiter adds some delay to it and is not recommend to use!
+
+
+## Performance issues with multi-monitors
+
+Multiple monitors plugged _might_ causes performance issues which is depending on the game engine and if you do other tasks to the same time on other monitors. A workaround is to Unplug non-primary monitors or to ensure that every monitor runs at the same Hz.
