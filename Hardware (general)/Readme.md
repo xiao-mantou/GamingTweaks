@@ -31,3 +31,11 @@ Windows has an integrated Performance Monitor program which checks (together wit
 Threadripper and Epyc CPU's have a serious bug which crippled the performance, [Microsoft and AMD working together to fix this](https://community.amd.com/community/gaming/blog/2018/10/05/previewing-dynamic-local-mode-for-the-amd-ryzen-threadripper-wx-series-processors), however **as a workaround you can use [Bitsum's Coreprio](https://bitsum.com/portfolio/coreprio/)**.
 
 
+### Lags
+There are several kinds of gaming releated lags:
+- CPU based lags - which causes the game to stutter, whenever the CPU reaches is max capabilities.
+- Rendering based lags - This basically means your CPU & or GPU is to slow to handle the game/stream.
+- General Network lag - This basically means your drivers or network are outdated/too slow or there are other interferences.
+- [Stream Buffering](https://obsproject.com/wiki/Stream-Buffering-Issues) - This basically means you use too much bitrate and your server which you are streaming at can't handle it. 
+- [Dropped Frames And General Connection Issues](https://obsproject.com/wiki/Dropped-Frames-and-General-Connection-Issues) - This can have multiple sources, your ISP, your Router (or it's config), the streaming server or your AV program might blocks or intercept into the connection.
+- Software based lags e.g. [Windows 10 Gaming Mode](https://obsproject.com/wiki/How-to-disable-Windows-10-Gaming-Features) - Some Windows or OS related function can cause conflicts or making the game _hang_, this is mostly because of deadlocks (something hooks/inject specific code into another progress). Disabling Windows Game Mode, MSI Afterburner etc might already helps here.
