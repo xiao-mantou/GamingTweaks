@@ -19,7 +19,13 @@
 * [GeDoSaTo FPS capping, modding controversies (blog.metaclassofnil.com)](http://blog.metaclassofnil.com/?p=715)
 
 
-## Optional Programs
+## Games
+* [PC Gaming Wiki (pcgamingwiki.com)](https://pcgamingwiki.com/wiki/Home) - Game configs, suggestions & tricks database (similar like Wikipedia just for games)
+* [WSGF Forum (wsgf.org)](http://www.wsgf.org/forums/viewforum.php?f=64&sid=07479fb019fa626648795c596de5e9ea) - Game Mods, discussions and requests.
+
+
+## Programs
+* [3Dmigoto (github.com)](https://github.com/bo3b/3Dmigoto) - Chiri's DX11 wrapper to enable fixing broken stereoscopic effects.
 * [AmdMsrTweaker (github.com)](https://github.com/mpollice/AmdMsrTweaker)
 * [nVidia Inspector (download.orbmu2k.de)](http://download.orbmu2k.de/files/nvidiaInspector.zip) + [source code](https://github.com/Orbmu2k/nvidiaProfileInspector) (latest final version) + [latest beta](https://ci.appveyor.com/project/Orbmu2k/nvidiaprofileinspector)
 * [Display Driver Uninstaller (wagnardsoft.com)](https://www.wagnardsoft.com/)
