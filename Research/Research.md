@@ -1,4 +1,5 @@
 ## General Research
+* [Nvidia GPU Low Power Fix (github.com)](https://github.com/Ociidii-Works/Nvidia-GPU-Low-Power-Fix)
 * [Pixelclock calculator (monitortests.com)](https://www.monitortests.com/pixelclock.php)
 * [Overclocking Community (overclock.net)](http://www.overclock.net/)
 * [The Gigabyte GA-X48T-DQ6 - Redefining the High End? (anandtech.com)](http://www.anandtech.com/show/2410/13)
