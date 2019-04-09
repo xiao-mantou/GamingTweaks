@@ -52,11 +52,13 @@
 * [Devil May Cry 5 PC's Denuvo DRM has a CPU hit (eurogamer.net)](https://www.eurogamer.net/articles/digitalfoundry-2019-devil-may-cry-5-pc-denuvo-protection-tested) - ([Updated test](https://www.techpowerup.com/reviews/Denuvo/Performance_Loss_Test/3.html))
 
 
-## Driver & Firmware
+## Driver & Firmware Resources
 * [8BitDo Firmware page (support.8bitdo.com)](http://support.8bitdo.com/)
 * [Station-Drivers (station-drivers.com)](http://www.station-drivers.com/)
+* [Standalone Steam Controller open source driver (github.com)](https://github.com/ynsta/steamcontroller)
 * [Super Nt Official Firmware (support.analogue.co)](https://support.analogue.co/hc/en-us/articles/360000557452-Super-Nt-Firmware-Update-v4-7)
 * [Super Nt Jailbreak (github.com)](https://github.com/SmokeMonsterPacks/Super-NT-Jailbreak)
 * [Nt Mini Firmware Links (support.analogue.co)](https://support.analogue.co/hc/en-us/articles/115001947108-Nt-mini-Firmware-Update-v2-3)
 * [Nt Mini Firmware Jailbreak (blog.kevtris.org)](http://blog.kevtris.org/blogfiles/ntm_firmware_verJB2.0.zip)
 * [Mega Sg firmware (support.analogue.co)](https://support.analogue.co/hc/en-us/articles/360024836892-Mega-Sg-Firmware-Update-v4-2)
+* [Mega SG Jailbreak (github.com)](https://github.com/SmokeMonsterPacks/Mega-Sg-Jailbreak)
