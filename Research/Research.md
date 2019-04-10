@@ -16,6 +16,7 @@
 * [Windows Vista's SuperFetch and ReadyBoost Analysed (tomshardware.com)](https://www.tomshardware.com/reviews/windows-vista-superfetch-and-readyboostanalyzed,1532-2.html)
 * [Catalyst Antialiasing Guide (beyond3d.com)](http://www.beyond3d.com/content/articles/37/1)
 * [GeDoSaTo FPS capping, modding controversies (blog.metaclassofnil.com)](http://blog.metaclassofnil.com/?p=715)
+* [The real and complete story - Does Windows defragment your SSD?](https://www.hanselman.com/blog/TheRealAndCompleteStoryDoesWindowsDefragmentYourSSD.aspx)
 
 
 ## Games
@@ -38,6 +39,8 @@
 * [NV RGBFullRangeToggle (blog.metaclassofnil.com)](http://blog.metaclassofnil.com/wp-content/uploads/2012/08/NV_RGBFullRangeToggle.zip) Use this tool if you don't see any 'Output dynamic range' option in the NVCP
 * [Mouse Overclocking Utility (github.com)](https://github.com/vadash/1000hz)
 * [Pixelclock calculator (monitortests.com)](https://www.monitortests.com/pixelclock.php)
+* [Sapphire TriXX OC Utility](https://www.sapphiretech.com/en/software)
+* [EVGA Precision XOC/X](https://www.evga.com/precisionxoc/)
 
 
 ## Forums
