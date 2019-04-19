@@ -16,10 +16,10 @@
 * [Windows Vista's SuperFetch and ReadyBoost Analysed (tomshardware.com)](https://www.tomshardware.com/reviews/windows-vista-superfetch-and-readyboostanalyzed,1532-2.html)
 * [Catalyst Antialiasing Guide (beyond3d.com)](http://www.beyond3d.com/content/articles/37/1)
 * [GeDoSaTo FPS capping, modding controversies (blog.metaclassofnil.com)](http://blog.metaclassofnil.com/?p=715)
-* [The real and complete story - Does Windows defragment your SSD?](https://www.hanselman.com/blog/TheRealAndCompleteStoryDoesWindowsDefragmentYourSSD.aspx)
+* [The real and complete story - Does Windows defragment your SSD? (hanselman.com)](https://www.hanselman.com/blog/TheRealAndCompleteStoryDoesWindowsDefragmentYourSSD.aspx)
 
 
-## Games
+## Games knowledge
 * [PC Gaming Wiki (pcgamingwiki.com)](https://pcgamingwiki.com/wiki/Home) - Game configs, suggestions & tricks database (similar like Wikipedia just for games)
 * [WSGF Forum (wsgf.org)](http://www.wsgf.org/forums/viewforum.php?f=64&sid=07479fb019fa626648795c596de5e9ea) - Game Mods, discussions and requests.
 
@@ -36,11 +36,19 @@
 * [MSI Afterburner + Guide (forums.guru3d.com)](https://forums.guru3d.com/threads/overclocking-with-msi-afterburner-at-users-risk.327291/)
 * [ClockBlocker (profiled AMD power-management control) (forums.guru3d.com)](https://forums.guru3d.com/threads/clockblocker-profiled-amd-power-management-control.404465/)
 * [AMD Ryzen Master (download.amd.com](https://download.amd.com/Desktop/AMD-Ryzen-Master.exe) + [FAQ](https://www.amd.com/en/support/kb/faq/gpu-775)
-* [NV RGBFullRangeToggle (blog.metaclassofnil.com)](http://blog.metaclassofnil.com/wp-content/uploads/2012/08/NV_RGBFullRangeToggle.zip) Use this tool if you don't see any 'Output dynamic range' option in the NVCP
+* [NV RGBFullRangeToggle (blog.metaclassofnil.com)](http://blog.metaclassofnil.com/wp-content/uploads/2012/08/NV_RGBFullRangeToggle.zip) Use this tool if you don't see any 'Output dynamic range' option in the NVCP.
 * [Mouse Overclocking Utility (github.com)](https://github.com/vadash/1000hz)
 * [Pixelclock calculator (monitortests.com)](https://www.monitortests.com/pixelclock.php)
-* [Sapphire TriXX OC Utility](https://www.sapphiretech.com/en/software)
-* [EVGA Precision XOC/X](https://www.evga.com/precisionxoc/)
+* [Sapphire TriXX OC Utility (sapphiretech.com)](https://www.sapphiretech.com/en/software)
+* [EVGA Precision XOC/X/X1 (evga.com)](https://www.evga.com/precisionxoc/)
+
+
+## Emulators
+* [RetroArch (retroarch.com)](https://www.retroarch.com/)
+* [Mesen high-accuracy NES and Famicom (mesen.ca)](https://www.mesen.ca/)
+* [Snes9x (github.com)](https://github.com/snes9xgit/snes9x)
+* [Higan (byuu.org)](https://www.byuu.org/emulation/higan/)
+* [Emulator accuracy tests (tasvideos.org)](http://tasvideos.org/EmulatorResources.html#AccuracyTests)
 
 
 ## Forums
