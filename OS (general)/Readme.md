@@ -40,9 +40,13 @@ Problems:
 
 
 ## Operating System (general tweaking advice)
+* Switch unneeded services (services.msc) from automatic to manual start. This lowers CPU/Ram usage and migrates possible attack scenarios e.g. it prevents NetBios attacks (if that service was disabled). Keep in mind that some services can't be disabled (depending on the Windows 10 Build) which then require you to disable it via registry.
+* Disable unneeded tasks in Task Scheduler, pretty much as same as above the goal is to reduce CPU/Ram consumption and to possible migrate attack scenarios.
+* Disable unneeded logs in Event Viewer - This is more or less optional, performance wise this doesn't gain anything but it helps your SSD life since Windows writes those events in the background to a file/disk. 
 * Do not install any AntiVirus product, if you like to use an AV then stick with [Windows Defender because it's good enough](https://www.tomsguide.com/us/windows-defender,review-2209.html) as proven in 'independent' AV tests. 
-* Use only a good NAT Firewall and Sandboxie, sandbox untrusted or unknown stuff. Sandboxie has no performance drops unless you use it 'cracked' or load huge apps into it.
+* Use only a good NAT Firewall and Sandboxie (paid product), sandbox untrusted or unknown stuff. Sandboxie has no performance drops unless you use it 'cracked' or load huge apps into it. Windows 10 Build 1903/20H1 will get it's own _free_ but limited sandbox function which would be a free alternative to Sandboxie.
 * Change [Core Parking only in XP, 7 and 8](https://social.technet.microsoft.com/Forums/azure/en-US/76dac4e8-ce8f-4b83-b33d-bbef50ae5d9c/cpu-core-parking-in-windows-7-should-it-be-left-alone-or-should-users-disable-it?forum=w7itproperf) because since Windows 10 the OS itself controls it automatically already.
+* Delete unneeded UWP apps and uninstall the stuff you won't need, this gains some SSD/HDD space, reduces memory/cpu usage (since such apps mostly running in the background or trying to update themeselves).
 
 
 ### Windows 7 vs. Windows 10
