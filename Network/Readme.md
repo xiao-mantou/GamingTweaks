@@ -86,8 +86,9 @@ In general **I recommend to leave it enabled**. If there some problems check you
 ___
 
 
-* Disable "Inbound Layer 7" in your router.
+## Disable "Inbound Layer 7" in your router.
 Layer 7 filtering or shaping is identifying traffic at layer 7 (Application Layer) of the OSI model. Instead of shaping/filtering based on the port and source/destination, you are identifying a stream based on its contents. This is also sometimes called deep packet inspection since it works by looking into the contents of the packets not just the headers. If you're concerned about performance: IPP2P and especially L7 are slower than simple IP, MAC or port matches. L7 can't cope well with encrypted P2P traffic in background while gaming.
+
 * Enable SYN cookies
 * Disable IPv6 tunnel adapter & interfaces
 * Disable all ISATAP, 6to4 and Teredo Tunneling interfaces
@@ -104,3 +105,27 @@ REG ADD "HKLM\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters" /v "DisabledC
 
 
 Keep in mind that every modern Router firmware has an option to block or at least filter Teredo traffic, same like NetBios which means you don't need to 'disable' everything blindly because nothing can pass the router anyway!
+
+
+## Reducing the Network latency
+There is also another [network tweak](https://www.speedguide.net/articles/gaming-tweaks-5812) which aims to reduce the network latency, however this tweak is controversial because modern network cards/adapters already handlining it very well.
+
+```bash
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"NetworkThrottlingIndex"=dword:ffffffff
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games]
+"Scheduling Category"="High"
+"SFIO Priority"="High"
+"Background Only"="False"
+"Priority"=dword:00000001
+"Clock Rate"=dword:00002710
+"GPU Priority"=dword:00000001
+"Affinity"=dword:00000000
+```
+
+Multimedia streaming and some other games that uses [Multimedia Class Scheduler service (MMCSS)](https://docs.microsoft.com/en-us/windows/desktop/procthread/multimedia-class-scheduler-service) can only utilize up to 80% of your CPU. MMCSS ensures prioritized access to CPU resources, without denying CPU resources to lower-priority background applications.
+
+It should be mentioned that some games itself already handling it differently and you better test yourself if you see any better network response - aka do a backup and test it
