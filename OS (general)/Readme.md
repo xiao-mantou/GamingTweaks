@@ -1,3 +1,20 @@
+## Impacts
+
+The following things should be as low as possible:
+
+* Audio latency
+* Ping latency (use a ping command to check it)
+* DPC Latency (use [LatencyMon](https://www.resplendence.com/latencymon) to check it)
+* _Overall network latency_ (this can't be tested easily because it is depening on several factors)
+* Keyboard input processing (depending on yourself + how fast the keyboard/mouse + OS processes the signals)
+
+The following should be as high as possible:
+
+* The energy profile (should be set to Ultimate)
+* Frequency (for e.g. OC) of several components CPU/GPU (needs lots of testing)
+* Power Managment mode (nVidia Control Panel [NVCP]) application controlled is enough
+
+
 ## Driver installation
 
 The driver installation order does matter and might help to solve or prevent some problems.
@@ -12,7 +29,17 @@ Why is the specific order needed? Some driver(s) and their installers having tro
 It's not necessary to re-install the entire OS in case you made a mistake, I suggest you use [DDU](https://www.wagnardsoft.com/) in combination with [RAPR](https://github.com/lostindark/DriverStoreExplorer) in order to get rid of _possible_ leftovers and old/redundant drivers in Windows driver store folder. at this point I also suggest to create a "Driver" folder on another HDD/SSD/USB drive and place all drivers you got in there. It's maybe the first time a bit more effort to collect all of them but it helps to update the drivers + keeps on eye on the current installed ones and possible (in case you store the last two versions) you have a revision in case the newer drivers are problematic. 
 
 
-## Operating System (general advice)
+## Install AiO runtimes or repacks such as DirectX, NetFramework or Visual C++ Redistributable
+
+There is a wide-spreading myth that says that it helps to install repacked versions to _gain gaming performance_. This is wrong and there was never any evidence given, but it's true that such repacks a) are smaller in download size (compared to the original packages) b) helping you to avoid wasting SSD/HDD space on your OS partition. For example you can use [abbodi1406 vcredist package](https://github.com/abbodi1406/vcredist) which only installs the latest Microsoft Visual C++ Redistributable Runtimes which comes without any payload - in other words you save a lot of space. While this in theory is a good thing it is not always practical because some Game Stores such as Steam or even some applications which you install forcing you to _re-install_ those packages because they won't probably detect that you already have those runtimes installed. This basically means you override such a repack with the official MS packages and at the end you won't gain anything out of it.
+
+Problems:
+* Repackes could contain malware
+* Steam and other Stores, or even some application overriding or forcing you to install official runtimes even if never ones are already installed
+* No performance benefits
+
+
+## Operating System (general tweaking advice)
 * Do not install any AntiVirus product, if you like to use an AV then stick with [Windows Defender because it's good enough](https://www.tomsguide.com/us/windows-defender,review-2209.html) as proven in 'independent' AV tests. 
 * Use only a good NAT Firewall and Sandboxie, sandbox untrusted or unknown stuff. Sandboxie has no performance drops unless you use it 'cracked' or load huge apps into it.
 * Change [Core Parking only in XP, 7 and 8](https://social.technet.microsoft.com/Forums/azure/en-US/76dac4e8-ce8f-4b83-b33d-bbef50ae5d9c/cpu-core-parking-in-windows-7-should-it-be-left-alone-or-should-users-disable-it?forum=w7itproperf) because since Windows 10 the OS itself controls it automatically already.
