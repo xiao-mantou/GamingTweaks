@@ -3,6 +3,7 @@
 * Try to uninstall every drivers which you won't need (e.g. on OEM systems [pre-installed drivers]) via Control Panel\All Control Panel Items\Programs and Features, say no if they ask you to reboot the OS. Make sure you reboot into "Safe Mode" to install important drivers in order to get full access, this is not mandatory but it might solve to remove all leftovers (in case you have some upgrade/install) issue.
 * Disable unused audio devices (like ATI HDMI) in Device Manager (which are most of the time not needed)
 * Don't use utilities like [Intel Driver Update Utility](https://www.intel.com/content/www/us/en/support/topics/idsa-faq.html) because it runs all the time in the background, submits telemetry and doesn't have any benefit over a _traditional_ driver page like e.g. [Station-Drivers](https://www.station-drivers.com/index.php?lang=en).
+* Do not install "Xtreme-G Modded Drivers", the promises the modders makes are ridiculous and there is no evidence that this holds what it promises.
 
 ### nVidia Driver update procedure 
 
