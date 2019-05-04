@@ -65,7 +65,12 @@
 * [Devil May Cry 5 PC's Denuvo DRM has a CPU hit (eurogamer.net)](https://www.eurogamer.net/articles/digitalfoundry-2019-devil-may-cry-5-pc-denuvo-protection-tested) - ([Updated test](https://www.techpowerup.com/reviews/Denuvo/Performance_Loss_Test/3.html))
 
 
+## Power Management
+* [Device power management reference (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/device-power-management-reference)
+
+
 ## Kernel latencies
+* [User Mode Versus Kernel Mode (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows-hardware/drivers/audio/user-mode-versus-kernel-mode)
 * [Effectively Measure and Reduce Kernel Latencies for Real-time Constraints (elinux.org)](https://elinux.org/images/a/a9/ELC2017-_Effectively_Measure_and_Reduce_Kernel_Latencies_for_Real-time_Constraints_%281%29.pdf)
 * [Analysis of High Resolution Timer Latency Using Kernel Analysis System in Embedded System (ieeexplore.ieee.org)](https://ieeexplore.ieee.org/document/4804584)
 * [Acquiring high-resolution time stamps (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows/desktop/sysinfo/acquiring-high-resolution-time-stamps)
@@ -74,6 +79,9 @@
 
 ## Audio Latency in Windows
 * [Low Latency Audio (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows-hardware/drivers/audio/low-latency-audio)
+* [WavePci Latency (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows-hardware/drivers/audio/wavepci-latency)
+* [WaveCyclic Latency (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows-hardware/drivers/audio/wavecyclic-latency)
+* [Stream Latency During Recording (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows-hardware/drivers/audio/stream-latency-during-recording)
 
 
 ## For Developers

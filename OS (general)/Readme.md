@@ -1,4 +1,4 @@
-## Impacts
+## Responsiveness Impact
 
 The following things should be as low as possible:
 
@@ -8,10 +8,10 @@ The following things should be as low as possible:
 * _Overall network latency_ (this can't be tested easily because it is depening on several factors)
 * Keyboard input processing (depending on yourself + how fast the keyboard/mouse + OS processes the signals)
 
-The following should be as high as possible:
+The following things should be as high as possible:
 
 * The energy profile (should be set to Ultimate), see [here](https://docs.microsoft.com/en-us/windows-hardware/customize/desktop/customize-power-slider) why.
-* Frequency (e.g. for OC) of several components CPU/GPU (needs lots of testing to stabilize it).
+* Frequency (only in case you do Overclocking (!)) of several components CPU/GPU (requires testing to stabilize it).
 * Power Management Mode (nVidia Control Panel [NVCP]) "application controlled" is enough.
 
 
@@ -20,13 +20,29 @@ The following should be as high as possible:
 The driver installation order does matter and might help to solve or prevent some problems.
 * OS
 * Chipset (reboot)
-* USB (e.g. Asmedia)
+* USB (e.g. ASMedia Technology Inc.)
 * Audio/GPU (the order doesn't matter)
 * Monitor/keyboard/mouse etc.
 
 Why is the specific order needed? Some driver(s) and their installers having troubles detecting your current hardware if e.g. the chipset isn't installed first, other programs simply conflicting with the IRQ order (older mobos).
 
 It's not necessary to re-install the entire OS in case you made a mistake, I suggest you use [DDU](https://www.wagnardsoft.com/) in combination with [RAPR](https://github.com/lostindark/DriverStoreExplorer) in order to get rid of _possible_ leftovers and old/redundant drivers in Windows driver store folder. at this point I also suggest to create a "Driver" folder on another HDD/SSD/USB drive and place all drivers you got in there. It's maybe the first time a bit more effort to collect all of them but it helps to update the drivers + keeps on eye on the current installed ones and possible (in case you store the last two versions) you have a revision in case the newer drivers are problematic.
+
+
+## Reasons to avoid WUS Drivers
+
+In [some situations](https://www.windowscentral.com/amd-marks-50-years-gold-edition-radeon-vii-ryzen-7-bundles) the offered drivers from Windows Update Servers (WUS) are outdated compared to the ones which the OEM (AMD, nVidia, Intel etc.) offers which means that they can cause some performance or even crash related issue. My own _advice_ is to use [Wumgr](https://github.com/DavidXanatos/wumgr) which is an open source program to take control over Windows Updates (in case you don't want to mess with GPO's/Registry). Windows 10 Build 1903+ got an function to manually install drivers via the integrated GUI (in this case you might not need Wumgr).
+
+Even some OEMs might have outdated drivers (listed on the driver pages e.g. Realtek), Station-Drivers or Win-Raid Forum often have more up-2-dated drivers.
+
+I recommend:
+- Create a folder on a usb drive or external drive where you store all you drivers (in case you re-install Windows and to keep track of your current installed drivers).
+- Label the folders and files correctly which shows you directly which version you currently have installed.
+
+
+#### Tools like Snappy Driver Installer & Co
+
+Snappy Driver ([Origin](https://www.snappy-driver-installer.org/) - the version which is open-source and without ads) can help you in case your OEM doesn't provide a manual to identify your current hardware, however in my experience such tools should be avoided because they _maybe_ install or identify the wrong hardware which might only ends-up with more problems and they could contain ads or are infected with malware (since they are a huge target because driver based malware is harder to remove/spot and the installer might execute the installation process under administrative rights to gain access). My _advice_ is (even if it's more effort) to [manually identify the installed hardware](https://www.windowscentral.com/how-check-your-computer-full-specifications-windows-10) create ther driver folder and download/verify the driver from trusted websites sich as Station-Drivers & Win-RAID.
 
 
 ## Install AiO runtimes or repacks such as DirectX, NetFramework or Visual C++ Redistributable
