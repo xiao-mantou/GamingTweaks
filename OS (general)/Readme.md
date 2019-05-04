@@ -10,9 +10,9 @@ The following things should be as low as possible:
 
 The following should be as high as possible:
 
-* The energy profile (should be set to Ultimate)
-* Frequency (for e.g. OC) of several components CPU/GPU (needs lots of testing)
-* Power Managment mode (nVidia Control Panel [NVCP]) application controlled is enough
+* The energy profile (should be set to Ultimate), see [here](https://docs.microsoft.com/en-us/windows-hardware/customize/desktop/customize-power-slider) why.
+* Frequency (e.g. for OC) of several components CPU/GPU (needs lots of testing to stabilize it).
+* Power Management Mode (nVidia Control Panel [NVCP]) "application controlled" is enough.
 
 
 ## Driver installation
@@ -24,9 +24,9 @@ The driver installation order does matter and might help to solve or prevent som
 * Audio/GPU (the order doesn't matter)
 * Monitor/keyboard/mouse etc.
 
-Why is the specific order needed? Some driver(s) and their installers having troubles detecting your current hardware if e.g. the chipset isn't installed first, other programs simply conflicting with the IRQ order (older mobos). 
+Why is the specific order needed? Some driver(s) and their installers having troubles detecting your current hardware if e.g. the chipset isn't installed first, other programs simply conflicting with the IRQ order (older mobos).
 
-It's not necessary to re-install the entire OS in case you made a mistake, I suggest you use [DDU](https://www.wagnardsoft.com/) in combination with [RAPR](https://github.com/lostindark/DriverStoreExplorer) in order to get rid of _possible_ leftovers and old/redundant drivers in Windows driver store folder. at this point I also suggest to create a "Driver" folder on another HDD/SSD/USB drive and place all drivers you got in there. It's maybe the first time a bit more effort to collect all of them but it helps to update the drivers + keeps on eye on the current installed ones and possible (in case you store the last two versions) you have a revision in case the newer drivers are problematic. 
+It's not necessary to re-install the entire OS in case you made a mistake, I suggest you use [DDU](https://www.wagnardsoft.com/) in combination with [RAPR](https://github.com/lostindark/DriverStoreExplorer) in order to get rid of _possible_ leftovers and old/redundant drivers in Windows driver store folder. at this point I also suggest to create a "Driver" folder on another HDD/SSD/USB drive and place all drivers you got in there. It's maybe the first time a bit more effort to collect all of them but it helps to update the drivers + keeps on eye on the current installed ones and possible (in case you store the last two versions) you have a revision in case the newer drivers are problematic.
 
 
 ## Install AiO runtimes or repacks such as DirectX, NetFramework or Visual C++ Redistributable
@@ -34,7 +34,7 @@ It's not necessary to re-install the entire OS in case you made a mistake, I sug
 There is a wide-spreading myth that says that it helps to install repacked versions to _gain gaming performance_. This is wrong and there was never any evidence given, but it's true that such repacks a) are smaller in download size (compared to the original packages) b) helping you to avoid wasting SSD/HDD space on your OS partition. For example you can use [abbodi1406 vcredist package](https://github.com/abbodi1406/vcredist) which only installs the latest Microsoft Visual C++ Redistributable Runtimes which comes without any payload - in other words you save a lot of space. While this in theory is a good thing it is not always practical because some Game Stores such as Steam or even some applications which you install forcing you to _re-install_ those packages because they won't probably detect that you already have those runtimes installed. This basically means you override such a repack with the official MS packages and at the end you won't gain anything out of it.
 
 Problems:
-* Repackes could contain malware
+* Repacks could contain malware
 * Steam and other Stores, or even some application overriding or forcing you to install official runtimes even if never ones are already installed
 * No performance benefits
 
@@ -42,16 +42,16 @@ Problems:
 ## Operating System (general tweaking advice)
 * Switch unneeded services (services.msc) from automatic to manual start. This lowers CPU/Ram usage and migrates possible attack scenarios e.g. it prevents NetBios attacks (if that service was disabled). Keep in mind that some services can't be disabled (depending on the Windows 10 Build) which then require you to disable it via registry.
 * Disable unneeded tasks in Task Scheduler, pretty much as same as above the goal is to reduce CPU/Ram consumption and to possible migrate attack scenarios.
-* Disable unneeded logs in Event Viewer - This is more or less optional, performance wise this doesn't gain anything but it helps your SSD life since Windows writes those events in the background to a file/disk. 
-* Do not install any AntiVirus product, if you like to use an AV then stick with [Windows Defender because it's good enough](https://www.tomsguide.com/us/windows-defender,review-2209.html) as proven in 'independent' AV tests. 
-* Use only a good NAT Firewall and Sandboxie (paid product), sandbox untrusted or unknown stuff. Sandboxie has no performance drops unless you use it 'cracked' or load huge apps into it. Windows 10 Build 1903/20H1 will get it's own _free_ but limited sandbox function which would be a free alternative to Sandboxie.
+* Disable unneeded logs in Event Viewer - This is more or less optional, performance wise this doesn't gain anything but it helps your SSD life since Windows writes those events in the background to a file/disk.
+* Do not install any AntiVirus product, if you like to use an AV then stick with [Windows Defender because it's good enough](https://www.tomsguide.com/us/windows-defender,review-2209.html) as proven in 'independent' AV tests.
+* Use only a good NAT Firewall and [Sandboxie](https://www.sandboxie.com/) (paid product), sandbox untrusted or unknown stuff. Sandboxie has no performance drops unless you use it 'cracked' or load huge apps into it. Windows 10 Build 1903/20H1 will get it's own _free_ but limited sandbox function which would be a free alternative to Sandboxie.
 * Change [Core Parking only in XP, 7 and 8](https://social.technet.microsoft.com/Forums/azure/en-US/76dac4e8-ce8f-4b83-b33d-bbef50ae5d9c/cpu-core-parking-in-windows-7-should-it-be-left-alone-or-should-users-disable-it?forum=w7itproperf) because since Windows 10 the OS itself controls it automatically already.
-* Delete unneeded UWP apps and uninstall the stuff you won't need, this gains some SSD/HDD space, reduces memory/cpu usage (since such apps mostly running in the background or trying to update themeselves).
+* Delete unneeded UWP apps and uninstall the stuff you won't need, this gains some SSD/HDD space, reduces memory/cpu usage (since such apps mostly running in the background or trying to update themselves).
 
 
 ### Windows 7 vs. Windows 10
 
-Gaming on Windows 10 is not necessary better or worst, it's depending on several factors such as game development API, Engine itself, if the game was 'designed' and 'optimized' for Windows 10/7, the driver and driver profiles and many more things. 
+Gaming on Windows 10 is not necessary better or worst, it's depending on several factors such as game development API, Engine itself, if the game was 'designed' and 'optimized' for Windows 10/7, the driver and driver profiles and many more things.
 
 [![](http://img.youtube.com/vi/RkHFYKDOo74/0.jpg)](http://www.youtube.com/watch?v=RkHFYKDOo74 "Windows 7 Vs. Windows 10 Game Performance (right-click and open it in a new Browser tab)")
 
@@ -97,12 +97,12 @@ Some games might have random stutter because Windows tries to free some resource
 
 ### Power Management
 
-Set your power setting to maximum performance (it's not needed to use an "ultimate" power-plan) if you graphic card driver has an 'maximum performance' settings enable it too, this will ensure that the GPU uses it's full potential. 
+Set your power setting to maximum performance (it's not needed to use an "ultimate" power-plan) if you graphic card driver has an 'maximum performance' settings enable it too, this will ensure that the GPU uses it's full potential.
 
 
 ### GameDVR + GameBarPresenceWriter
 
-Whenever you stream games via OBS Studio, make sure you disable GameDVR, it is also a smart advice to in general stay away from it since most applications & games are simply not optimized for it - this doesn't have anything to do with that MS _fucked something up_ it's more that most older games (and even several new ones) are not adopted to get any benefit in such _low-latency_ mode. 
+Whenever you stream games via OBS Studio, make sure you disable GameDVR, it is also a smart advice to in general stay away from it since most applications & games are simply not optimized for it - this doesn't have anything to do with that MS _fucked something up_ it's more that most older games (and even several new ones) are not adopted to get any benefit in such _low-latency_ mode.
 
 Keep in mind that the registry tweak is not needed in case you're on RS5+ because `Settings > Gaming > Game bar` is the way to go (since some people reporting to have other registry values).
 
@@ -162,7 +162,7 @@ Windows Registry Editor Version 5.00
 
 ### KB4482887
 
-[KB4482887](https://support.microsoft.com/en-au/help/4482887/windows-10-update-kb4482887) does _for some users_ decrease the gaming performance, however it does [not have anything to do with Retpoline](https://old.reddit.com/r/microsoft/comments/ax18s7/kb4482887_caused_major_performance_issues_for_me/ehrtr4b/) changes because it's [not enabled by default](https://www.borncity.com/blog/2019/03/05/windows-10-retpoline-spectre-2-schutz-manuell-aktivieren/). Microsoft official says that you can ignore/uninstall or [hide](https://support.microsoft.com/de-de/help/4026726/windows-hide-windows-updates-or-driver-updates) the update. They promise to fix the performance issue with the next patchday.  
+[KB4482887](https://support.microsoft.com/en-au/help/4482887/windows-10-update-kb4482887) does _for some users_ decrease the gaming performance, however it does [not have anything to do with Retpoline](https://old.reddit.com/r/microsoft/comments/ax18s7/kb4482887_caused_major_performance_issues_for_me/ehrtr4b/) changes because it's [not enabled by default](https://www.borncity.com/blog/2019/03/05/windows-10-retpoline-spectre-2-schutz-manuell-aktivieren/). Microsoft official says that you can ignore/uninstall or [hide](https://support.microsoft.com/de-de/help/4026726/windows-hide-windows-updates-or-driver-updates) the update. They promise to fix the performance issue with the next patchday.
 
 ```
 // Microsoft statement

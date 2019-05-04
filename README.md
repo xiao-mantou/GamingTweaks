@@ -9,21 +9,34 @@
 [![Discord](https://img.shields.io/discord/418256415874875402.svg?colorA=7289da&colorB=99aab5&label=Discord&logo=discord&maxAge=60)](https://discord.me/CHEF-KOCH)
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/nvinside)
 
-This little guide is all about _Windows Gaming_, and I really mean Gaming on Windows only! There exist [tons of outdated guides and myths](https://github.com/CHEF-KOCH/GamingTweaks/blob/master/Known%20Myths.md) when it comes to such guides but there mostly wrong so I wrote my own to show the things which really does do the difference!
+My little guide is all about _Windows Gaming_, and I really mean Gaming on Windows 10 only! There exist [tons of outdated guides and myths](https://github.com/CHEF-KOCH/GamingTweaks/blob/master/Known%20Myths.md) when it comes to "game tweaking" but they are mostly wrong, so I wrote my own guide to show the things which really do make the difference!
 
 General advice:
 
-- [x] Never use any 'tweak tools', it's not worth it.
-- [x] Make always a backup of the current state. I recommend [Macrium Reflect](https://www.macrium.com/reflectfree).
-- [x] There is no Voodoo tweak which magically increases performance like 50% - just do it yourself, don't be lazy.
-- [x] There is no magical `regtweak.awesome.reg` which increases your OS performance dramatically!
+- [x] **Do not** use any 'tweak tools/porgrams/scripts', it's not worth it.
+- [x] **Do** always a **backups** of your current Windows 10 state. I recommend [Macrium Reflect](https://www.macrium.com/reflectfree).
+- [x] There is **no Voodoo tweak** or `regtweak.awesome.reg` which  increases your OS/Game performance like 50%.
+- [x] **Do it yourself** and don't be lazy (_use brain.exe and do not copy tweaks from the internet!_).
 
 
 What this guide is not for:
 
-- [x] Security / VM
-- [x] OS Hardening
-- [x] Single Game specific tweaks and modifications
+- [x] Security / Virtual Machine (VM)
+- [x] General OS Hardening
+- [x] Single Game specific only tweaks and modifications
+
+
+Clarifications regarding the term "tweaking":
+
+- [x] Tweaks usually do not increase any in-game FPS, there are specific circumstances in which the OS can be tweaked to improve or stabilize the FPS e.g. when you cap the FPS to e.g. get rid of the overheap which might result in stuttering.
+- [x] Tweaks should not be randomly applied via a "universal" script/tool because the OS itself changes over time and the configuration is different for each user. This is the reason why I don't provide a _"myawesomescript.ps1"_ script.
+- [x] Tweaks are defined by: "Latency tweaks", "Engine related workarounds", "FPS workarounds", "CPU usage" "RAM usage", "OS Workarounds", "Driver workarounds" or "Network latency tweaks". All of can have an impact on the OS which means the OS might runs more stable (stable: more FPS, better input or network latency or other things which improve the gaming experience).
+
+
+Philosophy:
+- [x] Possible performance related problems should be reported directly to Microsoft, nVidia, AMD and/or the Game Develop Studio to address them so that everyone can have the benefit.
+- [x] A perfect OS does not need to be tweaked, same goes for games but that will happen due to several things (bugs, different PC configurations, Engine related problems, etc.)
+
 
 
 ## Guide Index
@@ -59,13 +72,13 @@ What this guide is not for:
 * [Cache and Memory Manager Improvements](https://docs.microsoft.com/en-us/windows-server/administration/performance-tuning/subsystem/cache-memory-management/improvements-in-windows-server)
 
 
-## Negative guide examples
+## Negative examples
 * [Win 10 Guide (redacted.tv)](https://redacted.tv/2017/12/20/win10guide/)
 * [How To Tweak Windows 10 For Gaming (back2gaming.com)](http://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/)
 * [Gaming / PC Optimization / Useful Links & Apps (n1kobg.blogspot.com)](http://n1kobg.blogspot.com/)
 
 
-## Positive examples 
+## Positive examples
 * [Mike Martin's Gaming tweaks](http://www.mikemartin.co/gaming_guides)
 * [Can You Get More Space Or Speed From Your SSD?](https://www.tomshardware.com/reviews/ssd-performance-tweak,2911-4.html) + [SSD Optimization](https://wiki.debian.org/SSDOptimization)
 * [Do we really need swap on modern systems?](https://www.redhat.com/en/blog/do-we-really-need-swap-modern-systems)

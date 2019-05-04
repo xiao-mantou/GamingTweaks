@@ -1,5 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Disable CD-Autorun
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\cdrom]
-"AutoRun"=dword:00000000
