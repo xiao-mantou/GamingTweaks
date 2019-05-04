@@ -12,3 +12,12 @@ My own advice is:
 - Check if there are _confirmed_ and _clean_ cracks from trusted groups which avoids losing performance via VM/Sandbox (as mentioned above) but the risk is still there that you get infected (via re-packs, drive-by, Malvertising etc).
 - Check if you [need the Game Client](https://www.resetera.com/threads/developing-epic-games-launcher-appears-to-collect-your-steam-friends-play-history-epic-responds-see-op.105385/) and read the privacy policy before you install it on your OS!
 - Manually removing the analytics code requires to manipulate the game client and it's files and is _dangerous_ because that might result in a ban, the game client should provide an opt-out toggle for such tracking. A better method is to block the request with a firewall/hosts file.
+
+
+## In which cases Telemetry has no impact on the OS / gaming performance
+
+- Depending how well it is [implemented (example)](https://github.com/matthewhorridge/telemetry), telemetry (the running processes) never uses much resources (_depending how you define "much"_)
+- Telemetry can run in the background or even without user consent, the best scenario would be if you can [manually control it opt-in/opt-out](https://blogs.windows.com/buildingapps/2014/03/20/instrumenting-your-app-for-telemetry-and-analytics/) and submit only telemetry when you want it
+- Checks could be integrated to scan the current running applications and if they are currently in fullscreen or not (e.g games)
+- The Telemetry and his task schedule can be configured to run only on specific circumstances e.g. if the PC is idle
+- Depending on how big the submitted data are or how small they are you will never notice it (not in-game and not while you use other applications)

@@ -79,9 +79,10 @@ Philosophy:
 
 
 ## Positive examples
-* [Mike Martin's Gaming tweaks](http://www.mikemartin.co/gaming_guides)
-* [Can You Get More Space Or Speed From Your SSD?](https://www.tomshardware.com/reviews/ssd-performance-tweak,2911-4.html) + [SSD Optimization](https://wiki.debian.org/SSDOptimization)
-* [Do we really need swap on modern systems?](https://www.redhat.com/en/blog/do-we-really-need-swap-modern-systems)
+* [Mike Martin's Gaming tweaks (mikemartin.co)](http://www.mikemartin.co/gaming_guides)
+* [Can You Get More Space Or Speed From Your SSD? (tomshardware.com)](https://www.tomshardware.com/reviews/ssd-performance-tweak,2911-4.html) + [SSD Optimization](https://wiki.debian.org/SSDOptimization)
+* [Do we really need swap on modern systems? (redhat.com)](https://www.redhat.com/en/blog/do-we-really-need-swap-modern-systems)
+* [Better Tear Control Policies, Game Capture, and GPU Improvements (docs.google.com)](https://docs.google.com/document/d/e/2PACX-1vRZkIJJCVynUPCqZbblmAIoPRx1rDIRLAV9CwjunyAaGm2YpIt_XsmiI8Tx4j_uMAaQ1UYrrWQClwUU/pub) + [Official Thread (forums.guru3d.com)](https://forums.guru3d.com/threads/better-tear-control-policies-game-capture-and-gpu-improvements.425331/)
 
 
 ## Project Research
