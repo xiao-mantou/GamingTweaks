@@ -41,6 +41,8 @@
 * [Pixelclock calculator (monitortests.com)](https://www.monitortests.com/pixelclock.php)
 * [Sapphire TriXX OC Utility (sapphiretech.com)](https://www.sapphiretech.com/en/software)
 * [EVGA Precision XOC/X/X1 (evga.com)](https://www.evga.com/precisionxoc/)
+* [DRAM Calculator for Ryzen (techpowerup.com)](https://www.techpowerup.com/download/ryzen-dram-calculator/)
+* [Ryzen Timing Checker (techpowerup.com)](https://www.techpowerup.com/download/ryzen-timing-checker/)
 
 
 ## Emulators
@@ -61,6 +63,21 @@
 ## DRM Performance Impact
 * [Denuvo Really Does Cripple PC Gaming Performance (https://www.extremetech.com)](https://www.extremetech.com/gaming/282924-denuvo-really-does-cripple-pc-gaming-performance)
 * [Devil May Cry 5 PC's Denuvo DRM has a CPU hit (eurogamer.net)](https://www.eurogamer.net/articles/digitalfoundry-2019-devil-may-cry-5-pc-denuvo-protection-tested) - ([Updated test](https://www.techpowerup.com/reviews/Denuvo/Performance_Loss_Test/3.html))
+
+
+## Kernel latencies
+* [Effectively Measure and Reduce Kernel Latencies for Real-time Constraints (elinux.org)](https://elinux.org/images/a/a9/ELC2017-_Effectively_Measure_and_Reduce_Kernel_Latencies_for_Real-time_Constraints_%281%29.pdf)
+* [Analysis of High Resolution Timer Latency Using Kernel Analysis System in Embedded System (ieeexplore.ieee.org)](https://ieeexplore.ieee.org/document/4804584)
+* [Acquiring high-resolution time stamps (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows/desktop/sysinfo/acquiring-high-resolution-time-stamps)
+* [Example 15: Measuring DPC/ISR Time)](https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/example-15--measuring-dpc-isr-time)
+
+
+## Audio Latency in Windows
+* [Low Latency Audio (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows-hardware/drivers/audio/low-latency-audio)
+
+
+## For Developers
+* [Guidelines for Writing DPC Routines (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/guidelines-for-writing-dpc-routines)
 
 
 ## Driver & Firmware Resources

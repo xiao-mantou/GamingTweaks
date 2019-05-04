@@ -28,7 +28,7 @@ What this guide is not for:
 
 Clarifications regarding the term "tweaking":
 
-- [x] Tweaks usually do not increase any in-game FPS, there are specific circumstances in which the OS can be tweaked to improve or stabilize the FPS e.g. when you cap the FPS to e.g. get rid of the overheap which might result in stuttering.
+- [x] Tweaks usually do not increase any in-game FPS, there are specific circumstances in which the OS can be tweaked to improve or stabilize the FPS e.g. when you cap the FPS to e.g. get rid of the overheap which otherwise would have result in stuttering.
 - [x] Tweaks should not be randomly applied via a "universal" script/tool because the OS itself changes over time and the configuration is different for each user. This is the reason why I don't provide a _"myawesomescript.ps1"_ script.
 - [x] Tweaks are defined by: "Latency tweaks", "Engine related workarounds", "FPS workarounds", "CPU usage" "RAM usage", "OS Workarounds", "Driver workarounds" or "Network latency tweaks". All of can have an impact on the OS which means the OS might runs more stable (stable: more FPS, better input or network latency or other things which improve the gaming experience).
 
@@ -36,7 +36,7 @@ Clarifications regarding the term "tweaking":
 Philosophy:
 - [x] Possible performance related problems should be reported directly to Microsoft, nVidia, AMD and/or the Game Develop Studio to address them so that everyone can have the benefit.
 - [x] A perfect OS does not need to be tweaked, same goes for games but that will happen due to several things (bugs, different PC configurations, Engine related problems, etc.)
-
+- [x] I do not claim to be the "tweak master" but I'm a long time experienced gamer and had the chance to get an in-sight few into Windows itself.
 
 
 ## Guide Index
@@ -73,9 +73,9 @@ Philosophy:
 
 
 ## Negative examples
-* [Win 10 Guide (redacted.tv)](https://redacted.tv/2017/12/20/win10guide/)
-* [How To Tweak Windows 10 For Gaming (back2gaming.com)](http://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/)
-* [Gaming / PC Optimization / Useful Links & Apps (n1kobg.blogspot.com)](http://n1kobg.blogspot.com/)
+* [Win 10 Guide (redacted.tv)](https://redacted.tv/2017/12/20/win10guide/) (outdated)
+* [How To Tweak Windows 10 For Gaming (back2gaming.com)](http://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/) (questionable recommendations)
+* [Gaming / PC Optimization / Useful Links & Apps (n1kobg.blogspot.com)](http://n1kobg.blogspot.com/) (questionable recommendations)
 
 
 ## Positive examples
