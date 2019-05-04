@@ -15,6 +15,17 @@ The following things should be as high as possible:
 * Power Management Mode (nVidia Control Panel [NVCP]) "application controlled" is enough.
 
 
+## Choosing the "correct" Windows 10 Version
+
+Why does it matter? [Different Windows versions](https://en.wikipedia.org/wiki/Windows_10_editions) coming with different pre-installed apps or software. Practical you could remove them but this costs a) your time and b) you might not be able to remove all apps (_easily_). The Backgrounds apps and started services matter in a sense that they might result in a [higher CPU/RAM usage](http://www.blackviper.com/service-configurations/) or lags because these apps and services typically trying to update themselves in the _right moment_ which might even ends-up with a [Bluescreen (BSOD)](https://answers.microsoft.com/en-us/windows/forum/all/windows-10-update-causing-blue-screen-errors-daily/45a08401-87c9-4c52-b160-f8548bc42c6f) or [crashes] (https://answers.microsoft.com/en-us/windows/forum/apps_windows_10-outlook_mail/windows-update-caused-loss-of-mail-app-windows/aec58c9c-9371-46b4-ab69-2b54353eff5c).
+
+* Avoid Preview/Insider builds
+* Avoid Pro/Home Editions
+* Use Education/Enterprise or LTSC versions (if possible)
+
+Edu./Ent. or LTSC versions have no pre-installed apps OR/AND you can take control over them without the need to rely on third-party apps or script. Group policy Editor (GPO - gpedit.msc) and the integrated Windows 10 own Settings can control every app/store/update behavior.
+
+
 ## Driver installation
 
 The driver installation order does matter and might help to solve or prevent some problems.
