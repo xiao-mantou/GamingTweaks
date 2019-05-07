@@ -61,6 +61,7 @@
 
 
 ## DRM Performance Impact
+* [Resident Evil 2 Remake is faster by 4-12fps without the Denuvo anti-tamper tech (dsogaming.com)](https://www.dsogaming.com/news/resident-evil-2-remake-is-faster-by-4-12fps-without-the-denuvo-anti-tamper-tech/)
 * [Denuvo Really Does Cripple PC Gaming Performance (https://www.extremetech.com)](https://www.extremetech.com/gaming/282924-denuvo-really-does-cripple-pc-gaming-performance)
 * [Devil May Cry 5 PC's Denuvo DRM has a CPU hit (eurogamer.net)](https://www.eurogamer.net/articles/digitalfoundry-2019-devil-may-cry-5-pc-denuvo-protection-tested) - ([Updated test](https://www.techpowerup.com/reviews/Denuvo/Performance_Loss_Test/3.html))
 

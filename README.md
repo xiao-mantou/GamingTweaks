@@ -13,10 +13,10 @@ My little guide is all about _Windows Gaming_, and I really mean Gaming on Windo
 
 General advice:
 
-- [x] **Do not** use any 'tweak tools/porgrams/scripts', it's not worth it.
+- [x] **Do not** use any all-in-one 'tweak tools/programs or scripts', it's not worth it.
 - [x] **Do** always a **backups** of your current Windows 10 state. I recommend [Macrium Reflect](https://www.macrium.com/reflectfree).
 - [x] There is **no Voodoo tweak** or `regtweak.awesome.reg` which  increases your OS/Game performance like 50%.
-- [x] **Do it yourself** and don't be lazy (_use brain.exe and do not copy tweaks from the internet!_).
+- [x] **Do it yourself** and don't be lazy - _use brain.exe and do not copy tweaks from the internet!_.
 
 
 What this guide is not for:
@@ -34,9 +34,9 @@ Clarifications regarding the term "tweaking":
 
 
 Philosophy:
-- [x] Possible performance related problems should be reported directly to Microsoft, nVidia, AMD and/or the Game Develop Studio to address them so that everyone can have the benefit.
-- [x] A perfect OS does not need to be tweaked, same goes for games but that will happen due to several things (bugs, different PC configurations, Engine related problems, etc.)
-- [x] I do not claim to be the "tweak master" but I'm a long time experienced gamer and had the chance to get an in-sight few into Windows itself.
+- [x] Possible performance related problems should be reported directly to Microsoft, nVidia, AMD and/or the Game Develop Studio to address them so that everyone gets the same benefit.
+- [x] A perfect OS does not need to be tweaked, the same goes for games in general but that will never happen due to several things e.g. bugs, different PC configurations, Engine related problems, etc.
+- [x] I do not claim to be the "tweak master" but I'm a long time experienced gamer and had the chance to get an insight into the Windows kernel (Windows XP - 7).
 
 
 ## Guide Index
