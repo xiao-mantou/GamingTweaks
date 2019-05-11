@@ -11,7 +11,7 @@
 
 My little guide is all about _Windows Gaming_, and I really mean Gaming on Windows 10 only! There exist [tons of outdated guides and myths](https://github.com/CHEF-KOCH/GamingTweaks/blob/master/Known%20Myths.md) when it comes to "game tweaking" but they are mostly wrong, so I wrote my own guide to show the things which really do make the difference!
 
-General advice:
+## General advice
 
 - [x] **Do not** use any all-in-one 'tweak tools/programs or scripts', it's not worth it.
 - [x] **Do** always a **backups** of your current Windows 10 state. I recommend [Macrium Reflect](https://www.macrium.com/reflectfree).
@@ -19,23 +19,23 @@ General advice:
 - [x] **Do it yourself** and don't be lazy - _use brain.exe and do not copy tweaks from the internet!_.
 
 
-What this guide is not for:
+#### What this guide is not for
 
 - [x] Security / Virtual Machine (VM)
 - [x] General OS Hardening
 - [x] Single Game specific only tweaks and modifications
 
 
-Clarifications regarding the term "tweaking":
+#### Clarifications regarding the term "tweaking"
 
-- [x] Tweaks usually do not increase any in-game FPS, there are specific circumstances in which the OS can be tweaked to improve or stabilize the FPS e.g. when you cap the FPS to e.g. get rid of the overheap which otherwise would have result in stuttering.
-- [x] Tweaks should not be randomly applied via a "universal" script/tool because the OS itself changes over time and the configuration is different for each user. This is the reason why I don't provide a _"myawesomescript.ps1"_ script.
-- [x] Tweaks are defined by: "Latency tweaks", "Engine related workarounds", "FPS workarounds", "CPU usage" "RAM usage", "OS Workarounds", "Driver workarounds" or "Network latency tweaks". All of can have an impact on the OS which means the OS might runs more stable (stable: more FPS, better input or network latency or other things which improve the gaming experience).
+- [x] Tweaks usually do not magically increase any in-game FPS. There are specific circumstances in which the OS can be tweaked to improve or stabilize the game [smoothness](https://en.wikipedia.org/wiki/Smoothness) when you for example cap your FPS to get rid of the overheap which otherwise might have result in in-game stuttering.
+- [x] Tweaks should not be randomly applied via a "universal" script or tool because the OS itself changes over time and the configuration is different for each user. This is the reason why this project don't provide a general _"myawesomescript.ps1"_ script.
+- [x] Tweaks are defined by: "Latency improvements", "Engine related improvements/workarounds", "FPS workarounds/fixes", "CPU usage" "RAM usage", "OS workarounds", "Driver workarounds" or "Network latency optimization". All of them can have an impact on the OS, game or network which means the OS/game might runs more stable or on higher fps (if overclocked).
 
 
-Philosophy:
-- [x] Possible performance related problems should be reported directly to Microsoft, nVidia, AMD and/or the Game Develop Studio to address them so that everyone gets the same benefit.
-- [x] A perfect OS does not need to be tweaked, the same goes for games in general but that will never happen due to several things e.g. bugs, different PC configurations, Engine related problems, etc.
+#### Philosophy
+- [x] Possible performance related problems should be reported directly to Microsoft, nVidia, AMD and/or the Game Develop Studio to address them so that everyone gets the same benefit. In terms of fair play it is [better](https://www.vice.com/en_us/article/43zdnb/battlefield-v-players-are-using-shitty-graphics-for-a-competitive-edge).
+- [x] A perfect OS does not need to be tweaked, the same goes for games in general but this will never happen due to several things e.g. bugs, different PC configurations, engine related problems, etc.
 - [x] I do not claim to be the "tweak master" but I'm a long time experienced gamer and had the chance to get an insight into the Windows kernel (Windows XP - 7).
 
 

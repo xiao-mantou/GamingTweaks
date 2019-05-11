@@ -3,10 +3,11 @@
 The following things should be as low as possible:
 
 * Audio latency
-* Ping latency (use a ping command to check it)
+* Ping/Network latency (use the ping command to quickly check your average latency which might be different [depending on several factors])
 * DPC Latency (use [LatencyMon](https://www.resplendence.com/latencymon) to check it)
 * _Overall network latency_ (this can't be tested easily because it is depening on several factors)
 * Keyboard input processing (depending on yourself + how fast the keyboard/mouse + OS processes the signals)
+
 
 The following things should be as high as possible:
 
@@ -117,7 +118,7 @@ List of Windows tasks to disable (privacy & performance related):
 
 
 
-##### **The following workaround is specifically for Windows 1703 >= 1803**:
+##### **The following workaround is specifically for Windows 1703 >= 1803**
 
 
 Some games might have random stutter because Windows tries to free some resources (more or less good) which might causes game stutters. A more detailed explanation can be found to the issue over [here](https://forums.guru3d.com/threads/fix-game-stutter-on-win-10-1703-1803.420251/page-12#post-5590635). Possible workarounds in form from batch files or small utilities can be found [here](https://forums.guru3d.com/threads/fix-game-stutter-on-win-10-1703-1803.420251/).

@@ -17,9 +17,10 @@
 * [Catalyst Antialiasing Guide (beyond3d.com)](http://www.beyond3d.com/content/articles/37/1)
 * [GeDoSaTo FPS capping, modding controversies (blog.metaclassofnil.com)](http://blog.metaclassofnil.com/?p=715)
 * [The real and complete story - Does Windows defragment your SSD? (hanselman.com)](https://www.hanselman.com/blog/TheRealAndCompleteStoryDoesWindowsDefragmentYourSSD.aspx)
+* [PC Gaming Wiki - Microsoft Windows](https://pcgamingwiki.com/wiki/Microsoft_Windows)
 
 
-## Games knowledge
+## Game knowledge
 * [PC Gaming Wiki (pcgamingwiki.com)](https://pcgamingwiki.com/wiki/Home) - Game configs, suggestions & tricks database (similar like Wikipedia just for games)
 * [WSGF Forum (wsgf.org)](http://www.wsgf.org/forums/viewforum.php?f=64&sid=07479fb019fa626648795c596de5e9ea) - Game Mods, discussions and requests.
 
