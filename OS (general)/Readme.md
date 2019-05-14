@@ -198,3 +198,8 @@ After installing KB4482887, users may notice graphics and mouse performance degr
 ```
 
 Fixed with Windows 10 Build 17763.379 and [KB4489899](https://support.microsoft.com/en-us/help/4489899/windows-10-update-kb4489899).
+
+
+## KB4494441 Build 1809 17763.503
+
+[Retpoline](https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/Mitigating-Spectre-variant-2-with-Retpoline-on-Windows/ba-p/295618) is activated by default with [KB4494441](https://support.microsoft.com/en-us/help/4494441/windows-10-update-kb4494441) if Spectre Variante 2 (CVE-2017-5715) was activated (manually) before the KB was installed.
