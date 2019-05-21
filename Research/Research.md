@@ -100,3 +100,19 @@
 * [Nt Mini Firmware Jailbreak (blog.kevtris.org)](http://blog.kevtris.org/blogfiles/ntm_firmware_verJB2.0.zip)
 * [Mega Sg firmware (support.analogue.co)](https://support.analogue.co/hc/en-us/articles/360024836892-Mega-Sg-Firmware-Update-v4-2)
 * [Mega SG Jailbreak (github.com)](https://github.com/SmokeMonsterPacks/Mega-Sg-Jailbreak)
+
+
+## Legendary RAM OC Guides (they are all in german)
+* [RAM-Overclocking und Auswirkungen auf Spiele bei Intel CPUs (computerbase.de)](https://www.computerbase.de/forum/threads/intel-core-i-serie-ram-overclocking-auswirkungen-auf-spiele.1849970/)
+* [Intel Skylake-X (Sockel 2066) OC-Guide (hardwareluxx.de/)](https://www.hardwareluxx.de/community/f139/intel-skylake-x-sockel-2066-oc-guide-1172969.html)
+* [AMD Ryzen - RAM OC Community (computerbase.de)](https://www.computerbase.de/forum/threads/amd-ryzen-ram-oc-community.1829356/) 
+
+
+## Comprehensive AMD Ryzen Memory & OC articles
+* [AMD Ryzen Memory Tweaking & Overclocking Guide (techpowerup.com)](https://www.techpowerup.com/reviews/AMD/Ryzen_Memory_Tweaking_Overclocking_Guide/)
+* [AMD RYZEN Overclocking Guide (overclockers.com)](https://www.overclockers.com/amd-ryzen-overclocking-guide/)
+
+
+## Comprehensive Intel "Coffee Lake" Memory & OC articles
+* [The Intel 9th Gen Review: Core i9-9900K, Core i7-9700K and Core i5-9600K Tested (anandtech.com)](https://www.anandtech.com/show/13400/intel-9th-gen-core-i9-9900k-i7-9700k-i5-9600k-review)
+* [Intel's Core i9-9900K CPU reviewed (techreport.com)](https://techreport.com/review/34192/intel-core-i9-9900k-cpu-reviewed)
