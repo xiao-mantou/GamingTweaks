@@ -1,3 +1,7 @@
+## Meltdown/MDS/ZombieLoad Performance Impact (MUST READ!)
+* [The Performance Impact Of MDS / Zombieload Plus The Overall Cost Now Of Spectre/Meltdown/L1TF/MDS (phoronix.com)](https://www.phoronix.com/scan.php?page=article&item=mds-zombieload-mit&num=1)
+
+
 ## General Research
 * [Nvidia Inspector profile(s) to fix Low Power for some applications (github.com)](https://github.com/Ociidii-Works/Nvidia-GPU-Low-Power-Fix)
 * [Overclocking Community (overclock.net)](http://www.overclock.net/)
@@ -105,7 +109,7 @@
 ## Legendary RAM OC Guides (they are all in german)
 * [RAM-Overclocking und Auswirkungen auf Spiele bei Intel CPUs (computerbase.de)](https://www.computerbase.de/forum/threads/intel-core-i-serie-ram-overclocking-auswirkungen-auf-spiele.1849970/)
 * [Intel Skylake-X (Sockel 2066) OC-Guide (hardwareluxx.de/)](https://www.hardwareluxx.de/community/f139/intel-skylake-x-sockel-2066-oc-guide-1172969.html)
-* [AMD Ryzen - RAM OC Community (computerbase.de)](https://www.computerbase.de/forum/threads/amd-ryzen-ram-oc-community.1829356/) 
+* [AMD Ryzen - RAM OC Community (computerbase.de)](https://www.computerbase.de/forum/threads/amd-ryzen-ram-oc-community.1829356/)
 
 
 ## Comprehensive AMD Ryzen Memory & OC articles

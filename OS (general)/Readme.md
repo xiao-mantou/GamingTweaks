@@ -186,7 +186,7 @@ Windows Registry Editor Version 5.00
 ; "TrustLevel"=dword:00000000
 ```
 
-## Patch related performance impacts
+## Patch Related Performance Impact
 
 ### KB4482887
 
