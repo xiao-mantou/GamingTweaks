@@ -1,4 +1,11 @@
-## Responsiveness Impact
+## How do I measure the overall OS performance?
+
+It is a difficlt question because there a lot of scenarios, hardware combinations & considerations to make. A [benchmark is maybe not reliable](https://www.gamersnexus.net/guides/3240-bench-theory-reliability-standard-deviation-of-game-benchmarks) and you mjust consider that every benchmark [contains margin of errors](https://www.eurogamer.net/articles/digitalfoundry-2018-the-trouble-with-pc-benchmark-modes) (which is normal). A synthetic benchmark basically spoken gives you an idea of how well a hardware can perform a given task but the best way to rely upon results is real world usage. Too many things can affect your gaming performance, from part variances within the same product, different test benches e.g. using different CPUs/Motherboards at different settings, different test environment (e.g. temperature), different drivers & settings and sometimes different software versions (patches of games or Windows versions e.g. Build 1809 vs 1903 (No Retpoline vs [Retpoline](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)#General_approaches)). That said do not use in-game [benchmarks](https://en.wikipedia.org/wiki/Benchmark_(computing)).
+
+I usually use and recommend the [phoronix-test-suite](https://www.phoronix-test-suite.com/) (it's an "real program benchmark") because it does not only benchmark [certain aspects](https://en.wikipedia.org/wiki/Benchmark_(computing)#Challenges) (Kernel, synthetic, component bench), it is also able to run acrosss multiple systems and checks security based parameters to see how the OS "scores". The test itself also includes parameters to show the margin of errors, so it's not an ordinary benchmark tool. it is well documented, open source and gets constantly updates. Keep in mind that you should run it multiple times to get an average overview, however those tools do not help if you have in-game problems because several games and their game engines might have several other issues (which no benchamrk can show you). I highly recommend that you run the suite, and than compare how well you favourite game runs in-game, then you have something _objective_ to test against.
+
+
+## Responsiveness and the impact on the OS 
 
 The following things should be as low as possible:
 
@@ -7,6 +14,7 @@ The following things should be as low as possible:
 * DPC Latency (use [LatencyMon](https://www.resplendence.com/latencymon) to check it)
 * _Overall network latency_ (this can't be tested easily because it is depening on several factors)
 * Keyboard input processing (depending on yourself + how fast the keyboard/mouse + OS processes the signals)
+* Security holes - [MDS, ZombieLoad, Spectre/Meltdown, L1TF etc.](https://www.phoronix.com/scan.php?page=article&item=mds-zombieload-mit&num=1).
 
 
 The following things should be as high as possible:
