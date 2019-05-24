@@ -48,6 +48,7 @@
 * [EVGA Precision XOC/X/X1 (evga.com)](https://www.evga.com/precisionxoc/)
 * [DRAM Calculator for Ryzen (techpowerup.com)](https://www.techpowerup.com/download/ryzen-dram-calculator/)
 * [Ryzen Timing Checker (techpowerup.com)](https://www.techpowerup.com/download/ryzen-timing-checker/)
+* [AMD Memory Tweak](https://github.com/Eliovp/amdmemorytweak)
 
 
 ## Emulators
@@ -75,7 +76,7 @@
 * [Device power management reference (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/device-power-management-reference)
 
 
-## Kernel latencies
+## Kernel Latencies
 * [User Mode Versus Kernel Mode (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows-hardware/drivers/audio/user-mode-versus-kernel-mode)
 * [Effectively Measure and Reduce Kernel Latencies for Real-time Constraints (elinux.org)](https://elinux.org/images/a/a9/ELC2017-_Effectively_Measure_and_Reduce_Kernel_Latencies_for_Real-time_Constraints_%281%29.pdf)
 * [Analysis of High Resolution Timer Latency Using Kernel Analysis System in Embedded System (ieeexplore.ieee.org)](https://ieeexplore.ieee.org/document/4804584)
