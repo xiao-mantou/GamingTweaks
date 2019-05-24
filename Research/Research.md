@@ -29,28 +29,6 @@
 * [WSGF Forum (wsgf.org)](http://www.wsgf.org/forums/viewforum.php?f=64&sid=07479fb019fa626648795c596de5e9ea) - Game Mods, discussions and requests.
 
 
-## Programs
-* [Custom Resolution Utility (CRU) (monitortests.com)](http://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
-* [3Dmigoto (github.com)](https://github.com/bo3b/3Dmigoto) - Chiri's DX11 wrapper to enable fixing broken stereoscopic effects.
-* [AmdMsrTweaker (github.com)](https://github.com/mpollice/AmdMsrTweaker)
-* [nVidia Inspector (download.orbmu2k.de)](http://download.orbmu2k.de/files/nvidiaInspector.zip) + [source code](https://github.com/Orbmu2k/nvidiaProfileInspector) (latest final version) + [latest beta](https://ci.appveyor.com/project/Orbmu2k/nvidiaprofileinspector)
-* [Display Driver Uninstaller (wagnardsoft.com)](https://www.wagnardsoft.com/)
-* [Custom Resolution Utility (CRU) (monitortests.com)](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
-* [TCPOptimizer (speedguide.net)](http://www.speedguide.net/files/TCPOptimizer.exe)
-* [LatencyMon (resplendence.com)](http://www.resplendence.com/latencymon)
-* [MSI Afterburner + Guide (forums.guru3d.com)](https://forums.guru3d.com/threads/overclocking-with-msi-afterburner-at-users-risk.327291/)
-* [ClockBlocker (profiled AMD power-management control) (forums.guru3d.com)](https://forums.guru3d.com/threads/clockblocker-profiled-amd-power-management-control.404465/)
-* [AMD Ryzen Master (download.amd.com](https://download.amd.com/Desktop/AMD-Ryzen-Master.exe) + [FAQ](https://www.amd.com/en/support/kb/faq/gpu-775)
-* [NV RGBFullRangeToggle (blog.metaclassofnil.com)](http://blog.metaclassofnil.com/wp-content/uploads/2012/08/NV_RGBFullRangeToggle.zip) Use this tool if you don't see any 'Output dynamic range' option in the NVCP.
-* [Mouse Overclocking Utility (github.com)](https://github.com/vadash/1000hz)
-* [Pixelclock calculator (monitortests.com)](https://www.monitortests.com/pixelclock.php)
-* [Sapphire TriXX OC Utility (sapphiretech.com)](https://www.sapphiretech.com/en/software)
-* [EVGA Precision XOC/X/X1 (evga.com)](https://www.evga.com/precisionxoc/)
-* [DRAM Calculator for Ryzen (techpowerup.com)](https://www.techpowerup.com/download/ryzen-dram-calculator/)
-* [Ryzen Timing Checker (techpowerup.com)](https://www.techpowerup.com/download/ryzen-timing-checker/)
-* [AMD Memory Tweak](https://github.com/Eliovp/amdmemorytweak)
-
-
 ## Emulators
 * [RetroArch (retroarch.com)](https://www.retroarch.com/)
 * [Mesen high-accuracy NES and Famicom (mesen.ca)](https://www.mesen.ca/)
@@ -121,3 +99,51 @@
 ## Comprehensive Intel "Coffee Lake" Memory & OC articles
 * [The Intel 9th Gen Review: Core i9-9900K, Core i7-9700K and Core i5-9600K Tested (anandtech.com)](https://www.anandtech.com/show/13400/intel-9th-gen-core-i9-9900k-i7-9700k-i5-9600k-review)
 * [Intel's Core i9-9900K CPU reviewed (techreport.com)](https://techreport.com/review/34192/intel-core-i9-9900k-cpu-reviewed)
+
+
+## Programs
+
+###  Monitor "OC" programs
+* [Custom Resolution Utility (CRU) (monitortests.com)](http://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
+* [Pixelclock calculator (monitortests.com)](https://www.monitortests.com/pixelclock.php)
+
+### nVidia Driver adjustment programs
+* [nVidia Inspector (download.orbmu2k.de)](http://download.orbmu2k.de/files/nvidiaInspector.zip) + [source code](https://github.com/Orbmu2k/nvidiaProfileInspector) (latest final version) + [latest beta](https://ci.appveyor.com/project/Orbmu2k/nvidiaprofileinspector)
+* [NV RGBFullRangeToggle (blog.metaclassofnil.com)](http://blog.metaclassofnil.com/wp-content/uploads/2012/08/NV_RGBFullRangeToggle.zip) Use this tool if you don't see any 'Output dynamic range' option in the NVCP.
+
+### Driver Uninstaller programs
+* [Display Driver Uninstaller (wagnardsoft.com)](https://www.wagnardsoft.com/)
+
+### GPU OC programs (AMD/Intel/both)
+* [MSI Afterburner + Guide (forums.guru3d.com)](https://forums.guru3d.com/threads/overclocking-with-msi-afterburner-at-users-risk.327291/)
+* [AMD Memory Tweak](https://github.com/Eliovp/amdmemorytweak)
+* [Sapphire TriXX OC Utility (sapphiretech.com)](https://www.sapphiretech.com/en/software)
+* [EVGA Precision XOC/X/X1 (evga.com)](https://www.evga.com/precisionxoc/)
+* [AMD Memory Tweak](https://github.com/Eliovp/amdmemorytweak)
+
+### AMD CPU OC or adjustment programs
+* [AMD Ryzen Master (download.amd.com](https://download.amd.com/Desktop/AMD-Ryzen-Master.exe) + [Official FAQ](https://www.amd.com/en/support/kb/faq/gpu-775) 
+* [AmdMsrTweaker (github.com)](https://github.com/mpollice/AmdMsrTweaker)
+
+### AMD RAM "OC" programs
+* [Ryzen Timing Checker (techpowerup.com)](https://www.techpowerup.com/download/ryzen-timing-checker/)
+* [DRAM Calculator for Ryzen (techpowerup.com)](https://www.techpowerup.com/download/ryzen-dram-calculator/)
+
+### Internet Latency "tweak" programs
+* [TCPOptimizer (speedguide.net)](http://www.speedguide.net/files/TCPOptimizer.exe)
+
+### PC Latency measurement programs
+* [LatencyMon (resplendence.com)](http://www.resplendence.com/latencymon)
+
+### Mouse "OC" programs
+* [Mouse Overclocking Utility (github.com)](https://github.com/vadash/1000hz)
+
+### Fix broken stereoscopic effects
+* [3Dmigoto (github.com)](https://github.com/bo3b/3Dmigoto) - Chiri's DX11 wrapper to enable fixing broken stereoscopic effects.
+
+### Power Management programs
+* [ClockBlocker (profiled AMD power-management control) (forums.guru3d.com)](https://forums.guru3d.com/threads/clockblocker-profiled-amd-power-management-control.404465/)
+
+### Bios adjustment programs
+* [BIOSTimingsDecoder](https://github.com/integralfx/BIOSTimingsDecoder)
+
