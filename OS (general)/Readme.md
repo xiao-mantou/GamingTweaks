@@ -184,6 +184,9 @@ To ensure the blocking settings are always set eg. after an upgrade/KB update, y
 2. `SCHTASKS /Create /F /RU "SYSTEM" /RL HIGHEST /SC ONSTART /TN BlockW10 /TR "cmd /c %windir%\antitelemetry.cmd"`
 
 
+Random stuttering
+---------------
+
 ##### **The following workaround is specifically for Windows 1703 >= 1803**
 
 
