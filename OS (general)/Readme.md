@@ -4,6 +4,8 @@ It is a difficlt question because there a lot of scenarios, hardware combination
 
 I usually use and recommend the [phoronix-test-suite](https://www.phoronix-test-suite.com/) (it's an "real program benchmark") because it does not only benchmark [certain aspects](https://en.wikipedia.org/wiki/Benchmark_(computing)#Challenges) (Kernel, synthetic, component bench), it is also able to run acrosss multiple systems and checks security based parameters to see how the OS "scores". The test itself also includes parameters to show the margin of errors, so it's not an ordinary benchmark tool. it is well documented, open source and gets constantly updates. Keep in mind that you should run it multiple times to get an average overview, however those tools do not help if you have in-game problems because several games and their game engines might have several other issues (which no benchamrk can show you). I highly recommend that you run the suite, and than compare how well you favourite game runs in-game, then you have something _objective_ to test against.
 
+[CapFrameX](https://github.com/DevTechProfile/CapFrameX) is a fantastic tool to identify frame drops or G-Sync/FreeSync related issues. The program is for beginners and professionals and can help to check what might causes lags or to get a overview of your hardware and how well it really performes in-game, since it supports DirectX and Vulkan API's it basically can analyze almost every application/game.
+
 
 ## Responsiveness and the impact on the OS 
 
