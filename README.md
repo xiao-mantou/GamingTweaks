@@ -42,7 +42,7 @@ My little guide is all about _Windows Gaming_, and I really mean Gaming on Windo
 ## Guide Index
 * [BIOS Configuration and Tips](Bios/Readme.md)
 * [OS (general)](OS%20(general)/Readme.md)
-* [Hardware](Hardware%20(general)/Readme.mdd)
+* [Hardware](Hardware%20(general)/Readme.md)
 * [DirectX](DirectX/Readme.md)
 * [Drivers](Drivers/Readme.md)
 * [GPU AMD](GPU/AMD/Readme.md)
