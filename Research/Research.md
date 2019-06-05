@@ -104,7 +104,7 @@
 ## Programs
 
 ### Frametime capture and analysis tool
-* [CapFrameX](https://github.com/DevTechProfile/CapFrameX)
+* [CapFrameX (github.com)](https://github.com/DevTechProfile/CapFrameX)
 
 ###  Monitor "OC" programs
 * [Custom Resolution Utility (CRU) (monitortests.com)](http://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
@@ -119,10 +119,9 @@
 
 ### GPU OC programs (AMD/Intel/both)
 * [MSI Afterburner + Guide (forums.guru3d.com)](https://forums.guru3d.com/threads/overclocking-with-msi-afterburner-at-users-risk.327291/)
-* [AMD Memory Tweak](https://github.com/Eliovp/amdmemorytweak)
+* [AMD Memory Tweak (github.com)](https://github.com/Eliovp/amdmemorytweak)
 * [Sapphire TriXX OC Utility (sapphiretech.com)](https://www.sapphiretech.com/en/software)
 * [EVGA Precision XOC/X/X1 (evga.com)](https://www.evga.com/precisionxoc/)
-* [AMD Memory Tweak](https://github.com/Eliovp/amdmemorytweak)
 
 ### AMD CPU OC or adjustment programs
 * [AMD Ryzen Master (download.amd.com](https://download.amd.com/Desktop/AMD-Ryzen-Master.exe) + [Official FAQ](https://www.amd.com/en/support/kb/faq/gpu-775) 
