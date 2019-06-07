@@ -59,3 +59,13 @@ There is an detailed answer [here](https://www.blurbusters.com/howto-low-lag-vsy
 ## Performance issues with multi-monitors
 
 Multiple monitors plugged _might_ causes performance issues which is depending on the game engine and if you do other tasks to the same time on other monitors. A workaround is to Unplug non-primary monitors or to ensure that every monitor runs at the same Hz.
+
+## Using Variable Refresh Rate (FreeSync)
+
+The new [VRR](https://devblogs.microsoft.com/directx/os-variable-refresh-rate/) **does not** replace the traditional FreeSync / Adaptive-Sync! The new Windows toggle doesn’t override any of the settings you’ve already configured in the FreeSync or Adaptive-Sync control panels.
+
+Requirements:
+- Windows 1903+
+- WDDM 2.6+ driver
+- FreeSync or Adaptive-Sync capable monitor
+- DX11 full-screen game which does not support VRR natively
