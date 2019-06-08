@@ -75,6 +75,9 @@ Requirements:
 **Worth knowing**
 * Under AMD Temporal dithering is (by default) on.
 * [Intel Graphics tweak tool](https://github.com/nitrocaster/igfxtweak) can adjust Intel's dithering. Newer Intel driver have dithering disabled by default.
+* Programs like Handbreak automatically seems to apply dither when converting to 8 bit.
+* Since nVidia driver v353.06 users can select bit depth in the Nvidia Control Panel on all systems, if you see 10-bit Nvidia will automatically dither down to the bit depth selected if it is lower. If you can select 10-bit in Nvidia CP, the driver will not dither and sent true 10bit signal to your display.
+* Nvidia will not dither 10-bit input when set to 12-bit.
 
 
 Dithering on Nvidia GPUs are usually only present with Quadro GPUs, the only [exception are GeForce drivers under any Linux OS](https://us.download.nvidia.com/XFree86/Linux-x86/375.10/README/xconfigoptions.html). The user [Guzz](https://forums.geforce.com/member/1822975/) discovered a way to [unlock the hidden registry entry "DitherRegistryKey"](https://forums.geforce.com/default/topic/1082681/geforce-drivers/is-it-possible-to-quot-port-quot-dithering-from-nvidia-x-server-to-geforce-driver-/post/5934577/#5934577). __The method seems to be stable for Windows 7 up to Win 10 1607. Later OS versions seems to have massive problems.__ [Linux handles it a bit different from Windows](https://help.teradici.com/s/article/1048).
