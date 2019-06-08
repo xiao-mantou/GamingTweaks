@@ -23,6 +23,9 @@
 * [The real and complete story - Does Windows defragment your SSD? (hanselman.com)](https://www.hanselman.com/blog/TheRealAndCompleteStoryDoesWindowsDefragmentYourSSD.aspx)
 * [PC Gaming Wiki - Microsoft Windows](https://pcgamingwiki.com/wiki/Microsoft_Windows)
 
+## Dithering under Windows
+* [Disable temporal dithering on Windows - Amulet Hotkey (resources.amulethotkey.com)](https://resources.amulethotkey.com/download/KBA_144_Disable_temporal_dithering_on_Windows_May_2018.pdf) 
+
 
 ## Game knowledge
 * [PC Gaming Wiki (pcgamingwiki.com)](https://pcgamingwiki.com/wiki/Home) - Game configs, suggestions & tricks database (similar like Wikipedia just for games)
