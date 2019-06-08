@@ -72,10 +72,15 @@ Requirements:
 
 ## Enabling dithering for nVidia Geforce GPUs (non-Quadro GPUs/Linux)
 
-Dithering on Nvidia GPUs are usually only present with Quadro GPUs, the only exception are GeForce drivers on any Linux OS. The user [Guzz](https://forums.geforce.com/member/1822975/) discovered a way to [unlock the hidden registry entry "DitherRegistryKey"](https://forums.geforce.com/default/topic/1082681/geforce-drivers/is-it-possible-to-quot-port-quot-dithering-from-nvidia-x-server-to-geforce-driver-/post/5934577/#5934577). __The method seems to be stable for Windows 7 up to Win 10 1607. Later OS versions seems to cause massive problems.__
+**Worth knowing**
+* Under AMD Temporal dithering is (by default) on.
+* [Intel Graphics tweak tool](https://github.com/nitrocaster/igfxtweak) can adjust Intel's dithering. Newer Intel driver have dithering disabled by default.
+
+
+Dithering on Nvidia GPUs are usually only present with Quadro GPUs, the only [exception are GeForce drivers under any Linux OS](https://us.download.nvidia.com/XFree86/Linux-x86/375.10/README/xconfigoptions.html). The user [Guzz](https://forums.geforce.com/member/1822975/) discovered a way to [unlock the hidden registry entry "DitherRegistryKey"](https://forums.geforce.com/default/topic/1082681/geforce-drivers/is-it-possible-to-quot-port-quot-dithering-from-nvidia-x-server-to-geforce-driver-/post/5934577/#5934577). __The method seems to be stable for Windows 7 up to Win 10 1607. Later OS versions seems to have massive problems.__ [Linux handles it a bit different from Windows](https://help.teradici.com/s/article/1048).
 
 **Drawbacks**
-* Constant banding everywhere on 1903+ (?)
+* Constant [banding](https://loopit.dk/banding_in_games.pdf) everywhere on 1903+ (?)
 * Disable dithering -> shut down -> turn on PC -> enable dithering seems the best way to workaround the problems.
 * Nvidia drivers (300+) rounding VCGT from 16-bit to 8-bit with certain scenario such as after monitor wake up from sleep or after computer wake up from sleep which might causes problems.
 * Multi-Monitor problems.
