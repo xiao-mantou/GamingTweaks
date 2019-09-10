@@ -79,3 +79,9 @@ Hard page faults
 ===========
 
 A [hard fault](https://appuals.com/hard-faults-per-second/) occurs when a memory block had to be retrieved from the Page File (Virtual Memory) instead of the physical memory (RAM). You have three possibilities, try to [disable the pagefile](https://tunecomp.net/win10-page-file-disable/) or upgrade your RAM (if possible).
+
+
+nVidia and dithering question
+===========
+
+[Enabling dithering has no impact on gaming performance](https://www.youtube.com/watch?v=ot3TWFtWl1M), so it is unclear why nVidia and Microsoft are not going to enable the option (by default) for e.g. 1440p 144-165Hz G-Sync TN monitors (the ones which are most affected by color banding). Or why there is no option to manually control it via NVCP. AMD GPU drivers have such an option to enable/disable dithering since many years and Linux also has an active nVidia dithering option since many years. There is a [registry hack](https://forums.geforce.com/default/topic/1082681/geforce-drivers/is-it-possible-to-quot-port-quot-dithering-from-nvidia-x-server-to-geforce-driver-/post/5934577/#5934577) to enable dithering for nVidia users, the problem is that Windows seems to make problems (newer versions like 1903+). 
