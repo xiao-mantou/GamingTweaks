@@ -32,7 +32,7 @@ Overclocking isn't just about getting more MHz it also means and requires that y
 
 #### Boost (Turbo)
 
-[AMD confirmed an firmware issue](https://twitter.com/AMDRyzen/status/1168901636162539536?ref_src=twsrc%5Etfw) with the (latest) AMD Ryzen-3000-CPUs (Fam.: Matisse). This problem lead into a reduced turbo clock speed. A firmware update (Bios update v46.44.00) is planned for Sept. 10, 2019, see [here](https://twitter.com/1usmus/status/1168911500586749959?ref_src=twsrc%5Etfw). 
+[AMD confirmed an firmware issue](https://twitter.com/AMDRyzen/status/1168901636162539536?ref_src=twsrc%5Etfw) with the (latest) AMD Ryzen-3000-CPUs (Fam.: Matisse). This problem lead into a reduced turbo clock speed. A firmware update (Bios update v46.44.00) is planned for Sept. 10, 2019, see [here](https://twitter.com/1usmus/status/1168911500586749959?ref_src=twsrc%5Etfw). Beta Bios updates for MSI and Gigabyte can be found [here](https://forum-en.msi.com/index.php?topic=323855.0&utm_source=share&utm_medium=ios_app&utm_name=iossmf) & [here](https://forums.tweaktown.com/gigabyte/28441-gigabyte-beta-bios.html?utm_source=share&utm_medium=ios_app&utm_name=iossmf).
 
 
 ### Reference & Tools
