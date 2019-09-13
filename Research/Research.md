@@ -98,6 +98,7 @@
 ## Comprehensive AMD Ryzen Memory & OC articles
 * [AMD Ryzen Memory Tweaking & Overclocking Guide (techpowerup.com)](https://www.techpowerup.com/reviews/AMD/Ryzen_Memory_Tweaking_Overclocking_Guide/)
 * [AMD RYZEN Overclocking Guide (overclockers.com)](https://www.overclockers.com/amd-ryzen-overclocking-guide/)
+* [Official Cosair Ryzen 3000 Series Memory Overclocking Guide (corsair.com) (.pdf)](https://www.corsair.com/corsairmedia/sys_master/productcontent/Ryzen3000_MemoryOverclockingGuide.pdf)
 
 
 ## Comprehensive Intel "Coffee Lake" Memory & OC articles
