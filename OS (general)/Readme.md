@@ -91,10 +91,15 @@ Problems:
 
 Gaming on Windows 10 is not necessary better or worst, it's depending on several factors such as game development API, Engine itself, if the game was 'designed' and 'optimized' for Windows 10/7, the driver and driver profiles and many more things.
 
-[![](http://img.youtube.com/vi/RkHFYKDOo74/0.jpg)](http://www.youtube.com/watch?v=RkHFYKDOo74 "Windows 7 Vs. Windows 10 Game Performance (right-click and open it in a new Browser tab)")
+[![](http://img.youtube.com/vi/RkHFYKDOo74/0.jpg)](https://www.youtube.com/watch?v=RkHFYKDOo74 "Windows 7 Vs. Windows 10 Game Performance (right-click and open it in a new Browser tab)")
 
 
-Application(s) impact
+### Windows 10 LTSB (Build 1607) Vs. LTSC (2019)
+
+[![](http://img.youtube.com/vi/RkHFYKDOo74/0.jpg)](https://youtu.be/ghNe876N3TY "LTSB (Build 1607) Vs. LTSC (2019) Game Performance tested in 10 Games (right-click and open it in a new Browser tab)")
+
+
+Application performance impact
 ---------------
 
 Some applications and their integrated drivers from external devices like [a mouse can cause serious FPS drops](https://old.reddit.com/r/Doom/comments/8a1m9s/psa_deactivate_the_new_razer_chroma_option_in/). Keep in mind that you should update the driver ASAP once their is a new one out, this might not only fixes performance problems, it often also fixes security holes, simply review the changelog manually before you apply the changes to see if it's worth it and do backups before you install a new upgrade.
