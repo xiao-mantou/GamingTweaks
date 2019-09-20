@@ -55,6 +55,7 @@ My little guide is all about _Windows Gaming_, and I really mean Gaming on Windo
 * [RAM](RAM/Readme.md)
 * [SSD](SSD/Readme.md)
 * [Sound](Sound/Readme.md)
+* [KB issue](KB%20problems/Readme.md)
 
 
 ## Optional Topics & Programs
@@ -72,13 +73,13 @@ My little guide is all about _Windows Gaming_, and I really mean Gaming on Windo
 * [Cache and Memory Manager Improvements](https://docs.microsoft.com/en-us/windows-server/administration/performance-tuning/subsystem/cache-memory-management/improvements-in-windows-server)
 
 
-## Negative examples
+## Negative guide examples
 * [Win 10 Guide (redacted.tv)](https://redacted.tv/2017/12/20/win10guide/) (outdated)
 * [How To Tweak Windows 10 For Gaming (back2gaming.com)](http://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/) (questionable recommendations)
 * [Gaming / PC Optimization / Useful Links & Apps (n1kobg.blogspot.com)](http://n1kobg.blogspot.com/) (questionable recommendations)
 
 
-## Positive examples
+## Positive guide examples
 * [Mike Martin's Gaming tweaks (mikemartin.co)](http://www.mikemartin.co/gaming_guides)
 * [Can You Get More Space Or Speed From Your SSD? (tomshardware.com)](https://www.tomshardware.com/reviews/ssd-performance-tweak,2911-4.html) + [SSD Optimization](https://wiki.debian.org/SSDOptimization)
 * [Do we really need swap on modern systems? (redhat.com)](https://www.redhat.com/en/blog/do-we-really-need-swap-modern-systems)
