@@ -28,11 +28,11 @@ The following things should be as high as possible:
 
 ## Choosing the "correct" Windows 10 Version
 
-Why does it matter? [Different Windows versions](https://en.wikipedia.org/wiki/Windows_10_editions) coming with different pre-installed apps or software. Practical you could remove them but this costs a) your time and b) you might not be able to remove all apps (_easily_). The Backgrounds apps and started services matter in a sense that they might result in a [higher CPU/RAM usage](http://www.blackviper.com/service-configurations/) or lags because these apps and services typically trying to update themselves in the _right moment_ which might even ends-up with a [Bluescreen (BSOD)](https://answers.microsoft.com/en-us/windows/forum/all/windows-10-update-causing-blue-screen-errors-daily/45a08401-87c9-4c52-b160-f8548bc42c6f) or [crashes] (https://answers.microsoft.com/en-us/windows/forum/apps_windows_10-outlook_mail/windows-update-caused-loss-of-mail-app-windows/aec58c9c-9371-46b4-ab69-2b54353eff5c).
+Why does it matter? [Different Windows versions](https://en.wikipedia.org/wiki/Windows_10_editions) coming with different pre-installed apps or software. Practical you could remove them but this costs a) your time and b) you might not be able to remove all apps (_easily_). The Backgrounds apps and started services matter in a sense that they might result in a [higher CPU/RAM usage](http://www.blackviper.com/service-configurations/) or lags because these apps and services typically trying to update themselves in the _right moment_ which might even ends-up with a [Bluescreen (BSOD)](https://answers.microsoft.com/en-us/windows/forum/all/windows-10-update-causing-blue-screen-errors-daily/45a08401-87c9-4c52-b160-f8548bc42c6f) or [crashes](https://answers.microsoft.com/en-us/windows/forum/apps_windows_10-outlook_mail/windows-update-caused-loss-of-mail-app-windows/aec58c9c-9371-46b4-ab69-2b54353eff5c).
 
-* Avoid Preview/Insider builds
-* Avoid Pro/Home Editions
-* Use Education/Enterprise or LTSC versions (if possible)
+* Avoid Preview or any Insider builds
+* Avoid Pro or Home Editions
+* Use Education (Enterprise) or LTSC versions (_if possible_)
 
 Edu./Ent. or LTSC versions have no pre-installed apps OR/AND you can take control over them without the need to rely on third-party apps or script. Group policy Editor (GPO - gpedit.msc) and the integrated Windows 10 own Settings can control every app/store/update behavior.
 
@@ -263,20 +263,3 @@ Windows Registry Editor Version 5.00
 ; "TrustLevel"=dword:00000000
 ```
 
-## Patch Related Performance Impact
-
-### KB4482887
-
-[KB4482887](https://support.microsoft.com/en-au/help/4482887/windows-10-update-kb4482887) does _for some users_ decrease the gaming performance, however it does [not have anything to do with Retpoline](https://old.reddit.com/r/microsoft/comments/ax18s7/kb4482887_caused_major_performance_issues_for_me/ehrtr4b/) changes because it's [not enabled by default](https://www.borncity.com/blog/2019/03/05/windows-10-retpoline-spectre-2-schutz-manuell-aktivieren/). Microsoft official says that you can ignore/uninstall or [hide](https://support.microsoft.com/de-de/help/4026726/windows-hide-windows-updates-or-driver-updates) the update. They promise to fix the performance issue with the next patchday.
-
-```
-// Microsoft statement
-After installing KB4482887, users may notice graphics and mouse performance degradation with desktop gaming when playing certain games (eg: Destiny 2)"...
-```
-
-Fixed with Windows 10 Build 17763.379 and [KB4489899](https://support.microsoft.com/en-us/help/4489899/windows-10-update-kb4489899).
-
-
-## KB4494441 Build 1809 17763.503
-
-[Retpoline](https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/Mitigating-Spectre-variant-2-with-Retpoline-on-Windows/ba-p/295618) is activated by default with [KB4494441](https://support.microsoft.com/en-us/help/4494441/windows-10-update-kb4494441) if Spectre Variante 2 (CVE-2017-5715) was activated (manually) before the KB was installed.
