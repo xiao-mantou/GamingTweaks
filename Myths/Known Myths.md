@@ -1,5 +1,6 @@
 ### Known Myths
 
+* Enabling Game Mode will cause stuttering and performance problems - No, not anymore. MS changed a lot since Windows Build 1803+. This was finally fixed and the application should now get the resource it needs e.g. for encoding (OBS Studio). If there are game related issue then it's not caused by an enabled Game Mode. The mode indeed checks if the game is supported or not. On Laptop systems game mode will not work no matter if you set it to on or off, this is by design and not a bug.
 * Disable Drive Indexing (Windows Search) should be turned off. Myth, because reading I/O doesn't decrease your SSD lifespan - writing on it does! However if you don't like Windows own Search you could use [Void's Everything](https://www.voidtools.com/downloads/).
 * Configure “Defragment and Optimize your device” - useless, because Windows since 8+ can handle it on his own, it detects if you're on SSD or HDD and defrag it or not, disabling the service schedule does nothing because it runs anyway (for several other operations).
 * Set your SATA controller to AHCI mode for Solid State Drives SSD - This is not necessary, Windows detects it automatically based on your BIOS/UEFI settings.
