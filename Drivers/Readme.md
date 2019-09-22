@@ -85,3 +85,11 @@ nVidia and dithering question
 ===========
 
 [Enabling dithering has no impact on gaming performance](https://www.youtube.com/watch?v=ot3TWFtWl1M), so it is unclear why nVidia and Microsoft are not going to enable the option (by default) for e.g. 1440p 144-165Hz G-Sync TN monitors (the ones which are most affected by color banding). Or why there is no option to manually control it via NVCP. AMD GPU drivers have such an option to enable/disable dithering since many years and Linux also has an active nVidia dithering option since many years. There is a [registry hack](https://forums.geforce.com/default/topic/1082681/geforce-drivers/is-it-possible-to-quot-port-quot-dithering-from-nvidia-x-server-to-geforce-driver-/post/5934577/#5934577) to enable dithering for nVidia users, the problem is that Windows seems to make problems (newer versions like 1903+). 
+
+
+ULMB (nVidia) under Windows 10
+===========
+
+ULMB is automatically grayed out because you can only use G-Sync OR ULMB at the same time. This is by design. 
+
+Most games under Windows 10 use the desktop refresh rate (default). Setting another refresh rate in your nVidia Control Panel might gets ignored by the game itself (depending on the game). You can avoid this by disabling "Full-screen Optimisations", (if present - depends on the Windows 10 Build). Right-click on the game executable and check the compatibility tab, there is an option to enable it it's by default disabled). After you enabled the option you **must** also enable the "Exclusive Fullscreen" option in-game. 
