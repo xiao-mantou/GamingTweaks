@@ -1,11 +1,11 @@
-### Drivers (general advice)
+## Drivers (general advice)
 
 * Try to uninstall every drivers which you won't need (e.g. on OEM systems [pre-installed drivers]) via Control Panel\All Control Panel Items\Programs and Features, say no if they ask you to reboot the OS. Make sure you reboot into "Safe Mode" to install important drivers in order to get full access, this is not mandatory but it might solve to remove all leftovers (in case you have some upgrade/install) issue.
 * Disable unused audio devices (like ATI HDMI) in Device Manager (which are most of the time not needed)
 * Don't use utilities like [Intel Driver Update Utility](https://www.intel.com/content/www/us/en/support/topics/idsa-faq.html) because it runs all the time in the background, submits telemetry and doesn't have any benefit over a _traditional_ driver page like e.g. [Station-Drivers](https://www.station-drivers.com/index.php?lang=en).
 * Do not install "Xtreme-G Modded Drivers", the promises the modders makes are ridiculous and there is no evidence that this holds what it promises.
 
-### nVidia Driver update procedure
+## nVidia Driver update procedure
 
 * Download the latest official driver or _debloat_ driver.
 * Download/use DDU under Windows safe mode and then restart the PC after the cleaning is done.
@@ -20,14 +20,14 @@
 * Set `Power management` to `Adaptive`.
 
 
-### AMD Driver update procedure
+## AMD Driver update procedure
 
 * Download the latest driver from the official AMD page.
 * Download/use DDU under Windows safe mode and then restart the PC after the cleaning is done.
 * There are no additional tweaks (needed [?] - if you found some, let me know or create a PR)
 
 
-### nVidia and Ansel
+## nVidia and Ansel
 
 [Ansel](https://www.geforce.com/hardware/technology/ansel) is (more or less) deprecated and already partially removed from the current nVidia drivers (only backward compatibility is still given). There are several games like WatchDogs or [Conan Exile](https://steamcommunity.com/app/440900/discussions/0/133256959371919651/) which suffering from FPS drops once Ansel if its enabled.
 
@@ -93,3 +93,16 @@ ULMB (nVidia) under Windows 10
 ULMB is automatically grayed out because you can only use G-Sync OR ULMB at the same time. This is by design. 
 
 Most games under Windows 10 use the desktop refresh rate (default). Setting another refresh rate in your nVidia Control Panel might gets ignored by the game itself (depending on the game). You can avoid this by disabling "Full-screen Optimisations", (if present - depends on the Windows 10 Build). Right-click on the game executable and check the compatibility tab, there is an option to enable it it's by default disabled). After you enabled the option you **must** also enable the "Exclusive Fullscreen" option in-game. 
+
+
+nVidia HDMI Audio problems with (wrong timeouts)
+===========
+
+* **Warning**: You do NOT need this "trick" if you haven't installed NVIDIA High Definition Audio driver! 
+
+First of all, make a registry backup! There are several registry entries regarding on how to manipulate the timeout for HDMI Audio devices. Changing the value offsets _can fix AV Receiver connection_ problems among an well known _audio stuttering_ issue, this is because of "wrong" (unoptimized) timeouts. There is no easy way for this avbl. because those offsets change whenever you re-install or install a new nVidia/Realtek audio driver. What this registry change basically does is to force the device to go into a specific mode whenever the device is in a performance, idle or waiting stage.
+
+* **Checking the Class GUID:** Open the device manager, navigate to "Sound, video and game controllers" and open the nVidia High Definition Audio properties. Now click the "Details" tab which reveals a bunch of GUIDs, we are searching for the "Class GUID", once you found it in the list, write down or right-click and copy it's value. The driver itself is called or listed as `nvhda64v.sys`.
+* The value always looks different, the format is `{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}`. 
+* **Changing the value**: Open registry and navigate to `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\<-your-class-GUID-belongs-in-here>\0000\PowerSettings`. Once we are there, you see several entries, our focus are `ConservationIdleTime`,  `IdlePowerState` & `PerformanceIdleTime`. The default value for all three of them is always (by default) `00 00 00 80`. If that's not the case you have to delete their content and ensure it' all set to zero -> `00 00 00 00`. In case you use a Realtek sound-chip, check sub-keys for `Realtek Semiconductor Corp.` and procede with the same procedure.
+* Reboot.
