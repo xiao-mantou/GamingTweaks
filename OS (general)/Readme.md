@@ -7,7 +7,36 @@ I usually use and recommend the [phoronix-test-suite](https://www.phoronix-test-
 [CapFrameX](https://github.com/DevTechProfile/CapFrameX) is a fantastic tool to identify frame drops or G-Sync/FreeSync related issues. The program is for beginners and professionals and can help to check what might causes lags or to get a overview of your hardware and how well it really performes in-game, since it supports DirectX and Vulkan API's it basically can analyze almost every application/game.
 
 
-## Responsiveness and the impact on the OS 
+## (Disable) Fullscreen optimizations
+
+Fullscreen optimization (the option) was first introduced in Windows 10 Build 1607 ("Anniversary Update"). It attempts to convert games running in the "classic" exclusive fullscreen mode into using borderless window mode with flip model presentation instead.
+
+### Benefits
+* The optimizations combines the benefits of "classic exclusive fullscreen mode" with borderless window mode, by utilizing Microsoft's flip model presentation in a maximized borderless window.
+* Available for DirectX 9+ based games and applications.
+
+### Cons & problems
+* FSO is known to cause frame pacing issues with some games e.g. Far Cry.
+
+### Disabling FSO
+
+Disabling fullscreen optimizations for an executable is easy, navigate to the game `Right-click on the executable` and select `Properties`, click on the `Compatibility` tab and check `Disable fullscreen optimizations` then hit `OK`. The ability to do this was removed since Windows 10 v1803 (April Update).
+
+There is an unofficial script avbl. to [automatically "Disable Fullscreen Optimizations"](https://pastebin.com/1twn8geB) based on the user choice. This even works on Windows 10 Build 1803 up to Windows Build 1903. Some people reporting that it will fix in-game stuttering. 
+
+
+## Desktop Window Manager (dwm.exe)
+
+[DWM](https://en.wikipedia.org/wiki/Desktop_Window_Manager) (also known as Desktop Compositing Engine or DCE) has in general an _huge_ impact on the OS/application performance, it usually _consumes a lot_ CPU "power". It exists since Windows Vista and is a part of the Windows OS and since Windows Vista it uses [WDDM](https://en.wikipedia.org/wiki/Windows_Display_Driver_Model) to share the surface with DWM. In earlier versions it was possible to "disable" DWM, however this is these days not so easy because the process gets restarted every time WinLogon.exe was started.
+
+**Disabling DWM is not recommended!** But if you want to, you still could do that, [even under Windows 10](https://gist.github.com/Biswa96/1b3b60715f16f18cb71bfcc11f454245). The boost is definitly there, however it breaks a lot of other WDDM functions.
+
+
+### Windows Defender and Desktop Window Manager (dwm.exe)
+[Another way](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) (but **insecure**) is to disable threat mitigation for the Desktop Window Manager (dwm.exe) itself within Windows Defender. Open Windows Defender (`Settings` -> `Exploit Protection` -> `Program Settings`)  and then add `C:\Windows\System32\dwm.exe` to the path, `Check` override system settings for CFG, DEP, EAF, ASLR, SEHOP (vulnerability protections) and ensure it's turned `off`. **It's not recommended to do that!**
+
+
+## Responsiveness and the OS impact
 
 The following things should be as low as possible:
 
