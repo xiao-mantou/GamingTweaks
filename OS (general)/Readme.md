@@ -7,6 +7,17 @@ I usually use and recommend the [phoronix-test-suite](https://www.phoronix-test-
 [CapFrameX](https://github.com/DevTechProfile/CapFrameX) is a fantastic tool to identify frame drops or G-Sync/FreeSync related issues. The program is for beginners and professionals and can help to check what might causes lags or to get a overview of your hardware and how well it really performes in-game, since it supports DirectX and Vulkan API's it basically can analyze almost every application/game.
 
 
+## OS timer resolution
+
+Changing the [OS wide timer](https://docs.microsoft.com/en-us/windows/desktop/api/timeapi/nf-timeapi-timebeginperiod#remarks) can result in an [performance boost up to 30%](https://www.youtube.com/watch?v=_hcuYiqib9I&feature=youtu.be&t=365) (depending on the game).
+
+Windows 10 since 1603+ changes the timer resolution every X seconds automatically, this requires you to leave the [Timer application](https://vvvv.org/contribution/windows-system-timer-tool) open. But, and this is a big but whenever a specific application is opened at the same time which requests another timer to the same time it would make any timer script/utility useless. For example Discord (uses electron framework - which is known to be [CPU hungry](https://github.com/electron/electron/issues/11908)) - if Discord and the Timer utility is open at the same time, you will notice that Discord automatically "overwrites" the timings set by the running timing tool.
+
+### Application timings
+
+* Run `powercfg /energy` in an elevated command line prompt, this will automatically (after some time [minutes]) create a [power efficiency diagnostics report](https://support.microsoft.com/en-us/help/976034/guided-help-get-a-detailed-power-efficiency-diagnostics-report-for-you). Which will be stored under `C:\WINDOWS\system32\energy-report.html`. Open the report via a Browser and search (`CTRL+F`) for `Platform Timer Resolution:Outstanding Timer Request`, this reveals which (running) application/process changes or overwrites the OS timer. It also reveals what resolution the process really requests.
+
+
 ## (Disable) Fullscreen optimizations
 
 Fullscreen optimization (the option) was first introduced in Windows 10 Build 1607 ("Anniversary Update"). It attempts to convert games running in the "classic" exclusive fullscreen mode into using borderless window mode with flip model presentation instead.
