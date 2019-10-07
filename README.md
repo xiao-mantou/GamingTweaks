@@ -19,23 +19,23 @@ My little guide is all about _Windows Gaming_, and I really mean Gaming on Windo
 - [x] **Do it yourself** and don't be lazy - _use brain.exe and do not copy tweaks from the internet!_.
 
 
-#### What this guide is not for
+#### This guide is not for:
 
 - [x] Security / Virtual Machine (VM)
 - [x] General OS Hardening
-- [x] Single Game specific only tweaks and modifications
+- [x] Game specific only tweaks or modifications
 
 
 #### Clarifications regarding the term "tweaking"
 
-- [x] Tweaks usually do not magically increase any in-game FPS. There are specific circumstances in which the OS can be tweaked to improve or stabilize the game [smoothness](https://en.wikipedia.org/wiki/Smoothness) when you for example cap your FPS to get rid of the overheap which otherwise might have result in in-game stuttering.
+- [x] Tweaks usually do not magically increase any in-game FPS. There are specific circumstances in which the OS can be tweaked to improve or stabilize the game [smoothness](https://en.wikipedia.org/wiki/Smoothness), when you for example cap your FPS to get rid of the overheap which otherwise might have result in an in-game stuttering.
 - [x] Tweaks should not be randomly applied via a "universal" script or tool because the OS itself changes over time and the configuration is different for each user. This is the reason why this project don't provide a general _"myawesomescript.ps1"_ script.
-- [x] Tweaks are defined by: "Latency improvements", "Engine related improvements/workarounds", "FPS workarounds/fixes", "CPU usage" "RAM usage", "OS workarounds", "Driver workarounds" or "Network latency optimization". All of them can have an impact on the OS, game or network which means the OS/game might runs more stable or on higher fps (if overclocked).
+- [x] Tweaks are defined by: "Latency improvements", "Engine related improvements/workarounds", "FPS workarounds/fixes", "CPU usage" "RAM usage", "OS workarounds", "Driver workarounds" or "Network latency optimization". All of them can have an impact on the OS, game or network performance which means the OS/game might runs more _stable_ (_smooth_) or on higher fps (e.g. if overclocked or _optimized_).
 
 
 #### Philosophy
 - [x] Possible performance related problems should be reported directly to Microsoft, nVidia, AMD and/or the Game Develop Studio to address them so that everyone gets the same benefit. In terms of fair play it is [better](https://www.vice.com/en_us/article/43zdnb/battlefield-v-players-are-using-shitty-graphics-for-a-competitive-edge).
-- [x] A perfect OS does not need to be tweaked, the same goes for games in general but this will never happen due to several things e.g. bugs, different PC configurations, engine related problems, etc.
+- [x] A _perfect OS_ does not need to be tweaked, the same goes for games but this will never happen due to several things e.g. bugs, different PC configurations, engine related problems and many more circumstances.
 - [x] I do not claim to be the "tweak master" but I'm a long time experienced gamer and had the chance to get an insight into the Windows kernel (Windows XP - 7).
 
 
@@ -58,7 +58,7 @@ My little guide is all about _Windows Gaming_, and I really mean Gaming on Windo
 * [KB issue](KB%20problems/Readme.md)
 
 
-## Optional Topics & Programs
+## Optional Topics & Tools
 * [Overclocking](Overclocking/Readme.md)
 * [Telemetry](Telemetry/Readme.md)
 * [Tools to improve & analyse](Tools/Readme.md)
@@ -73,13 +73,18 @@ My little guide is all about _Windows Gaming_, and I really mean Gaming on Windo
 * [Cache and Memory Manager Improvements](https://docs.microsoft.com/en-us/windows-server/administration/performance-tuning/subsystem/cache-memory-management/improvements-in-windows-server)
 
 
-## Negative guide examples
+## Official Microsoft Docs related to Windows Support
+* [Windows Health Dashboard](https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-1903)
+* [Windows lifecycle fact sheet](https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet)
+
+
+## Negative tweak guide examples
 * [Win 10 Guide (redacted.tv)](https://redacted.tv/2017/12/20/win10guide/) (outdated)
 * [How To Tweak Windows 10 For Gaming (back2gaming.com)](http://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/) (questionable recommendations)
 * [Gaming / PC Optimization / Useful Links & Apps (n1kobg.blogspot.com)](http://n1kobg.blogspot.com/) (questionable recommendations)
 
 
-## Positive guide examples
+## Positive tweak guide examples
 * [Mike Martin's Gaming tweaks (mikemartin.co)](http://www.mikemartin.co/gaming_guides)
 * [Can You Get More Space Or Speed From Your SSD? (tomshardware.com)](https://www.tomshardware.com/reviews/ssd-performance-tweak,2911-4.html) + [SSD Optimization](https://wiki.debian.org/SSDOptimization)
 * [Do we really need swap on modern systems? (redhat.com)](https://www.redhat.com/en/blog/do-we-really-need-swap-modern-systems)
