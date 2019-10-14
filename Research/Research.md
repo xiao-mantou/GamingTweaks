@@ -107,6 +107,10 @@
 * [Intel's Core i9-9900K CPU reviewed (techreport.com)](https://techreport.com/review/34192/intel-core-i9-9900k-cpu-reviewed)
 
 
+## Message Signaled Interrupts
+* [Message Signaled Interrupts in PCI/PCIE : Advantages over INTx](https://blog.sasken.com/message-signaled-interrupts-in-pcipcie-advantages-over-intx)
+
+
 ## Programs
 
 ### Frametime capture and analysis tool
