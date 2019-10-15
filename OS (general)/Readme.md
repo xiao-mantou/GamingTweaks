@@ -31,9 +31,8 @@ Fullscreen optimization (the option) was first introduced in Windows 10 Build 16
 
 ### Disabling FSO
 
-Disabling fullscreen optimizations for an executable is easy, navigate to the game `Right-click on the executable` and select `Properties`, click on the `Compatibility` tab and check `Disable fullscreen optimizations` then hit `OK`. The ability to do this was removed since Windows 10 v1803 (April Update).
-
-There is an unofficial script avbl. to [automatically "Disable Fullscreen Optimizations"](https://pastebin.com/1twn8geB) based on the user choice. This even works on Windows 10 Build 1803 up to Windows Build 1903. Some people reporting that it will fix in-game stuttering. 
+While the ability to _system-wide_ disable fullscreen optimizations for all the executables was removed in Windows 10 v1803 (April Update), you can do so on a _per-game executable basis_ (valid on 1809 and 1903 too): navigate to the game, `Right-click on the executable`, select `Properties` and click on the `Compatibility` tab, check `Disable fullscreen optimizations` box then hit `OK`.
+> There is an unofficial script avbl. to [automatically "Disable Fullscreen Optimizations"](https://pastebin.com/1twn8geB) based on the user choice too. This works on Windows 10 Build 1803 up to Windows Build 1903 too. Some people reporting that it will fix in-game stuttering.. 
 
 
 ## Desktop Window Manager (dwm.exe)
