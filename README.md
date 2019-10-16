@@ -11,8 +11,8 @@
 
 My little guide is all about _Windows Gaming_, and I really mean Gaming on Windows 10 only! There exist [tons of outdated guides and myths](https://github.com/CHEF-KOCH/GamingTweaks/blob/master/Known%20Myths.md) when it comes to "game tweaking" but they are mostly wrong, so I wrote my own guide to show the things which really do make the difference!
 
-## General advice
 
+## General advice
 - [x] **Do not** use any all-in-one 'tweak tools/programs or scripts', it's not worth it.
 - [x] **Do** always a **backups** of your current Windows 10 state. I recommend [Macrium Reflect](https://www.macrium.com/reflectfree).
 - [x] There is **no Voodoo tweak** or `regtweak.awesome.reg` which  increases your OS/Game performance like 50%.
@@ -20,14 +20,12 @@ My little guide is all about _Windows Gaming_, and I really mean Gaming on Windo
 
 
 #### This guide is not for:
-
 - [x] Security / Virtual Machine (VM)
 - [x] General OS Hardening
 - [x] Game specific only tweaks or modifications
 
 
 #### Clarifications regarding the term "tweaking"
-
 - [x] Tweaks usually do not magically increase any in-game FPS. There are specific circumstances in which the OS can be tweaked to improve or stabilize the game [smoothness](https://en.wikipedia.org/wiki/Smoothness), when you for example cap your FPS to get rid of the overheap which otherwise might have result in an in-game stuttering.
 - [x] Tweaks should not be randomly applied via a "universal" script or tool because the OS itself changes over time and the configuration is different for each user. This is the reason why this project don't provide a general _"myawesomescript.ps1"_ script.
 - [x] Tweaks are defined by: "Latency improvements", "Engine related improvements/workarounds", "FPS workarounds/fixes", "CPU usage" "RAM usage", "OS workarounds", "Driver workarounds" or "Network latency optimization". All of them can have an impact on the OS, game or network performance which means the OS/game might runs more _stable_ (_smooth_) or on higher fps (e.g. if overclocked or _optimized_).
@@ -64,6 +62,7 @@ My little guide is all about _Windows Gaming_, and I really mean Gaming on Windo
 * [Tools to improve & analyse](Tools/Readme.md)
 * [Registry](Registry/Readme.md)
 * [OS Settings](OS%20Settings/Readme.md)
+* [Awesome-Game-Networking](https://github.com/MFatihMAR/Awesome-Game-Networking)
 
 
 ## Official Microsoft Docs related to gaming and OS performance
