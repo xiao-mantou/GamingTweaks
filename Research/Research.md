@@ -113,6 +113,9 @@
 
 ## Programs
 
+### HPET / QPC Benchmark
+* [TimerBench](https://www.overclockers.at/downloads/projects/TimerBench%201.4.exe) ([source](https://www.overclockers.at/number-crunching/timerbench-ein-benchmark-fuer-windows-timer_249630/page_7))
+
 ### Frametime capture and analysis tool
 * [CapFrameX (github.com)](https://github.com/DevTechProfile/CapFrameX)
 
@@ -158,4 +161,3 @@
 
 ### Bios adjustment programs
 * [BIOSTimingsDecoder](https://github.com/integralfx/BIOSTimingsDecoder)
-
