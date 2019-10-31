@@ -7,6 +7,6 @@ On AMD Threadripper systems you can enable Dynamic Local Mode, which acts like s
 * Check your OS Event Reporter tools for signs of hardware failures
 * Check the PSU (and the rest of your hardware components)
 * Is your Sound card/GPU/SSD/M.2 in the correct slot? 16x and not 1x/4x? 
-* Did you checked your PSU again?
+* Have you checked your PSU again?
 
 Assuming that your hardware is 100% perfect and working you can use one of these tools in order to workaround the Windows integrated compression bug, see [here](https://github.com/CHEF-KOCH/GamingTweaks/tree/master/Tools/RAM).
