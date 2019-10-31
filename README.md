@@ -78,9 +78,10 @@ My little guide is all about _Windows Gaming_, and I really mean Gaming on Windo
 
 
 ## Negative tweak guide examples
-* [Win 10 Guide (redacted.tv)](https://redacted.tv/2017/12/20/win10guide/) (outdated)
-* [How To Tweak Windows 10 For Gaming (back2gaming.com)](http://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/) (questionable recommendations)
-* [Gaming / PC Optimization / Useful Links & Apps (n1kobg.blogspot.com)](http://n1kobg.blogspot.com/) (questionable recommendations)
+* [Win 10 Guide (redacted.tv)](https://redacted.tv/2017/12/20/win10guide/) (_outdated_)
+* [How To Tweak Windows 10 For Gaming (back2gaming.com)](http://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/) (_questionable recommendations_)
+* [Gaming / PC Optimization / Useful Links & Apps (n1kobg.blogspot.com)](http://n1kobg.blogspot.com/) (_questionable recommendations_)
+* [Youtuber: FR33THY Guide](https://docs.google.com/document/d/1nrcQ2EU5512TpuspPF4u5PgZ43p7hoV1cYBMi2C3XSQ/edit) [(video)](https://youtu.be/EG4g9XlKw5w) (_lots of claims with no evidence, interesting questions not getting answered or are off-topic_)
 
 
 ## Positive tweak guide examples
