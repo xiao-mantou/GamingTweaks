@@ -111,6 +111,10 @@
 * [Message Signaled Interrupts in PCI/PCIE : Advantages over INTx (blog.sasken.com)](https://blog.sasken.com/message-signaled-interrupts-in-pcipcie-advantages-over-intx)
 
 
+## AMD (AGESA) BIOS overview & download links
+* [AMD AGESA Bios collections thread (computerbase.de)](https://www.computerbase.de/forum/threads/sammelthread-amd-agesa-uebersicht-aller-bios-versionen.1902983/) - Overview of all AGESA BIOS updates, the website is in german but it's easy to understand, jutst follow your vendor and mobo and check if there is a link on the right side of the chart or not.
+
+
 ## Programs
 
 ### HPET / QPC Benchmark
