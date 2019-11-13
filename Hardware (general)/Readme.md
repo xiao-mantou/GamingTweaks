@@ -31,6 +31,11 @@ Windows has an integrated Performance Monitor program which checks (together wit
 Threadripper and Epyc CPU's have a serious bug which crippled the performance, [Microsoft and AMD working together to fix this](https://community.amd.com/community/gaming/blog/2018/10/05/previewing-dynamic-local-mode-for-the-amd-ryzen-threadripper-wx-series-processors), however **as a workaround you can use [Bitsum's Coreprio](https://bitsum.com/portfolio/coreprio/)**.
 
 
+### Intel Transactional Synchronization Extensions (TSX)
+
+[Intel Transactional Synchronization Extensions (TSX)](https://github.com/CHEF-KOCH/regtweaks/commit/6aef64ec092a3ab1704fdaf6c5b343aa44d2f1cf) - Disabling Intel's TSX (closes Zombieload v2) on Haswell, Broadwell and Skylake CPU's [will affect the application as well as gaming performance](https://www.phoronix.com/scan.php?page=article&item=intel-jcc-gaming&num=2) around 4 up to 8%. 
+
+
 ### Lags
 There are several kinds of [gaming releated lags](https://en.wikipedia.org/wiki/Input_lag):
 - CPU based lags - This causes the game to stutter, whenever the CPU reaches is max capabilities.
