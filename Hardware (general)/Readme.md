@@ -28,12 +28,19 @@ Windows has an integrated Performance Monitor program which checks (together wit
 
 ![](https://i.imgur.com/S04e1bp.png=250x250)
 
-Threadripper and Epyc CPU's have a serious bug which crippled the performance, [Microsoft and AMD working together to fix this](https://community.amd.com/community/gaming/blog/2018/10/05/previewing-dynamic-local-mode-for-the-amd-ryzen-threadripper-wx-series-processors), however **as a workaround you can use [Bitsum's Coreprio](https://bitsum.com/portfolio/coreprio/)**.
+~~Threadripper and Epyc CPU's have a serious bug which crippled the performance, [Microsoft and AMD working together to fix this](https://community.amd.com/community/gaming/blog/2018/10/05/previewing-dynamic-local-mode-for-the-amd-ryzen-threadripper-wx-series-processors), however **as a workaround you can use [Bitsum's Coreprio](https://bitsum.com/portfolio/coreprio/)**.~~
+
+Fixed with Ryzen Master v2.0.1.1223 and with Windows 1909. Make sure you installed the latest BIOS and the latest Windows 10 patches. Ryzen Master will then **NOT SHOW THE Dynamic Local Mode** because this is not internally handled (fixed) by Windows. Coreprio is NOT needed anymore!
 
 
 ### Intel Transactional Synchronization Extensions (TSX)
 
-[Intel Transactional Synchronization Extensions (TSX)](https://github.com/CHEF-KOCH/regtweaks/commit/6aef64ec092a3ab1704fdaf6c5b343aa44d2f1cf) - Disabling Intel's TSX (closes Zombieload v2) on Haswell, Broadwell and Skylake CPU's [will affect the application as well as gaming performance](https://www.phoronix.com/scan.php?page=article&item=intel-jcc-gaming&num=2) around 4 up to 8%. 
+[Intel Transactional Synchronization Extensions (TSX)](https://github.com/CHEF-KOCH/regtweaks/commit/6aef64ec092a3ab1704fdaf6c5b343aa44d2f1cf) is problematic, security and performance wise. Disabling Intel's TSX (closes Zombieload v2) on Haswell, Broadwell and Skylake CPU's but [will affect the application as well as gaming performance](https://www.phoronix.com/scan.php?page=article&item=intel-jcc-gaming&num=2) around 4 up to 8%. 
+
+
+### MDS: Microarchitectural Data Sampling
+
+Zombieload/MDS security holes affecting newer Intel CPU's (10th gen. except Icelake) as well as older architectures, the full list of affected CPU's are listed over [here](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00270.html). You can quickly check if you're affected by the security hole with the official [MDS check tool](https://mdsattacks.com/files/mdstool-win-20190519.zip) (or via the script provided over [https://mdsattacks.com/](https://mdsattacks.com/#ridl-ng), the tool/script checks the Intel CPU against Meltdown/MDS and other (current) open security holes.
 
 
 ### Lags
