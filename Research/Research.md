@@ -129,15 +129,15 @@
 ### Frametime capture and analysis tool
 * [CapFrameX (github.com)](https://github.com/DevTechProfile/CapFrameX)
 
-###  Monitor "OC" programs
+### Monitor "OC" programs
 * [Custom Resolution Utility (CRU) (monitortests.com)](http://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
 * [Pixelclock calculator (monitortests.com)](https://www.monitortests.com/pixelclock.php)
 
-### nVidia Driver adjustment programs
+### nVidia Driver "adjustment" programs
 * [nVidia Inspector (download.orbmu2k.de)](http://download.orbmu2k.de/files/nvidiaInspector.zip) + [source code](https://github.com/Orbmu2k/nvidiaProfileInspector) (latest final version) + [Latest beta](https://ci.appveyor.com/project/Orbmu2k/nvidiaprofileinspector)
 * [NV RGBFullRangeToggle (blog.metaclassofnil.com)](http://blog.metaclassofnil.com/wp-content/uploads/2012/08/NV_RGBFullRangeToggle.zip) Use this tool if you don't see any 'Output dynamic range' option in the NVCP.
 
-### Driver Uninstaller programs
+### Driver Uninstaller (leftover removal) programs
 * [Display Driver Uninstaller (wagnardsoft.com)](https://www.wagnardsoft.com/)
 
 ### GPU OC programs (AMD/Intel/both)
@@ -146,7 +146,7 @@
 * [Sapphire TriXX OC Utility (sapphiretech.com)](https://www.sapphiretech.com/en/software)
 * [EVGA Precision XOC/X/X1 (evga.com)](https://www.evga.com/precisionxoc/)
 
-### AMD CPU OC or adjustment programs
+### AMD CPU "OC" programs
 * [AMD Ryzen Master (download.amd.com](https://download.amd.com/Desktop/AMD-Ryzen-Master.exe) + [Official FAQ](https://www.amd.com/en/support/kb/faq/gpu-775) 
 * [AmdMsrTweaker (github.com)](https://github.com/mpollice/AmdMsrTweaker)
 
@@ -154,8 +154,12 @@
 * [Ryzen Timing Checker (techpowerup.com)](https://www.techpowerup.com/download/ryzen-timing-checker/)
 * [DRAM Calculator for Ryzen (techpowerup.com)](https://www.techpowerup.com/download/ryzen-dram-calculator/)
 
+### Intel "OC" programs
+* ~~[Intel® Extreme Tuning Utility - Intel® XTU](https://downloadcenter.intel.com/en/download/24075/Intel-Extreme-Tuning-Utility-Intel-XTU)~~ _Use other programs because the driver might cause performance problems._ Prefer (if possible) a method that does not require any software/driver e.b. via BIOS.
+* [Intel Power Maximizer](http://www.intel.com/performancemaximizer)
+
 ### Internet Latency "tweak" programs
-* [TCPOptimizer (speedguide.net)](http://www.speedguide.net/files/TCPOptimizer.exe)
+* ~~[TCPOptimizer (speedguide.net)](http://www.speedguide.net/files/TCPOptimizer.exe)~~ _I do not recommend it_, tweak (manually) only parameters you [really need](https://github.com/CHEF-KOCH/GamingTweaks/issues/24).
 
 ### PC Latency measurement programs
 * [LatencyMon (resplendence.com)](http://www.resplendence.com/latencymon)
@@ -181,7 +185,7 @@ Provider | Comment
 [Twitch](https://www.twitch.tv/) | (_[planned for 2020](https://www.cnet.com/news/google-stadia-wants-to-be-the-future-of-gaming-so-do-microsoft-sony-and-amazon/)_)
 [Parsec](https://parsecgaming.com/) | Play, watch, and share gaming with your friends in Parsec.
 [GeForce Now](https://www.nvidia.com/en-gb/geforce/products/geforce-now/) | Play & Stream Android, PC, and GeForce NOW games.
-[Steam Link](https://store.steampowered.com/steamlink/about/) & [Steam Remote Play](https://store.steampowered.com/remoteplay/)| Content from cell 2
+[Steam Link](https://store.steampowered.com/steamlink/about/) & [Steam Remote Play](https://store.steampowered.com/remoteplay/)| Stream video, audio, and voice between players while using your own controllers.
 [Moonlight](https://moonlight-stream.org/) | Play Your PC Games Remotely, [setup guide](https://github.com/moonlight-stream/moonlight-docs/wiki/Setup-Guide).
 [Rainway](https://rainway.com/) | Allows you to launch all your PC games from one place on your home computer or stream through any browser, all completely free.
 [PlayStation Now](https://www.playstation.com/en-gb/get-help/help-library/services/playstation-now/playstation-now-on-pc/) | Stream PS2/PS3/PS4 games.
