@@ -173,17 +173,40 @@
 * [BIOSTimingsDecoder](https://github.com/integralfx/BIOSTimingsDecoder)
 
 ## Game streaming services
-* [Amazon Game Studios](https://www.amazongames.com/)
-* [Blade Shadow](https://shadow.tech/gben/discover?gclid=EAIaIQobChMI8qmCiYL94wIVVeDtCh3s_AAHEAAYASAAEgK8YPD_BwE) 
-* [Google Stadia](https://stadia.com/)
-* [Twitch](https://www.twitch.tv/) (_[planned for 2020](https://www.cnet.com/news/google-stadia-wants-to-be-the-future-of-gaming-so-do-microsoft-sony-and-amazon/)_)
-* [Parsec](https://parsecgaming.com/)
-* [GeForce Now](https://www.nvidia.com/en-gb/geforce/products/geforce-now/) 
-* [Stream Link](https://store.steampowered.com/steamlink/about/)
-* [Moonlight](https://moonlight-stream.org/)
-* [Rainway](https://rainway.com/)
-* [PlayStation Now](https://www.playstation.com/en-gb/get-help/help-library/services/playstation-now/playstation-now-on-pc/)
-* [Xbox Game Streaming (Microsoft: xCloud)](https://www.xbox.com/en-US/xbox-game-streaming) 
-* [Paperspace](https://www.paperspace.com/)
-* [Vortex Cloud Gaming](https://vortex.gg/?aff=6934464)
-* [Shadow](https://shadow.tech/dede/)
+Provider | Comment
+------------ | -------------
+[Amazon Game Studios](https://www.amazongames.com/) | //
+[Blade Shadow](https://shadow.tech/gben/discover?gclid=EAIaIQobChMI8qmCiYL94wIVVeDtCh3s_AAHEAAYASAAEgK8YPD_BwE)  | Works with Mac, Android, iPhone, Ubuntu and Windows 10.
+[Google Stadia](https://stadia.com/) | [Supported game list](https://store.google.com/de/product/stadia_games)
+[Twitch](https://www.twitch.tv/) | (_[planned for 2020](https://www.cnet.com/news/google-stadia-wants-to-be-the-future-of-gaming-so-do-microsoft-sony-and-amazon/)_)
+[Parsec](https://parsecgaming.com/) | Play, watch, and share gaming with your friends in Parsec.
+[GeForce Now](https://www.nvidia.com/en-gb/geforce/products/geforce-now/) | Play & Stream Android, PC, and GeForce NOW games.
+[Steam Link](https://store.steampowered.com/steamlink/about/) & [Steam Remote Play](https://store.steampowered.com/remoteplay/)| Content from cell 2
+[Moonlight](https://moonlight-stream.org/) | Play Your PC Games Remotely, [setup guide](https://github.com/moonlight-stream/moonlight-docs/wiki/Setup-Guide).
+[Rainway](https://rainway.com/) | Allows you to launch all your PC games from one place on your home computer or stream through any browser, all completely free.
+[PlayStation Now](https://www.playstation.com/en-gb/get-help/help-library/services/playstation-now/playstation-now-on-pc/) | Stream PS2/PS3/PS4 games.
+[Xbox Game Streaming (Microsoft: xCloud)](https://www.xbox.com/en-US/xbox-game-streaming) | Stream your favorite Xbox games from the cloud or console straight to your Android phone or tablet.
+[Paperspace](https://www.paperspace.com/) | Fast cloud gaming in a web browser, [setup guide](https://blog.parsecgaming.com/setting-up-game-streaming-in-the-cloud-with-parsec-paperspace-just-got-a-lot-easier-bec072732bc9)
+[Vortex Cloud Gaming](https://vortex.gg/?aff=6934464) | Cloud Gaming for Android, PC and macOS.
+[Shadow](https://shadow.tech/dede/) | $35 per month, provides cloud gaming.
+[Magenta Gaming](https://magenta-gaming.telekom-dienste.de/) | Telekom (ISP) only, requires a 50 Mbit/s connection.
+
+
+## Virtual LAN Gaming
+Provider | Comment
+------------ | -------------
+[Hamachi](https://www.vpn.net/) | Hosted VPN service that lets you securely extend LAN-like networks (Windows, Mac, Linux).
+[Tunngle](https://web.archive.org/web/20170606182108/https://www.tunngle.net/) | Freemium and closed source (last version 5.8.9 [30.Jun. 2017])
+[Evolve (Player.me)](https://player.me/) | Inbuilt LAN support for almost all popular LAN games (Free, Party + $4.00/month)
+[GameRanger](https://www.gameranger.com/download/) | GameRanger is definitely one of the best alternatives to Hamachi - Free, Silver Membership $19.95/year, Gold Membership $39.95/year
+[Wippien](http://www.wippien.com/download.php) | It connects PCs with a P2P connection - Free and open source
+[NetOverNet](https://www.netovernet.com/) | Can be used as LAN emulator - Free, Basic $5/month, Advanced $10/month
+[Radmin VPN](http://www.radmin-vpn.com/) |  Secure VPN tunnel that doesn’t limit the number of users or gamers on its connection.
+[FreeLAN](http://www.freelan.org/download.html) | Almost no lag when playing games, a [tutorial is avbl. here](https://www.freelan.org/get_help.html#adjusting-the-configuration)
+[P2PVPN](http://p2pvpn.org/) | P2PVPN is an open source developed with Java, the development has stopped in 2010.
+[NetOverNet](https://www.netovernet.com/) | NetOverNet is basically a simple VPN emulator that can be used for hosting private gaming session.
+[FreeLAN](http://www.freelan.org/download.html) | Completely open-source.
+[ZeroTier One](https://www.zerotier.com/download.shtml) | Open source, virtual systems are encoded end-to-end.
+[SoftEther VPN](https://www.softether.org/5-download) | SoftEther VPN can be used on Windows, Mac, Linux, Solaris, and FreeBSD operating systems.
+[Via WireGuard](https://wiki.archlinux.org/index.php/WireGuard) | Simple yet fast and modern VPN that utilizes state-of-the-art cryptography.
+
