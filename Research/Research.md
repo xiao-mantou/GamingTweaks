@@ -171,3 +171,19 @@
 
 ### Bios adjustment programs
 * [BIOSTimingsDecoder](https://github.com/integralfx/BIOSTimingsDecoder)
+
+## Game streaming services
+* [Amazon Game Studios](https://www.amazongames.com/)
+* [Blade Shadow](https://shadow.tech/gben/discover?gclid=EAIaIQobChMI8qmCiYL94wIVVeDtCh3s_AAHEAAYASAAEgK8YPD_BwE) 
+* [Google Stadia](https://stadia.com/)
+* [Twitch](https://www.twitch.tv/) (_[planned for 2020](https://www.cnet.com/news/google-stadia-wants-to-be-the-future-of-gaming-so-do-microsoft-sony-and-amazon/)_)
+* [Parsec](https://parsecgaming.com/)
+* [GeForce Now](https://www.nvidia.com/en-gb/geforce/products/geforce-now/) 
+* [Stream Link](https://store.steampowered.com/steamlink/about/)
+* [Moonlight](https://moonlight-stream.org/)
+* [Rainway](https://rainway.com/)
+* [PlayStation Now](https://www.playstation.com/en-gb/get-help/help-library/services/playstation-now/playstation-now-on-pc/)
+* [Xbox Game Streaming (Microsoft: xCloud)](https://www.xbox.com/en-US/xbox-game-streaming) 
+* [Paperspace](https://www.paperspace.com/)
+* [Vortex Cloud Gaming](https://vortex.gg/?aff=6934464)
+* [Shadow](https://shadow.tech/dede/)
