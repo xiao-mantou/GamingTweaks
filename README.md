@@ -21,8 +21,8 @@ My little guide is all about _Windows Gaming_, and I really mean Gaming on Windo
 
 #### This guide is not for:
 - [x] Security / Virtual Machine (VM)
-- [x] General OS Hardening
-- [x] Game specific only tweaks or modifications
+- [x] OS Hardening
+- [x] Game only tweaks or modifications
 
 
 #### Clarifications regarding the term "tweaking"
@@ -54,6 +54,10 @@ My little guide is all about _Windows Gaming_, and I really mean Gaming on Windo
 * [SSD](SSD/Readme.md)
 * [Sound](Sound/Readme.md)
 * [KB issue](KB%20problems/Readme.md)
+
+
+## What Hardware should I buy?
+* [Gamers hardware buyers guide](Hardware%20(general)/Gaming%20Hardware%20Buyer's%20Guide.md)
 
 
 ## Optional Topics & Tools
