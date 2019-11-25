@@ -29,6 +29,40 @@ This recommendations are totally un-biased and the listed hardware, is listed ba
 
 We assume that "gaming" starts with 16 GB _which is, as of today the default_. We do not list a price because it can change over time or is location/reseller/vendor specific.
 
+
+#### DDR4 Specifications
+
+|        Standard         |  Module   |   MHz   | I/O (-> to memory controller) | Effective MHz | Dual Channel (in GB/s) | Quad Channel  (in GB/s) |
+| :---------------------: | :-------: | :-----: | :---------------------------: | :-----------: | :--------------------: | :---------------------: |
+|        DDR4-2133        | PC4-17000 | 266 MHz |           1066 MHz            |   2133 MHz    |       34,0 GB/s        |        68,0 GB/s        |
+|        DDR4-2400        | PC4-19200 | 300 MHz |           1200 MHz            |   2400 MHz    |       38,4 GB/s        |        76,8 GB/s        |
+|        DDR4-2666        | PC4-21300 | 333 MHz |           1333 MHz            |   2666 MHz    |       42,6 GB/s        |        85,2 GB/s        |
+|        DDR4-2933        | PC4-23466 | 366 MHz |           1466 MHz            |   2933 MHz    |       46,9 GB/s        |        93,8 GB/s        |
+| DDR4-3000 (_no JEDEC!_) | PC4-24000 | 375 MHz |           1500 MHz            |   3000 MHz    |       48,0 GB/s        |        96,0 GB/s        |
+|        DDR4-3200        | PC4-25600 | 400 MHz |           1600 MHz            |   3200 MHz    |       51,2 GB/s        |       102,4 GB/s        |
+| DDR4-3466 (_no JEDEC!_) | PC4-27733 | 433 MHz |           1733 MHz            |   3466 MHz    |       55,5 GB/s        |       111,0 GB/s        |
+| DDR4-3600 (_no JEDEC!_) | PC4-28800 | 450 MHz |           1800 MHz            |   3600 MHz    |       57,6 GB/s        |       115,2 GB/s        |
+| DDR4-4000 (_no JEDEC!_) | PC4-32000 | 500 MHz |           2000 MHz            |   4000 MHz    |       64,0 GB/s        |       128,0 GB/s        |
+| DDR4-4400 (_no JEDEC!_) | PC4-35200 | 550 MHz |           2200 MHz            |   4400 MHz    |       70,4 GB/s        |       140,8 GB/s        |
+| DDR4-4800 (_no JEDEC!_) | PC4-38400 | 600 MHz |           2400 MHz            |   4800 MHz    |       76,8 GB/s        |       153,6 GB/s        |
+
+
+#### Timings / MHz
+
+| Standard  | Speed (in MT/s) |  NS   | CAS-Latency (CL) | Latency (ns) |
+| :-------: | :-------------: | :---: | :--------------: | :----------: |
+| DDR4-2133 |      2.133      | 0,94  |        16        |    15,04     |
+| DDR4-3000 |      3.000      | 0,67  |        16        |    10,69     |
+| DDR4-3200 |      3.200      | 0,63  |        16        |    10,02     |
+| DDR4-3200 |      3.200      | 0,63  |        15        |     9,39     |
+| DDR4-3200 |      3.200      | 0,63  |        14        |     8,77     |
+| DDR4-3600 |      3.600      | 0,56  |        16        |     8,91     |
+| DDR4-3600 |      3.600      | 0,56  |        14        |     7,79     |
+| DDR4-3800 |      3.800      | 0,53  |        14        |   **7,39**   |
+| DDR4-4000 |      4.000      | 0,50  |        16        |     8,02     |
+| DDR4-4000 |      4.800      | 0,42  |        18        |     7,52     |
+
+
 ### 16-GB DDR4-Kits (Intel and AMD)
 
 | Category       |                Hardware Kit                |           ICs |
@@ -125,7 +159,7 @@ For gamers which do not OC'ing their RAM:
 
 # PSU
 
-A normal Gamer PC does not need more than ~500-600W - I explicitly mention it because most beginners think more is "better", it's not. Of course it depends if you use water cooling, lots of external devices etc (overall PSU "reserves") and if you want or not want, in the future, upgrade your rig or not (GPU/CPU might need more "power" etc). Stay away from "ultra" cheap PSU's!
+A normal Gamer PC does not need more than ~500-600W - I explicitly mention it because most beginners think more is "better", it's not. Of course it depends if you use water cooling, lots of external devices etc. (_overall spoken PSU "reserves"_) and if you want or not want, in the future, upgrade your rig or not (GPU/CPU might need more "power" etc). Stay away from "ultra" cheap PSU!
 
 ### When do I need really need more Watt?
 
@@ -176,4 +210,9 @@ Please keep in mind:
 
 ### Last Updated
 
-`11.25.2019`
+* `11.25.2019`
+
+
+### Change log
+
+- 11.25.2019: Initial release
