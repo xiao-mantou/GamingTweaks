@@ -303,12 +303,20 @@ Windows Registry Editor Version 5.00
 ; "TrustLevel"=dword:00000000
 ```
 
-### Compression 
-
-[Memory Compression](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)) in Windows 10 was introduced with [Build 10525](https://blogs.windows.com/windowsexperience/2015/08/18/announcing-windows-10-insider-preview-build-10525/#2Vhj8QCPv3g4Z372.97). 
-
-If you had 8 GB of RAM and applications had 9 GB of stuff to store in that RAM, at least 1 GB would have to be “paged out” and stored in the page file on your computer’s disk. Accessing data in the page file is very slow compared to RAM. 
+Since Windows 1803+ you don't need to disable GameDVR anymore, **only in case you have game specific issues** - in that case use the provided workaround, or better report it to the game developer studio to address it.
 
 
-Open a PowerShell with Administrator privilages then, run the command `Disable-MMAgent -mc` and reboot. This disables the compression. To enable it later again, run again powershell as admin and run the `Enable-MMAgent -mc` command.
+### Windows 10 Memory Compression 
+
+[Memory Compression](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)) in Windows 10 was introduced with [Build 10525](https://blogs.windows.com/windowsexperience/2015/08/18/announcing-windows-10-insider-preview-build-10525/#2Vhj8QCPv3g4Z372.97). An in-depth explanation is given over [here](https://channel9.msdn.com/Blogs/Seth-Juarez/Memory-Compression-in-Windows-10-RTM).
+
+Example:
+If you had 8 GB of RAM and applications had, let's say 9 GB of stuff to store in that RAM, at least 1 GB would have to be “paged out” and stored in the page file on your computer’s disk. Accessing data in the page file is very slow compared to RAM. Overall said, it all comes down to the amount of RAM. In theory you should not notice if compression is enabled or disabled on a system with 16+ GB, the sad truth is that some applications and games are not well "optimized" and disabling the compression algo might result in an overall _smoother_ application/game behavior, especially if you run many UWP apps in the background. 
+
+
+Open a PowerShell with Administrator privilages then, run the command `Disable-MMAgent -MemoryCompression` and reboot. This disables the compression. To enable it later again, run again powershell as admin and run the `Enable-MMAgent -MemoryCompression
+					` command. Some tasks managers can show memory compression information like Windows own task-manager, [ProcessHacker](https://wj32.org/processhacker/forums/viewtopic.php?t=2421) and [Process Explorer](https://www.howtogeek.com/319933/what-is-memory-compression-in-windows-10/).
+
 For more details, see [this post](https://github.com/CHEF-KOCH/GamingTweaks/issues/26).
+
+![Controlling Memory Compression](https://s19.directupload.net/images/191127/fdekunh3.png)
