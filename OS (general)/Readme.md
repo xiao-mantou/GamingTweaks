@@ -51,6 +51,7 @@ While the ability to _system-wide_ disable fullscreen optimizations for all the 
 The following things should be as low as possible:
 
 * Audio latency
+* Compression
 * Ping/Network latency (use the ping command to quickly check your average latency which might be different [depending on several factors])
 * DPC Latency (use [LatencyMon](https://www.resplendence.com/latencymon) to check it)
 * _Overall network latency_ (this can't be tested easily because it is depening on several factors)
@@ -78,9 +79,9 @@ Edu./Ent. or LTSC versions have no pre-installed apps OR/AND you can take contro
 
 ## Driver installation
 
-The driver installation order does matter and might help to solve or prevent some problems.
+The driver installation order _does matter_ and might help to solve or prevent some problems.
 * OS
-* Chipset (reboot)
+* Chipset (reboot) - You do not need to "update" regularly your chipset driver, just install the missing driver (inf) component. There is no benefit in "updating" the existent driver.
 * USB (e.g. ASMedia Technology Inc.)
 * Audio/GPU (the order doesn't matter)
 * Monitor/keyboard/mouse etc.
@@ -302,3 +303,12 @@ Windows Registry Editor Version 5.00
 ; "TrustLevel"=dword:00000000
 ```
 
+### Compression 
+
+[Memory Compression](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)) in Windows 10 was introduced with [Build 10525](https://blogs.windows.com/windowsexperience/2015/08/18/announcing-windows-10-insider-preview-build-10525/#2Vhj8QCPv3g4Z372.97). 
+
+If you had 8 GB of RAM and applications had 9 GB of stuff to store in that RAM, at least 1 GB would have to be “paged out” and stored in the page file on your computer’s disk. Accessing data in the page file is very slow compared to RAM. 
+
+
+Open a PowerShell with Administrator privilages then, run the command `Disable-MMAgent -mc` and reboot. This disables the compression. To enable it later again, run again powershell as admin and run the `Enable-MMAgent -mc` command.
+For more details, see [this post](https://github.com/CHEF-KOCH/GamingTweaks/issues/26).
