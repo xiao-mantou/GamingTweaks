@@ -245,7 +245,7 @@ Some games might have random stutter because Windows tries to free some resource
 Set your power setting to maximum performance (it's not needed to use an "ultimate" power-plan) if you graphic card driver has an 'maximum performance' settings enable it too, this will ensure that the GPU uses it's full potential.
 
 
-### GameDVR + GameBarPresenceWriter
+### GameDVR
 
 Whenever you stream games via OBS Studio, make sure you disable GameDVR, it is also a smart advice to in general stay away from it since most applications & games are simply not optimized for it - this doesn't have anything to do with that MS _fucked something up_ it's more that most older games (and even several new ones) are not adopted to get any benefit in such _low-latency_ mode.
 
@@ -294,16 +294,14 @@ Windows Registry Editor Version 5.00
   00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
   00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
   00,00,00,00,00,00,00,00,00,00
-
-; Disable GameBarPresenceWriter.exe (needs same like PowerShell removal higher rights) - Do not use it, it's optional!
-;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\Windows.Gaming.GameBar.PresenceServer.Internal.PresenceWriter]
-;"ActivationType"=dword:00000001
-;"CLSID"="{cbfd414c-5037-3c98-a85e-a5e7ca509cfc}"
-;"Server"="Windows.Gaming.GameBar.Internal.PresenceWriterServer"
-; "TrustLevel"=dword:00000000
 ```
 
-Since Windows 1803+ you don't need to disable GameDVR anymore, **only in case you have game specific issues** - in that case use the provided workaround, or better report it to the game developer studio to address it.
+Since Windows 1803+ you don't need to disable GameDVR anymore, **only in case you have game specific issues!**, in such case use the provided workaround, or better report it to the game developer studio to address it directly.
+
+
+### GameBarPresenceWriter.exe
+
+GameBarPresenceWriter.exe is a part of thr XBox Game Bar function and typically runs in the background. The process can't be killed because it will automatically be restarted. You can use [this script](https://github.com/CHEF-KOCH/GamingTweaks/tree/master/Tools/GameBarPresenceWriter) to kill it once and for all.
 
 
 ### Windows 10 Memory Compression 
