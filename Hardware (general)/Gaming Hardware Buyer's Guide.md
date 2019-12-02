@@ -198,21 +198,29 @@ Please keep in mind:
 
 # CPU
 
-| Category                                  |                   Suggestion                   |                                   Notice or alternative |
-| ----------------------------------------- | :--------------------------------------------: | ------------------------------------------------------: |
-| Luxury                                    |              Intel Core i9-9900K               | Security holes but overall "best for gaming" (IPC/perf) |
-| Middle class (best price per performance) |            Intel Core i7-9700(K/F)             |                                       AMD Ryzen 7 3700X |
-| Middle                                    |                AMD Ryzen 5 3600                |                                     Intel Core i5-9400F |
-| Cheap middle                              | AMD Ryzen 5 2600 or AMD Ryzen 3 2200G (lowest) |   Basically the minimum if you want to get into gaming. |
+| Category                                  |                  Suggestion                  |                                   Notice or alternative |
+| ----------------------------------------- | :------------------------------------------: | ------------------------------------------------------: |
+| HEDT                                      |         AMD Ryzen Threadripper 3970X         |                                               ~ 2.195 € |
+| Luxury                                    |          Intel Core i9-9900K or KS           | Security holes but overall "best for gaming" (IPC/perf) |
+| Luxury alternative                        |    AMD Ryzen 9 3900X / AMD Ryzen 9 3950X     |                                                  ~578 € |
+| Middle class (best price per performance) | Intel Core i7-9700(K/F) or AMD Ryzen 7 3700X |                                       AMD Ryzen 7 3700X |
+| Middle                                    |               AMD Ryzen 5 3600               |                                     Intel Core i5-9400F |
+| Cheap middle                              |               AMD Athlon 3000G               |             The minimum if you want to get into gaming! |
+| iGPU                                      |          AMD Ryzen 3 2200G / 3200 G          |                                            ~ 80 / € 93€ |
 
 
+
+### Legend
+* HEDT      = High End Desktop
+* iGPU      = integrated graphic unit
 
 
 ### Last Updated
 
-* `11.25.2019`
+* `12.02.2019`
 
 
 ### Change log
 
+- 12.02.2019: CPU category updated -> HEDT added, iGPU added,
 - 11.25.2019: Initial release
