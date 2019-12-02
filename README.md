@@ -52,6 +52,7 @@ My little guide is all about _Windows Gaming_, and I really mean Gaming on Windo
 * [Network](Network/Readme.md)
 * [RAM](RAM/Readme.md)
 * [SSD](SSD/Readme.md)
+* [Retro Consoles](Retro%20Consoles/Readme.md)
 * [Sound](Sound/Readme.md)
 * [KB issue](KB%20problems/Readme.md)
 
