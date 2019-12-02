@@ -5,6 +5,18 @@
 * Don't use utilities like [Intel Driver Update Utility](https://www.intel.com/content/www/us/en/support/topics/idsa-faq.html) because it runs all the time in the background, submits telemetry and doesn't have any benefit over a _traditional_ driver page like e.g. [Station-Drivers](https://www.station-drivers.com/index.php?lang=en).
 * Do not install "Xtreme-G Modded Drivers", the promises the modders makes are ridiculous and there is no evidence that this holds what it promises.
 
+
+## Chipset driver update myth
+
+You [do not need to install any chipset driver unless you see a yellow triangle](https://www.win-raid.com/t895f42-Intel-Chipset-Device-quot-Drivers-quot-INF-files.html) in device manager. Windows Update usually then kicks in and offers you the correct version. There is (_in normal situations_) no benefit in using an updated chipset drivers because if you [inspect the changelog](https://downloadmirror.intel.com/29227/eng/10.1.18228.8176_3.1.7.118_public.pdf) you will notice that newer chipset driver versions often only adding new products they typically never "fix" something. 
+
+#### Best practice
+* If you so no yellow triangle in the device manager (unknown device or error codes) do not install any chipset driver.
+* If Windows Update offers you the driver then you're good to go, just install it and reboot. 
+* Monitor the changelogs from AMD and Intel for platform specific changes, if you see new chipset driver versions just do not blindly download them, instead check if the changelog mention some improvements.
+
+
+
 ## nVidia Driver update procedure
 
 * Download the latest official driver or _debloat_ driver.
