@@ -4,6 +4,10 @@
 * [Network Cache ATtack (short: NetCAT) (vusec.net)](https://www.vusec.net/projects/netcat/) - [CVE-2019-11184](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11184)
 
 
+## Hardware explained
+* [DDR4 vs GDDR5/GDDR6 vs LPDDR4 vs HBM2: Different Memory (RAM) Types Explained (hardwaretimes.com)](https://www.hardwaretimes.com/ddr4-vs-gddr5-gddr6-vs-lpddr4-vs-hbm2-different-memory-ram-types-explained/)
+
+
 ## General Research
 * [Nvidia Inspector profile(s) to fix Low Power for some applications (github.com)](https://github.com/Ociidii-Works/Nvidia-GPU-Low-Power-Fix)
 * [Overclocking Community (overclock.net)](http://www.overclock.net/)
