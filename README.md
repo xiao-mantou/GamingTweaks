@@ -70,6 +70,10 @@ My little guide is all about _Windows Gaming_, and I really mean Gaming on Windo
 * [Awesome-Game-Networking](https://github.com/MFatihMAR/Awesome-Game-Networking)
 
 
+## Gaming on Linux
+* [Linux Gaming tweaks: short overview](Linux%20Gaming/Readme.md)
+
+
 ## Official Microsoft Docs related to gaming and OS performance
 * [Tips to improve PC performance in Windows 10 by Microsoft](https://support.microsoft.com/en-us/help/4002019/windows-10-improve-pc-performance)
 * [Scheduling, Thread Context, and IRQL](http://download.microsoft.com/download/e/b/a/eba1050f-a31d-436b-9281-92cdfeae4b45/IRQL_thread.doc)
