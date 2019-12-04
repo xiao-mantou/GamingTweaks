@@ -64,6 +64,9 @@
 * [Denuvo Really Does Cripple PC Gaming Performance (https://www.extremetech.com)](https://www.extremetech.com/gaming/282924-denuvo-really-does-cripple-pc-gaming-performance)
 * [Devil May Cry 5 PC's Denuvo DRM has a CPU hit (eurogamer.net)](https://www.eurogamer.net/articles/digitalfoundry-2019-devil-may-cry-5-pc-denuvo-protection-tested) - ([Updated test](https://www.techpowerup.com/reviews/Denuvo/Performance_Loss_Test/3.html))
 
+## Other DRM problems
+* [Tron: Evolution SecuROM DRM expiration makes game unplayable 9 years after release (community.pcgamingwiki.com)](https://community.pcgamingwiki.com/topic/4476-tron-evolution-securom-drm-expiration-makes-game-unplayable-9-years-after-release/)
+
 
 ## Power Management
 * [Device power management reference (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/device-power-management-reference)
