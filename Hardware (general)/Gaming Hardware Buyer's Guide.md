@@ -187,12 +187,11 @@ Please keep in mind:
 | Category         |          Suggestion           |                      Brand Suggestion |
 | ---------------- | :---------------------------: | ------------------------------------: |
 | Up to 150€       |       AMD Radeon RX 570       |            MSI Radeon RX 570 Armor OC |
-| Up to 200€       |       AMD Radeon RX 590       |          Sapphire Radeon RX 590 Pulse |
-| Up to 300€       |     AMD Radeon RX Vega 56     |       Asus Radeon RX Vega 56 Strix OC |
-| Up to 400€       | Nvidia GeForce RTX 2060 Super | Gainward GeForce RTX 2060 Super Ghost |
-| Alternative      |     AMD Radeon RX 5700 XT     |    XFX Radeon RX Vega 5700 XT THICCII |
-| Up to 600€       |    Nvidia GeForce RTX 2080    |       Gigabyte GeForce RTX 2080 Aorus |
-| 800€ (or higher) |  Nvidia GeForce RTX 2080 Ti   | MSI GeForce RTX 2080 Ti Gaming X Trio |
+| Up to 200€       |       AMD Radeon RX 580       |             XFX Radeon RX 580 GTS XXX |
+| Up to 300€       |     Nvidia GeForce GTX 1660 Super     |       Gainward GeForce GTX 1660 Super Ghost |
+| Up to 400€       | AMD Radeon RX 5700 XT | XFX Radeon RX Vega 5700 XT THICCII |
+| Up to 600€       |    Nvidia GeForce RTX 2070 Super    |       MSI GeForce RTX 2080 Super Ventus XS OC |
+| 800€ (or higher) |  Nvidia GeForce RTX 2080 Ti   | Gainward GeForce RTX 2080 Ti Phoenix |
 
 
 
