@@ -8,13 +8,27 @@
 * [DDR4 vs GDDR5/GDDR6 vs LPDDR4 vs HBM2: Different Memory (RAM) Types Explained (hardwaretimes.com)](https://www.hardwaretimes.com/ddr4-vs-gddr5-gddr6-vs-lpddr4-vs-hbm2-different-memory-ram-types-explained/)
 
 
+## HPET
+* [High Precision Event Timer (wikipedia.org)](https://en.wikipedia.org/wiki/High_Precision_Event_Timer)
+* [AMD and Intel Have Different HPET Guidance (anandtech.com)](https://www.anandtech.com/show/12678/a-timely-discovery-examining-amd-2nd-gen-ryzen-results/3)
+* [AMD recommended HPET be disabled (realworldtech.com)](https://www.realworldtech.com/forum/?threadid=176149&curpostid=176160)
+* [Disable High Precision Event Timer (HPET) in BIOS (forums.guru3d.com)](http://forums.guru3d.com/showpost.php?p=3770113&postcount=2)
+* [Dynamic Tick Mode explained (doc.micrium.com)](https://doc.micrium.com/display/osiiidoc/Dynamic+Tick+Mode)
+* [The Clock Tick (doc.micrium.com)](https://doc.micrium.com/display/osiiidoc/The+Clock+Tick)
+* [How To Improve Gaming Performance By Disabling HPET Settings? (silicophilic.com)](https://silicophilic.com/disabling-hpet-settings/)
+* [BCDEdit /set (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/bcdedit--set?redirectedfrom=MSDN)
+* [Windows Timestamp (windowstimestamp)](https://www.windowstimestamp.com/description)
+* [Common Stutter / Lag / Crash Fix (HPET Guide) (linustechtips.com)](https://linustechtips.com/main/topic/915727-common-stutter-lag-crash-fix-hpet-guide/)
+* [Disable HPET(High Precision Event Timer) (mikemartin.co)](https://www.mikemartin.co/system_guides/hardware/motherboard/disable_high_precision_event_timer_hpet)
+* [Disable or enable High Precision Event Timer(HTEP)? (bleepingcomputer.com)](https://www.bleepingcomputer.com/forums/t/677082/disable-or-enable-high-precision-event-timerhtep/)
+
+
 ## General Research
 * [Nvidia Inspector profile(s) to fix Low Power for some applications (github.com)](https://github.com/Ociidii-Works/Nvidia-GPU-Low-Power-Fix)
 * [Overclocking Community (overclock.net)](http://www.overclock.net/)
 * [The Gigabyte GA-X48T-DQ6 - Redefining the High End? (anandtech.com)](http://www.anandtech.com/show/2410/13)
 * [ASUS PEG Link Mode Guide Rev. 2.0 (techarp.com)](http://www.techarp.com/showarticle.aspx?artno=248&pgno=0)
 * [Does Core i7 Hyper-Threading Helps? (vr-zone.com)](http://vr-zone.com/articles/does-core-i7-hyper-threading-helps-/6160.html?doc=6160)
-* [Disable High Precision Event Timer (HPET) in BIOS (forums.guru3d.com)](http://forums.guru3d.com/showpost.php?p=3770113&postcount=2)
 * [SYN cookies FAQ (cr.yp.to)](http://cr.yp.to/syncookies.html)
 * [Multimedia Class Scheduler Service (msdn.microsoft.com)](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684247(v=vs.85).aspx)
 * [Gaming Tweaks by SpeedGuide.net (speedguide.net)](http://www.speedguide.net/articles/gaming-tweaks-5812)
