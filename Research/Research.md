@@ -198,6 +198,9 @@
 ### Bios adjustment programs
 * [BIOSTimingsDecoder](https://github.com/integralfx/BIOSTimingsDecoder)
 
+### Unpausable cutscenes
+* [Game Pauser](https://madebyjase.com/game-pauser/) (**Do NOT use it for online games, due to anti-cheat reasons**)
+
 ## Game streaming services
 Provider | Comment
 ------------ | -------------
