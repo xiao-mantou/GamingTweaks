@@ -60,10 +60,8 @@
 * [Emulator accuracy tests (tasvideos.org)](http://tasvideos.org/EmulatorResources.html#AccuracyTests)
 
 
-
 ## Raytracing benchmarks
 * [Crytek Neon Noir](https://www.cryengine.com/marketplace/product/neon-noir#)
-
 
 
 ## Forums
@@ -200,6 +198,9 @@
 
 ### Unpausable cutscenes
 * [Game Pauser](https://madebyjase.com/game-pauser/) (**Do NOT use it for online games, due to anti-cheat reasons**)
+
+### FOV calculator
+* [Online FOV calculator](https://themetalmuncher.github.io/fov-calc/)
 
 ## Game streaming services
 Provider | Comment
