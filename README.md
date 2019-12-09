@@ -13,8 +13,8 @@ My little guide is all about _Windows Gaming_, and I really mean Gaming on Windo
 
 
 ## General advice
-- [x] **Do not** use any all-in-one 'tweak tools/programs or scripts', it's not worth it.
-- [x] **Do** always a **backups** of your current Windows 10 state. I recommend [Macrium Reflect](https://www.macrium.com/reflectfree).
+- [x] **Do not** use any `all-in-one tweak tools/programs or scripts`, it's not worth it.
+- [x] **Do** always a **backups** of your current Windows 10 state. I recommend [Macrium Reflect](https://www.macrium.com/reflectfree) or (_FOSS & cross-platform_) [restic](https://github.com/restic/restic).
 - [x] There is **no Voodoo tweak** or `regtweak.awesome.reg` which  increases your OS/Game performance like 50%.
 - [x] **Do it yourself** and don't be lazy - _use brain.exe and do not copy tweaks from the internet!_.
 
@@ -22,7 +22,7 @@ My little guide is all about _Windows Gaming_, and I really mean Gaming on Windo
 #### This guide is not for:
 - [x] Security / Virtual Machine (VM)
 - [x] OS Hardening
-- [x] Game only tweaks or modifications
+- [x] Game only tweaks or modifications, you can [check nexusmods](https://www.nexusmods.com/) for this
 
 
 #### Clarifications regarding the term "tweaking"
