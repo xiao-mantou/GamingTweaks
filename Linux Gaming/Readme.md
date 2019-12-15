@@ -14,10 +14,11 @@
 
 ## Problems with Linux as Gaming platform
 
-* Drivers (not all) are still "optimized" for Windows, not available on Linux or proprietary
+* Drivers (_not all_) are still "optimized" for Windows, not available on Linux or are proprietary...
 * _Compatibility issues with the software you currently use_
 * Emulation might be slow(er)
 * Some publisher refusing to port their games or to use API's which are working on every OS ("Windows exclusive" games and game deals)
+* [other reasons](https://itvision.altervista.org/why.linux.is.not.ready.for.the.desktop.current.html)
 
 
 ## Workaround for the Gaming situation
