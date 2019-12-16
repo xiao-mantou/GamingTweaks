@@ -18,7 +18,7 @@ This recommendations are totally un-biased and the listed hardware, is listed ba
 * Vendor specific tests are NOT allowed not substantial evidence (_because of course everyone claims to have the best/superior products_)
 
 
-## Against promotion/advertisement principle
+## Against promotion/advertisement principles
 
 * This list **DOES NOT** promote specific vendors, manufactures nor does anyone get paid to list hardware X here. It is from gamers to gamers (community).
 * Biased persons are **NOT** permitted to submit something to the list. For example, an Corsair employee is not permitted to submit something (_even if he has as a private person another opinion or suggestion_).
@@ -63,36 +63,42 @@ We assume that "gaming" starts with 16 GB _which is, as of today the default_. W
 | DDR4-4000 |      4.800      | 0,42  |        18        |     7,52     |
 
 
-### 16-GB DDR4-Kits (Intel and AMD)
+### 16-GB DDR4-Kits (_for Intel and AMD_)
 
-| Category       |                Hardware Kit                |           ICs |
-| -------------- | :----------------------------------------: | ------------: |
-| Cheap but good |   Crucial Ballistix 16 GB DDR4-3000 CL15   |  Micron E-Die |
-| Alternative    |   Crucial Ballistix 16 GB DDR4-3200 CL16   |  Micron E-Die |
-| Beginners (OC) |   Crucial Ballistix 16 GB DDR4-3000 CL15   |  Micron E-Die |
-| Alternative    |   Crucial Ballistix 16 GB DDR4-3200 CL16   |  Micron E-Die |
-| Optimal (OC)   | G.Skill Trident Z Neo 16 GB DDR4-3200 CL14 | Samsung B-Die |
-| Alternative    | G.Skill Trident Z Neo 16 GB DDR4-3600 CL16 | Samsung B-Die |
-| Luxury (OC)    | G.Skill Trident Z RGB 16 GB DDR4-4133 CL17 | Samsung B-Die |
-| Alternative    | G.Skill Trident Z RGB 16 GB DDR4-4000 CL17 | Samsung B-Die |
-
-### 32-GB-DDR4-Kits (Intel and AMD)
-
-| Category            |                    Hardware Kit                    |              ICs |
-| ------------------- | :------------------------------------------------: | ---------------: |
-| Cheap but good      |         G.Skill Aegis 32 GB DDR4-3000 CL16         | SK Hynix AFR-Die |
-| Alternative         |     Corsair Vengeance LPX 32 GB DDR4-3000 CL15     | SK Hynix AFR-Die |
-| Beginners (OC)      |       Crucial Ballistix 32 GB DDR4-3000 CL15       |     Micron E-Die |
-| Alternative         |        G.Skill SniperX 32 GB DDR4-3600 CL19        |   SK Hynix C-Die |
-| Optimal (OC)        | G.Skill Trident Z Neo 32 GB DDR4-3600 CL16 (2× 16) |    Samsung B-Die |
-| Alternative         |    G.Skill Flare X 32 GB DDR4-3200 CL14 (4x 8)     |    Samsung B-Die |
-| Luxury (OC)         |     G.Skill Trident Z RGB 32 GB DDR4-4266 CL17     |    Samsung B-Die |
-| Alternative         |     G.Skill Trident Z RGB 32 GB DDR4-4133 CL17     |    Samsung B-Die |
-| Quad-Channel (HEDT) |    G.Skill Flare X 32 GB DDR4-3200 CL14 (4x 8)     |    Samsung B-Die |
-| Alternative         | G.Skill Trident Z RGB 32 GB DDR4-3200 CL14 (4× 8)  |    Samsung B-Die |
+| Category       |                        Hardware Kit                        |          ICs |
+| -------------- | :--------------------------------------------------------: | -----------: |
+| Cheap but good |           Crucial Ballistix 16 GB DDR4-3000 CL15           | Micron E-Die |
+| Alternative    |           Crucial Ballistix 16 GB DDR4-3200 CL16           | Micron E-Die |
+| Alternative    | Crucial Ballistix Tactical Tracer RGB 16 GB DDR4-3000 CL15 | Micron E-Die |
+| Alternative    | Crucial Ballistix Tactical Tracer RGB 16 GB DDR4-3200 CL16 | Micron E-Die |
+| Beginners (OC) |           Crucial Ballistix 16 GB DDR4-3000 CL15           | Micron E-Die |
+| Alternative    |           Crucial Ballistix 16 GB DDR4-3200 CL16           | Micron E-Die |
+| Alternative    | Crucial Ballistix Tactical Tracer RGB 16 GB DDR4-3000 CL15 | Micron E-Die |
+| Optimal (OC)   |         G.Skill Trident Z Neo 16 GB DDR4-3200 CL14         | Samsung B-Die |
+| Alternative    |         G.Skill Trident Z Neo 16 GB DDR4-3600 CL16         | Samsung B-Die |
+| Luxury (OC)    |         G.Skill Trident Z RGB 16 GB DDR4-4133 CL17         | Samsung B-Die |
+| Alternative    |         G.Skill Trident Z RGB 16 GB DDR4-4000 CL17         | Samsung B-Die |
 
 
-### 64-GB-DDR4-Kits (Intel and AMD)
+### 32-GB-DDR4-Kits (_for Intel and AMD_)
+
+| Category            |                      Hardware Kit                      |              ICs |
+| ------------------- | :----------------------------------------------------: | ---------------: |
+| Cheap but good      |           G.Skill Aegis 32 GB DDR4-3000 CL16           | SK Hynix AFR-Die |
+| Alternative         |       Corsair Vengeance LPX 32 GB DDR4-3000 CL15       | SK Hynix AFR-Die |
+| Beginners (OC)      |         Crucial Ballistix 32 GB DDR4-3000 CL15         |     Micron E-Die |
+| Alternative         |          G.Skill SniperX 32 GB DDR4-3600 CL19          |   SK Hynix C-Die |
+| Optimal (OC)        |   G.Skill Trident Z Neo 32 GB DDR4-3600 CL16 (2× 16)   |    Samsung B-Die |
+| Alternative         |      G.Skill Flare X 32 GB DDR4-3200 CL14 (4x 8)       |    Samsung B-Die |
+| Luxury (OC)         |       G.Skill Trident Z RGB 32 GB DDR4-4266 CL17       |    Samsung B-Die |
+| Alternative         |       G.Skill Trident Z RGB 32 GB DDR4-4133 CL17       |    Samsung B-Die |
+| Quad-Channel (HEDT) |      G.Skill Flare X 32 GB DDR4-3200 CL14 (4x 8)       |    Samsung B-Die |
+| Alternative         |   G.Skill Trident Z RGB 32 GB DDR4-3200 CL14 (4× 8)    |    Samsung B-Die |
+| HEDT                | Crucial Ballistix Sport LT 32 GB DDR4-3200 CL16 (4× 8) |    Samsung B-Die |
+| Alternative         |   G.Skill Trident Z RGB 32 GB DDR4-3200 CL14 (4× 8)    |     Micron E-Die |
+
+
+### 64-GB-DDR4-Kits (_for Intel and AMD_)
 
 | Category            |                  Hardware Kit                   |            ICs |
 | ------------------- | :---------------------------------------------: | -------------: |
