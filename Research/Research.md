@@ -25,31 +25,60 @@
 
 ## General Research
 * [Nvidia Inspector profile(s) to fix Low Power for some applications (github.com)](https://github.com/Ociidii-Works/Nvidia-GPU-Low-Power-Fix)
-* [Overclocking Community (overclock.net)](http://www.overclock.net/)
 * [The Gigabyte GA-X48T-DQ6 - Redefining the High End? (anandtech.com)](http://www.anandtech.com/show/2410/13)
 * [ASUS PEG Link Mode Guide Rev. 2.0 (techarp.com)](http://www.techarp.com/showarticle.aspx?artno=248&pgno=0)
 * [Does Core i7 Hyper-Threading Helps? (vr-zone.com)](http://vr-zone.com/articles/does-core-i7-hyper-threading-helps-/6160.html?doc=6160)
-* [SYN cookies FAQ (cr.yp.to)](http://cr.yp.to/syncookies.html)
-* [Multimedia Class Scheduler Service (msdn.microsoft.com)](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684247(v=vs.85).aspx)
-* [Gaming Tweaks by SpeedGuide.net (speedguide.net)](http://www.speedguide.net/articles/gaming-tweaks-5812)
-* [Microsoft educates Insiders on how Windows 10 handles memory (onmsft.com)](https://www.onmsft.com/news/microsoft-educates-insiders-windows-10-handles-memory)
 * [Better on the inside: under the hood of Windows 8 (arstechnica.com)](https://arstechnica.com/information-technology/2012/10/better-on-the-inside-under-the-hood-of-windows-8/2/)
-* [Mouse Sensitivity (mouse-sensitivity.com)](https://www.mouse-sensitivity.com)
-* [Windows 10 1809 Performance Impact (ict-r.com)](https://www.ict-r.com/windows-10-1809-performance-impact/)
 * [A MINIMUM COMPLETE TUTORIAL OF CPU POWER MANAGEMENT, C-STATES AND P-STATES (metebalci.com)](https://metebalci.com/blog/a-minimum-complete-tutorial-of-cpu-power-management-c-states-and-p-states/)
-* [Windows Vista's SuperFetch and ReadyBoost Analysed (tomshardware.com)](https://www.tomshardware.com/reviews/windows-vista-superfetch-and-readyboostanalyzed,1532-2.html)
 * [Catalyst Antialiasing Guide (beyond3d.com)](http://www.beyond3d.com/content/articles/37/1)
-* [GeDoSaTo FPS capping, modding controversies (blog.metaclassofnil.com)](http://blog.metaclassofnil.com/?p=715)
-* [The real and complete story - Does Windows defragment your SSD? (hanselman.com)](https://www.hanselman.com/blog/TheRealAndCompleteStoryDoesWindowsDefragmentYourSSD.aspx)
-* [PC Gaming Wiki - Microsoft Windows](https://pcgamingwiki.com/wiki/Microsoft_Windows)
+
+
+## Windows specific
+* [Multimedia Class Scheduler Service (msdn.microsoft.com)](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684247(v=vs.85).aspx)
+* [Windows Vista's SuperFetch and ReadyBoost Analysed (tomshardware.com)](https://www.tomshardware.com/reviews/windows-vista-superfetch-and-readyboostanalyzed,1532-2.html)
+* [Windows 10 1809 Performance Impact (ict-r.com)](https://www.ict-r.com/windows-10-1809-performance-impact/)
+* [Microsoft educates Insiders on how Windows 10 handles memory (onmsft.com)](https://www.onmsft.com/news/microsoft-educates-insiders-windows-10-handles-memory)
+
+
+## Mouse & Keyboard
+* [Mouse Sensitivity (mouse-sensitivity.com)](https://www.mouse-sensitivity.com)
+
 
 ## Dithering under Windows
 * [Disable temporal dithering on Windows - Amulet Hotkey (resources.amulethotkey.com)](https://resources.amulethotkey.com/download/KBA_144_Disable_temporal_dithering_on_Windows_May_2018.pdf) 
 
 
-## Game knowledge
+## NetCode, Networking
+* [SYN cookies FAQ (cr.yp.to)](http://cr.yp.to/syncookies.html)
+
+
+## Frametimes, FPS
+* [GeDoSaTo FPS capping, modding controversies (blog.metaclassofnil.com)](http://blog.metaclassofnil.com/?p=715)
+
+
+## TFT
+* [TFT Central](https://www.tftcentral.co.uk/)
+
+
+## SSD
+* [TheSSDReview](http://www.thessdreview.com/)
+* [The real and complete story - Does Windows defragment your SSD? (hanselman.com)](https://www.hanselman.com/blog/TheRealAndCompleteStoryDoesWindowsDefragmentYourSSD.aspx)
+
+
+## General Game tweak-knowledge
 * [PC Gaming Wiki (pcgamingwiki.com)](https://pcgamingwiki.com/wiki/Home) - Game configs, suggestions & tricks database (similar like Wikipedia just for games)
 * [WSGF Forum (wsgf.org)](http://www.wsgf.org/forums/viewforum.php?f=64&sid=07479fb019fa626648795c596de5e9ea) - Game Mods, discussions and requests.
+
+
+## YouTube Channel with focus of game analysis
+* [Battle(non)sense](https://www.youtube.com/channel/UCP7QY6L5pvmm0-stL-pNFrw)
+
+
+## YouTube Channel with focus of hardware analysis
+* [JayzTwoCents](https://www.youtube.com/user/Jayztwocents)
+* [Gamers Neus](https://www.youtube.com/channel/UChIs72whgZI9w6d6FhwGGHA)
+* [BitWid](https://www.youtube.com/channel/UCftcLVz-jtPXoH3cWUUDwYw)
+* [TechSource](https://www.youtube.com/channel/UChIZGfcnjHI0DG4nweWEduw)
 
 
 ## Game Emulators
