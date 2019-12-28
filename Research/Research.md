@@ -42,6 +42,7 @@
 
 ## Mouse & Keyboard
 * [Mouse Sensitivity (mouse-sensitivity.com)](https://www.mouse-sensitivity.com)
+* [Wireless Mouse Click Latency Analysis (gamersnexus.net)](https://www.gamersnexus.net/guides/2594-wireless-mouse-click-latency-analysis-vs-wired)
 
 
 ## Dithering under Windows
