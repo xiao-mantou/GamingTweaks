@@ -80,6 +80,7 @@
 * [Gamers Neus](https://www.youtube.com/channel/UChIs72whgZI9w6d6FhwGGHA)
 * [BitWid](https://www.youtube.com/channel/UCftcLVz-jtPXoH3cWUUDwYw)
 * [TechSource](https://www.youtube.com/channel/UChIZGfcnjHI0DG4nweWEduw)
+* [Rocket Jump Ninja](https://www.youtube.com/channel/UCGJaDZC7PChgd-XMwcbZkiw)
 
 
 ## Game Emulators
