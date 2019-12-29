@@ -179,6 +179,9 @@
 
 ## Programs
 
+### Full Screen Optimizations
+* [Compatibility Manager (github.com)](https://github.com/Skymirrh/CompatibilityManager)
+
 ### HPET / QPC Benchmark
 * [TimerBench](https://www.overclockers.at/downloads/projects/TimerBench%201.4.exe) ([source](https://www.overclockers.at/number-crunching/timerbench-ein-benchmark-fuer-windows-timer_249630/page_7))
 
