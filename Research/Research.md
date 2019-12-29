@@ -72,15 +72,15 @@
 
 
 ## YouTube Channel with focus of game analysis
-* [Battle(non)sense](https://www.youtube.com/channel/UCP7QY6L5pvmm0-stL-pNFrw)
+* [Battle(non)sense](https://www.youtube.com/channel/UCP7QY6L5pvmm0-stL-pNFrw) (_net code and latency_)
 
 
 ## YouTube Channel with focus of hardware analysis
-* [JayzTwoCents](https://www.youtube.com/user/Jayztwocents)
-* [Gamers Neus](https://www.youtube.com/channel/UChIs72whgZI9w6d6FhwGGHA)
-* [BitWid](https://www.youtube.com/channel/UCftcLVz-jtPXoH3cWUUDwYw)
-* [TechSource](https://www.youtube.com/channel/UChIZGfcnjHI0DG4nweWEduw)
-* [Rocket Jump Ninja](https://www.youtube.com/channel/UCGJaDZC7PChgd-XMwcbZkiw)
+* [JayzTwoCents](https://www.youtube.com/user/Jayztwocents) (_all sorts of hardware_)
+* [Gamers Neus](https://www.youtube.com/channel/UChIs72whgZI9w6d6FhwGGHA) (_all sorts of hardware_)
+* [BitWid](https://www.youtube.com/channel/UCftcLVz-jtPXoH3cWUUDwYw) (_all sorts of hardware_)
+* [TechSource](https://www.youtube.com/channel/UChIZGfcnjHI0DG4nweWEduw) (_all sorts of hardware_)
+* [Rocket Jump Ninja](https://www.youtube.com/channel/UCGJaDZC7PChgd-XMwcbZkiw) (_mice_)
 
 
 ## Game Emulators
@@ -179,6 +179,10 @@
 
 ### Frametime capture and analysis tool
 * [CapFrameX (github.com)](https://github.com/DevTechProfile/CapFrameX)
+
+### Controller Emulators (_for Windows_)
+* [DualShock 4 for Windows (DS4Windows) github.com)](https://github.com/Ryochan7/DS4Windows)
+* [Xbox 360 Controller Emulator (x360ce.com)](https://www.x360ce.com/)
 
 ### Monitor "OC" programs
 * [Custom Resolution Utility (CRU) (monitortests.com)](http://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
