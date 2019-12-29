@@ -38,6 +38,7 @@
 * [Windows Vista's SuperFetch and ReadyBoost Analysed (tomshardware.com)](https://www.tomshardware.com/reviews/windows-vista-superfetch-and-readyboostanalyzed,1532-2.html)
 * [Windows 10 1809 Performance Impact (ict-r.com)](https://www.ict-r.com/windows-10-1809-performance-impact/)
 * [Microsoft educates Insiders on how Windows 10 handles memory (onmsft.com)](https://www.onmsft.com/news/microsoft-educates-insiders-windows-10-handles-memory)
+* [Demystifying Fullscreen Optimizations (devblogs.microsoft.com)](https://devblogs.microsoft.com/directx/demystifying-full-screen-optimizations/)
 
 
 ## Mouse & Keyboard
