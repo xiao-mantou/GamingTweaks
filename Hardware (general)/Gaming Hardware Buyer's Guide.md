@@ -215,17 +215,29 @@ Please keep in mind:
 
 
 
-### Legend
+# Sound ([DAC](https://www.gamecrate.com/gamers-perspective-sound-cards-and-dacs/10481))
+
+| Category*                                  |                  Suggestion                  |                                   Info |
+| ----------------------------------------- | :------------------------------------------: | ------------------------------------------------------: |
+| Entry level option                   |          Creative Sound Blaster Omni           | 600ohm Headphone Amp and Integrated Microphone  |
+| Alternative | Fiio Alpen-E17  | Controls and menus are finicky |
+| Luxury  | ODAC (ObjectiveDAC) | pre-built model are available | 
+| Luxury alternative | Asus Xonar Essence One | Includes optical and S/PDIF in addition to USB |
+| Luxury alternative | Schiit Bifrost | Includes optical and S/PDIF in addition to USB | optical, USB, and S/PDIF inputs and outputs via RCA |
+| High-end luxury | WooAudio WA7 Fireflies | Supports USB or RCA input |
+
+
+### Guide - Legend
 * HEDT      = High End Desktop
 * iGPU      = integrated graphic unit
-
+*Creative Sound Blaster Z (_often advertised as "gamer sound card"_) is not recommended, while the hardware is overall okay and for most people fine the software and the driver are not _optimal_. "Creative Technology" has a [bad support history](https://danielkawakami.blogspot.com/2015/07/sb-x-fi-series-support-pack-34.html), which is not even mentioned on [Wikipedia](https://en.wikipedia.org/wiki/Creative_Technology), but in almost all [hardware boards](https://arstechnica.com/civis/viewtopic.php?f=6&t=242218).
 
 ### Last Updated
 
-* `12.02.2019`
+* `29.12.2019`
 
 
 ### Change log
-
-- 12.02.2019: CPU category updated -> HEDT added, iGPU added,
+- 29.12.2019: Sound section added (DAC) + Mention Creative's bad history (_Greetings to Daniel K. at this point for his massive community work! We do not forget our heroes!_)
+- 12.02.2019: CPU category updated -> HEDT added, iGPU added
 - 11.25.2019: Initial release
