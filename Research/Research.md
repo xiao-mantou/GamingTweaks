@@ -124,6 +124,10 @@
 * [Example 15: Measuring DPC/ISR Time)](https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/example-15--measuring-dpc-isr-time)
 
 
+## PhysX
+* [Announcing NVIDIA PhysX SDK 5.0 (news.developer.nvidia.com)](https://news.developer.nvidia.com/announcing-nvidia-physx-sdk-5-0/)
+
+
 ## Audio Latency in Windows
 * [Low Latency Audio (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows-hardware/drivers/audio/low-latency-audio)
 * [WavePci Latency (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows-hardware/drivers/audio/wavepci-latency)
@@ -181,7 +185,7 @@
 * [CapFrameX (github.com)](https://github.com/DevTechProfile/CapFrameX)
 
 ### Controller Emulators (_for Windows_)
-* [DualShock 4 for Windows (DS4Windows) github.com)](https://github.com/Ryochan7/DS4Windows)
+* [DualShock 4 for Windows (DS4Windows) (github.com)](https://github.com/Ryochan7/DS4Windows)
 * [Xbox 360 Controller Emulator (x360ce.com)](https://www.x360ce.com/)
 
 ### Monitor "OC" programs
