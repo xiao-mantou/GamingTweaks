@@ -165,10 +165,9 @@ For gamers which do not OC'ing their RAM:
 
 # PSU
 
-A normal Gamer PC does not need more than ~500-600W - I explicitly mention it because most beginners think more is "better", it's not. Of course it depends if you use water cooling, lots of external devices etc. (_overall spoken PSU "reserves"_) and if you want or not want, in the future, upgrade your rig or not (GPU/CPU might need more "power" etc). Stay away from "ultra" cheap PSU!
+A typically "Gamer PC" does not need more than ~500-600W - I explicitly mention it because most _beginners_ think "more is better", it's not (!). Of course it depends if you use water cooling, lots of external devices etc. (_overall spoken PSU "reserves"_) and if you want or not want - in the future - upgrade your rig or not (multi-GPU/CPU need more "power" etc_). However there is one important "universal rule": Stay away from "ultra" cheap PSUs!
 
 ### When do I need really need more Watt?
-
 * Mining (multiple GPUs/CPUs)
 * Server/farm
 * Enthusiast with a lot of external "gimmicks"
@@ -230,7 +229,7 @@ Please keep in mind:
 ### Guide - Legend
 * HEDT      = High End Desktop
 * iGPU      = integrated graphic unit
-*Creative Sound Blaster Z (_often advertised as "gamer sound card"_) is not recommended, while the hardware is overall okay and for most people fine the software and the driver are not _optimal_. "Creative Technology" has a [bad support history](https://danielkawakami.blogspot.com/2015/07/sb-x-fi-series-support-pack-34.html), which is not even mentioned on [Wikipedia](https://en.wikipedia.org/wiki/Creative_Technology), but in almost all [hardware boards](https://arstechnica.com/civis/viewtopic.php?f=6&t=242218).
+* *Creative Sound Blaster Z (_often advertised as "gamer sound card"_) is not recommended, while the hardware is overall okay and for most people fine the software and the driver are not _optimal_. "Creative Technology" has a [bad support history](https://danielkawakami.blogspot.com/2015/07/sb-x-fi-series-support-pack-34.html), which is not even mentioned on [Wikipedia](https://en.wikipedia.org/wiki/Creative_Technology), but in almost all [hardware boards](https://arstechnica.com/civis/viewtopic.php?f=6&t=242218).
 
 ### Last Updated
 
