@@ -105,4 +105,7 @@ There is a huge wiki about [gaming on Linux with some interesting tricks and tip
 * Reduce nVidia game stutters with `__GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1` and other [tweaks](https://old.reddit.com/r/linux_gaming/comments/e32v49/improving_gaming_performance_guide/)
 * [Measure the correct Period/Buffer/Sample Rate/Channels for pulseaudio](https://forums.linuxmint.com/viewtopic.php?f=42&t=44862)
 * Set your CPU govener to "performance", [gamemode](https://github.com/FeralInteractive/gamemode) can do it for you! Using `cpupower -c all frequency-set -g performance` and `__GL_THREADED_OPTIMIZATIONS=1 mesa_glthread=true gamemoderun %command%` for the specific game or application helps a lot to get rid of micro stutters.
-*
+
+
+### Other Resources
+* German [Guide zu Linux: Mint 19.x, (Gaming) (computerbase.de)](https://www.computerbase.de/forum/threads/guide-zu-linux-mint-19-x-gaming.1915429/)
