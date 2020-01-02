@@ -2,7 +2,7 @@
 
 This question depends on multiple factors:
 
-* Are you an [audiophile](https://en.wikipedia.org/wiki/Audiophile)
+* Are you [audiophile](https://en.wikipedia.org/wiki/Audiophile)?
 * Do you use "professional" headsets or speaker equipment? (_see explanation "The OHM problem" below_)
 * How old are you? A well-known fact is that the older you get the ["less you hear"](https://www.hear-it.org/younger-and-older-people-respond-differently-sound) and your tolerance (_overall_) for loud noise [decreases with age](https://www.eurekalert.org/pub_releases/1998-11/OU-TFLN-191198.php). It's a [myth that older people have automatically ear "problems"](https://www.fastcompany.com/3064873/the-reason-why-old-people-have-bad-hearing-has-nothing-to-do-with-their-ears).
 
@@ -16,7 +16,7 @@ Motherboards generally do not have enough power for complex speaker outputs, for
 
 #### CPU problems
 
-Integrated audio solutions very often exclude a SPU which means your CPU is doing the entire work. The same goes for "audio effects", for example: - [Nahimic](https://www.msi.com/page/nahimic) (_each vendor names his effect different, MSI calls it "Nahimic"), if you enable "a lot" or even one sound effect you automatically put more "pressure" on your CPU unless the sound chip includes an "acceleration" for this within the SPU.
+Integrated audio solutions very often exclude a SPU which means your CPU is doing the entire work. The same goes for "audio effects", for example: - [Nahimic](https://www.msi.com/page/nahimic) (_each vendor names his effect different, MSI calls it "Nahimic"_), if you enable "a lot" or even one sound effect you automatically put more "pressure" on your CPU unless the sound chip includes an "acceleration" for this within the SPU.
 
 
 #### DAC & Drivers
@@ -75,3 +75,7 @@ You **typically do not need a sound card** unless:
 
 Set the sound quality to `Medium` or `High` (if there is such an option) depending on the importance of the sound quality for that particular game. This setting affects CPU usage. If you have a slow CPU you should select ‘Medium’, if you have a fast CPU you should select ‘High’. Setting the option to ‘High’ on a dated CPU may cause too much strain on your CPU and in turn can affect the FPS of that particular game.
 
+
+### EqualizerAPO Tutorials 
+* [EqualizerAPO + ReaPlugs VSTs (Mic processing without virtual cables)](https://www.youtube.com/watch?v=J3fBx2ftaBs)
+* [Fixing Microphone Reverb with Equalizer APO](https://www.youtube.com/watch?v=eySlFVYGk8E)
