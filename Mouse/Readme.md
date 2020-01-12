@@ -6,7 +6,9 @@ Overall spoken [mouse smoothing](https://www.codeproject.com/Articles/5247322/Mo
 
 Gaming wise you want your mouse to register your movements as "raw" as possible. Any software or hardware based attempt to alter what is being shown on screen can negatively affect your performance.
 
-Mouse tweaks provides more detailed configuration of mouse cursor behavior. It provides a range of accessibility enhancements as well a power-user features, including mouse gestures.
+[RInput](https://fearless-assassins.com/files/file/1656-rinput/) is probably the best tool used to remove mouse acceleration from GoldSrc games. This tool does NOT remove mouse acceleration from your system. 
+
+Mouse tweaks overall provides more detailed configuration of mouse cursor behavior. It provides a range of accessibility enhancements as well a power-user features, including mouse gestures.
 
 ### Disabling pointer precision 
 
