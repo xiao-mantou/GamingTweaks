@@ -156,7 +156,7 @@
 
 ## Legendary RAM OC Guides (they are all in german)
 * [RAM-Overclocking und Auswirkungen auf Spiele bei Intel CPUs (computerbase.de)](https://www.computerbase.de/forum/threads/intel-core-i-serie-ram-overclocking-auswirkungen-auf-spiele.1849970/)
-* [Intel Skylake-X (Sockel 2066) OC-Guide (hardwareluxx.de/)](https://www.hardwareluxx.de/community/f139/intel-skylake-x-sockel-2066-oc-guide-1172969.html)
+* [Intel Skylake-X (Sockel 2066) OC-Guide (hardwareluxx.de)](https://www.hardwareluxx.de/community/f139/intel-skylake-x-sockel-2066-oc-guide-1172969.html)
 * [AMD Ryzen - RAM OC Community (computerbase.de)](https://www.computerbase.de/forum/threads/amd-ryzen-ram-oc-community.1829356/)
 
 
@@ -187,8 +187,9 @@
 
 ### USB Polling
 * [USB polling precision explained (overclock.net)](https://www.overclock.net/forum/375-mice/1550666-usb-polling-precision.html)
-* [(old) Mouse testser tool (overclock.net)](https://www.overclock.net/forum/375-mice/1535687-mousetester-software.html) & [source code (github.com)](https://github.com/microe1/MouseTester)
-* ([new) Mouse tester tool (overclock.net)](https://www.overclock.net/forum/375-mice/1590569-mousetester-software-reloaded.html) & [source code (github.com)](http://github.com/dobragab/MouseTester)
+* ~~[(old) Mouse testser tool (overclock.net)](https://www.overclock.net/forum/375-mice/1535687-mousetester-software.html) & [source code (github.com)](https://github.com/microe1/MouseTester)~~
+* ~~([new) Mouse tester tool (overclock.net)](https://www.overclock.net/forum/375-mice/1590569-mousetester-software-reloaded.html) & [source code (github.com)](http://github.com/dobragab/MouseTester)~~
+* [Mouse movement recorder by MarkC (donewmouseaccel.blogspot.com)](https://donewmouseaccel.blogspot.com/) & [Source Code](https://github.com/CHEF-KOCH/GamingTweaks/tree/master/Tools/Mouse%20Movement%20Recorder/MouseMovementRecorder%20Source%20Code)
 * [Mouse Rate Checker (softpedia.com)](http://www.softpedia.com/get/System/System-Miscellaneous/Mouse-Rate-Checker.shtml)
 
 ### HPET / QPC Benchmark
