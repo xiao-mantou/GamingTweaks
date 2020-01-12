@@ -185,12 +185,13 @@
 ### Full Screen Optimizations
 * [Compatibility Manager (github.com)](https://github.com/Skymirrh/CompatibilityManager)
 
-### USB Polling
+### USB Polling tools
 * [USB polling precision explained (overclock.net)](https://www.overclock.net/forum/375-mice/1550666-usb-polling-precision.html)
 * ~~[(old) Mouse testser tool (overclock.net)](https://www.overclock.net/forum/375-mice/1535687-mousetester-software.html) & [source code (github.com)](https://github.com/microe1/MouseTester)~~
 * ~~([new) Mouse tester tool (overclock.net)](https://www.overclock.net/forum/375-mice/1590569-mousetester-software-reloaded.html) & [source code (github.com)](http://github.com/dobragab/MouseTester)~~
 * [Mouse movement recorder by MarkC (donewmouseaccel.blogspot.com)](https://donewmouseaccel.blogspot.com/) & [Source Code](https://github.com/CHEF-KOCH/GamingTweaks/tree/master/Tools/Mouse%20Movement%20Recorder/MouseMovementRecorder%20Source%20Code)
 * [Mouse Rate Checker (softpedia.com)](http://www.softpedia.com/get/System/System-Miscellaneous/Mouse-Rate-Checker.shtml)
+* [1000hz - Overclock/Underclock your old mouse and increase its polling rate (github.com)](https://github.com/vadash/1000hz)
 
 ### HPET / QPC Benchmark
 * [TimerBench](https://www.overclockers.at/downloads/projects/TimerBench%201.4.exe) ([source](https://www.overclockers.at/number-crunching/timerbench-ein-benchmark-fuer-windows-timer_249630/page_7))
