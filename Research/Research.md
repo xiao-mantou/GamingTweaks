@@ -109,7 +109,7 @@
 * [Denuvo Really Does Cripple PC Gaming Performance (https://www.extremetech.com)](https://www.extremetech.com/gaming/282924-denuvo-really-does-cripple-pc-gaming-performance)
 * [Devil May Cry 5 PC's Denuvo DRM has a CPU hit (eurogamer.net)](https://www.eurogamer.net/articles/digitalfoundry-2019-devil-may-cry-5-pc-denuvo-protection-tested) - ([Updated test](https://www.techpowerup.com/reviews/Denuvo/Performance_Loss_Test/3.html))
 
-## Other DRM problems
+## Other common DRM problems
 * [Tron: Evolution SecuROM DRM expiration makes game unplayable 9 years after release (community.pcgamingwiki.com)](https://community.pcgamingwiki.com/topic/4476-tron-evolution-securom-drm-expiration-makes-game-unplayable-9-years-after-release/)
 
 
@@ -162,6 +162,7 @@
 * [AMD Ryzen Memory Tweaking & Overclocking Guide (techpowerup.com)](https://www.techpowerup.com/reviews/AMD/Ryzen_Memory_Tweaking_Overclocking_Guide/)
 * [AMD RYZEN Overclocking Guide (overclockers.com)](https://www.overclockers.com/amd-ryzen-overclocking-guide/)
 * [Official Cosair Ryzen 3000 Series Memory Overclocking Guide (corsair.com) (.pdf)](https://www.corsair.com/corsairmedia/sys_master/productcontent/Ryzen3000_MemoryOverclockingGuide.pdf)
+* [Robert Hallock explains memory and overclocking on AMD Ryzen](https://www.youtube.com/watch?v=vZgpHTaQ10k&feature=youtu.be&t=3m35s)
 
 
 ## Comprehensive Intel "Coffee Lake" Memory & OC articles
@@ -181,6 +182,7 @@
 
 ### Full Screen Optimizations
 * [Compatibility Manager (github.com)](https://github.com/Skymirrh/CompatibilityManager)
+
 
 ### HPET / QPC Benchmark
 * [TimerBench](https://www.overclockers.at/downloads/projects/TimerBench%201.4.exe) ([source](https://www.overclockers.at/number-crunching/timerbench-ein-benchmark-fuer-windows-timer_249630/page_7))
