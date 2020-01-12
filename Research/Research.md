@@ -138,6 +138,8 @@
 
 ## For Developers
 * [Guidelines for Writing DPC Routines (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/guidelines-for-writing-dpc-routines)
+* [Managing Input/Output for Drivers (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/managing-input-output-for-drivers?redirectedfrom=MSDN)
+* [Scheduling Priorities (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows/win32/procthread/scheduling-priorities?redirectedfrom=MSDN)
 
 
 ## Driver & Firmware Resources
@@ -162,7 +164,7 @@
 * [AMD Ryzen Memory Tweaking & Overclocking Guide (techpowerup.com)](https://www.techpowerup.com/reviews/AMD/Ryzen_Memory_Tweaking_Overclocking_Guide/)
 * [AMD RYZEN Overclocking Guide (overclockers.com)](https://www.overclockers.com/amd-ryzen-overclocking-guide/)
 * [Official Cosair Ryzen 3000 Series Memory Overclocking Guide (corsair.com) (.pdf)](https://www.corsair.com/corsairmedia/sys_master/productcontent/Ryzen3000_MemoryOverclockingGuide.pdf)
-* [Robert Hallock explains memory and overclocking on AMD Ryzen](https://www.youtube.com/watch?v=vZgpHTaQ10k&feature=youtu.be&t=3m35s)
+* [Robert Hallock explains memory and overclocking on AMD Ryzen (youtube.com)](https://www.youtube.com/watch?v=vZgpHTaQ10k&feature=youtu.be&t=3m35s)
 
 
 ## Comprehensive Intel "Coffee Lake" Memory & OC articles
@@ -183,6 +185,11 @@
 ### Full Screen Optimizations
 * [Compatibility Manager (github.com)](https://github.com/Skymirrh/CompatibilityManager)
 
+### USB Polling
+* [USB polling precision explained (overclock.net)](https://www.overclock.net/forum/375-mice/1550666-usb-polling-precision.html)
+* [(old) Mouse testser tool (overclock.net)](https://www.overclock.net/forum/375-mice/1535687-mousetester-software.html) & [source code (github.com)](https://github.com/microe1/MouseTester)
+* ([new) Mouse tester tool (overclock.net)](https://www.overclock.net/forum/375-mice/1590569-mousetester-software-reloaded.html) & [source code (github.com)](http://github.com/dobragab/MouseTester)
+* [Mouse Rate Checker (softpedia.com)](http://www.softpedia.com/get/System/System-Miscellaneous/Mouse-Rate-Checker.shtml)
 
 ### HPET / QPC Benchmark
 * [TimerBench](https://www.overclockers.at/downloads/projects/TimerBench%201.4.exe) ([source](https://www.overclockers.at/number-crunching/timerbench-ein-benchmark-fuer-windows-timer_249630/page_7))
