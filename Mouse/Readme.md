@@ -2,7 +2,7 @@
 
 Modern gaming [mice](https://en.wikipedia.org/wiki/Computer_mouse) are _very accurate_ when it comes to reporting where their users are moving the mouse, but older sensors were not nearly as accurate as the mice with optical sensors that we have nowadays. 
 
-Overall spoken [mouse smoothing](https://www.codeproject.com/Articles/5247322/Mouse-Smoothing) is the interpolation of raw input data from the mouse in order to prevent jerky movement in low resolution mice while Mouse acceleration is a setting where the cursor distances increases if the mouse is moved quickly.
+Overall spoken [mouse smoothing](https://www.codeproject.com/Articles/5247322/Mouse-Smoothing) is the interpolation of raw input data from the mouse in order to prevent jerky movement in low resolution mice while Mouse acceleration is a setting where the cursor distances increases if the mouse is moved quickly. While the setting is a **personal choice**, it is recommend that you disable mouse acceleration to provide a more consistent aim in more competitive titles.
 
 Gaming wise you want your mouse to register your movements as "raw" as possible. Any software or hardware based attempt to alter what is being shown on screen can negatively affect your performance.
 
@@ -35,6 +35,20 @@ cd,4c,05,00,00,00,00,00
 a0,99,0a,00,00,00,00,00
 38,33,15,00,00,00,00,00 
 ```
+
+### How to detect mouse acceleration?
+
+There are two basic types of mouse acceleration; "positive" acceleration and "negative" acceleration. Both are interpolation rates. Positive means that the faster you are moving your mouse, the farther cursor will travel on the screen. Negative means that the faster your mouse is moving, the less distance cursor will be travel on screen.
+
+* Launch your fav. game and go into a corner with no enemies or something which could desturb you. 
+* Move your crosshair to a specific spot, for example the edge of a building, distant window etc. This basically will act like your starting point from were you begin. Another good example is a wall with some tiles.
+* Put your hand on the mousepad.
+* Move the mouse slowly from your hand and create 90° / 180° rotation in-game. This movement should take > 2 seconds.
+* Now move the mouse back to the default position marked by your hand as fast as you can.
+* If your crosshair ended up roughly on the same spot, the game does not feature acceleration. Usually when games use acceleration, your crosshair will end up on a vastly different location.
+
+Another method would be to open the debug console (if possible) and check if a mouse related acceleration or interpolation entry exists which you then could adjust.
+
 
 ### Mouse polling rate
 * You could change your [mouse polling rate](https://www.howtogeek.com/182702/mouse-dpi-and-polling-rates-explained-do-they-matter-for-gaming/) down from 1000hz to 250hz/120hz because _sometimes_ it can redude the overall mouse lag for some specific games or game engines. Keep in mind that this tweak is _optional_ because in most of the cases 1000hz works just fine (depending on the used mouse driver). 
