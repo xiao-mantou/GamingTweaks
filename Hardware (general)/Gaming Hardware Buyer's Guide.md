@@ -49,6 +49,8 @@ We assume that "gaming" starts with 16 GB _which is, as of today the default_. W
 
 #### Timings / MHz
 
+You can find the formula and [in-depth explanation over here](https://www.crucial.de/deu/de/arbeitsspeicher-performance-geschwindigkeit-latenz).
+
 | Standard  | Speed (in MT/s) |  NS   | CAS-Latency (CL) | Latency (ns) |
 | :-------: | :-------------: | :---: | :--------------: | :----------: |
 | DDR4-2133 |      2.133      | 0,94  |        16        |    15,04     |
@@ -226,6 +228,20 @@ Please keep in mind:
 | High-end luxury | WooAudio WA7 Fireflies | Supports USB or RCA input |
 
 
+
+# Wi-Fi 6 Router
+
+| Category                                  |                  Suggestion                  |                                   Info |
+| ----------------------------------------- | :------------------------------------------: | ------------------------------------------------------: |
+| Entry level option                 |       Asus RT-AX86U           | OFDMA (5,7 Gbit/s), 1x 2,5-Gbit-Port  |
+| Alternative | Asus ZenWiFi AX/AC (XT8/CT8) | MU-MIMO (6,6 Gbit/s) |
+| Luxury  | Asus RT-AX89X | 2x10G-LAN, 8x antennas  | 
+| Luxury alternative | |  |
+| Luxury alternative |  |  |  |
+
+
+
+
 ### Guide - Legend
 * HEDT      = High End Desktop
 * iGPU      = integrated graphic unit
@@ -233,10 +249,11 @@ Please keep in mind:
 
 ### Last Updated
 
-* `29.12.2019`
+* `13.01.2020`
 
 
 ### Change log
+- 13.01.2020: Added Wifi-6 gaming routers, corrected some wrong typos and values in the RAM section
 - 07.01.2020: Added Threadripper 3990X (_HEDT_)
 - 29.12.2019: Sound section added (DAC) + Mention Creative's bad history (_Greetings to Daniel K. at this point for his massive community work! We do not forget our heroes!_)
 - 12.02.2019: CPU category updated -> HEDT added, iGPU added
