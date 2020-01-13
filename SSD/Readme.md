@@ -4,7 +4,7 @@ Setting `fsutil behavior set disablelastaccess 1` still needs to be set manually
 
 ### TRIM
 
-Since Windows 10, the OS usually checks the [TRIM](https://en.wikipedia.org/wiki/Trim_(computing)) status on his own, but in order to verify it simply run `fsutil behavior query DisableDeleteNotify`. If TRIM is running it will return `DisableDeleteNotify=0` or `DisableDeleteNotify=1` if TRIM is not functioning.
+Since Windows 10, the OS usually checks the [TRIM](https://en.wikipedia.org/wiki/Trim_(computing)) status on his own, but in order to verify it simply run `fsutil behavior query DisableDeleteNotify`. If TRIM is functional, `DisableDeleteNotify=0` will be returned; otherwise, `DisableDeleteNotify=1` will be returned.
 
 ### Disk Defragmentation
 
