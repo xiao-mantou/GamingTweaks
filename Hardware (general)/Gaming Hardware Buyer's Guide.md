@@ -29,6 +29,9 @@ This recommendations are totally un-biased and the listed hardware, is listed ba
 
 We assume that "gaming" starts with 16 GB _which is, as of today the default_. We do not list a price because it can change over time or is location/reseller/vendor specific.
 
+### Helper pages
+* [Samsung B-Die Finder](https://benzhaomin.github.io/bdiefinder/) - Find Samsung B-Die DDR 4 memory kits on Amazon, Newegg and many more. 
+
 
 #### DDR4 Specifications
 
@@ -253,6 +256,7 @@ Please keep in mind:
 
 
 ### Change log
+- 18.01.2020: Samsung B-Die DDR 4 memory kits finder added
 - 13.01.2020: Added Wifi-6 gaming routers, corrected some wrong typos and values in the RAM section
 - 07.01.2020: Added Threadripper 3990X (_HEDT_)
 - 29.12.2019: Sound section added (DAC) + Mention Creative's bad history (_Greetings to Daniel K. at this point for his massive community work! We do not forget our heroes!_)
