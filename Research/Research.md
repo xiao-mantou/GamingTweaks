@@ -9,6 +9,10 @@
 * [DDR4 vs GDDR5/GDDR6 vs LPDDR4 vs HBM2: Different Memory (RAM) Types Explained (hardwaretimes.com)](https://www.hardwaretimes.com/ddr4-vs-gddr5-gddr6-vs-lpddr4-vs-hbm2-different-memory-ram-types-explained/)
 
 
+## Windows Defender Exploit Guard Configuration
+* [Configure Windows Defender ExploitGuard, Reset all ProcessMitigation, Import clean recommended Baseline Configuration (github.com)](https://github.com/gunnarhaslinger/Windows-Defender-Exploit-Guard-Configuration)
+
+
 ## HPET
 * [High Precision Event Timer (wikipedia.org)](https://en.wikipedia.org/wiki/High_Precision_Event_Timer)
 * [AMD and Intel Have Different HPET Guidance (anandtech.com)](https://www.anandtech.com/show/12678/a-timely-discovery-examining-amd-2nd-gen-ryzen-results/3)
@@ -35,7 +39,6 @@
 
 
 ## Windows specific
-* [Multimedia Class Scheduler Service (msdn.microsoft.com)](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684247(v=vs.85).aspx)
 * [Windows Vista's SuperFetch and ReadyBoost Analysed (tomshardware.com)](https://www.tomshardware.com/reviews/windows-vista-superfetch-and-readyboostanalyzed,1532-2.html)
 * [Windows 10 1809 Performance Impact (ict-r.com)](https://www.ict-r.com/windows-10-1809-performance-impact/)
 * [Microsoft educates Insiders on how Windows 10 handles memory (onmsft.com)](https://www.onmsft.com/news/microsoft-educates-insiders-windows-10-handles-memory)
