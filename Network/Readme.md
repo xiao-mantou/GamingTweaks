@@ -5,7 +5,7 @@ See ["How to temporarily prevent a driver update from reinstalling in Windows 10
 
 ### Wi-Fi Scanning can cause 'latency' spikes
 
-Some [Intel Wireless adapters](https://www.intel.com/content/www/us/en/support/articles/000005546/network-and-i-o/wireless-networking.html) and [Atheros adapters](https://superuser.com/questions/881880/turn-off-wi-fi-scanning-on-windows-8) are known to cause some small [latency spikes](https://blog.mojonetworks.com/background-scanning-is-dead) (_original link dead!_). On older operating systems [WLAN Optimizer](http://www.martin-majowski.de/) tool was a workaround to resolve this issue, since [Windows 10](https://answers.microsoft.com/en-us/windows/forum/windows_10-networking/is-there-any-way-to-stop-windows-10-from-scanning/3870b3d1-0f07-4875-8779-bb5c11fce0a8) you can do this directly under Windows without any tools.
+Some [Intel Wireless adapters](https://www.intel.com/content/www/us/en/support/articles/000005546/network-and-i-o/wireless-networking.html) and [Atheros adapters](https://superuser.com/questions/881880/turn-off-wi-fi-scanning-on-windows-8) are known to cause some small [latency spikes](https://blog.mojonetworks.com/background-scanning-is-dead) (_original link dead!_). On older operating systems [WLAN Optimizer](http://www.martin-majowski.de/) tool was a workaround to resolve this issue, since [Windows 10](https://answers.microsoft.com/en-us/windows/forum/windows_10-networking/is-there-any-way-to-stop-windows-10-from-scanning/3870b3d1-0f07-4875-8779-bb5c11fce0a8) you can do this directly under Windows [without any tools](https://pastebin.com/WAdTPBpC).
 
 Some newer drivers also including an option in the network adapter option to configure/enable/disable the Wi-Fi scan interval.
 
