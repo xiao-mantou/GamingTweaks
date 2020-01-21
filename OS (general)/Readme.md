@@ -39,7 +39,7 @@ While the ability to _system-wide_ disable fullscreen optimizations for all the 
 
 [DWM](https://en.wikipedia.org/wiki/Desktop_Window_Manager) (also known as Desktop Compositing Engine or DCE) has in general an _huge_ impact on the OS/application performance, it usually _consumes a lot_ CPU "power". It exists since Windows Vista and is a part of the Windows OS and since Windows Vista it uses [WDDM](https://en.wikipedia.org/wiki/Windows_Display_Driver_Model) to share the surface with DWM. In earlier versions it was possible to "disable" DWM, however this is these days not so easy because the process gets restarted every time WinLogon.exe was started.
 
-**Disabling DWM is not recommended!** But if you want to, you still could do that, [even under Windows 10](https://gist.github.com/Biswa96/1b3b60715f16f18cb71bfcc11f454245). The boost is definitly there, however it breaks a lot of other WDDM functions.
+**Disabling DWM is not recommended!** But if you want to, you still could do that, [even under Windows 10](https://github.com/Biswa96/Junkyard/blob/master/c/KillDwm.c). The boost is definitly there, however it breaks a lot of other WDDM functions.
 
 
 ### Windows Defender and Desktop Window Manager (dwm.exe)
