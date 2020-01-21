@@ -1,12 +1,12 @@
 ## What is mouse smoothing and why is it bad (for gaming)?
 
-Modern gaming [mice](https://en.wikipedia.org/wiki/Computer_mouse) are _very accurate_ when it comes to reporting where their users are moving the mouse, but older sensors were not nearly as accurate as the mice with optical sensors that we have nowadays. 
+Modern gaming [mice](https://en.wikipedia.org/wiki/Computer_mouse) are _very accurate_ when it comes to reporting where their users are moving the mouse, but older mouse sensors were not nearly as accurate as the mice with optical sensors that we have nowadays. 
 
-Overall spoken [mouse smoothing](https://www.codeproject.com/Articles/5247322/Mouse-Smoothing) is the interpolation of raw input data from the mouse in order to prevent jerky movement in low resolution mice while Mouse acceleration is a setting where the cursor distances increases if the mouse is moved quickly. While the setting is a **personal choice**, it is recommend that you disable mouse acceleration to provide a more consistent aim in more competitive titles.
+Overall spoken, [mouse smoothing](https://www.codeproject.com/Articles/5247322/Mouse-Smoothing) is the interpolation of raw input data from the mouse in order to prevent jerky movement in low resolution mice while Mouse acceleration is a setting where the cursor distances increases if the mouse is moved quickly. While the setting is a **personal choice**, it is recommend that you disable mouse acceleration to provide a more consistent aim in more competitive titles.
 
-Gaming wise you want your mouse to register your movements as "raw" as possible. Any software or hardware based attempt to alter what is being shown on screen can negatively affect your performance.
+Gaming wise you want your mouse to register your movements as "raw" as possible. Any software or hardware based attempt to alter what is being shown on screen can negatively affect your [input lag performance](https://old.reddit.com/r/MouseReview/comments/eri3cx/some_fps_games_feel_more_responsive_than_others/).
 
-[RInput](https://fearless-assassins.com/files/file/1656-rinput/) is probably the best tool used to remove mouse acceleration from GoldSrc games. This tool does NOT remove mouse acceleration from your system. 
+[RInput](https://fearless-assassins.com/files/file/1656-rinput/) is probably the best tool used to remove mouse acceleration from GoldSrc games. This tool does NOT remove mouse acceleration from your system, the OS itself has an option for it.
 
 Mouse tweaks overall provides more detailed configuration of mouse cursor behavior. It provides a range of accessibility enhancements as well a power-user features, including mouse gestures.
 
@@ -35,6 +35,8 @@ cd,4c,05,00,00,00,00,00
 a0,99,0a,00,00,00,00,00
 38,33,15,00,00,00,00,00 
 ```
+
+You do not need any other "input lag mouse fixes"!
 
 ### How to detect mouse acceleration?
 
