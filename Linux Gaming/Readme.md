@@ -109,3 +109,7 @@ There is a huge wiki about [gaming on Linux with some interesting tricks and tip
 
 ### Other Resources
 * German [Guide zu Linux: Mint 19.x, (Gaming) (computerbase.de)](https://www.computerbase.de/forum/threads/guide-zu-linux-mint-19-x-gaming.1915429/)
+
+
+### Linux stres test tools
+- [s-tui](https://amanusk.github.io/s-tui/) + [Firestarter sub-modul](https://github.com/tud-zih-energy/FIRESTARTER) - CPU stress test.
