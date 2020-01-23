@@ -260,6 +260,11 @@
 ### FOV calculator
 * [Online FOV calculator](https://themetalmuncher.github.io/fov-calc/)
 
+### GPU BIOS Update Tools
+* [AMDVbFlash](https://cdn.discordapp.com/attachments/529672908780339210/669884538335264788/AMDVbFlash_Win_v3.03.rar)
+* [nVidia NVFlash](https://www.techpowerup.com/download/nvidia-nvflash/) + [Tutorial](https://www.overclock.net/forum/69-nvidia/1523391-easy-nvflash-guide-pictures-gtx-970-980-a.html)
+
+
 ## Game streaming services
 Provider | Comment
 ------------ | -------------
