@@ -158,13 +158,14 @@
 * [Mega SG Jailbreak (github.com)](https://github.com/SmokeMonsterPacks/Mega-Sg-Jailbreak)
 
 
-## Legendary RAM OC Guides (they are all in german)
+## Legendary RAM OC Guides
 * [RAM-Overclocking und Auswirkungen auf Spiele bei Intel CPUs (computerbase.de)](https://www.computerbase.de/forum/threads/intel-core-i-serie-ram-overclocking-auswirkungen-auf-spiele.1849970/)
 * [Intel Skylake-X (Sockel 2066) OC-Guide (hardwareluxx.de)](https://www.hardwareluxx.de/community/f139/intel-skylake-x-sockel-2066-oc-guide-1172969.html)
 * [AMD Ryzen - RAM OC Community (computerbase.de)](https://www.computerbase.de/forum/threads/amd-ryzen-ram-oc-community.1829356/)
 
 
 ## Comprehensive AMD Ryzen Memory & OC articles
+* [The AnandTech Guide to Video Card Overclocking Software](https://www.anandtech.com/show/8589/anandtech-guide-to-video-card-overclocking-software/2)
 * [AMD Ryzen Memory Tweaking & Overclocking Guide (techpowerup.com)](https://www.techpowerup.com/reviews/AMD/Ryzen_Memory_Tweaking_Overclocking_Guide/)
 * [AMD RYZEN Overclocking Guide (overclockers.com)](https://www.overclockers.com/amd-ryzen-overclocking-guide/)
 * [Official Cosair Ryzen 3000 Series Memory Overclocking Guide (corsair.com) (.pdf)](https://www.corsair.com/corsairmedia/sys_master/productcontent/Ryzen3000_MemoryOverclockingGuide.pdf)
@@ -261,7 +262,8 @@
 * [Online FOV calculator](https://themetalmuncher.github.io/fov-calc/)
 
 ### GPU BIOS Update Tools
-* [AMDVbFlash](https://cdn.discordapp.com/attachments/529672908780339210/669884538335264788/AMDVbFlash_Win_v3.03.rar)
+* [Video Bios Collection](https://www.techpowerup.com/vgabios/) 
+* [AMDVbFlash](https://cdn.discordapp.com/attachments/529672908780339210/669884538335264788/AMDVbFlash_Win_v3.03.rar) also known as [AMD/ATI ATIFlash](https://www.techpowerup.com/download/ati-atiflash/) (_which is the old name_) + [Tutorial](https://www.gamersnexus.net/guides/3550-guide-how-to-flash-amd-gpu-vbios-rx-5600-xt)
 * [nVidia NVFlash](https://www.techpowerup.com/download/nvidia-nvflash/) + [Tutorial](https://www.overclock.net/forum/69-nvidia/1523391-easy-nvflash-guide-pictures-gtx-970-980-a.html)
 
 
