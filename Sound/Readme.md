@@ -79,3 +79,12 @@ Set the sound quality to `Medium` or `High` (if there is such an option) dependi
 ### EqualizerAPO Tutorials 
 * [EqualizerAPO + ReaPlugs VSTs (Mic processing without virtual cables)](https://www.youtube.com/watch?v=J3fBx2ftaBs)
 * [Fixing Microphone Reverb with Equalizer APO](https://www.youtube.com/watch?v=eySlFVYGk8E)
+
+
+
+## Modded sound drivers from DanielK & PAX
+
+In some situations a modded sound driver or all-in-one packages can has its benefits, e.g. when the original driver causes problems or does not include features like DolbyAtmos. If you need such features or want to test those tweaked driver/packages, then there are two great resources (_see links below_).
+
+* [Daniel_K](https://danielkawakami.blogspot.com/) is a well-known sound card driver modder mainly for Realtek/Creative/Asus cards. Since the end of 2017 he did not updated his homepage nor driver packages. 
+* [PAX](https://www.hardwareheaven.com/community/forums/pax-drivers.174/) is a still active and known for his Creaitve/Asus sound packages/driver mods and tweaks. Some of his packages/mods are based in Daniel_K's work. 
