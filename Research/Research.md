@@ -185,6 +185,9 @@
 * [AMD AGESA Bios collections thread (computerbase.de)](https://www.computerbase.de/forum/threads/sammelthread-amd-agesa-uebersicht-aller-bios-versionen.1902983/) - Overview of all AGESA BIOS updates, the website is in german but it's easy to understand, jutst follow your vendor and mobo and check if there is a link on the right side of the chart or not.
 
 
+## Controller guides
+- [Connect the Nintendo Switch Pro Controller to Windows](https://www.gameaccesory.com/post/how-to-connect-your-pro-controller-to-your-pc-infographic)
+
 ## Programs
 
 ### Full Screen Optimizations
@@ -198,10 +201,10 @@
 * [Mouse Rate Checker (softpedia.com)](http://www.softpedia.com/get/System/System-Miscellaneous/Mouse-Rate-Checker.shtml)
 * [1000hz - Overclock/Underclock your old mouse and increase its polling rate (github.com)](https://github.com/vadash/1000hz)
 
-### HPET / QPC Benchmark
+### HPET / QPC Benchmark tools
 * [TimerBench](https://www.overclockers.at/downloads/projects/TimerBench%201.4.exe) ([source](https://www.overclockers.at/number-crunching/timerbench-ein-benchmark-fuer-windows-timer_249630/page_7))
 
-### Frametime capture and analysis tool
+### Frametime capture and analysis tools
 * [CapFrameX (github.com)](https://github.com/DevTechProfile/CapFrameX)
 
 ### Controller Emulators (_for Windows_)
@@ -235,7 +238,7 @@
 
 ### Intel "OC" programs
 * ~~[Intel® Extreme Tuning Utility - Intel® XTU](https://downloadcenter.intel.com/en/download/24075/Intel-Extreme-Tuning-Utility-Intel-XTU)~~ _Use other programs because the driver might cause performance problems._ Prefer (if possible) a method that does not require any software/driver e.b. via BIOS.
-* [Intel Power Maximizer](http://www.intel.com/performancemaximizer)
+* ~~[Intel Power Maximizer](http://www.intel.com/performancemaximizer)~~
 
 ### Internet Latency "tweak" programs
 * ~~[TCPOptimizer (speedguide.net)](http://www.speedguide.net/files/TCPOptimizer.exe)~~ _I do not recommend it_, tweak (manually) only parameters you [really need](https://github.com/CHEF-KOCH/GamingTweaks/issues/24).
@@ -261,7 +264,7 @@
 ### FOV calculator
 * [Online FOV calculator](https://themetalmuncher.github.io/fov-calc/)
 
-### GPU BIOS Update Tools
+### GPU BIOS Updater tools
 * [Video Bios Collection](https://www.techpowerup.com/vgabios/) 
 * [AMDVbFlash](https://cdn.discordapp.com/attachments/529672908780339210/669884538335264788/AMDVbFlash_Win_v3.03.rar) also known as [AMD/ATI ATIFlash](https://www.techpowerup.com/download/ati-atiflash/) (_which is the old name_) + [Tutorial](https://www.gamersnexus.net/guides/3550-guide-how-to-flash-amd-gpu-vbios-rx-5600-xt)
 * [nVidia NVFlash](https://www.techpowerup.com/download/nvidia-nvflash/) + [Tutorial](https://www.overclock.net/forum/69-nvidia/1523391-easy-nvflash-guide-pictures-gtx-970-980-a.html)
