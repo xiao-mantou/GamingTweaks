@@ -82,9 +82,10 @@ Set the sound quality to `Medium` or `High` (if there is such an option) dependi
 
 
 
-## Modded sound drivers from DanielK & PAX
+## Modded sound drivers from DanielK, PAX & Co.
 
 In some situations a modded sound driver or all-in-one packages can has its benefits, e.g. when the original driver causes problems or does not include features like DolbyAtmos. If you need such features or want to test those tweaked driver/packages, then there are two great resources (_see links below_).
 
 * [Daniel_K](https://danielkawakami.blogspot.com/) is a well-known sound card driver modder mainly for Realtek/Creative/Asus cards. Since the end of 2017 he did not updated his homepage nor driver packages. 
 * [PAX](https://www.hardwareheaven.com/community/forums/pax-drivers.174/) is a still active and known for his Creaitve/Asus sound packages/driver mods and tweaks. Some of his packages/mods are based in Daniel_K's work. 
+* [The Ultimate Realtek HD Audio Driver Mod for Windows 10](https://www.techpowerup.com/forums/threads/the-ultimate-realtek-hd-audio-driver-mod-for-windows-10.232921/page-112) is a thread on TechPowerUP around modding Realtek specific drivers to get Dolby, DTS, DTS:X 2,0 working. The thread provides All-in-One (AiO) packages, which you cn install on Windows 10 to get more sound effects and features. The member [Shibajee Roy](https://github.com/shibajee?tab=repositories) extracted everything from the AIO's an created repositories for each individual brand and sound effect, which makes the _Realtek modding_ overall easier.
