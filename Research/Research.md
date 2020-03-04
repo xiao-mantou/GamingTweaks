@@ -5,6 +5,10 @@
 * [Network Cache ATtack (short: NetCAT) (vusec.net)](https://www.vusec.net/projects/netcat/) - [CVE-2019-11184](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11184)
 
 
+## NVIDIA's FPS limiters (V1, V2 & V3) vs RTSS vs In-engine
+- [Comprehensive benchmarking of NVIDIA's FPS limiters (V1, V2 & V3) vs RTSS vs In-engine: A research of their frame time consistency and approximate input lag.Software (self.allbenchmarks)](https://old.reddit.com/r/allbenchmarks/comments/fbuk9x/comprehensive_benchmarking_of_nvidias_fps/)
+
+
 ## Hardware explained
 * [DDR4 vs GDDR5/GDDR6 vs LPDDR4 vs HBM2: Different Memory (RAM) Types Explained (hardwaretimes.com)](https://www.hardwaretimes.com/ddr4-vs-gddr5-gddr6-vs-lpddr4-vs-hbm2-different-memory-ram-types-explained/)
 
@@ -14,35 +18,35 @@
 
 
 ## HPET
-* [High Precision Event Timer (wikipedia.org)](https://en.wikipedia.org/wiki/High_Precision_Event_Timer)
 * [AMD and Intel Have Different HPET Guidance (anandtech.com)](https://www.anandtech.com/show/12678/a-timely-discovery-examining-amd-2nd-gen-ryzen-results/3)
 * [AMD recommended HPET be disabled (realworldtech.com)](https://www.realworldtech.com/forum/?threadid=176149&curpostid=176160)
-* [Disable High Precision Event Timer (HPET) in BIOS (forums.guru3d.com)](http://forums.guru3d.com/showpost.php?p=3770113&postcount=2)
-* [Dynamic Tick Mode explained (doc.micrium.com)](https://doc.micrium.com/display/osiiidoc/Dynamic+Tick+Mode)
-* [The Clock Tick (doc.micrium.com)](https://doc.micrium.com/display/osiiidoc/The+Clock+Tick)
-* [How To Improve Gaming Performance By Disabling HPET Settings? (silicophilic.com)](https://silicophilic.com/disabling-hpet-settings/)
 * [BCDEdit /set (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/bcdedit--set?redirectedfrom=MSDN)
-* [Windows Timestamp (windowstimestamp)](https://www.windowstimestamp.com/description)
 * [Common Stutter / Lag / Crash Fix (HPET Guide) (linustechtips.com)](https://linustechtips.com/main/topic/915727-common-stutter-lag-crash-fix-hpet-guide/)
+* [Disable High Precision Event Timer (HPET) in BIOS (forums.guru3d.com)](http://forums.guru3d.com/showpost.php?p=3770113&postcount=2)
 * [Disable HPET(High Precision Event Timer) (mikemartin.co)](https://www.mikemartin.co/system_guides/hardware/motherboard/disable_high_precision_event_timer_hpet)
 * [Disable or enable High Precision Event Timer(HTEP)? (bleepingcomputer.com)](https://www.bleepingcomputer.com/forums/t/677082/disable-or-enable-high-precision-event-timerhtep/)
+* [Dynamic Tick Mode explained (doc.micrium.com)](https://doc.micrium.com/display/osiiidoc/Dynamic+Tick+Mode)
+* [High Precision Event Timer (wikipedia.org)](https://en.wikipedia.org/wiki/High_Precision_Event_Timer)
+* [How To Improve Gaming Performance By Disabling HPET Settings? (silicophilic.com)](https://silicophilic.com/disabling-hpet-settings/)
+* [The Clock Tick (doc.micrium.com)](https://doc.micrium.com/display/osiiidoc/The+Clock+Tick)
+* [Windows Timestamp (windowstimestamp)](https://www.windowstimestamp.com/description)
 
 
 ## General Research
+* [A MINIMUM COMPLETE TUTORIAL OF CPU POWER MANAGEMENT, C-STATES AND P-STATES (metebalci.com)](https://metebalci.com/blog/a-minimum-complete-tutorial-of-cpu-power-management-c-states-and-p-states/)
+* [ASUS PEG Link Mode Guide Rev. 2.0 (techarp.com)](http://www.techarp.com/showarticle.aspx?artno=248&pgno=0)
+* [Better on the inside: under the hood of Windows 8 (arstechnica.com)](https://arstechnica.com/information-technology/2012/10/better-on-the-inside-under-the-hood-of-windows-8/2/)
+* [Catalyst Antialiasing Guide (beyond3d.com)](http://www.beyond3d.com/content/articles/37/1)
+* [Does Core i7 Hyper-Threading Helps? (vr-zone.com)](http://vr-zone.com/articles/does-core-i7-hyper-threading-helps-/6160.html?doc=6160)
 * [Nvidia Inspector profile(s) to fix Low Power for some applications (github.com)](https://github.com/Ociidii-Works/Nvidia-GPU-Low-Power-Fix)
 * [The Gigabyte GA-X48T-DQ6 - Redefining the High End? (anandtech.com)](http://www.anandtech.com/show/2410/13)
-* [ASUS PEG Link Mode Guide Rev. 2.0 (techarp.com)](http://www.techarp.com/showarticle.aspx?artno=248&pgno=0)
-* [Does Core i7 Hyper-Threading Helps? (vr-zone.com)](http://vr-zone.com/articles/does-core-i7-hyper-threading-helps-/6160.html?doc=6160)
-* [Better on the inside: under the hood of Windows 8 (arstechnica.com)](https://arstechnica.com/information-technology/2012/10/better-on-the-inside-under-the-hood-of-windows-8/2/)
-* [A MINIMUM COMPLETE TUTORIAL OF CPU POWER MANAGEMENT, C-STATES AND P-STATES (metebalci.com)](https://metebalci.com/blog/a-minimum-complete-tutorial-of-cpu-power-management-c-states-and-p-states/)
-* [Catalyst Antialiasing Guide (beyond3d.com)](http://www.beyond3d.com/content/articles/37/1)
 
 
 ## Windows specific
-* [Windows Vista's SuperFetch and ReadyBoost Analysed (tomshardware.com)](https://www.tomshardware.com/reviews/windows-vista-superfetch-and-readyboostanalyzed,1532-2.html)
-* [Windows 10 1809 Performance Impact (ict-r.com)](https://www.ict-r.com/windows-10-1809-performance-impact/)
-* [Microsoft educates Insiders on how Windows 10 handles memory (onmsft.com)](https://www.onmsft.com/news/microsoft-educates-insiders-windows-10-handles-memory)
 * [Demystifying Fullscreen Optimizations (devblogs.microsoft.com)](https://devblogs.microsoft.com/directx/demystifying-full-screen-optimizations/)
+* [Microsoft educates Insiders on how Windows 10 handles memory (onmsft.com)](https://www.onmsft.com/news/microsoft-educates-insiders-windows-10-handles-memory)
+* [Windows 10 1809 Performance Impact (ict-r.com)](https://www.ict-r.com/windows-10-1809-performance-impact/)
+* [Windows Vista's SuperFetch and ReadyBoost Analysed (tomshardware.com)](https://www.tomshardware.com/reviews/windows-vista-superfetch-and-readyboostanalyzed,1532-2.html)
 
 
 ## Mouse & Keyboard
@@ -51,7 +55,7 @@
 
 
 ## Dithering under Windows
-* [Disable temporal dithering on Windows - Amulet Hotkey (resources.amulethotkey.com)](https://resources.amulethotkey.com/download/KBA_144_Disable_temporal_dithering_on_Windows_May_2018.pdf) 
+* [Disable temporal dithering on Windows - Amulet Hotkey (resources.amulethotkey.com)](https://resources.amulethotkey.com/download/KBA_144_Disable_temporal_dithering_on_Windows_May_2018.pdf)
 
 
 ## NetCode, Networking
@@ -229,7 +233,7 @@
 * [EVGA Precision XOC/X/X1 (evga.com)](https://www.evga.com/precisionxoc/)
 
 ### AMD CPU "OC" programs
-* [AMD Ryzen Master (download.amd.com](https://download.amd.com/Desktop/AMD-Ryzen-Master.exe) + [Official FAQ](https://www.amd.com/en/support/kb/faq/gpu-775) 
+* [AMD Ryzen Master (download.amd.com](https://download.amd.com/Desktop/AMD-Ryzen-Master.exe) + [Official FAQ](https://www.amd.com/en/support/kb/faq/gpu-775)
 * [AmdMsrTweaker (github.com)](https://github.com/mpollice/AmdMsrTweaker)
 
 ### AMD RAM "OC" programs
@@ -265,46 +269,46 @@
 * [Online FOV calculator](https://themetalmuncher.github.io/fov-calc/)
 
 ### GPU BIOS Updater tools
-* [Video Bios Collection](https://www.techpowerup.com/vgabios/) 
+* [Video Bios Collection](https://www.techpowerup.com/vgabios/)
 * [AMDVbFlash](https://cdn.discordapp.com/attachments/529672908780339210/669884538335264788/AMDVbFlash_Win_v3.03.rar) also known as [AMD/ATI ATIFlash](https://www.techpowerup.com/download/ati-atiflash/) (_which is the old name_) + [Tutorial](https://www.gamersnexus.net/guides/3550-guide-how-to-flash-amd-gpu-vbios-rx-5600-xt)
 * [nVidia NVFlash](https://www.techpowerup.com/download/nvidia-nvflash/) + [Tutorial](https://www.overclock.net/forum/69-nvidia/1523391-easy-nvflash-guide-pictures-gtx-970-980-a.html)
 
 
 ## Game streaming services
-Provider | Comment
------------- | -------------
-[Amazon Game Studios](https://www.amazongames.com/) | //
-[Blade Shadow](https://shadow.tech/gben/discover?gclid=EAIaIQobChMI8qmCiYL94wIVVeDtCh3s_AAHEAAYASAAEgK8YPD_BwE)  | Works with Mac, Android, iPhone, Ubuntu and Windows 10.
-[Google Stadia](https://stadia.com/) | [Supported game list](https://store.google.com/de/product/stadia_games)
-[Twitch](https://www.twitch.tv/) | (_[planned for 2020](https://www.cnet.com/news/google-stadia-wants-to-be-the-future-of-gaming-so-do-microsoft-sony-and-amazon/)_)
-[Parsec](https://parsecgaming.com/) | Play, watch, and share gaming with your friends in Parsec.
-[GeForce Now](https://www.nvidia.com/en-gb/geforce/products/geforce-now/) | Play & Stream Android, PC, and GeForce NOW games.
-[Steam Link](https://store.steampowered.com/steamlink/about/) & [Steam Remote Play](https://store.steampowered.com/remoteplay/)| Stream video, audio, and voice between players while using your own controllers.
-[Moonlight](https://moonlight-stream.org/) | Play Your PC Games Remotely, [setup guide](https://github.com/moonlight-stream/moonlight-docs/wiki/Setup-Guide).
-[Rainway](https://rainway.com/) | Allows you to launch all your PC games from one place on your home computer or stream through any browser, all completely free.
-[PlayStation Now](https://www.playstation.com/en-gb/get-help/help-library/services/playstation-now/playstation-now-on-pc/) | Stream PS2/PS3/PS4 games.
-[Xbox Game Streaming (Microsoft: xCloud)](https://www.xbox.com/en-US/xbox-game-streaming) | Stream your favorite Xbox games from the cloud or console straight to your Android phone or tablet.
-[Paperspace](https://www.paperspace.com/) | Fast cloud gaming in a web browser, [setup guide](https://blog.parsecgaming.com/setting-up-game-streaming-in-the-cloud-with-parsec-paperspace-just-got-a-lot-easier-bec072732bc9)
-[Vortex Cloud Gaming](https://vortex.gg/?aff=6934464) | Cloud Gaming for Android, PC and macOS.
-[Shadow](https://shadow.tech/dede/) | $35 per month, provides cloud gaming.
-[Magenta Gaming](https://magenta-gaming.telekom-dienste.de/) | Telekom (ISP) only, requires a 50 Mbit/s connection.
+| Provider                                                                                                                        | Comment                                                                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Amazon Game Studios](https://www.amazongames.com/)                                                                             | //                                                                                                                                                                                |
+| [Blade Shadow](https://shadow.tech/gben/discover?gclid=EAIaIQobChMI8qmCiYL94wIVVeDtCh3s_AAHEAAYASAAEgK8YPD_BwE)                 | Works with Mac, Android, iPhone, Ubuntu and Windows 10.                                                                                                                           |
+| [Google Stadia](https://stadia.com/)                                                                                            | [Supported game list](https://store.google.com/de/product/stadia_games)                                                                                                           |
+| [Twitch](https://www.twitch.tv/)                                                                                                | (_[planned for 2020](https://www.cnet.com/news/google-stadia-wants-to-be-the-future-of-gaming-so-do-microsoft-sony-and-amazon/)_)                                                 |
+| [Parsec](https://parsecgaming.com/)                                                                                             | Play, watch, and share gaming with your friends in Parsec.                                                                                                                        |
+| [GeForce Now](https://www.nvidia.com/en-gb/geforce/products/geforce-now/)                                                       | Play & Stream Android, PC, and GeForce NOW games.                                                                                                                                 |
+| [Steam Link](https://store.steampowered.com/steamlink/about/) & [Steam Remote Play](https://store.steampowered.com/remoteplay/) | Stream video, audio, and voice between players while using your own controllers.                                                                                                  |
+| [Moonlight](https://moonlight-stream.org/)                                                                                      | Play Your PC Games Remotely, [setup guide](https://github.com/moonlight-stream/moonlight-docs/wiki/Setup-Guide).                                                                  |
+| [Rainway](https://rainway.com/)                                                                                                 | Allows you to launch all your PC games from one place on your home computer or stream through any browser, all completely free.                                                   |
+| [PlayStation Now](https://www.playstation.com/en-gb/get-help/help-library/services/playstation-now/playstation-now-on-pc/)      | Stream PS2/PS3/PS4 games.                                                                                                                                                         |
+| [Xbox Game Streaming (Microsoft: xCloud)](https://www.xbox.com/en-US/xbox-game-streaming)                                       | Stream your favorite Xbox games from the cloud or console straight to your Android phone or tablet.                                                                               |
+| [Paperspace](https://www.paperspace.com/)                                                                                       | Fast cloud gaming in a web browser, [setup guide](https://blog.parsecgaming.com/setting-up-game-streaming-in-the-cloud-with-parsec-paperspace-just-got-a-lot-easier-bec072732bc9) |
+| [Vortex Cloud Gaming](https://vortex.gg/?aff=6934464)                                                                           | Cloud Gaming for Android, PC and macOS.                                                                                                                                           |
+| [Shadow](https://shadow.tech/dede/)                                                                                             | $35 per month, provides cloud gaming.                                                                                                                                             |
+| [Magenta Gaming](https://magenta-gaming.telekom-dienste.de/)                                                                    | Telekom (ISP) only, requires a 50 Mbit/s connection.                                                                                                                              |
 
 
 ## Virtual LAN Gaming
-Provider | Comment
------------- | -------------
-[Hamachi](https://www.vpn.net/) | Hosted VPN service that lets you securely extend LAN-like networks (Windows, Mac, Linux).
-[Tunngle](https://web.archive.org/web/20170606182108/https://www.tunngle.net/) | Freemium and closed source (last version 5.8.9 [30.Jun. 2017])
-[Evolve (Player.me)](https://player.me/) | Inbuilt LAN support for almost all popular LAN games (Free, Party + $4.00/month)
-[GameRanger](https://www.gameranger.com/download/) | GameRanger is definitely one of the best alternatives to Hamachi - Free, Silver Membership $19.95/year, Gold Membership $39.95/year
-[Wippien](http://www.wippien.com/download.php) | It connects PCs with a P2P connection - Free and open source
-[NetOverNet](https://www.netovernet.com/) | Can be used as LAN emulator - Free, Basic $5/month, Advanced $10/month
-[Radmin VPN](http://www.radmin-vpn.com/) |  Secure VPN tunnel that doesn’t limit the number of users or gamers on its connection.
-[FreeLAN](http://www.freelan.org/download.html) | Almost no lag when playing games, a [tutorial is avbl. here](https://www.freelan.org/get_help.html#adjusting-the-configuration)
-[P2PVPN](http://p2pvpn.org/) | P2PVPN is an open source developed with Java, the development has stopped in 2010.
-[NetOverNet](https://www.netovernet.com/) | NetOverNet is basically a simple VPN emulator that can be used for hosting private gaming session.
-[FreeLAN](http://www.freelan.org/download.html) | Completely open-source.
-[ZeroTier One](https://www.zerotier.com/download.shtml) | Open source, virtual systems are encoded end-to-end.
-[SoftEther VPN](https://www.softether.org/5-download) | SoftEther VPN can be used on Windows, Mac, Linux, Solaris, and FreeBSD operating systems.
-[Via WireGuard](https://wiki.archlinux.org/index.php/WireGuard) | Simple yet fast and modern VPN that utilizes state-of-the-art cryptography.
+| Provider                                                                       | Comment                                                                                                                             |
+| ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+| [Hamachi](https://www.vpn.net/)                                                | Hosted VPN service that lets you securely extend LAN-like networks (Windows, Mac, Linux).                                           |
+| [Tunngle](https://web.archive.org/web/20170606182108/https://www.tunngle.net/) | Freemium and closed source (last version 5.8.9 [30.Jun. 2017])                                                                      |
+| [Evolve (Player.me)](https://player.me/)                                       | Inbuilt LAN support for almost all popular LAN games (Free, Party + $4.00/month)                                                    |
+| [GameRanger](https://www.gameranger.com/download/)                             | GameRanger is definitely one of the best alternatives to Hamachi - Free, Silver Membership $19.95/year, Gold Membership $39.95/year |
+| [Wippien](http://www.wippien.com/download.php)                                 | It connects PCs with a P2P connection - Free and open source                                                                        |
+| [NetOverNet](https://www.netovernet.com/)                                      | Can be used as LAN emulator - Free, Basic $5/month, Advanced $10/month                                                              |
+| [Radmin VPN](http://www.radmin-vpn.com/)                                       | Secure VPN tunnel that doesn’t limit the number of users or gamers on its connection.                                             |
+| [FreeLAN](http://www.freelan.org/download.html)                                | Almost no lag when playing games, a [tutorial is avbl. here](https://www.freelan.org/get_help.html#adjusting-the-configuration)     |
+| [P2PVPN](http://p2pvpn.org/)                                                   | P2PVPN is an open source developed with Java, the development has stopped in 2010.                                                  |
+| [NetOverNet](https://www.netovernet.com/)                                      | NetOverNet is basically a simple VPN emulator that can be used for hosting private gaming session.                                  |
+| [FreeLAN](http://www.freelan.org/download.html)                                | Completely open-source.                                                                                                             |
+| [ZeroTier One](https://www.zerotier.com/download.shtml)                        | Open source, virtual systems are encoded end-to-end.                                                                                |
+| [SoftEther VPN](https://www.softether.org/5-download)                          | SoftEther VPN can be used on Windows, Mac, Linux, Solaris, and FreeBSD operating systems.                                           |
+| [Via WireGuard](https://wiki.archlinux.org/index.php/WireGuard)                | Simple yet fast and modern VPN that utilizes state-of-the-art cryptography.                                                         |
 

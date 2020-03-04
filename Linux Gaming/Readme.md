@@ -47,7 +47,7 @@ However, just because "Valve says so" doesn't mean it isn't possible to game on 
 
 ## Software
 
-You can install Steam, and Wine (_if not already preinstalled_) via apt.
+You can install Steam, and Wine (_if not already preinstalled_) via `apt`.
 
 ```bash
 // Install Steam
@@ -75,6 +75,31 @@ From a gaming perspective these API's working fine:
 All of these mentioned projects attempt to translate Direct3D calls to something that Linux understands.
 
 
+
+### Improving Shader Caching
+
+Shader caching is a strategy to reduce stuttering and improve overall performance by ‘prebaking’ some of the work your GPU has to do before it has to do so in-game.
+
+**NVidia GPUs**
+Make sure that you have the latest (!) Nvidia drivers installed on your operating system. You can use these environment variables:
+
+* `__GL_THREADED_OPTIMIZATION=1` for OpenGL games.
+* `__GL_SHADER_DISK_CACHE=1` to create a shader cache for a game
+* `__GL_SHADER_DISK_CACHE_PATH=/path/to/location` to set the location for the shader cache.
+
+
+**For Ubuntu-based distros (i.e. Ubuntu, Pop_OS!, Mint etc.)**
+
+Use this [PPA](https://launchpad.net/~oibaf/+archive/ubuntu/graphics-drivers).
+
+**AMD GPUs**
+[Valve is working on ACO](https://steamcommunity.com/games/221410/announcements/detail/1602634609636894200), a shader compiler that requires Mesa version 19.3 or higher.
+
+For Arch-based distros (i.e. Arch, Manjaro)
+
+* Get the [mesa-git package from the AUR](https://aur.archlinux.org/packages/mesa-git) and add `RADV_PERFTEST=aco` as an environment variable for each game.
+* (_alternative_) Get the [mesa-aco-git package which has ACO](https://aur.archlinux.org/packages/mesa-aco-git) enabled by default.
+
 ### Tutorials
 
 Here are some video tutorials which might help you to setup things.
@@ -92,12 +117,17 @@ Here are some video tutorials which might help you to setup things.
 * [Changing Nvidia GPU Fan Speed (ðŸ’¨ ) Manually Tutorial (Nvidia X Server Setting) (NO NVCLOCK)](https://old.reddit.com/r/linux_gaming/comments/a4hx77/changing_nvidia_gpu_fan_speed_manually_tutorial/)
 * [Top Tips For Helping Linux Gaming Grow](https://old.reddit.com/r/linux_gaming/comments/bcyolp/top_tips_for_helping_linux_gaming_grow/)
 * [Windows 10 VM under Linux with native performance in gaming](https://www.youtube.com/watch?v=h8LdfZJunrs)
+* [Does the Desktop Environment matter for gaming performance? I did some tests!](https://old.reddit.com/r/linux_gaming/comments/dg87jp/does_the_desktop_environment_matter_for_gaming/)
+* [Linux input lag analysis (7DEs tested + Windows)](https://old.reddit.com/r/linux_gaming/comments/c0ly6b/linux_input_lag_analysis7des_tested_windows/)
+
+
+### Overclocking Tutorials
+* [AMD GPU overclocking guide](https://www.reddit.com/r/Amd/comments/agwroj/how_to_overclock_your_amd_gpu_on_linux/)
 
 
 ### Some general tips for smoother game experience on Linux
 
 There is a huge wiki about [gaming on Linux with some interesting tricks and tips](https://www.gamingonlinux.com/wiki/).
-
 
 * Disable the in game overlay from Steam, Discord etc. CS:GO might need this [workaround](https://m.youtube.com/watch?v=BvhiXr2fnRM&t=88s)
 * [Steam tweaks](https://github.com/gamer-os/steam-tweaks)
@@ -111,5 +141,6 @@ There is a huge wiki about [gaming on Linux with some interesting tricks and tip
 * German [Guide zu Linux: Mint 19.x, (Gaming) (computerbase.de)](https://www.computerbase.de/forum/threads/guide-zu-linux-mint-19-x-gaming.1915429/)
 
 
-### Linux stres test tools
+### Linux stress test tools
 - [s-tui](https://amanusk.github.io/s-tui/) + [Firestarter sub-modul](https://github.com/tud-zih-energy/FIRESTARTER) - CPU stress test.
+
