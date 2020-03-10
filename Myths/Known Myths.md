@@ -1,20 +1,20 @@
 ### Known Myths
 
 #### Overview
-The following tweaks are myths when it comes to "gaming tweaks" OR "Windows 10 specific tweaks". I list the myths here to get an overview because a lot of misinformation is flying around the internet. 
+The following tweaks are myths when it comes to "gaming tweaks" OR "Windows 10 specific tweaks". I list the myths here to get an overview because a lot of misinformation is flying around the internet.
 
 Server relevant stuff/tweaks are not specifically separated/mentioned because a gaming PC typically (unless it's a e.g. Gaming Server) has another workload compared to a traditional gaming PC. The Windows 10 server editions serving a different puprose, and they are under "different pressure". To blindly apply "server tweaks" or to use a server edition on a "normal Windows 10 edition" will not necessarily improve anything, even the opposite can happen, you decrease the overall performance (e.g. with "network adapter tweaks" which is often a trade-off between latency vs. IO).
 
 #### Criticism
 
-All mentioned stuff has been tested against several PC systems (AMD/Intel) under different combination (Hardware/Windows Editions). 
+All mentioned stuff has been tested against several PC systems (AMD/Intel) under different combination (Hardware/Windows Editions).
 
-If you think something is inaccurate or wrong, feel free to open an issue ticket AFTER you searched the existent ones. Constructive criticism is welcome, but keep in mind that you need proof, your biased opinion (e.g. "I always did it and it worked") is in general not welcome. You need to provide benchmarks, back links or/and links to the documentation (_if possible_), in order to start a objective discussion, it's not helpful to provide a pull request (except typo/grammar fixes) without discussion it first with the community. 
+If you think something is inaccurate or wrong, feel free to open an issue ticket AFTER you searched the existent ones. Constructive criticism is welcome, but keep in mind that you need proof, your biased opinion (e.g. "I always did it and it worked") is in general not welcome. You need to provide benchmarks, back links or/and links to the documentation (_if possible_), in order to start a objective discussion, it's not helpful to provide a pull request (except typo/grammar fixes) without discussion it first with the community.
 
 
 ### [NTFS tunneling](https://blogs.msdn.microsoft.com/oldnewthing/20050715-14/?p=34923) tweak
 
-Reducing the default value (1024) for `MaximumTunnelEntries` entry which reduces the [NTFS tunnel cache](https://windowsir.blogspot.com/2014/07/file-system-ops-effects-on-mft-records.html) helps to improve the delegation performance for directories that contain numerous files. 
+Reducing the default value (1024) for `MaximumTunnelEntries` entry which reduces the [NTFS tunnel cache](https://windowsir.blogspot.com/2014/07/file-system-ops-effects-on-mft-records.html) helps to improve the delegation performance for directories that contain numerous files.
 
 
 
@@ -26,7 +26,7 @@ This is a myth and the [entry has changed across multiple Windows versions](http
 
 ### [Firmware updates are bad](https://uefi.org/sites/default/files/resources/3_Dick_PHOENIX_attack%20surface%20risks.pdf) for gaming performance
 
-This is not anymore the case, there are certain checks when you use [UEFI](https://uefi.org/faq) to ensure that you don't install a faulty update. [Windows 8 (2012) used an update mechanism](https://docs.microsoft.com/en-us/windows-hardware/drivers/bringup/windows-uefi-firmware-update-platform) that delivers update packages to a known system location, the UEFI firmware then installs the update package on its own, after a restart which causes some problems (BSOD/performance regressions in some cases etc). Since Windows 10 a lot has [changed](https://docs.microsoft.com/en-us/windows-hardware/drivers/bringup/installing-the-update), the UEFI updates are more reliable and it's overall spoken worth checking the manufacturer's support site for firmware updates, which not only improve your security it also can fix several regressions regarding [performance](https://www.technorms.com/64686/firmware-update-improve-device-performace). The [best practice](https://www.uefi.org/sites/default/files/resources/UEFI%20Firmware%20-%20Security%20Concerns%20and%20Best%20Practices%209.13.17.pdf) is to review the update, check the change log and decide if you _need_ it or not, before you update make a backup and then install the update. 
+This is not anymore the case, there are certain checks when you use [UEFI](https://uefi.org/faq) to ensure that you don't install a faulty update. [Windows 8 (2012) used an update mechanism](https://docs.microsoft.com/en-us/windows-hardware/drivers/bringup/windows-uefi-firmware-update-platform) that delivers update packages to a known system location, the UEFI firmware then installs the update package on its own, after a restart which causes some problems (BSOD/performance regressions in some cases etc). Since Windows 10 a lot has [changed](https://docs.microsoft.com/en-us/windows-hardware/drivers/bringup/installing-the-update), the UEFI updates are more reliable and it's overall spoken worth checking the manufacturer's support site for firmware updates, which not only improve your security it also can fix several regressions regarding [performance](https://www.technorms.com/64686/firmware-update-improve-device-performace). The [best practice](https://www.uefi.org/sites/default/files/resources/UEFI%20Firmware%20-%20Security%20Concerns%20and%20Best%20Practices%209.13.17.pdf) is to review the update, check the change log and decide if you _need_ it or not, before you update make a backup and then install the update.
 
 
 
@@ -41,7 +41,7 @@ No, not anymore! MS changed a lot since Windows Build 1803+. This was finally fi
 That's a myth, because [reading I/O doesn't decrease your SSD lifespan](http://techreport.com/review/27909/the-ssd-endurance-experiment-theyre-all-dead) writing on it does! However if you don't like Windows own Search you could use [Void's Everything](https://www.voidtools.com/downloads/).
 
 
-### Configure “Fragment and Optimize your device” 
+### Configure “Fragment and Optimize your device”
 
 This is useless, because Windows since Windows 8+ can handle it on his own, it detects if you're on SSD or HDD and defrag it or not, disabling the service schedule does nothing because it runs anyway (for several other operations).
 
@@ -75,16 +75,16 @@ This is not necessary because since Windows 8+ it's detected by Windows. It's ru
 This is not needed anymore, [see here](https://www.speedguide.net/articles/systemini-irq-tweak-168) why.
 
 
-### System Responsiveness 
+### System Responsiveness
 
 It [doesn't need to be tweaked](https://msdn.microsoft.com/en-us/library/ms684247.aspx). You can set whatever you want in registry, the OS will handle and override it anyway.
 
 
 
-### Disabling C states in BIOS [improves SSD performance](https://www.overclock.net/forum/5-intel-cpus/1333701-intel-c-states-off-better-ssd-performance.html). 
+### Disabling C states in BIOS [improves SSD performance](https://www.overclock.net/forum/5-intel-cpus/1333701-intel-c-states-off-better-ssd-performance.html).
 
 
-[As for the SSD](https://www.tomshardware.com/reviews/ssd-hdd-power,2170-3.html), the amount of rights is reduced without hibernation. When a computer hibernates, the contents of the RAM is dumped to the hibernate file on the C drive, which is the SSD in this case. Since SSDs have a finite amount of rights and there can be a lot of stuff in the RAM, you can see how this is a problem. The contents of RAM are being paged to the C drive constantly, anyways. The amount of extra SSD I/O due to hibernation is trivial compared to loading a game with let's say 20&nbsp;GB of textures and levels.
+[As for the SSD](https://www.tomshardware.com/reviews/ssd-hdd-power,2170-3.html), the amount of rights is reduced without hibernation. When a computer hibernates, the contents of the RAM is dumped to the hibernate file on the C drive, which is the SSD in this case. Since SSDs have a finite amount of rights and there can be a lot of stuff in the RAM, you can see how this is a problem. The contents of RAM are being paged to the C drive constantly anyway. The amount of extra SSD I/O due to hibernation is trivial compared to loading a game with let's say 20&nbsp;GB of textures and levels.
 
 
 ### Disabling Windows animations to improve GPU or CPU performance
@@ -92,9 +92,9 @@ It [doesn't need to be tweaked](https://msdn.microsoft.com/en-us/library/ms68424
 This is not helpful at all, since all animations are GPU accelerated. A gaming machine should have a graphics card capable of running them without any problem Windows 10 requires a "powerful" enough GPU system.
 
 
-### Disable High Precision Event Timer (HPET) 
+### Disable High Precision Event Timer (HPET)
 
-This is not needed after Windows April Update (Build 1803) you can check the current status via `credit /enum`. Changing the values (especially on newer Intel COU's 9900k can result in a worse performance). 
+This is not needed after Windows April Update (Build 1803), you can check the current status via `bcedit /enum`. Changing the values (especially on newer Intel CPU's 9900k can result in a worse performance).
 
 
 
@@ -104,9 +104,9 @@ The official documentation (outdated) can be found over [here](https://docs.micr
 
 
 **What to know**:
-* 3,5 MHz and 10 Mhz are the SAME timer, Microsoft enforced 10 MHz since Windows 10 RS5+ 
+* 3,5 MHz and 10 Mhz are the SAME timer, Microsoft enforced 10 MHz since Windows 10 RS5+
 * This means a developer can "easier" see if it's TSC or not, previously a developer had to analyze the whole boot frequency, this is now resolved (_TSC (= 10 MHz) HPET (&gt; 10 MHz)_)
-— You will NOT notice any difference in-game 
+— You will NOT notice any difference in-game
 — Microsoft **DOES NOT** need to patch this nor is this a "bug". It was introduced to help developers to find TSC/QPC modes, not more and not less.
 — The so called "bug" was [analyzed by a professional overclocker](https://www.overclockers.at/number-crunching/the-hpet-bug-what-it-is-and-what-it-isnt_251222?postid=3998163), with facts and background info, the result was that there will be no noticeable difference if it shows 3,5 Mhz, 6 MHz or 9 Mhz. It should also be noticed that the read-out method is also not accurate and there are margin of errors (which is normal), the delta difference is so low that no one actual can notice it.
 

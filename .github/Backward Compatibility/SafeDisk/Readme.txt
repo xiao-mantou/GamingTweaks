@@ -1,0 +1,4 @@
+- Extract a temporary location on the system.
+- Copy secdrv.sys to %WINDIR%\system32\drivers.
+- Import secdrv.reg to Windows registry.
+- As the service may still not work due to lack of a digital signature[22], refer to these instructions to disable driver signature verification in the operating system and sign the driver with a custom digital signature.
