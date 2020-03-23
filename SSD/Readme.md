@@ -6,7 +6,7 @@ Setting `fsutil behavior set disablelastaccess 1` still needs to be set manually
 
 Since Windows 10, the OS usually checks the [TRIM](https://en.wikipedia.org/wiki/Trim_(computing)) status on his own, but in order to verify it simply run `fsutil behavior query DisableDeleteNotify`. If TRIM is functional, `DisableDeleteNotify=0` will be returned; otherwise, `DisableDeleteNotify=1` will be returned.
 
-### Disk Defragmentation
+### 磁盘碎片整理
 
 You  don't need to disable the internal Disk defragmentation program, it detects which kind of storage you use and start/stop the progress on it's own. There was a Bug with >1607 Builds to detect it, but was fixed later by Microsoft. There is no benefit disabling the schedule (Hibernation) via `powercfg -h off`.
 

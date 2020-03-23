@@ -38,23 +38,23 @@ My little guide is all about _Windows Gaming_, and I really mean Gaming on Windo
 
 
 ## Guide Index
-* [BIOS Configuration and Tips](Bios/Readme.md)
-* [OS (general)](OS%20(general)/Readme.md)
-* [Hardware](Hardware%20(general)/Readme.md)
+* [BIOS 配置 和 提示](Bios/Readme.md)
+* [系统 (general)](OS%20(general)/Readme.md)
+* [硬件](Hardware%20(general)/Readme.md)
 * [DirectX](DirectX/Readme.md)
-* [Drivers](Drivers/Readme.md)
-* [GPU AMD](GPU/AMD/Readme.md)
-* [GPU nVidia](GPU/nVidia/Readme.md)
-* [GPU and Shader in Games](GPU/Shader/Readme.md)
-* [Monitor](Monitor/Readme.md)
-* [Known Myths](Myths/Known%20Myths.md)
-* [Mouse](Mouse/Readme.md)
-* [Network](Network/Readme.md)
+* [驱动程序](Drivers/Readme.md)
+* [AMD 图形处理器](GPU/AMD/Readme.md)
+* [nVidia 图形处理器](GPU/nVidia/Readme.md)
+* [游戏中的 图形处理器 和 着色器](GPU/Shader/Readme.md)
+* [显示器](Monitor/Readme.md)
+* [已知的 Myths](Myths/Known%20Myths.md)
+* [鼠标](Mouse/Readme.md)
+* [网络](Network/Readme.md)
 * [RAM](RAM/Readme.md)
 * [SSD](SSD/Readme.md)
 * [Retro Consoles](Retro%20Consoles/Readme.md)
-* [Sound](Sound/Readme.md)
-* [KB issue](KB%20problems/Readme.md)
+* [声音](Sound/Readme.md)
+* [KB 问题](KB%20problems/Readme.md)
 
 
 ## What Hardware should I buy?

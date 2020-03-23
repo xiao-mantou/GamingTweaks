@@ -1,8 +1,8 @@
 ## OS specific functions and their impact on the overall game performance
 
 
-### Windows 10 Game Mode
-[Game Mode](https://support.xbox.com/en-US/games/game-setup/use-game-mode-gaming-on-pc) - Game Mode allows the system to prioritize CPU and GPU resources to the game running in the foreground, and aims to provide an increase of overall frame rate, or peaks, as well as an increase of average frame rate, or consistency. In the latest versions of Windows starting with Build 1809 & 1903, Game Mode no longer does GPU/CPU prioritization! This means (background) processes get more resources in case other applications e.g. OBS Studio starving your other (free) resources to death (e.g. because encoding).
+### Windows 10 游戏模式
+[游戏模式](https://support.xbox.com/en-US/games/game-setup/use-game-mode-gaming-on-pc) - Game Mode allows the system to prioritize CPU and GPU resources to the game running in the foreground, and aims to provide an increase of overall frame rate, or peaks, as well as an increase of average frame rate, or consistency. In the latest versions of Windows starting with Build 1809 & 1903, Game Mode no longer does GPU/CPU prioritization! This means (background) processes get more resources in case other applications e.g. OBS Studio starving your other (free) resources to death (e.g. because encoding).
 
 * Enabling Game Mode stops/prevents Windows Update from updating drivers and stops it from notifying you of non-critical updates.
 * It forces (if enabled) to use minimum of 100% CPU resources on Desktop systems (not laptops!) in order to help reduce CPU fluctuations which may cause performance issues. It does exactly the same thing as doing it manually by going to Processor power management and setting `Minimum processor state` manually to 100% (high performance power plan).
@@ -12,7 +12,7 @@
 That been said, turn on Game Mode in 1903+ builds **does not hurt** the gaming performance anymore. The statement: "It prioritizes the game process and suspends windows system processes as much as possible." is not valid anymore on newer Windows builds.
 
 
-### Fullscreen Optimizations 
+### 全屏优化 
 [Disable fullscreen optimizations for an application](https://support.microsoft.com/en-us/help/15078/windows-make-older-programs-compatible) - The Fullscreen Optimizations for Apps and Games feature is enabled by default in Windows 10 which is suppose to enhance your gaming experience by prioritizing your CPU and GPU resources to your games and apps.
 
 
@@ -20,12 +20,12 @@ That been said, turn on Game Mode in 1903+ builds **does not hurt** the gaming p
 [Retpoline](https://www.zdnet.com/article/microsoft-rolls-out-googles-retpoline-spectre-mitigation-to-windows-10-users/) - Basically spoken a new mitigation method against [Spectre variant 2](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)) by Google, however [Retpoline is not applicable to Skylake and later processors from Intel](https://news.ycombinator.com/item?id=16072775). It can have an [huge impact on game performance](https://www.techspot.com/news/79038-microsoft-introduces-drastic-performance-fix-spectre-variant.html). It is still _not entirely_ fixed.
 
 
-### Disabling Windows Update 
+### 禁用 Windows 更新 
 * Disable driver updates delivered through Windows Update - Microsoft can deliver an outdated or even in worse case scenarios deliver a wrong driver which then has an impact on your overall OS performance. I suggest to manually install all drivers and keep an eye on them.
 
 
-### Memory Compression
-[Memory compression](https://www.techrepublic.com/article/how-to-monitor-memory-compression-in-windows-10/) - Disabling memory compression can [increase application stability while using demanding games for CPU](https://www.dobreprogramy.pl/deton24/Dlaczego-moje-gry-sie-zacinaja-diagnostyka-Ustawianie-pliku-wymiany-ReadyBoost-Testy-trybu-gry-i-kompresji-pamieci-w-Windows--porady,85501.html). Some games (not all) benefit from the memory compression enabled.
+### 内存压缩
+[内存压缩](https://www.techrepublic.com/article/how-to-monitor-memory-compression-in-windows-10/) - Disabling memory compression can [increase application stability while using demanding games for CPU](https://www.dobreprogramy.pl/deton24/Dlaczego-moje-gry-sie-zacinaja-diagnostyka-Ustawianie-pliku-wymiany-ReadyBoost-Testy-trybu-gry-i-kompresji-pamieci-w-Windows--porady,85501.html). Some games (not all) benefit from the memory compression enabled.
 
 
 #### Control Flow Guard (CF-Guard)

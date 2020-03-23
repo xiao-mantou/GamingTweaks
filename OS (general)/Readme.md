@@ -7,11 +7,11 @@ I usually use and recommend the [phoronix-test-suite](https://www.phoronix-test-
 [CapFrameX](https://github.com/DevTechProfile/CapFrameX) is a fantastic tool to identify frame drops or G-Sync/FreeSync related issues. The program is for beginners and professionals and can help to check what might causes lags or to get a overview of your hardware and how well it really performes in-game, since it supports DirectX and Vulkan API's it basically can analyze almost every application/game.
 
 
-## OS timer resolution
+## 系统 计时器 分辨率
 
-Changing the [OS wide timer](https://docs.microsoft.com/en-us/windows/desktop/api/timeapi/nf-timeapi-timebeginperiod#remarks) can result in an [performance boost up to 30%](https://www.youtube.com/watch?v=_hcuYiqib9I&feature=youtu.be&t=365) (depending on the game).
+更改 [OS wide timer](https://docs.microsoft.com/en-us/windows/desktop/api/timeapi/nf-timeapi-timebeginperiod#remarks) 可以产生 [最高 30% 的性能提升](https://www.youtube.com/watch?v=_hcuYiqib9I&feature=youtu.be&t=365) (取决于游戏).
 
-Windows 10 since 1603+ changes the timer resolution every X seconds automatically, this requires you to leave the [Timer application](https://vvvv.org/contribution/windows-system-timer-tool) open. But, and this is a big but whenever a specific application is opened at the same time which requests another timer to the same time it would make any timer script/utility useless. For example Discord (uses electron framework - which is known to be [CPU hungry](https://github.com/electron/electron/issues/11908)) - if Discord and the Timer utility is open at the same time, you will notice that Discord automatically "overwrites" the timings set by the running timing tool.
+Windows 10 自 1603+ 以后 每X秒自动更改 计时器分辨率, 这要求你保持 [计时器 应用程序](https://vvvv.org/contribution/windows-system-timer-tool) 开启. 但是, and this is a big 只要在请求另外的计时器时打开了特定的应用程序就会使 计时器 脚本/工具 失效. 例如 Discord (uses electron framework - which is known to be [吃CPU](https://github.com/electron/electron/issues/11908)) - if Discord and the 计时器工具 is open at the same time, you will notice that Discord automatically "overwrites" the timings set by the running timing tool.
 
 ### Application timings
 
@@ -39,10 +39,10 @@ While the ability to _system-wide_ disable fullscreen optimizations for all the 
 
 [DWM](https://en.wikipedia.org/wiki/Desktop_Window_Manager) (also known as Desktop Compositing Engine or DCE) has in general an _huge_ impact on the OS/application performance, it usually _consumes a lot_ CPU "power". It exists since Windows Vista and is a part of the Windows OS and since Windows Vista it uses [WDDM](https://en.wikipedia.org/wiki/Windows_Display_Driver_Model) to share the surface with DWM. In earlier versions it was possible to "disable" DWM, however this is these days not so easy because the process gets restarted every time WinLogon.exe was started.
 
-**Disabling DWM is not recommended!** But if you want to, you still could do that, [even under Windows 10](https://github.com/Biswa96/Junkyard/blob/master/c/KillDwm.c). The boost is definitly there, however it breaks a lot of other WDDM functions.
+**禁用 DWM 是不推荐的!** But if you want to, you still could do that, [even under Windows 10](https://github.com/Biswa96/Junkyard/blob/master/c/KillDwm.c). The boost is definitly there, however it breaks a lot of other WDDM functions.
 
 
-### Windows Defender and Desktop Window Manager (dwm.exe)
+### Windows Defender 和 Desktop Window Manager (dwm.exe)
 [Another way](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) (but **insecure**) is to disable threat mitigation for the Desktop Window Manager (dwm.exe) itself within Windows Defender. Open Windows Defender (`Settings` -> `Exploit Protection` -> `Program Settings`)  and then add `C:\Windows\System32\dwm.exe` to the path, `Check` override system settings for CFG, DEP, EAF, ASLR, SEHOP (vulnerability protections) and ensure it's turned `off`. **It's not recommended to do that!**
 
 
@@ -66,9 +66,9 @@ The following things should be as high as possible:
 * Power Management Mode (nVidia Control Panel [NVCP]) "application controlled" is enough.
 
 
-## Choosing the "correct" Windows 10 Version
+## 选择 "正确的" Windows 10 版本
 
-Why does it matter? [Different Windows versions](https://en.wikipedia.org/wiki/Windows_10_editions) coming with different pre-installed apps or software. Practical you could remove them but this costs a) your time and b) you might not be able to remove all apps (_easily_). The Backgrounds apps and started services matter in a sense that they might result in a [higher CPU/RAM usage](http://www.blackviper.com/service-configurations/) or lags because these apps and services typically trying to update themselves in the _right moment_ which might even ends-up with a [Bluescreen (BSOD)](https://answers.microsoft.com/en-us/windows/forum/all/windows-10-update-causing-blue-screen-errors-daily/45a08401-87c9-4c52-b160-f8548bc42c6f) or [crashes](https://answers.microsoft.com/en-us/windows/forum/apps_windows_10-outlook_mail/windows-update-caused-loss-of-mail-app-windows/aec58c9c-9371-46b4-ab69-2b54353eff5c).
+Why does it matter? [Different Windows versions](https://en.wikipedia.org/wiki/Windows_10_editions) 带有不同的预装应用或程序. Practical you could remove them but this costs a) your time and b) you might not be able to remove all apps (_easily_). The Backgrounds apps and started services matter in a sense that they might result in a [higher CPU/RAM usage](http://www.blackviper.com/service-configurations/) or lags because these apps and services typically trying to update themselves in the _right moment_ which might even ends-up with a [Bluescreen (BSOD)](https://answers.microsoft.com/en-us/windows/forum/all/windows-10-update-causing-blue-screen-errors-daily/45a08401-87c9-4c52-b160-f8548bc42c6f) or [crashes](https://answers.microsoft.com/en-us/windows/forum/apps_windows_10-outlook_mail/windows-update-caused-loss-of-mail-app-windows/aec58c9c-9371-46b4-ab69-2b54353eff5c).
 
 * Avoid Preview or any Insider builds
 * Avoid Pro or Home Editions
@@ -77,7 +77,7 @@ Why does it matter? [Different Windows versions](https://en.wikipedia.org/wiki/W
 Edu./Ent. or LTSC versions have no pre-installed apps OR/AND you can take control over them without the need to rely on third-party apps or script. Group policy Editor (GPO - gpedit.msc) and the integrated Windows 10 own Settings can control every app/store/update behavior.
 
 
-## Driver installation
+## 驱动程序 安装
 
 The driver installation order _does matter_ and might help to solve or prevent some problems.
 * OS
@@ -113,8 +113,8 @@ There is a wide-spreading myth that says that it helps to install repacked versi
 
 Problems:
 * Repacks could contain malware
-* Steam and other Stores, or even some application overriding or forcing you to install official runtimes even if never ones are already installed
-* No performance benefits
+* Steam 和 其他商店, 或着甚至一些应用会 覆盖 或 强制你安装官方 runtimes even if never ones are already installed
+* 没有性能好处
 
 
 ## Operating System (general tweaking advice)
@@ -127,9 +127,9 @@ Problems:
 * Delete unneeded UWP apps and uninstall the stuff you won't need, this gains some SSD/HDD space, reduces memory/cpu usage (since such apps mostly running in the background or trying to update themselves).
 
 
-### Windows 7 vs. Windows 10
+### Windows 7 比 Windows 10
 
-Gaming on Windows 10 is not necessary better or worst, it's depending on several factors such as game development API, Engine itself, if the game was 'designed' and 'optimized' for Windows 10/7, the driver and driver profiles and many more things.
+Gaming on Windows 10 is not necessary better or worst, 这取决于几个因素 比如 游戏开发所用的 API, 引擎本身, 游戏是否为 Windows 10/7 '设计' 和 '优化', 驱动程序 和 驱动程序的 配置文件 和 更多的东西.
 
 [![](http://img.youtube.com/vi/RkHFYKDOo74/0.jpg)](https://www.youtube.com/watch?v=RkHFYKDOo74 "Windows 7 Vs. Windows 10 Game Performance (right-click and open it in a new Browser tab)")
 

@@ -1,4 +1,4 @@
-### Known Myths
+### 已知的 Myths
 
 #### Overview
 The following tweaks are myths when it comes to "gaming tweaks" OR "Windows 10 specific tweaks". I list the myths here to get an overview because a lot of misinformation is flying around the internet.
@@ -24,13 +24,13 @@ This is a myth and the [entry has changed across multiple Windows versions](http
 
 
 
-### [Firmware updates are bad](https://uefi.org/sites/default/files/resources/3_Dick_PHOENIX_attack%20surface%20risks.pdf) for gaming performance
+### [固件更新不好](https://uefi.org/sites/default/files/resources/3_Dick_PHOENIX_attack%20surface%20risks.pdf) 对于游戏性能
 
 This is not anymore the case, there are certain checks when you use [UEFI](https://uefi.org/faq) to ensure that you don't install a faulty update. [Windows 8 (2012) used an update mechanism](https://docs.microsoft.com/en-us/windows-hardware/drivers/bringup/windows-uefi-firmware-update-platform) that delivers update packages to a known system location, the UEFI firmware then installs the update package on its own, after a restart which causes some problems (BSOD/performance regressions in some cases etc). Since Windows 10 a lot has [changed](https://docs.microsoft.com/en-us/windows-hardware/drivers/bringup/installing-the-update), the UEFI updates are more reliable and it's overall spoken worth checking the manufacturer's support site for firmware updates, which not only improve your security it also can fix several regressions regarding [performance](https://www.technorms.com/64686/firmware-update-improve-device-performace). The [best practice](https://www.uefi.org/sites/default/files/resources/UEFI%20Firmware%20-%20Security%20Concerns%20and%20Best%20Practices%209.13.17.pdf) is to review the update, check the change log and decide if you _need_ it or not, before you update make a backup and then install the update.
 
 
 
-### Enabling [Game Mode](https://support.microsoft.com/en-us/help/4028293/windows-using-game-mode-on-your-pc) will cause stuttering and performance problems
+### 开启 [游戏模式](https://support.microsoft.com/en-us/help/4028293/windows-using-game-mode-on-your-pc) 会导致卡顿和性能问题
 
 No, not anymore! MS changed a lot since Windows Build 1803+. This was finally fixed and the application should now get the resource it needs e.g. for encoding (OBS Studio). If there are game related issue then it's not caused by an enabled Game Mode. The mode indeed checks if the game is supported or not. On Laptop systems game mode will not work no matter if you set it to on or off, this is by design and not a bug.
 
@@ -46,33 +46,33 @@ That's a myth, because [reading I/O doesn't decrease your SSD lifespan](http://t
 This is useless, because Windows since Windows 8+ can handle it on his own, it detects if you're on SSD or HDD and defrag it or not, disabling the service schedule does nothing because it runs anyway (for several other operations).
 
 
-### Set your SATA controller to AHCI mode for Solid State Drives SSD
+### 设置你的 SATA 控制器 为 AHCI 模式 为 固态硬盘 SSD
 
-This is not necessary, Windows 10 detects it automatically based on your BIOS/UEFI settings. However, specific hardware (older ones) might have problems with it and then Windows might actually do not put the device in "AHCI mode". This can be enforced via registry tweak without reinstalling the whole OS. It's hacky but [it does work](https://tunecomp.net/enable-ahci-without-reinstalling-os-windows-10-7/), it also works if you like to [switch from RAID only to AHCI](https://superuser.com/questions/1280141/switch-raid-to-ahci-without-reinstalling-windows-10).
-
-
-### [Page file (page file/ paging file) Managing](https://www.onmsft.com/news/microsoft-educates-insiders-windows-10-handles-memory), should be disabled because it _constantly_ writes on your SSD
-
-Yes, it writes important things on your SSD but some applications and games might crash if you entirely disable it. Leave it on "Automatically manage paging file size for all drives". It's possible to envision edge cases where tweaking the page file makes sense, but those examples are vanishingly rare.
+这不是必须的, Windows 10 detects it automatically based on your BIOS/UEFI settings. However, specific hardware (older ones) might have problems with it and then Windows might actually do not put the device in "AHCI mode". This can be enforced via registry tweak without reinstalling the whole OS. It's hacky but [it does work](https://tunecomp.net/enable-ahci-without-reinstalling-os-windows-10-7/), it also works if you like to [switch from RAID only to AHCI](https://superuser.com/questions/1280141/switch-raid-to-ahci-without-reinstalling-windows-10).
 
 
-### Disabling Windows own restore point feature helps to improve overall gaming performance
+### [页面文件 管理](https://www.onmsft.com/news/microsoft-educates-insiders-windows-10-handles-memory), 应该被关闭因为它 _不断地_ 写你的 SSD
 
-It's more up to you, this can be important in case shit happened but it does not affect the performance because Windows only creates automatic restore points whenever you install/uninstall programs which supporting this function, manually or on a schedule which checks if your CPU is busy right now (over 45%).
-
-
-### Disable Hibernate
-It's also up to everyone to use it or not, in you want to turn it off: `powering -h off`.
+Yes, it writes important things on your SSD but some applications and games might crash if you entirely disable it. 保持它为 "Automatically manage paging file size for all drives". It's possible to envision edge cases where tweaking the page file makes sense, but those examples are vanishingly rare.
 
 
-### Disable SuperFetch
+### 关闭 Windows 自己的 还原点功能 帮助提高整体的游戏性能
+
+这更多地取决于你, this can be important in case shit happened but it does not affect the performance because Windows only creates automatic restore points whenever you install/uninstall programs which supporting this function, manually or on a schedule which checks if your CPU is busy right now (over 45%).
+
+
+### 关闭 睡眠
+这同样取决于每个人是否使用它, in you want to turn it off: `powering -h off`.
+
+
+### 禁用 SuperFetch
 
 This is not necessary because since Windows 8+ it's detected by Windows. It's running but it does nothing when you're on a SSD. You can check its state via `fsutil behavior query DisableDeleteNotify` which should be 0. This means TRIM is enabled.
 
 
 ### NIC System.ini IRQ Tweak
 
-This is not needed anymore, [see here](https://www.speedguide.net/articles/systemini-irq-tweak-168) why.
+这已经不再需要, [see here](https://www.speedguide.net/articles/systemini-irq-tweak-168) why.
 
 
 ### System Responsiveness
@@ -81,30 +81,30 @@ It [doesn't need to be tweaked](https://msdn.microsoft.com/en-us/library/ms68424
 
 
 
-### Disabling C states in BIOS [improves SSD performance](https://www.overclock.net/forum/5-intel-cpus/1333701-intel-c-states-off-better-ssd-performance.html).
+### 禁用 C states 在 BIOS [提高 SSD 性能](https://www.overclock.net/forum/5-intel-cpus/1333701-intel-c-states-off-better-ssd-performance.html).
 
 
 [As for the SSD](https://www.tomshardware.com/reviews/ssd-hdd-power,2170-3.html), the amount of rights is reduced without hibernation. When a computer hibernates, the contents of the RAM is dumped to the hibernate file on the C drive, which is the SSD in this case. Since SSDs have a finite amount of rights and there can be a lot of stuff in the RAM, you can see how this is a problem. The contents of RAM are being paged to the C drive constantly anyway. The amount of extra SSD I/O due to hibernation is trivial compared to loading a game with let's say 20&nbsp;GB of textures and levels.
 
 
-### Disabling Windows animations to improve GPU or CPU performance
+### 禁用 Windows 动画 来提高 GPU 或 CPU 性能
 
-This is not helpful at all, since all animations are GPU accelerated. A gaming machine should have a graphics card capable of running them without any problem Windows 10 requires a "powerful" enough GPU system.
-
-
-### Disable High Precision Event Timer (HPET)
-
-This is not needed after Windows April Update (Build 1803), you can check the current status via `bcedit /enum`. Changing the values (especially on newer Intel CPU's 9900k can result in a worse performance).
+这完全没有帮助, 自所有的动画都被 GPU 加速. A gaming machine should have a graphics card capable of running them without any problem Windows 10 requires a "powerful" enough GPU system.
 
 
+### 禁用 高精度事件计时器 (HPET)
 
-### Using an older Windows 10 versions helps to improve the OS performance because 3,5 MHZ vs 10 Mhz QPC timer?
+自 Windows April Update (Build 1803) 后不再需要, 你可以检查当前的状态通过 `bcedit /enum`. 更改数值 (特别是较新的 Intel CPU's 9900k 会导致更差的性能).
+
+
+
+### 使用更老的 Windows 10 版本 帮助提高 系统性能 因为 3,5 MHZ 与 10 Mhz QPC 计时器?
 
 The official documentation (outdated) can be found over [here](https://docs.microsoft.com/en-us/windows/win32/sysinfo/acquiring-high-resolution-time-stamps#direct-tsc-usage).
 
 
-**What to know**:
-* 3,5 MHz and 10 Mhz are the SAME timer, Microsoft enforced 10 MHz since Windows 10 RS5+
+**需知**:
+* 3,5 MHz 和 10 Mhz 是相同的计时器, Microsoft 强制使用 10 MHz 自从 Windows 10 RS5+
 * This means a developer can "easier" see if it's TSC or not, previously a developer had to analyze the whole boot frequency, this is now resolved (_TSC (= 10 MHz) HPET (&gt; 10 MHz)_)
 — You will NOT notice any difference in-game
 — Microsoft **DOES NOT** need to patch this nor is this a "bug". It was introduced to help developers to find TSC/QPC modes, not more and not less.
@@ -114,7 +114,7 @@ The official documentation (outdated) can be found over [here](https://docs.micr
 The argument that you should use an older Windows 10 version because of this so called "bug" makes no sense, given the fact that there is no difference and that the read-out method is not 100% accurate.
 
 
-### Encrypting the OS partition (whole OS) affects gaming performance
+### 加密系统分区 (整个 系统) 影响游戏性能
 
 This is incorrect, all modern hardware supports [AES-256 via hardware level](https://integralmemory.com/faq/what-aes-256-bit-hardware-based-encryption) which means it will not affect your gaming performance, however the loading times _could be a bit slower_ because the backend VeraCrypt/Decrypt have to decode the data before your game reads it.
 
@@ -129,6 +129,6 @@ This is not needed, [Windows 10 already chooses the best algorithm](https://supp
 Page file on SSD (especially on other partition than game) definitely outperforms Readiest, the service will be unavailable on systems with SSD. If it's (there) than you use an outdated OS (or it's a bug).
 
 
-### CPU core affinity performance/fps fixes
+### CPU 核心亲和力 性能/帧数 修复
 
 [See here](https://old.reddit.com/r/starcitizen/comments/5z1ndx/cpu_core_affinity_performancefps_fix/deupoqf/) for an explanation.

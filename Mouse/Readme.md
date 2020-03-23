@@ -1,4 +1,4 @@
-## What is mouse smoothing and why is it bad (for gaming)?
+## 什么是 鼠标平滑 和为什么不好 (对于游戏)?
 
 Modern gaming [mice](https://en.wikipedia.org/wiki/Computer_mouse) are _very accurate_ when it comes to reporting where their users are moving the mouse, but older mouse sensors were not nearly as accurate as the mice with optical sensors that we have nowadays.
 
@@ -10,7 +10,7 @@ Gaming wise you want your mouse to register your movements as "raw" as possible.
 
 Mouse tweaks overall provides more detailed configuration of mouse cursor behavior. It provides a range of accessibility enhancements as well a power-user features, including mouse gestures.
 
-### Disabling pointer precision
+### 如何察觉 指针精确度
 
 Mouse acceleration increases the speed of your mouse cursor based on the speed you move your mouse. This might sound like a good idea but it causes problems - if you move your mouse from point A to point B then you'd expect your cursor to do the same thing each time you move the mouse between those two points; with acceleration enabled it won't because you'll vary the speed that you move the mouse between those two points and end up with inconsistent aiming.
 
@@ -38,7 +38,7 @@ a0,99,0a,00,00,00,00,00
 
 You do not need any other "input lag mouse fixes"!
 
-### How to detect mouse acceleration?
+### 如何删除 鼠标加速?
 
 There are two basic types of mouse acceleration; "positive" acceleration and "negative" acceleration. Both are interpolation rates. Positive means that the faster you are moving your mouse, the farther cursor will travel on the screen. Negative means that the faster your mouse is moving, the less distance cursor will be travel on screen.
 
@@ -52,11 +52,11 @@ There are two basic types of mouse acceleration; "positive" acceleration and "ne
 Another method would be to open the debug console (if possible) and check if a mouse related acceleration or interpolation entry exists which you then could adjust.
 
 
-### Mouse polling rate
+### 鼠标轮询率
 * You could change your [mouse polling rate](https://www.howtogeek.com/182702/mouse-dpi-and-polling-rates-explained-do-they-matter-for-gaming/) down from 1000hz to 250hz/120hz because _sometimes_ it can reduce the overall mouse lag for some specific games or game engines. Keep in mind that this tweak is _optional_ because in most of the cases 1000hz works just fine (depending on the used mouse driver).
 
 
-### Sensitivity
+### 灵敏度
 Take your [mouse sensitivity from another game](https://www.mouse-sensitivity.com/), see if it helps you but at the end you must decide if you like it or not.
 
 
@@ -65,7 +65,7 @@ There is no 'pro aim' tweak, just give yourself time to progress. Play hard go p
 
 
 
-# Software as well as drivers you DO NOT need.
+#  你 不需要的 软件 以及 驱动.
 
 ### Windows
 - [ReyonMouseFix](https://github.com/e9k/ReyonMouseFix)
@@ -81,11 +81,11 @@ There is no 'pro aim' tweak, just give yourself time to progress. Play hard go p
 No.
 
 
-### Why not use modded drivers?
-I wouldn't recommend e.g. povohat accel to [new players](https://docs.google.com/spreadsheets/d/1UaM765-S515ibLyPaBtMnBz7xiao0HL5f-F1zk_CSF4/edit#gid=1901373467), because it's better to understand what sensitive ranges YOU like before adding accel in there. Most users probably wouldn't know what settings to use.
+### 为什么不使用修改的驱动程序?
+我不会推荐 e.g. povohat accel to [new players](https://docs.google.com/spreadsheets/d/1UaM765-S515ibLyPaBtMnBz7xiao0HL5f-F1zk_CSF4/edit#gid=1901373467), because it's better to understand what sensitive ranges YOU like before adding accel in there. Most users probably wouldn't know what settings to use.
 
-**Major points:**
-- Windows 10 got better
+**重点:**
+- Windows 10 变得更好
 - Mouse vendors improved their drivers and mice software
 - Windows 8 mouse accel problems got fixed in Windows 10
 - _Performance issue_ (in theory), above mentioned drivers DO NOT causing performance issue but there others (even older drivers) who are known to be problematic

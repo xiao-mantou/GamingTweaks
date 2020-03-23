@@ -1,4 +1,4 @@
-### Nvidia FPS Limiter v3 vs RTSS
+### Nvidia FPS Limiter v3 对比 RTSS
 
 Starting with [441.87](https://github.com/CHEF-KOCH/nVidia-modded-Inf/releases/tag/441.87) nVidia added their own FPS Limiter (v3) in the NV control panel. You might [ask yourself](https://youtu.be/W66pTe8YM2s) what are the differences between [RTSS](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html) and nVidia's solution and which solution should you prefer?
 
@@ -8,12 +8,12 @@ Starting with [441.87](https://github.com/CHEF-KOCH/nVidia-modded-Inf/releases/t
 - Every overlay you use, no matter what program will add a small delay!
 - NVIDIA Inspector old limiter (v2) and AMDs Chill adding the most input delay.
 
-**RTSS Pros:**
-- _Nice_ GUI
-- RTSS settings be be easily backuped
-- Fractional limits (to reduce V-Sync input) can be set, no other tools allows that
-- Allows to change per each game individual settings
-- RTSS has global settings, and individual exe files settings
+**RTSS 优点:**
+- _Nice_ 图形界面
+- RTSS 设置 易于备份
+- 小数位 限制 (用来减少 垂直同步 延迟) can be set, 没有其他工具可以做到
+- 允许更改每一个游戏单独的设置
+- RTSS 拥有全局设置, 和 单独的 exe 文件设置
 
 **Cons:**
 - Adds a frame of [input delay](https://www.youtube.com/watch?v=rs0PYCpBJjc), to workaround it use the default ("Global" profile)
@@ -23,8 +23,8 @@ Starting with [441.87](https://github.com/CHEF-KOCH/nVidia-modded-Inf/releases/t
 - Some games will not start while injecting the overlay into it
 - Some games can detect the injection method as "cheat" and disconnect or at worst, ban you!
 
-**nVidia Frame Limiter Pros:**
-- No third-party programs needed! Less background services are running.
+**nVidia Frame Limiter 优点:**
+- 无需第三方程序! 最少的后台服务在运行.
 - No per-game setting, you need to set the frame limit globally OR via the specific game profile which is a bit clunky
 
 **Cons:**
