@@ -1,15 +1,19 @@
+* [Disable "Inbound Layer 7" on your router](#disable-inbound-layer-7-on-your-router)
+* [减少网络延迟来消除游戏内(微卡顿?)](#reducing-the-network-latency-to-eliminate-microstuttering-in-games)
+  * [结论](#verdict)
+
 ### Disable Windows 10 driver updates delivered through Windows Update 
 
 See ["How to temporarily prevent a driver update from reinstalling in Windows 10"](https://support.microsoft.com/en-us/help/3073930/how-to-temporarily-prevent-a-driver-update-from-reinstalling-in-window). Another alternative is using [WuMGr](https://github.com/DavidXanatos/wumgr) which is basically a front-end for Windows crippled Windows Update interface, it basically spoken can take control over the Windows Updater mechanism by e.g. settings registry/gpo settings and also includes some more options to handle updates.
 
 
-### Wi-Fi Scanning can cause 'latency' spikes
+### Wi-Fi 扫描会导致 '延迟' 峰值
 
-Some [Intel Wireless adapters](https://www.intel.com/content/www/us/en/support/articles/000005546/network-and-i-o/wireless-networking.html) and [Atheros adapters](https://superuser.com/questions/881880/turn-off-wi-fi-scanning-on-windows-8) are known to cause some small [latency spikes](https://blog.mojonetworks.com/background-scanning-is-dead) (_original link dead!_). On older operating systems [WLAN Optimizer](http://www.martin-majowski.de/) tool was a workaround to resolve this issue, since [Windows 10](https://answers.microsoft.com/en-us/windows/forum/windows_10-networking/is-there-any-way-to-stop-windows-10-from-scanning/3870b3d1-0f07-4875-8779-bb5c11fce0a8) you can do this directly under Windows [without any tools](https://pastebin.com/WAdTPBpC).
+一些 [Intel 无线适配器](https://www.intel.com/content/www/us/en/support/articles/000005546/network-and-i-o/wireless-networking.html) 和 [Atheros 适配器](https://superuser.com/questions/881880/turn-off-wi-fi-scanning-on-windows-8) 已知会导致小 [延迟峰值](https://blog.mojonetworks.com/background-scanning-is-dead) (_original link dead!_). 在更旧的操作系统上 [WLAN Optimizer](http://www.martin-majowski.de/) 工具是一个用来解决这些问题的变通方法, 自 [Windows 10](https://answers.microsoft.com/en-us/windows/forum/windows_10-networking/is-there-any-way-to-stop-windows-10-from-scanning/3870b3d1-0f07-4875-8779-bb5c11fce0a8) 你可以直接在 Windows 下操作 [无需借助任何工具](https://pastebin.com/WAdTPBpC).
 
-Some newer drivers also including an option in the network adapter option to configure/enable/disable the Wi-Fi scan interval.
+一些较新的驱动也会带有一个选择在网络适配器选项里来 配置/启用/禁用 Wi-Fi 扫描间隔.
 
-##### Turn off Wi-Fi background scans for Atheros adapters
+##### 为Atheros适配器关闭 Wi-Fi 后台扫描
 
 * Go to the `Control Panel`.
 * Choose `Networks and Sharing` and `Change Adapter Settings`.
@@ -19,7 +23,7 @@ Some newer drivers also including an option in the network adapter option to con
 * Set `Background Scan` to `Disabled`.
 * Set `Foreground Scan` to `Disabled`.
 
-##### Turn off Wi-Fi background scans for Atheros adapters
+##### 为Atheros适配器关闭 Wi-Fi 后台扫描
 
 * Type `ncpa.cpl` into the Windows search box which opens the Network Connectivity Manager
 * Right-click on the `Wi-Fi adapter icon` and select `Properties`.
@@ -28,20 +32,20 @@ Some newer drivers also including an option in the network adapter option to con
 * Click `OK` to apply it to all opened settings.
 
 
-##### Turn of Wireless Autoconfig globally
+##### 全局关闭无线自动配置
 
 Some Windows 10 Builds (not all, some need to change the registry toggle because it's locked service task) allowing you to disabling the `Wireless Autoconfig` [service](https://windowsreport.com/make-windows-stop-searching-wireless-networks/), this prevents Windows to search for new Wi-Fi networks in general (_useful if you're only connected via ethernet_).
 
 
 
-### Intel Adapter 'Recommended' Network Adapter Settings
+### Intel 适配器 '推荐的' 网络适配器设置
 
 Network adapter settings are usually accessed through it's driver properties. From "Device Manager", or by right-clicking the adapter connection, choosing properties and then configure.
 
 Keep in mind that some drivers might have different settings/options! After talking with NordVPN I figured out with them that some settings might directly have a negative effect on Down-/Upload speed. Ensure you test each settings one by one. In this case try to disable all "offloading" params.
 
 
-#### Optimized for quick response and low latency (Gaming):
+#### 快速响应和低延迟优化 (游戏):
 
 * Disable Interrupt Moderation Rate (if not possible decrease the size)
 * Disable Offload TCP Segmentation
@@ -50,14 +54,14 @@ Keep in mind that some drivers might have different settings/options! After talk
 * Increase RSS Queues
 
 
-#### Optimized for throughput (e.g. Servers):
+#### 吞吐量优化 (例如 服务器):
 
 * Enable Jumbo Frames
 * Increase Transmit Descriptors
 * Increase Receive Descriptors
 
 
-#### For low CPU utilization:
+#### 为低CPU使用率:
 
 * Maximize Interrupt Moderation Rate
 * Keep Receive Descriptors at default
@@ -66,7 +70,7 @@ Keep in mind that some drivers might have different settings/options! After talk
 * Decrease the Max number of RSS CPUs in Hyper-V environments
 
 
-#### Optional disable/change the following in your Network Adapter
+#### 可选 禁用/更改 下列选项在你的网络适配器
 
 * `Disable` Adaptive Inter-Frame Spacing
 * `Disable` Flow Control
@@ -78,9 +82,9 @@ Keep in mind that some drivers might have different settings/options! After talk
 * `Disable` Jumbo Packet
 * Set Receive Side Scaling (RSS) - `ENABLED`
 * RSS Balancing Mode - `NUMAScaling`
-* **Don't touch Speed & Duplex, leave it on Auto Negotiation** 
+* **别动 速度(?速率) & 双工, 让它自动协商** 
 
-#### tweaks via CMD/PowerShell
+#### 通过 CMD/PowerShell 调整
 
 ```
 netsh interface teredo set state disabled
@@ -106,7 +110,7 @@ PowerShell Disable-NetAdapterPowerManagement -Name "*"
 PowerShell Disable-NetAdapterQos -Name "*"
 ```
 
-#### Enable or disable QoS?
+#### 启用或禁用 QoS?
 
 It depends on how you set up your QoS/WMM. QoS is useful in scenarios where your network experiences peak or near-peak loads on a routine basis. If the network is not under significant load, QoS rules will not be applied, the same goes if your router is not configured to use QoS or the firmware doesn't includes it.
 
@@ -116,10 +120,10 @@ For example, if you live alone, don't play online games, don't use VOIP, don't u
 * Check your Router QoS settings
 * Check your OS QoS options 
 
-In general **I recommend to leave it enabled**. If there some problems check your configuration instead, I did some benchmarks and I never found any impact (because my router isn't configured to use it). It's right that Windows reserves some bandwidth but that doesn't matter because your router might ignore the flags. 
+In general **我推荐留在开启**. If there some problems check your configuration instead, I did some benchmarks and I never found any impact (because my router isn't configured to use it). It's right that Windows reserves some bandwidth but that doesn't matter because your router might ignore the flags. 
 
 
-### Optional network tweaks
+### 可选网络调整
 ___
 
 
@@ -145,7 +149,7 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 
 
 
-## Reducing the Network latency to eliminate microstuttering in games
+## reducing-the-network-latency-to-eliminate-microstuttering-in-games
 
  The [Multimedia Class Scheduler](https://docs.microsoft.com/en-us/windows/win32/procthread/multimedia-class-scheduler-service?redirectedfrom=MSDN) Service has built-in network throttling which can degrade performance of online games. That's the theory.
 
@@ -178,5 +182,5 @@ Windows Registry Editor Version 5.00
 
 [Multimedia streaming](http://msdn2.microsoft.com/en-us/library/ms684247.aspx) and some other games that uses [Multimedia Class Scheduler service (MMCSS)](https://docs.microsoft.com/en-us/windows/desktop/procthread/multimedia-class-scheduler-service) can only utilize up to 80% of your CPU. MMCSS ensures prioritized access to CPU resources, without denying CPU resources to lower-priority background applications.
 
-### Verdict
-If a [game](https://www.reddit.com/r/GlobalOffensive/comments/646v5q/fps_boost_with_windows_10_update/) supports explicitly Game Mode, then this old "tweak" is redundant (after Windows 10 1809+ due to Game Mode changes) (_assuming you use + enabled Game Mode_). If the netnode differs or was optimized then it's also obsolete since the Game internally handles it differnt. So overall spoken it's depending on the Game, one example is the old Call of Duty, this game can get a benefit from using the mentioned tweak but that's the only game I found (so far).
+### verdict
+如果 [游戏](https://www.reddit.com/r/GlobalOffensive/comments/646v5q/fps_boost_with_windows_10_update/) 明确支持 游戏模式, 那么这个旧"调整" 是多余的 (after Windows 10 1809+ due to Game Mode changes) (_assuming you use + enabled Game Mode_). If the netnode differs or was optimized then it's also obsolete since the Game internally handles it differnt. So overall spoken it's depending on the Game, one example is the old Call of Duty, this game can get a benefit from using the mentioned tweak but that's the only game I found (so far).
